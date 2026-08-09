@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>WinDeploy.Windows7</AssemblyName>
+    <RootNamespace>WinDeploy.Windows7</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <ApplicationIcon Condition="Exists('Assets\WinDeploy.Windows7.ico')">Assets\WinDeploy.Windows7.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" PrivateAssets="all" />
+    <ProjectReference Include="..\WinDeploy.Windows7.Core\WinDeploy.Windows7.Core.csproj" />
+    <ProjectReference Include="..\WinDeploy.Windows7.Worker\WinDeploy.Windows7.Worker.csproj" ReferenceOutputAssembly="false" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Strings\**\*.resw"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Resource Include="Assets\WinDeploy.Windows7.ico" Condition="Exists('Assets\WinDeploy.Windows7.ico')" />
+  </ItemGroup>
+  <Target Name="CopyWorker" AfterTargets="Build">
+    <ItemGroup><WorkerFiles Include="..\WinDeploy.Windows7.Worker\bin\$(Configuration)\net48\**\*" /></ItemGroup>
+    <Copy SourceFiles="@(WorkerFiles)" DestinationFiles="@(WorkerFiles->'$(OutDir)Worker\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

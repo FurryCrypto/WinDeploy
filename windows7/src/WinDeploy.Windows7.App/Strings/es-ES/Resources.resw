@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>WinDeploy—Windows Partition Installer</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Abrir imagen</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Actualizar discos</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>INSTALAR WINDOWS</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 imagen de Windows</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 edición</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Destino</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Configuración de arranque</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 revisión</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 instalar</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>La seguridad es lo primero</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>No se selecciona ningún disco automáticamente. El sistema protegido, EFI, recuperación, OEM y particiones reservadas no pueden ser objetivos.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Listo</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Seleccionar imagen de Windows</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Elija un archivo ISO, WIM o ESD de Windows. La imagen se inspecciona antes de tocar cualquier disco.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Seleccionar imagen de Windows</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>o arrastre y suelte un archivo .iso, .wim o .esd aquí</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Nombre de archivo</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>versión de Windows</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Arquitectura</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Tipo de imagen</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Tamaño del archivo</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Ediciones disponibles</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Elija la edición de Windows</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Seleccione un índice de imagen real leído desde los medios de instalación.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Seleccionar partición de destino</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Seleccione una partición adecuada existente. Las particiones no asignadas y protegidas se muestran como contexto, pero no se pueden seleccionar.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Configuración de arranque</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Verifique el firmware detectado, el esquema de partición y la partición de inicio. Este flujo de trabajo nunca formatea una partición EFI.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>modo firmware</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Esquema de partición</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>partición de arranque</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Configuración de arranque</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Compatibilidad</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Detalles avanzados</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Revisar la instalación</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Revisar el plan de instalación</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Verifique cada identificador cuidadosamente. La ejecución utiliza esta identidad de partición y disco validada, no una letra de unidad redescubierta.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>imagen de Windows</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Fuente</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Sistema de archivos de destino</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>ADVERTENCIA: Todos los datos de la partición seleccionada se borrarán permanentemente.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Entiendo que se borrarán todos los datos existentes en la partición de destino seleccionada.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Instalar Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Instalación de Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Mantenga la computadora conectada a la corriente. El éxito se informa solo después de que se verifican la imagen, los archivos de inicio y los archivos instalados críticos.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Esperando permiso del administrador...</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Registro de instalación</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Abrir registro</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Guardar registro como…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows se instaló correctamente.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Se verificaron la imagen y los archivos de arranque de Windows. Ahora puede reiniciar la computadora.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows se instaló correctamente.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Se verificaron la imagen y los archivos de arranque de Windows. La nueva entrada de Windows es la predeterminada para el próximo reinicio.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Reiniciar ahora</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Reiniciar más tarde</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Idioma del sistema</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Modo avanzado</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Muestra identificadores estables, desplazamientos y detalles del firmware. También ofrece una omisión explícita del hardware de Windows 11; la protección del disco permanece activa.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>si</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Motor heredado</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Motor: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Firmware: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Estilo de disco: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>ID único del disco: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Desplazamiento objetivo: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/partición de arranque: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM presente/listo: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Arranque seguro compatible/habilitado: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>WinDeploy Ayuda</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>WinDeploy aplica una imagen WIM/ESD a una partición existente y configura el arranque en una partición verificada del mismo disco. No crea particiones ni borra discos completos. El modo avanzado puede omitir explícitamente los requisitos de hardware de Windows 11 después de una advertencia separada. Los medios antiguos no compatibles permanecen bloqueados.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Modo avanzado</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Modo estándar</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Inspeccionando la imagen de Windows...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>La imagen de Windows está lista</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Se produjo un error</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Elija una edición de Windows</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Seleccione primero una imagen y una edición.</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Leyendo discos físicos y particiones…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Seleccione una partición de destino</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>La configuración de arranque es válida.</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Instalación bloqueada de verificación de compatibilidad</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Revisar y confirmar el plan de instalación.</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Se requiere permiso de administrador para modificar las particiones del disco y los archivos de arranque de Windows.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>La instalación de Windows se completó con éxito</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>La instalación de Windows falló: revise el registro</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Inspeccione esta imagen de Windows</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Índice {0} • Compilación {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Medios heredados de Windows detectados</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Esta versión requiere el motor de instalación de Windows heredado, que aún no está disponible.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Esta versión requiere el motor de instalación de Windows heredado, que aún no está disponible.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista requiere el motor de instalación Legacy NT6, que aún no está disponible.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Firmware: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Arquitectura informática: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Disco {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Serie: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Sin conexión</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Sólo lectura</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>no disponible</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>No asignado</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Windows actual: protegido</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Protegido</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>Sistema EFI</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft reservado</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Recuperación</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Datos básicos</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>partición desconocida</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Partición {0} | {1}{2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Disco {0} — {1}; Partición {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Disco {0}, Partición {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>No se encontró ninguna partición de inicio adecuada en el disco de destino.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Aprobado</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Bloqueado</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>La configuración de arranque está lista</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>La imagen seleccionada, el destino y la partición de inicio del mismo disco son técnicamente compatibles.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>La instalación está bloqueada</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Resuelva los errores de compatibilidad a continuación. WinDeploy no los omitirá automáticamente.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Desconocido</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Disco {0} — {1}; Partición {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Modelo de disco: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Número de disco: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Número de partición: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Letra de unidad: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Nombre del volumen: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Capacidad: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Huella digital del plan validado: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Transcurrido: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Se canceló el permiso de administrador. No se inició ninguna instalación.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>El trabajador de instalación se detuvo con el código de salida {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Registro de instalación</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>¿Reiniciar la computadora?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Guarde su trabajo en otras aplicaciones. La computadora se reiniciará inmediatamente.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Reiniciar ahora</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Puede reiniciar más tarde desde el menú Inicio. La nueva entrada de Windows está configurada en Windows Boot Manager.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Permiso de administrador concedido</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Validando el plano de instalación…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Preparando destino…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Partición de destino formateada</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Aplicando imagen de Windows…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Instalando archivos de arranque…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Verificando la instalación…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Instalación de Windows completada</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>La instalación falló</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Validar el plan completo</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Formatee solo la partición seleccionada como NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Aplicar el índice de imagen de Windows seleccionado</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Instale los archivos de arranque de Windows en la misma partición de arranque del disco</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Verificar archivos instalados y de arranque</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Se requiere permiso de administrador para modificar las particiones del disco y los archivos de arranque de Windows.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Se produjo un error inesperado.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>El trabajador de la instalación elevada está desaparecido.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>No se pudo iniciar el trabajador de instalación elevada.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>No se pudo encontrar el archivo de imagen seleccionado.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Solo se admiten archivos de imagen ISO, WIM y ESD.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>El ISO no se pudo montar ni inspeccionar.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>No se encontró sources\install.wim ni sources\install.esd en esta ISO.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Esta imagen utiliza archivos divididos SWM, que no son compatibles con esta versión.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>No se pudo abrir la imagen de Windows.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>La imagen de Windows no contiene índices instalables.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>No se pudieron leer los metadatos de la imagen de Windows.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>No se pudieron leer los discos físicos ni las particiones.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>No se encontraron discos físicos.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>No se pudo formatear la partición de destino seleccionada.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM no pudo aplicar la imagen de Windows seleccionada.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>No se pudo acceder a la partición de inicio validada.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot no pudo instalar los archivos de inicio de Windows.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Los archivos de Windows implementados no pasaron la verificación.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Los archivos de arranque de Windows no pasaron la verificación.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>No se pudo leer el plan de instalación validado.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Esta compilación de Windows no se puede identificar de forma fiable.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>La arquitectura de la imagen es incompatible con esta computadora y el modo de firmware.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>La partición seleccionada está protegida y no se puede sobrescribir.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>La partición seleccionada está protegida con BitLocker. Desbloquéelo y descifrelo antes de implementarlo.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>La partición seleccionada es demasiado pequeña para esta versión de Windows.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>El disco de destino está fuera de línea o es de solo lectura.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>La implementación UEFI requiere un disco de destino GPT.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>La implementación Legacy BIOS requiere un disco de destino MBR.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>No existe ninguna partición de inicio adecuada en el disco de destino.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>La partición de inicio debe estar en el mismo disco físico que el destino.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>La implementación UEFI requiere una partición del sistema EFI en el disco de destino.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>La partición del sistema EFI ya debe usar FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>La implementación Legacy BIOS requiere una partición de inicio NTFS activa en el disco de destino.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>La implementación UEFI de Windows 7 está habilitada solo para imágenes x64.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 requiere una imagen x64 o ARM64 compatible.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 requiere firmware UEFI.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>No se detectó TPM 2.0 como presente y listo. La configuración de Windows 11 puede rechazar esta computadora.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>No se pudo confirmar la capacidad de arranque seguro.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>El arranque seguro es compatible pero actualmente está deshabilitado.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>La computadora tiene menos de 4 GB de memoria física.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>La imagen fuente cambió después de que se confirmó el plan.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>El índice de la imagen seleccionada cambió después de la validación.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>El disco de destino ya no está presente.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Este disco no tiene un número de serie estable ni un ID único y no se puede utilizar de forma segura.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>La identidad del disco de destino cambió. Se detuvo la instalación.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>La identidad o geometría de la partición de destino cambió.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>La identidad o geometría de la partición de inicio cambió.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>El firmware o el esquema de partición de destino ya no coincide con el plan.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Los archivos de imagen y de arranque se verificaron en el disco secundario. Si el firmware no elige ese disco automáticamente, selecciónelo una vez en el menú de inicio UEFI.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>El archivo de arranque alternativo UEFI no pasó la verificación.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Este es un disco UEFI secundario. WinDeploy instala el archivo de arranque alternativo estándar sin cambiar las variables NVRAM del firmware; es posible que deba seleccionar el disco una vez en el menú de inicio del firmware.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>No se pudo inicializar la carpeta de trabajo temporal de la imagen de Windows.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>La omisión avanzada de hardware no compatible está activada para esta instalación de Windows 11.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>¿Instalar en hardware no compatible?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Aceptar y activar la omisión</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft no admite Windows 11 en este hardware ni garantiza actualizaciones. Pueden producirse problemas de compatibilidad, seguridad o arranque. WinDeploy omitirá las comprobaciones de hardware, pero no puede hacer compatible hardware incompatible.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>No se pudo configurar la omisión de hardware de Windows 11.</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Omisión de hardware no compatible activada</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Configurando la omisión de hardware de Windows 11…</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Permitido con omisión de hardware no compatible</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Configurar omisión de hardware de Windows 11</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Los requisitos de Windows 11 se tratan como advertencias. Las protecciones críticas de disco, partición, arranque y arquitectura siguen activas.</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Avanzado: omite las comprobaciones de CPU, TPM, Arranque seguro, RAM y almacenamiento. Las protecciones de disco, partición y arquitectura permanecen activas.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Este plan escribe valores de omisión en la instalación de Windows sin conexión. El soporte y las actualizaciones de Microsoft no están garantizados.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Instalar Windows 11 en hardware no compatible</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Cree una partición de datos básica real o un volumen simple en Administración de discos y después actualice los discos.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>El destino seleccionado no es una partición de datos básica utilizable. El espacio sin asignar y los contenedores extendidos MBR no se pueden formatear directamente.</value></data>
+</root>
