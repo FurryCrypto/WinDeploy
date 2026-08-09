@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/WinDeploy.Core/WinDeploy.Core.csproj" />
+  <Project Path="src/WinDeploy.Worker/WinDeploy.Worker.csproj" />
+  <Project Path="src/WinDeploy.App/WinDeploy.App.csproj" />
+  <Project Path="tests/WinDeploy.Core.Tests/WinDeploy.Core.Tests.csproj" />
+</Solution>

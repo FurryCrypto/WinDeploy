@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <AssemblyName>WinDeploy</AssemblyName>
+    <RootNamespace>WinDeploy</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\WinDeploy.ico</ApplicationIcon>
+    <WindowsPackageType>None</WindowsPackageType>
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+    <Platforms>x64;ARM64</Platforms>
+    <RuntimeIdentifiers>win-x64;win-arm64</RuntimeIdentifiers>
+    <PublishSingleFile>false</PublishSingleFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260710003" />
+    <ProjectReference Include="..\WinDeploy.Core\WinDeploy.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\WinDeployIcon.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="BuildWorkerFirst" BeforeTargets="PrepareForBuild">
+    <MSBuild Projects="..\WinDeploy.Worker\WinDeploy.Worker.csproj" Targets="Build" Properties="Configuration=$(Configuration);Platform=AnyCPU" />
+  </Target>
+  <Target Name="CopyWorkerOutputs" AfterTargets="Build">
+    <ItemGroup>
+      <WorkerOutput Include="..\WinDeploy.Worker\bin\$(Configuration)\net8.0-windows10.0.17763.0\WinDeploy.Worker.exe" />
+      <WorkerOutput Include="..\WinDeploy.Worker\bin\$(Configuration)\net8.0-windows10.0.17763.0\WinDeploy.Worker.dll" />
+      <WorkerOutput Include="..\WinDeploy.Worker\bin\$(Configuration)\net8.0-windows10.0.17763.0\WinDeploy.Worker.deps.json" />
+      <WorkerOutput Include="..\WinDeploy.Worker\bin\$(Configuration)\net8.0-windows10.0.17763.0\WinDeploy.Worker.runtimeconfig.json" />
+    </ItemGroup>
+    <Copy SourceFiles="@(WorkerOutput)" DestinationFolder="$(OutDir)Worker" SkipUnchangedFiles="true" />
+  </Target>
+  <Target Name="CopyPriToPublish" AfterTargets="Publish" Condition="Exists('$(TargetDir)WinDeploy.pri')">
+    <Copy SourceFiles="$(TargetDir)WinDeploy.pri" DestinationFolder="$(PublishDir)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>
