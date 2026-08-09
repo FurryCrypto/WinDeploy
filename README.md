@@ -74,3 +74,7 @@ docs/
 ```
 
 DISM `/Apply-Image` and its verification options are documented in Microsoft's [DISM image-management reference](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14?view=windows-11). WIM metadata is read with Microsoft's [Windows Imaging API](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/wim/dd834949%28v%3Dmsdn.10%29?view=windows-11).
+
+## License
+
+WinDeploy is released under the [MIT License](LICENSE).
