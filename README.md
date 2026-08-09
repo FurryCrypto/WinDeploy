@@ -19,7 +19,7 @@ The application includes multiple safety checks and refuses workflows it cannot 
 | Windows 10/11 | Windows 10 or Windows 11 | .NET 8 and WinUI 3 | Released |
 | Windows 7 | Windows 7 SP1 or later | .NET Framework 4.8 and WPF | Released in v0.1.7 |
 
-The Windows 7-compatible edition has now been added under [`windows7/`](windows7/). It preserves the same six-page installation workflow, safety model, features, controls, localization, and elevated-worker separation while replacing Windows 10-only platform dependencies. The Windows 7 installer, portable package, and checksum manifest are available from the [v0.1.7 release](https://github.com/FurryCrypto/WinDeploy/releases/tag/v0.1.7).
+The Windows 7-compatible edition has now been added under [`windows7/`](windows7/). It preserves the same six-page installation workflow, safety model, features, controls, localization, and elevated-worker separation while replacing Windows 10-only platform dependencies. The Windows 7 installer and checksum manifest are available from the [v0.1.7 release](https://github.com/FurryCrypto/WinDeploy/releases/tag/v0.1.7).
 
 ## Supported first-release workflow
 
@@ -80,7 +80,7 @@ dotnet build windows7\WinDeploy.Windows7.sln -c Release
 windows7\tests\WinDeploy.Windows7.Tests\bin\Release\net48\WinDeploy.Windows7.Tests.exe
 ```
 
-The Windows 7 edition reads ISO/UDF media directly because Windows 7 does not provide `Mount-DiskImage`. It uses ManagedWimLib/wimlib for WIM and ESD operations, WMI for disk enumeration, a validated narrowly scoped DiskPart operation, and the host's BCDBoot. See the dedicated [Windows 7 documentation](windows7/README.md) for details. Its installer and portable archive are published separately from the Windows 10/11 package.
+The Windows 7 edition reads ISO/UDF media directly because Windows 7 does not provide `Mount-DiskImage`. It uses ManagedWimLib/wimlib for WIM and ESD operations, WMI for disk enumeration, a validated narrowly scoped DiskPart operation, and the host's BCDBoot. See the dedicated [Windows 7 documentation](windows7/README.md) for details. Its installer is published separately from the Windows 10/11 package.
 
 ## Logs
 
