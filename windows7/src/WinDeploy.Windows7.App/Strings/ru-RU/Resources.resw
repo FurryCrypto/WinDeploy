@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>WinDeploy — Windows Partition Installer</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Открыть изображение</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Обновить диски</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>УСТАНОВИТЬ ОКНА</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 образ Windows</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 издание</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Пункт назначения</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Конфигурация загрузки</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Обзор</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Установить</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Безопасность прежде всего</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Ни один диск не выбирается автоматически. Защищенная система, EFI, разделы восстановления, OEM и зарезервированные разделы не могут быть целями.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Выберите образ Windows</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Выберите файл Windows ISO, WIM или ESD. Изображение проверяется перед прикосновением к любому диску.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Выберите образ Windows</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>или перетащите сюда файл .iso, .wim или .esd.</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>версия для Windows</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Архитектура</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Тип изображения</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Размер файла</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Доступные редакции</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Выберите версию Windows</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Выберите фактический индекс образа, считанный с установочного носителя.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Выберите целевой раздел</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Выберите один существующий подходящий раздел. Нераспределенные и защищенные разделы отображаются для контекста, но их нельзя выбрать.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Конфигурация загрузки</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Проверьте обнаруженную прошивку, схему разделов и загрузочный раздел. Раздел EFI никогда не форматируется в этом рабочем процессе.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Режим прошивки</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Схема раздела</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Загрузочный раздел</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Конфигурация загрузки</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Совместимость</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Дополнительные сведения</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Обзор установки</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Обзор плана установки</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Внимательно проверьте каждый идентификатор. При выполнении используются проверенные идентификаторы диска и раздела, а не заново обнаруженная буква диска.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Образ Windows</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Пункт назначения</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Целевая файловая система</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>ВНИМАНИЕ: Все данные в выбранном разделе будут безвозвратно удалены.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Я понимаю, что все существующие данные в выбранном целевом разделе будут удалены.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Установить Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Установка Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Держите компьютер подключенным к источнику питания. Об успехе сообщается только после проверки образа, загрузочных файлов и критических установленных файлов.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Ожидание разрешения администратора…</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Журнал установки</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Открыть журнал</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Сохранить журнал как…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows была успешно установлена.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Образ и загрузочные файлы Windows были проверены. Теперь вы можете перезагрузить компьютер.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows была успешно установлена.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Образ и загрузочные файлы Windows были проверены. Новая запись Windows будет использоваться по умолчанию при следующем перезапуске.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Перезагрузить сейчас</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Перезагрузить позже</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Системный язык</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Расширенный режим</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Показывает стабильные идентификаторы дисков, смещения и сведения о прошивке. Также предлагает явный обход требований Windows 11; защита дисков остаётся активной.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Устаревший движок</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Двигатель: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Прошивка: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Стиль диска: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Уникальный идентификатор диска: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Целевое смещение: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/загрузочный раздел: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM присутствует/готов: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Безопасная загрузка включена/поддерживается: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>WinDeploy Справка</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>WinDeploy применяет WIM/ESD-образ к существующему разделу и настраивает загрузку на проверенном разделе того же диска. Программа не создаёт разделы и не стирает диски целиком. В расширенном режиме требования Windows 11 можно явно обойти после отдельного предупреждения. Неподдерживаемые старые носители остаются заблокированными.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Расширенный режим</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Стандартный режим</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Проверка образа Windows…</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Образ Windows готов.</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Произошла ошибка</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Выберите редакцию Windows</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Сначала выберите изображение и издание.</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Чтение физических дисков и разделов…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Выберите целевой раздел</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Конфигурация загрузки действительна</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Проверка совместимости заблокировала установку</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Просмотрите и подтвердите план установки</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Для изменения разделов диска и загрузочных файлов Windows требуется разрешение администратора.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Установка Windows успешно завершена</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Установка Windows не удалась — просмотрите журнал</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Проверьте этот образ Windows</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Индекс {0} • Сборка {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Обнаружен устаревший носитель Windows</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Для этой версии требуется механизм установки Legacy Windows, который пока недоступен.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Для этой версии требуется механизм установки Legacy Windows, который пока недоступен.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Для Windows Vista требуется модуль установки Legacy NT6, который пока недоступен.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Прошивка: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Архитектура компьютера: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Диск {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Серийный номер: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Оффлайн</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Только чтение</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>недоступен</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Нераспределенный</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Текущая Windows — защищена</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Защищено</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>Система EFI</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft зарезервировано</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Восстановление</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Основные данные</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Неизвестный раздел</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Раздел {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Диск {0} — {1}; Перегородка {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Диск {0}, Раздел {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>На целевом диске не найден подходящий загрузочный раздел.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Пройдено</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Заблокировано</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Конфигурация загрузки готова</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Выбранный образ, место назначения и загрузочный раздел на одном диске технически совместимы.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Установка заблокирована</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Устраните ошибки совместимости, указанные ниже. WinDeploy не будет обходить их автоматически.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Диск {0} — {1}; Перегородка {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Модель диска: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Номер диска: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Номер раздела: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Буква диска: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Имя тома: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Вместимость: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Подтвержденный отпечаток плана: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Прошло: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Разрешение администратора было отменено. Установка не началась.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Монтажник остановился с кодом выхода {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Журнал установки</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Перезагрузить компьютер?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Сохраните свою работу в других приложениях. Компьютер немедленно перезагрузится.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Перезагрузить сейчас</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Вы можете перезагрузить компьютер позже из меню «Пуск». Новая запись Windows настроена в Windows Boot Manager.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Разрешение администратора предоставлено</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Проверка плана установки…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Подготовка пункта назначения…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Целевой раздел отформатирован</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Применение образа Windows…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Установка загрузочных файлов…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Проверка установки…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Установка Windows завершена</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Установка не удалась</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Подтвердите полный план</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Отформатируйте только выбранный раздел как NTFS.</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Применить выбранный индекс образа Windows</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Установите загрузочные файлы Windows в загрузочный раздел того же диска.</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Проверка установленных и загрузочных файлов</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Для изменения разделов диска и загрузочных файлов Windows требуется разрешение администратора.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Произошла непредвиденная ошибка.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Надземный монтажник отсутствует.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Не удалось запустить рабочую установку повышенного уровня.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Не удалось найти выбранный файл изображения.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Поддерживаются только файлы изображений ISO, WIM и ESD.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO не удалось установить или проверить.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>В этом ISO не обнаружено ни sources\install.wim, ни sources\install.esd.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>В этом образе используются разделенные файлы SWM, которые не поддерживаются в этой версии.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Образ Windows не удалось открыть.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Образ Windows не содержит устанавливаемых индексов.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Не удалось прочитать метаданные образа Windows.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Физические диски и разделы не читаются.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Физические диски не найдены.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Выбранный целевой раздел не удалось отформатировать.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM не смог применить выбранный образ Windows.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Не удалось получить доступ к проверенному загрузочному разделу.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot не удалось установить загрузочные файлы Windows.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Развернутые файлы Windows не прошли проверку.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Загрузочные файлы Windows не прошли проверку.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Не удалось прочитать утвержденный план установки.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Эту сборку Windows невозможно надежно идентифицировать.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Архитектура образа несовместима с данным компьютером и режимом прошивки.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Выбранный раздел защищен и не может быть перезаписан.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Выбранный раздел защищен BitLocker. Разблокируйте и расшифруйте его перед развертыванием.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Выбранный раздел слишком мал для этой версии Windows.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Целевой диск находится в автономном режиме или доступен только для чтения.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>Для развертывания UEFI требуется целевой диск GPT.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Для развертывания Legacy BIOS требуется целевой диск MBR.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>На целевом диске не существует подходящего загрузочного раздела.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Загрузочный раздел должен находиться на том же физическом диске, что и целевой.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>Для развертывания UEFI требуется системный раздел EFI на целевом диске.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>Системный раздел EFI уже должен использовать FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Для развертывания Legacy BIOS требуется активный загрузочный раздел NTFS на целевом диске.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Развертывание UEFI Windows 7 включено только для образов x64.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Для Windows 11 требуется поддерживаемый образ x64 или ARM64.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Для Windows 11 требуется прошивка UEFI.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 не был обнаружен как присутствующий и готовый. Программа установки Windows 11 может отклонить этот компьютер.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Возможность безопасной загрузки не может быть подтверждена.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Безопасная загрузка поддерживается, но в настоящее время отключена.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Компьютер имеет менее 4 ГБ физической памяти.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Исходное изображение изменилось после подтверждения плана.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Индекс выбранного изображения изменился после проверки.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Целевой диск больше не существует.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Этот диск не имеет стабильного серийного номера или уникального идентификатора, и его нельзя использовать безопасно.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Идентификатор целевого диска изменился. Установка была остановлена.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Изменились идентификаторы или геометрия целевого раздела.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Изменились идентификаторы или геометрия загрузочного раздела.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Прошивка или схема раздела назначения больше не соответствуют плану.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Образ и загрузочные файлы были проверены на вторичном диске. Если прошивка не выбирает этот диск автоматически, выберите его один раз в меню загрузки UEFI.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>Резервный загрузочный файл UEFI не прошел проверку.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Это дополнительный диск UEFI. WinDeploy устанавливает стандартный резервный загрузочный файл без изменения переменных NVRAM встроенного ПО; возможно, вам придется один раз выбрать диск в меню загрузки прошивки.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Не удалось инициализировать временную рабочую папку образа Windows.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Для этой установки Windows 11 включён расширенный обход неподдерживаемого оборудования.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Установить на неподдерживаемом оборудовании?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Принять и включить обход</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft не поддерживает Windows 11 на этом оборудовании и не гарантирует обновления. Возможны проблемы совместимости, безопасности или загрузки. WinDeploy обойдёт проверки оборудования, но не может сделать несовместимое оборудование совместимым.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Не удалось настроить обход требований Windows 11.</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Обход неподдерживаемого оборудования включён</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Настройка обхода требований Windows 11…</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Разрешено с обходом требований к оборудованию</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Настроить обход требований Windows 11</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Требования Windows 11 считаются предупреждениями. Критическая защита дисков, разделов, загрузки и архитектуры остаётся включённой.</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Дополнительно: обходит проверки процессора, TPM, безопасной загрузки, ОЗУ и хранилища. Защита дисков, разделов и архитектуры остаётся активной.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>План записывает параметры обхода в автономную установку Windows. Поддержка и обновления Microsoft не гарантируются.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Установить Windows 11 на неподдерживаемом оборудовании</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Создайте настоящий основной раздел данных или простой том в управлении дисками, затем обновите список дисков.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Выбранная цель не является пригодным основным разделом данных. Нераспределённое пространство и расширенные контейнеры MBR нельзя форматировать напрямую.</value></data>
+</root>
