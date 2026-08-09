@@ -2,7 +2,10 @@
 
 WinDeploy is a native Windows 10/11 desktop utility for applying a Windows installation image directly to one existing partition, installing the matching boot files, verifying the result, and then restarting into the deployed system. It is built with C#, .NET 8, and WinUI 3; it does not use Electron or embedded web content.
 
-> **Safety warning:** this software formats the partition that the user explicitly selects. Use it only with verified backups and installation media. The first release intentionally refuses workflows it cannot prove safe.
+> [!CAUTION]
+> **Destructive-use and liability notice:** WinDeploy performs privileged disk-formatting, image-deployment, and boot-configuration operations. A mistake, software defect, power loss, storage failure, or incorrect selection can permanently erase data, damage partition layouts, or leave a computer unbootable. You are solely responsible for verified backups, correct target selection, installation media, and recovery capability. To the fullest extent permitted by law, the author and contributors are not responsible for data loss, unintended wipes, failed or "dead" storage devices, downtime, or hardware, software, or consequential damage. Read the full [Disclaimer](DISCLAIMER.md) before use.
+
+The application includes multiple safety checks and refuses workflows it cannot validate, but no disk-deployment utility can eliminate every risk.
 
 ## Supported first-release workflow
 
