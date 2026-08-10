@@ -1,6 +1,6 @@
-# WinDeploy
+# ESD Installer
 
-WinDeploy is a native Windows desktop utility for applying a Windows installation image directly to one existing partition, installing the matching boot files, verifying the result, and then restarting into the deployed system. It does not use Electron or embedded web content.
+ESD Installer is a native Windows desktop utility for applying a Windows installation image directly to one existing partition, installing the matching boot files, verifying the result, and then restarting into the deployed system. It does not use Electron or embedded web content.
 
 Three native editions are maintained in this repository:
 
@@ -9,7 +9,7 @@ Three native editions are maintained in this repository:
 - **Windows 7 edition:** C#, .NET Framework 4.8, and WPF, with Aero integration and a Windows 7 Basic fallback.
 
 > [!CAUTION]
-> **Destructive-use and liability notice:** WinDeploy performs privileged disk-formatting, image-deployment, and boot-configuration operations. A mistake, software defect, power loss, storage failure, or incorrect selection can permanently erase data, damage partition layouts, or leave a computer unbootable. You are solely responsible for verified backups, correct target selection, installation media, and recovery capability. To the fullest extent permitted by law, the author and contributors are not responsible for data loss, unintended wipes, failed or "dead" storage devices, downtime, or hardware, software, or consequential damage. Read the full [Disclaimer](DISCLAIMER.md) before use.
+> **Destructive-use and liability notice:** ESD Installer performs privileged disk-formatting, image-deployment, and boot-configuration operations. A mistake, software defect, power loss, storage failure, or incorrect selection can permanently erase data, damage partition layouts, or leave a computer unbootable. You are solely responsible for verified backups, correct target selection, installation media, and recovery capability. To the fullest extent permitted by law, the author and contributors are not responsible for data loss, unintended wipes, failed or "dead" storage devices, downtime, or hardware, software, or consequential damage. Read the full [Disclaimer](DISCLAIMER.md) before use.
 
 The application includes multiple safety checks and refuses workflows it cannot validate, but no disk-deployment utility can eliminate every risk.
 
@@ -27,7 +27,7 @@ The Windows 8/8.1 edition is isolated under [`windows8/`](windows8/). It targets
 
 ## Downloads
 
-The [latest release](https://github.com/FurryCrypto/WinDeploy/releases/latest) contains one installer for each supported host edition and a matching SHA-256 checksum file:
+The [latest release](https://github.com/A097MPRUS/ESDInstaller/releases/latest) contains one installer for each supported host edition and a matching SHA-256 checksum file:
 
 - `WinDeploy-Setup-0.1.12.exe` for Windows 10 and Windows 11.
 - `WinDeploy-Windows8-Setup-0.1.11.exe` for Windows 8 and Windows 8.1.
@@ -51,7 +51,7 @@ Windows Vista media is routed to the separate legacy NT6 engine and Windows XP m
 
 The unelevated UI process (WinUI on Windows 10/11 or WPF on Windows 7/8/8.1) performs inspection and planning. Installation creates an immutable `InstallationPlan` containing the source metadata, WIM index, disk PnP ID and serial, disk size and scheme, partition number, offset, length, GUID, boot partition, and firmware mode. The confirmation page shows the target model, disk number, partition number, drive letter, label, and capacity.
 
-Only after confirmation does WinDeploy launch `WinDeploy.Worker.exe` with UAC. The worker:
+Only after confirmation does ESD Installer launch `WinDeploy.Worker.exe` with UAC. The worker:
 
 1. Reopens the WIM/ESD and verifies the selected index.
 2. Re-enumerates the physical disk and checks its stable identity.
@@ -149,4 +149,4 @@ DISM `/Apply-Image` and its verification options are documented in Microsoft's [
 
 ## License
 
-WinDeploy is released under the [MIT License](LICENSE).
+ESD Installer is released under the [MIT License](LICENSE).
