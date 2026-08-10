@@ -1,6 +1,6 @@
-# WinDeploy for Windows 7
+# ESD Installer for Windows 7
 
-This directory contains the separate Windows 7 SP1 edition of WinDeploy. It targets WPF and .NET Framework 4.8 and preserves the current wizard structure, pages, localization, safety model, worker separation, and deployment workflow.
+This directory contains the separate Windows 7 SP1 edition of ESD Installer. It targets WPF and .NET Framework 4.8 and preserves the current wizard structure, pages, localization, safety model, worker separation, and deployment workflow.
 
 The original Windows 10/11 WinUI projects under `src/` are not referenced or modified by this edition.
 
