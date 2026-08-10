@@ -1,0 +1,191 @@
+﻿# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+1133
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ASCII code page
+1200
+# RTL - anything else than RTL means LTR
+-
+# Translation by ..... (any credits should go here)
+# ^Branding
+Nullsoft ҡуйыу системаһы%s
+# ^SetupCaption
+$(^Name)Уйынтыҡ
+# ^UninstallCaption
+$(^Name)Урынһыҙ ҡуйыу
+# ^LicenseSubCaption
+: Лицензия килешеүе
+# ^ComponentsSubCaption
+: Урынлаштырыу варианттары
+# ^DirSubCaption
+: Установительлыҡ папкаһы
+# ^InstallingSubCaption
+: Установка
+# ^CompletedSubCaption
+: тамамланған
+# ^UnComponentsSubCaption
+: Урынһыҙ ҡуйыу мөмкинлектәрен
+# ^UnDirSubCaption
+: Урынһыҙ ҡушымталар
+# ^ConfirmSubCaption
+: раҫлау
+# ^UninstallingSubCaption
+: Урынһыҙ ҡуйыу
+# ^UnCompletedSubCaption
+: тамамланған
+# ^BackBtn
+< & ҡайтыу
+# ^NextBtn
+&NEXT >
+# ^AgreeBtn
+Мин &&Сәйләнем
+# ^AcceptBtn
+Мин лицензия килешеүе шарттарын ҡабул итәм
+# ^DontAcceptBtn
+Мин лицензия килешеүе шарттарын ҡабул итмәйем
+# ^InstallBtn
+& Инсталь
+# ^UninstallBtn
+&Uninstall
+# ^CancelBtn
+Алып ташлау
+# ^CloseBtn
+& Япҡан
+# ^BrowseBtn
+Б&рус...
+# ^ShowDetailsBtn
+Кәрәкле мәғлүмәтте күрһәтеү
+# ^ClickNext
+Артабан дауам итеү өсөн "Һуңынан" тип баҫығыҙ.
+# ^ClickInstall
+Установка башлау өсөн "Установить" төймәһенә баҫығыҙ.
+# ^ClickUninstall
+Урынһыҙ ҡуйыу өсөн "Установить" төймәһенә баҫығыҙ.
+# ^Name
+Исеме
+# ^Completed
+Тулыһынса
+# ^LicenseText
+Инсталляция алдынан лицензия килешеүен тикшерегеҙ .$(^NameDA)Әгәр һеҙ килешеүҙең бөтә шарттарын ҡабул итәһегеҙ икән, "Мин риза" тигәнде баҫығыҙ.
+# ^LicenseTextCB
+Инсталляция алдынан лицензия килешеүен тикшерегеҙ .$(^NameDA)Әгәр һеҙ килешеүҙең бөтә шарттарын ҡабул итәһегеҙ икән, түбәндәге билдәләр буйынса клик итегеҙ.$_CLICK
+# ^LicenseTextRB
+Инсталляция алдынан лицензия килешеүен тикшерегеҙ .$(^NameDA)Әгәр һеҙ килешеүҙең бөтә шарттарын ҡабул итәһегеҙ икән, түбәндәге беренсе вариантты һайлағыҙ.$_CLICK
+# ^UnLicenseText
+Инсталляцияны бөтөргәнсе лицензия килешеүен тикшерегеҙ .$(^NameDA)Әгәр һеҙ килешеүҙең бөтә шарттарын ҡабул итәһегеҙ икән, "Мин риза" тигәнде баҫығыҙ.
+# ^UnLicenseTextCB
+Инсталляцияны бөтөргәнсе лицензия килешеүен тикшерегеҙ .$(^NameDA)Әгәр һеҙ килешеүҙең бөтә шарттарын ҡабул итәһегеҙ икән, түбәндәге билдәләр буйынса клик итегеҙ.$_CLICK
+# ^UnLicenseTextRB
+Инсталляцияны бөтөргәнсе лицензия килешеүен тикшерегеҙ .$(^NameDA)Әгәр һеҙ килешеүҙең бөтә шарттарын ҡабул итәһегеҙ икән, түбәндәге беренсе вариантты һайлағыҙ.$_CLICK
+# ^Custom
+Ғәҙәттәгесә
+# ^ComponentsText
+Инстальциялағығыҙ килгән компоненттарҙы тикшерегеҙ һәм инстальцияларға теләмәгән компоненттарҙың исемлеген бөтөрөгөҙ.$_CLICK
+# ^ComponentsSubText1
+Установка типын һайлағыҙ:
+# ^ComponentsSubText2_NoInstTypes
+Урынлаштырыу өсөн компоненттар һайлағыҙ:
+# ^ComponentsSubText2
+Йәки, һеҙ ҡуйырға теләгән факультатив компоненттарҙы һайлап:
+# ^UnComponentsText
+Өҫтөнә инстальциянан баш тартырға теләгән компоненттарҙы тикшерегеҙ һәм инсталланырға теләмәгән компоненттарҙан баш тартығыҙ.$_CLICK
+# ^UnComponentsSubText1
+Установканың төрөн һайлағыҙ:
+# ^UnComponentsSubText2_NoInstTypes
+Өҫтөнә ҡуйыу өсөн компоненттарҙы һайлағыҙ:
+# ^UnComponentsSubText2
+Йәки, һеҙ теләһә ниндәй компоненттарҙы инстальциялау өсөн һайлай:
+# ^DirText
+Ойоштороу ҡуйыласаҡ$(^NameDA)түбәндәге папка. башҡа папкаға ҡуйыу өсөн, "Браузер"те баҫып, икенсе папканы һайлап алығыҙ.$_CLICK
+# ^DirSubText
+Урынлы урын папкаһы
+# ^DirBrowseText
+Инстальциялағысы папканы һайлағыҙ$(^NameDA)в:
+# ^UnDirText
+Ҡуйыуҙан ҡуптарыла$(^NameDA)түбәндәге папканан. башҡа папкаҙан ҡумтаныу өсөн, "Браузер"те баҫып, икенсе папканы һайлап алығыҙ.$_CLICK
+# ^UnDirSubText
+"
+# ^UnDirBrowseText
+Өҫтөнә ҡуйыу өсөн папканы һайлағыҙ$(^NameDA)Информация о:
+# ^SpaceAvailable
+"Беҙҙә бушлай урын:
+# ^SpaceRequired
+"Урын кәрәк: "
+# ^UninstallingText
+$(^NameDA)түбәндәге папканан ҡуҙғатыласаҡ.$_CLICK
+# ^UninstallingSubText
+Урынһыҙ ҡуйыу:
+# ^FileError
+Яҙыу өсөн хаталар файлын асыу:\r\n\r\n$0\r\n\r\nУстановканы туҡтатыу өсөн "Аборт"ты баҫығыҙ.\r\nТағы ла тырышығыҙ, йәки\r\nБыл файлды ситләтеп булмай.
+# ^FileError_NoIgnore
+Яҙыу өсөн хаталар файлын асыу:\r\n\r\n$0\r\n\r\nТағы ла һынап ҡарарға тип, ҡабатлайбыҙ тип баҫып ҡарағыҙ.\r\nУрынлаштырыуҙы туҡтатыу өсөн, уны юҡҡа сығарыу.
+# ^CantWrite
+"Яҙа алмайым:
+# ^CopyFailed
+Копияһы уңышһыҙ
+# ^CopyTo
+"Копсияға"
+# ^Registering
+"Төҙөүсе: "
+# ^Unregistering
+"Тайланмаған: "
+# ^SymbolNotFound
+"Символ таба алманым: "
+# ^CouldNotLoad
+"Тормошҡа алманым: "
+# ^CreateFolder
+"Фолдер төҙөй: "
+# ^CreateShortcut
+"Кайҙағы юлдар: "
+# ^CreatedUninstaller
+"Установканы бөтөрөүсе булдырылған: "
+# ^Delete
+"Файлдарҙы һүндереү: "
+# ^DeleteOnReboot
+"Яңыртыуҙы бөтөрөү: "
+# ^ErrorCreatingShortcut
+"Кайсы юл һайлағанда хата: "
+# ^ErrorCreating
+"Һис хата булдырыу: "
+# ^ErrorDecompressing
+Данные декомпрессияланы.
+# ^ErrorRegistering
+ДЛН-ны теркәүҙә хата
+# ^ExecShell
+"ExecShell: "
+# ^Exec
+"Үҙгәрегеҙ:
+# ^Extract
+"Аҫып алыу: "
+# ^ErrorWriting
+"Аҙҙырыу: файлға яҙыу хатаһы"
+# ^InvalidOpcode
+Инсталлятор боҙолған: ғәмәлһеҙ опкод
+# ^NoOLE
+"Беҙҙең өсөн OLE юҡ":
+# ^OutputFolder
+"Эсептекеләр папкаһы: "
+# ^RemoveFolder
+"Фолдерҙы алып ташлау: "
+# ^RenameOnReboot
+"Көҙгөлә башлау өсөн исем үҙгәртергә: "
+# ^Rename
+"Исемде үҙгәртергә: "
+# ^Skipped
+"Һыуған: "
+# ^CopyDetails
+Мәғлүмәтте клипбордҡа күсереп яҙыу
+# ^LogInstall
+Теркәүҙе ҡуйыу процесы
+# ^Byte
+Б.
+# ^Kilo
+К.
+# ^Mega
+М.
+# ^Giga
+Г.

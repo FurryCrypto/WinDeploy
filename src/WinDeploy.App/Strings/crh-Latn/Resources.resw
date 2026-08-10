@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>WinDeploy — Windows Disk Bölügi Qurucısı</value></data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve"><value>Açıq resim</value></data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve"><value>Disklerni yañılatmaq</value></data>
+  <data name="ToolbarSettings.Text" xml:space="preserve"><value>Ayarlar</value></data>
+  <data name="ToolbarHelp.Text" xml:space="preserve"><value>Yardım köster</value></data>
+  <data name="StepsHeader.Text" xml:space="preserve"><value>TEMERLİK pencerelerni qur</value></data>
+  <data name="StepImage.Text" xml:space="preserve"><value>1 Windows Resim</value></data>
+  <data name="StepEdition.Text" xml:space="preserve"><value>2 basma</value></data>
+  <data name="StepDestination.Text" xml:space="preserve"><value>3 Yañı yer</value></data>
+  <data name="StepBoot.Text" xml:space="preserve"><value>4 Çıqışnıñ qurulışı</value></data>
+  <data name="StepReview.Text" xml:space="preserve"><value>5 Teklif</value></data>
+  <data name="StepInstall.Text" xml:space="preserve"><value>6 Qurulmaq</value></data>
+  <data name="SafetyFirst.Text" xml:space="preserve"><value>Ögde emniyet</value></data>
+  <data name="SafetySidebarText.Text" xml:space="preserve"><value>Deyektsiya avtomatik olaraq saylanılmay. Qorunğan sistem, EFI, tiklenüv, OEM ve yedek bölükler maqsat ola bilmez.</value></data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve"><value>Hazır olğan</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Hazır olğan</value></data>
+  <data name="ImagePageTitle.Text" xml:space="preserve"><value>Windows Resimni sayla</value></data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve"><value>Windows ISO, WIM ya da ESD faylını sayla. Resim bir diske temas etmeden evel teşkerilmekte.</value></data>
+  <data name="SelectImageButton.Content" xml:space="preserve"><value>Windows Resimni sayla</value></data>
+  <data name="ImageDropHint.Text" xml:space="preserve"><value>ya da .iso, .wim ya da.esd faylını sürükle ve terk et</value></data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve"><value>Dosya adı</value></data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve"><value>Windows versiyası</value></data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve"><value>Memuriy mimarlıq</value></data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve"><value>Resimniñ türü</value></data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve"><value>Dosya büyükligi</value></data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve"><value>Mında olğan neşirler</value></data>
+  <data name="NextButton.Content" xml:space="preserve"><value>Nevbetteki</value></data>
+  <data name="BackButton.Content" xml:space="preserve"><value>Qaytıp kelgen</value></data>
+  <data name="EditionPageTitle.Text" xml:space="preserve"><value>Windows neşirini sayla</value></data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve"><value>Qurulış medialarından oquğan resmiy resim indeksini sayla.</value></data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve"><value>Yañı yer bölügi sayla</value></data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve"><value>Mında olğan uyğun bir bölüvni sayla. Bağlantı içün ayırılmağan ve qorçalanğan bölükler kösterilmekte, amma seçile bilmez.</value></data>
+  <data name="BootPageTitle.Text" xml:space="preserve"><value>Çıqıştırıcı qurulışı</value></data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve"><value>Qıdırılğan firmware, partitsiya sxemi ve başlatma partitsiyasını teşker. EFI partitsiyası bu iş esnası tarafından iç bir vaqıt formatlanmay.</value></data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve"><value>Firmware rejiminde</value></data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve"><value>Bölüv sxemi</value></data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve"><value>Başlav bölüvi</value></data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve"><value>Başlav konfiguratsiyası</value></data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve"><value>Uyğunlıq</value></data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve"><value>Gelişken tafsilâtlar</value></data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve"><value>Qurulışnı baqmaq</value></data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve"><value>Qurulış planını baqmaq</value></data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve"><value>Er bir tanıtıcıni diqqatnen teşker. İcra etüv bu tasdıqlanğan disk ve bölüvi kimligini qullana, ğayrıdan tapılğan sürüşme harfi degil.</value></data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve"><value>Windows resimler</value></data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve"><value>Çıqış</value></data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve"><value>Yañı yer</value></data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve"><value>Destinaiy fayl sisteması</value></data>
+  <data name="DestructiveWarning.Text" xml:space="preserve"><value>TENBİ: Saylanğan bölüpteki bütün malümatlar daimiy olaraq silinecek.</value></data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve"><value>Saylanğan hedef bölüpteki bütün malümatlarnıñ daimiy olaraq silinecegini añlayım.</value></data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve"><value>Windows qurmaq</value></data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve"><value>Qurulğan Windows</value></data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve"><value>Kompüterni elektrikke bağlañız. Başarı tek resim, başlatma faylları ve kritik quraşdırılğan fayllar tasdıqlanğandan soñ bildirilmekte.</value></data>
+  <data name="ProgressWaiting.Text" xml:space="preserve"><value>Müdirniñ razılığını bekley...</value></data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve"><value>Qurulışnıñ qaydı</value></data>
+  <data name="OpenLogButton.Content" xml:space="preserve"><value>Açılğan log</value></data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve"><value>Lognı saqla...</value></data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve"><value>Windows muvafaqiyetnen quruldı.</value></data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve"><value>Resim ve Windows başlatma faylları tasdıqlandı. Şimdi kompüterni yañıdan başlata bilesiñiz.</value></data>
+  <data name="InstallationSuccessTitle" xml:space="preserve"><value>Windows muvafaqiyetnen quruldı.</value></data>
+  <data name="InstallationSuccessText" xml:space="preserve"><value>Resim ve Windows başlatma faylları tasdıqlandı. Yañı Windows kaydı nevbetteki kene başlatuv içün standarttır.</value></data>
+  <data name="RestartNowButton.Content" xml:space="preserve"><value>Şimdi yañıdan başlat</value></data>
+  <data name="RestartLaterButton.Content" xml:space="preserve"><value>Daa soñra yañıdan başlat</value></data>
+  <data name="LanguageSystem" xml:space="preserve"><value>Sistem tiliniñ</value></data>
+  <data name="AdvancedMode" xml:space="preserve"><value>İñgeçilgen usul</value></data>
+  <data name="AdvancedModeDescription" xml:space="preserve"><value>Sürgün etilgen diskler, offset ve firmware tafsilâtlarını kösterir. Windows</value></data>
+  <data name="Yes" xml:space="preserve"><value>Evet, öyle</value></data><data name="No" xml:space="preserve"><value>Yoq, yoq</value></data><data name="EngineLegacy" xml:space="preserve"><value>Miraslı motor</value></data>
+  <data name="AdvancedEngine" xml:space="preserve"><value>Motoru: {0}</value></data><data name="AdvancedFirmware" xml:space="preserve"><value>Firmware: {0}</value></data><data name="AdvancedDiskStyle" xml:space="preserve"><value>Disk üni: {0}</value></data><data name="AdvancedDiskId" xml:space="preserve"><value>Diskniñ yekâne kimligi: {0}</value></data><data name="AdvancedTargetOffset" xml:space="preserve"><value>Niyetli tazminat: {0}</value></data><data name="AdvancedBootPartition" xml:space="preserve"><value>EFI/başlav bölügi: {0}</value></data><data name="AdvancedTpm" xml:space="preserve"><value>TPM hazır/ azır: {0}/{1}</value></data><data name="AdvancedSecureBoot" xml:space="preserve"><value>Qavflı start imkânı/işletili: {0}/{1}</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>Til</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>Ayarlar</value></data>
+  <data name="Save" xml:space="preserve"><value>Qapmaq</value></data>
+  <data name="Cancel" xml:space="preserve"><value>lâğu etilmek</value></data>
+  <data name="Close" xml:space="preserve"><value>Yaqınlıq</value></data>
+  <data name="HelpTitle" xml:space="preserve"><value>Yardım etiñiz WinDeploy</value></data>
+  <data name="HelpText" xml:space="preserve"><value>WinDeploy saylanğan WIM/ESD resmini bar olğan bir bölükke qullana ve aynı fizikiy diskte teşkerilgen başlatma bölüginde başlatma fayllarını ayarlay. Bölükler yaratmay ve bütün disklerni silmey. İleriletilgen rejim ayrı bir tenbiden soñ Windows 11 donanım talaplarını açıqtan-açıq keçebilir. Windows XP ve desteklenmegen eski media mahsus bir motor hazır olğance bloklanır.</value></data>
+  <data name="AdvancedModeEnabled" xml:space="preserve"><value>İñgeçilgen usul</value></data>
+  <data name="StandardMode" xml:space="preserve"><value>Standart rejim</value></data>
+  <data name="StatusInspectingImage" xml:space="preserve"><value>Resimni teşkerüv... Windows</value></data>
+  <data name="StatusImageReady" xml:space="preserve"><value>Resim azır. Windows</value></data>
+  <data name="StatusError" xml:space="preserve"><value>Hata oldı</value></data>
+  <data name="StatusChooseEdition" xml:space="preserve"><value>Windows neşirni sayla</value></data>
+  <data name="StatusSelectImageFirst" xml:space="preserve"><value>Birinciden resim ve neşirni sayla</value></data>
+  <data name="StatusReadingDisks" xml:space="preserve"><value>Fizikiy disklerni ve partitsiyanı oqumaq...</value></data>
+  <data name="StatusSelectDestination" xml:space="preserve"><value>Destinaiy bölüvni sayla</value></data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve"><value>Başlatma konfiguratsiyası kerçek</value></data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve"><value>Uyğunlıq teşkerüvi blok etilgen qurulış</value></data>
+  <data name="StatusReviewPlan" xml:space="preserve"><value>Qurulış planını baqıp çıqmaq ve tasdıqlamaq</value></data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve"><value>Disk partitsiyalarını ve Windows başlatma fayllarını deñiştirmek içün idareci ruhsetleri kerek.</value></data>
+  <data name="StatusInstallationComplete" xml:space="preserve"><value>Windows qurulması muvafaqiyetnen tamamlandı</value></data>
+  <data name="StatusInstallationFailed" xml:space="preserve"><value>Windows qurulması muvafaqiyetsiz oldı — jurnalnı közden keçiriñiz</value></data>
+  <data name="ImageDropCaption" xml:space="preserve"><value>Bu resimni teşkerip baqıñız Windows</value></data>
+  <data name="EditionTechnicalDetails" xml:space="preserve"><value>Indeksi {0} • Yapmaq {1}</value></data>
+  <data name="LegacyEngineTitle" xml:space="preserve"><value>Miras Windows matbuat vastaları qayd etildi</value></data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve"><value>Bu versiya daa berilmegen Legacy Windows yükleme motoru kerek.</value></data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve"><value>Bu versiya daa berilmegen Legacy Windows yükleme motoru kerek.</value></data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve"><value>Vistağa Legacy NT6 qurulış motorı kerek, o daa yoq. Windows</value></data>
+  <data name="FirmwareSummary" xml:space="preserve"><value>Firmware: {0}</value></data>
+  <data name="HostArchitectureSummary" xml:space="preserve"><value>Kompüter mimarlığı: {0}</value></data>
+  <data name="DiskHeader" xml:space="preserve"><value>Disk {0}  {1}  ?? {2}</value></data>
+  <data name="DiskDetails" xml:space="preserve"><value>{0} • {1} • Serial: {2}</value></data>
+  <data name="DiskOffline" xml:space="preserve"><value>İndirilmey</value></data>
+  <data name="DiskReadOnly" xml:space="preserve"><value>Tek oquyıcı</value></data>
+  <data name="DiskSerialUnavailable" xml:space="preserve"><value>qullanılmay</value></data>
+  <data name="PartitionUnallocated" xml:space="preserve"><value>Paylaştırılmağan</value></data>
+  <data name="PartitionCurrentWindows" xml:space="preserve"><value>Şimdiki Windows  qorçalanğan</value></data>
+  <data name="PartitionProtected" xml:space="preserve"><value>Qorçalğan</value></data>
+  <data name="PartitionRoleEfi" xml:space="preserve"><value>EFI Sisteması</value></data>
+  <data name="PartitionRoleMsr" xml:space="preserve"><value>Microsoft yedeklendi</value></data>
+  <data name="PartitionRoleRecovery" xml:space="preserve"><value>Tüzelüv</value></data>
+  <data name="PartitionRoleOem" xml:space="preserve"><value>OEM bölügi</value></data>
+  <data name="PartitionRoleBasic" xml:space="preserve"><value>Esas malümatlar</value></data>
+  <data name="PartitionRoleUnknown" xml:space="preserve"><value>Belli olmağan bölüvi</value></data>
+  <data name="PartitionTooltip" xml:space="preserve"><value>Bölünüvge baqmaq. {0} {1} {2} {3} {4}</value></data>
+  <data name="DestinationSelectionSummary" xml:space="preserve"><value>Disk {0}  {1}; Partiya {2} {3}; {4}</value></data>
+  <data name="BootPartitionSummary" xml:space="preserve"><value>Disk {0}, Partiya {1} {2}  {3}  ?? {4}</value></data>
+  <data name="BootPartitionNotFound" xml:space="preserve"><value>Destina diskinde uyğun açılış partitsiyası tapılmadı.</value></data>
+  <data name="WindowsBootManager" xml:space="preserve"><value>Başlav idaresini Windows</value></data>
+  <data name="CompatibilityPassed" xml:space="preserve"><value>Keçken</value></data>
+  <data name="CompatibilityFailed" xml:space="preserve"><value>Bloklandı</value></data>
+  <data name="BootConfigurationReady" xml:space="preserve"><value>Başlatma qurulışı azır</value></data>
+  <data name="BootConfigurationReadyText" xml:space="preserve"><value>Saylanğan resim, noqta ve aynı diskke yükleme partitsiyası tehnikiy ceetten uyğun.</value></data>
+  <data name="BootConfigurationBlocked" xml:space="preserve"><value>Qurulış blok etildi</value></data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve"><value>Aşağıdaki uyğunlıq hatalarını çez. WinDeploy olarnı avtomatik olaraq keçmez.</value></data>
+  <data name="Unknown" xml:space="preserve"><value>Belli olmağan</value></data>
+  <data name="ReviewDestinationSummary" xml:space="preserve"><value>Disk {0}  {1}; Partiya {2} {3}  ?? {4}</value></data>
+  <data name="WarningDiskModel" xml:space="preserve"><value>Disk model: {0}</value></data>
+  <data name="WarningDiskNumber" xml:space="preserve"><value>Disk numarası: {0}</value></data>
+  <data name="WarningPartitionNumber" xml:space="preserve"><value>Bölüv sayısı: {0}</value></data>
+  <data name="WarningDriveLetter" xml:space="preserve"><value>Sürüş yazısı: {0}</value></data>
+  <data name="WarningVolumeName" xml:space="preserve"><value>Cömürniñ adı: {0}</value></data>
+  <data name="WarningCapacity" xml:space="preserve"><value>Mıqtap: {0}</value></data>
+  <data name="None" xml:space="preserve"><value>Bir de bir şey yoq</value></data>
+  <data name="PlanFingerprint" xml:space="preserve"><value>Tasdıqlanğan plan parmaq izi: {0}</value></data>
+  <data name="ElapsedTime" xml:space="preserve"><value>Keçken: {0}</value></data>
+  <data name="AdministratorCancelled" xml:space="preserve"><value>Adminniñ ruhiyetini lâğu ettiler.</value></data>
+  <data name="WorkerExitFailure" xml:space="preserve"><value>Qurulış işçisi çıqış kodı {0} ile toqtatıldı.</value></data>
+  <data name="LogFileType" xml:space="preserve"><value>Qurulışnıñ qaydı</value></data>
+  <data name="RestartConfirmTitle" xml:space="preserve"><value>Kompüterni yañıdan başlatmaq?</value></data>
+  <data name="RestartConfirmText" xml:space="preserve"><value>İşni diger qullanımlarda saqlañız. Komputer anda başlanacaq.</value></data>
+  <data name="RestartNow" xml:space="preserve"><value>Şimdi yañıdan başlat</value></data>
+  <data name="RestartLaterMessage" xml:space="preserve"><value>Soñra Başlat menüsinden kene başlata bilesiñiz. Yañı Windows kaydı Windows Başlatma İdarecisinde ayarlandı.</value></data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve"><value>İdareci izin berilgen</value></data>
+  <data name="ProgressValidatingPlan" xml:space="preserve"><value>Qurulış planını tasdıqlamaq...</value></data>
+  <data name="ProgressPreparingDestination" xml:space="preserve"><value>Mevzuğa azırlanmaq...</value></data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve"><value>Destinaiy bölüvi formatlandırılğan</value></data>
+  <data name="ProgressApplyingImage" xml:space="preserve"><value>Windows resimi qullanıp...</value></data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve"><value>Başlav fayllarını qurmaq...</value></data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve"><value>Qurulışnı teşkerüv...</value></data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve"><value>Qurulış bitken Windows</value></data>
+  <data name="ProgressInstallationFailed" xml:space="preserve"><value>Qurulışnıñ muvafaqiyetsizligi</value></data>
+  <data name="OperationValidatePlan" xml:space="preserve"><value>Tam plannı tasdıqla</value></data>
+  <data name="OperationFormatDestination" xml:space="preserve"><value>Tek saylanğan bölüvni NTFS olaraq formatla</value></data>
+  <data name="OperationApplyImage" xml:space="preserve"><value>Saylanğan Windows resim indeksini qullanmaq</value></data>
+  <data name="OperationInstallBootFiles" xml:space="preserve"><value>Windows başlav fayllarını aynı diskniñ başlav bölügine yükle</value></data>
+  <data name="OperationVerifyInstallation" xml:space="preserve"><value>Qurulğan ve başlatılğan fayllarnı teşker</value></data>
+  <data name="AdministratorRequired" xml:space="preserve"><value>Disk partitsiyalarını ve Windows başlatma fayllarını deñiştirmek içün idareci ruhsetleri kerek.</value></data>
+  <data name="ErrorUnexpected" xml:space="preserve"><value>Beklenilmegen bir hata oldı.</value></data>
+  <data name="ErrorWorkerMissing" xml:space="preserve"><value>Yükselgen montaj işçisi ğayıp oldı.</value></data>
+  <data name="ErrorWorkerStart" xml:space="preserve"><value>Yükselgen montaj işçisini başlatıp olamadılar.</value></data>
+  <data name="ErrorImageNotFound" xml:space="preserve"><value>Saylanğan resim faylını tapıp olamadılar.</value></data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve"><value>Tek ISO, WIM ve ESD resim faylları desteklenile.</value></data>
+  <data name="ErrorIsoMount" xml:space="preserve"><value>900-ni ne yükley ediler, ne de teşkereler edi. ISO</value></data>
+  <data name="ErrorNoInstallImage" xml:space="preserve"><value>Bu ISOde bir de bir menba\instal.wim ya da menba\\install.esd tapılmadı.</value></data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve"><value>Bu resim bu yayında desteklenmegen bölünmiş SWM fayllarını qullana.</value></data>
+  <data name="ErrorImageOpen" xml:space="preserve"><value>Resimi açıp olamadılar. Windows</value></data>
+  <data name="ErrorNoEditions" xml:space="preserve"><value>Windows resimde quraşdırıla bilgen indeksler yoq.</value></data>
+  <data name="ErrorImageMetadata" xml:space="preserve"><value>Resim metadataları oqulmadı. Windows</value></data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve"><value>Fizikiy diskler ve partitsiyalar oqumağa mümkün degil edi.</value></data>
+  <data name="ErrorNoDisks" xml:space="preserve"><value>Fizikiy diskler tapılmadı.</value></data>
+  <data name="ErrorFormatDestination" xml:space="preserve"><value>Saylanğan yer bölügi formatlanıp olamadı.</value></data>
+  <data name="ErrorDismApply" xml:space="preserve"><value>DISM saylanğan Windows resmini qullanıp olamadı.</value></data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve"><value>Tasdıqlanğan yükleme partitsiyasına kiriş mümkün degil.</value></data>
+  <data name="ErrorBcdBoot" xml:space="preserve"><value>Başlav fayllarını quraştırıp olamadılar. Windows BCDBoot</value></data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve"><value>Tarq etilgen Windows fayllar teşkerüvden keçmedi.</value></data>
+  <data name="ErrorBootVerification" xml:space="preserve"><value>Başlav faylları teşkerüvden keçmedi. Windows</value></data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve"><value>Tasdıqlanğan qurulış planını oqumağa imkân bermediler.</value></data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve"><value>Bu binanı eminliknen belgilemege mümkün degil. Windows</value></data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve"><value>Resim mimarlığı bu kompyuter ve firmware rejiminen uyğun degil.</value></data>
+  <data name="ValidationProtectedPartition" xml:space="preserve"><value>Saylanğan bölük qorçalğandır ve üstüne yazılamaz.</value></data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve"><value>Saylanğan bölük BitLocker qorçalay.</value></data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve"><value>Saylanğan bölük bu Windows versiyası içün pek küçük.</value></data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve"><value>Destina disk offline ya da tek oquycaq.</value></data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve"><value>UEFI yerleştirüv içün bir GPT noqta disk kerek.</value></data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve"><value>Miras BIOS yerleştirüv içün bir MBR noqta disk kerek.</value></data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve"><value>Destina diskinde uyğun açılış partitsiyası yoq.</value></data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve"><value>Başlav bölügi, ketüv yeri ile aynı fizikiy diskte olmalı.</value></data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve"><value>UEFI yerleştirüvi içün maqsad diskinde EFI Sistem bölünmesi kerek.</value></data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve"><value>EFI Sistem bölüvi endi FAT32 qullanmalı.</value></data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve"><value>Miras BIOS yerleştirüvi içün maqsad diskinde faal NTFS başlav bölügini kerek.</value></data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve"><value>Windows 7 UEFI yerleştirüv tek x64 resimler içün mümkün.</value></data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve"><value>Windows 11 desteklengen x64 ya da ARM64 resmini talap ete.</value></data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve"><value>11 UEFI firmware kerek. Windows</value></data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve"><value>2.0-i mevcut ve azır olaraq körmedi. Windows TPM</value></data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve"><value>Secure Boot imkânı tasdıqlanmadı.</value></data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve"><value>Secure Boot desteklenile, amma şimdilik yoq etile.</value></data>
+  <data name="ValidationWindows11Memory" xml:space="preserve"><value>Kompüterniñ fizikiy bellegi 4 GB-dan az.</value></data>
+  <data name="ValidationSourceChanged" xml:space="preserve"><value>Plan tasdıqlanğandan soñ esas resim deñişti.</value></data>
+  <data name="ValidationEditionChanged" xml:space="preserve"><value>Saylanğan resim indeksı tasdıqlanuvdan soñ deñiştirildi.</value></data>
+  <data name="ValidationDiskMissing" xml:space="preserve"><value>Destina disk endi yoq.</value></data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve"><value>Bu diskniñ stabil serial ya da yekâne kimligi yoq ve telükesiz qullanılamaz.</value></data>
+  <data name="ValidationDiskChanged" xml:space="preserve"><value>Destina disk kimligi deñiştirildi. Qurulış toqtatıldı.</value></data>
+  <data name="ValidationPartitionChanged" xml:space="preserve"><value>Mevzu bölüvi kimligi ya da geometriyası deñişti.</value></data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve"><value>Başlav bölügi kimligi ya da geometriyası deñişti.</value></data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve"><value>Firmware ya da noqta bölüvi şeması endi planğa uyğun degil.</value></data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve"><value>Resim ve başlatma faylları ekinci diskte teşkerildi. Firmware o diskni avtomatik olaraq saylamasa, onı UEFI başlatmaq menyusından bir kere sayla.</value></data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve"><value>UEFI qaytış başlatma faylı teşkerüvden keçmedi.</value></data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve"><value>Bu ekinci UEFI diskidir. WinDeploy firmware NVRAM deñiştirilmeden standart fallback başlatma faylını quraşdırır; firmware başlatmaq menüsinde bir kere diskni saylamaq kerek ola bile.</value></data>
+  <data name="ErrorImageScratch" xml:space="preserve"><value>Windows resimler vaqtınca çalışqan qovusını başlatıp olamadılar.</value></data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Bu Windows 11 qurulış içün desteklenmegen ileri donanımlı keçit imkânlaştırılğan.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Desteklenmegen donanımğa qurmaq?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Yanlış keçüvni qabul et ve imkânlandır</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft bu donanımlarda Windows 11 desteklemegen ve yañartmalarnı kefil etmey. Uyğunlıq problemleri, az sayğılılıq ya da başlanuv hataları ola bile. WinDeploy CPU, TPM, Secure Boot, RAM ve saqlav teşkerüvlerini keçecek, amma uyğun olmağan donanı işley olamaz.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>11 desteklenmegen donanımlı bypass yapılanmadı. Windows</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Desteklenmegen donanım bypass imkânlandırıldı</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Desteksiz Windows 11 donanımlı bypass-nı yapılandırmaq...</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Desteklenmegen donanımlı bypass ile izin berilmekte</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Desteklenmegen Windows 11 donanımlı bypassnı yapılandır</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>11 talapnıñ bozuluvı - bu haberdarlıq. Windows</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Gelişken: Windows 11 CPU, TPM, Secure Boot, RAM ve saqlav talapları teşkerüvlerini keçe. Disk kimligi, partitsiyası ve mimarlıq havfsızlığı teşkerüvi faal qala.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Bu plan, offline Windows qurulışına desteklenmegen donanım bypass qıymetlerini yaza. Microsoft destegi ve yañartmalar kefil etilmey.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Desteklenmegen donanımğa Windows 11 quraq</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Disk İdaresinde kerçek temel malümat bölügi ya da sade cıltını yaratıp, disklerni yañılatıñız.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Saylanğan maqsad qullanıla bilgen temel malümat bölügi degil. MBR</value></data>
+</root>

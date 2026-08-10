@@ -1,0 +1,192 @@
+﻿# Header, don't edit
+NLF v6
+# Language ID
+4098
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ASCII code page
+1200
+# RTL - anything else than RTL means LTR
+-
+# Translation by Timon [ timon@front.ru ] + 20030919
+# Translation updated by Dmitry Yerokhin [erodim@mail.ru] (20050424)
+# Minor updates by Oleksandr Gavenko (20100514 - patch #226)
+# ^Branding
+Nullsoft Install System»%s
+# ^SetupCaption
+Ааргылара»$(^Name)
+# ^UninstallCaption
+Аныхра»$(^Name)
+# ^LicenseSubCaption
+: Лицензиатәи аиқәшаҳаҭра
+# ^ComponentsSubCaption
+: Ааргылара апараметрқәа
+# ^DirSubCaption
+: Ааргылара аҭа
+# ^InstallingSubCaption
+: Афаилқәа ркопиа
+# ^CompletedSubCaption
+: Аоперациа хыркәшауп
+# ^UnComponentsSubCaption
+: Аныхра апараметрқәа
+# ^UnDirSubCaption
+: Афаил аныхра
+# ^ConfirmSubCaption
+: Ашьақәырӷәӷәара
+# ^UninstallingSubCaption
+: Афаилқәа рыхтәуп
+# ^UnCompletedSubCaption
+: Аоперациа хыркәшауп
+# ^BackBtn
+< &Аԥсны
+# ^NextBtn
+&Ишьҭахь >
+# ^AgreeBtn
+Иалшоит
+# ^AcceptBtn
+Сара аиқәшаҳаҭра аҳәаақәа сзеилкаап
+# ^DontAcceptBtn
+Сара ари аиқәшаҳаҭра аҳәаақәа снамгоит
+# ^InstallBtn
+&Ашьақәыргылатәуп
+# ^UninstallBtn
+Адырхиатәи алитература
+# ^CancelBtn
+Асахра
+# ^CloseBtn
+&Акрыцтәуп
+# ^BrowseBtn
+А&абзор...»
+# ^ShowDetailsBtn
+&Адетали...
+# ^ClickNext
+Иацҵаны апытә "Аԥсны" шәақәыргыла
+# ^ClickInstall
+Апрограмма ааргыларазы шәақәыргыла апытә "Арқара"
+# ^ClickUninstall
+Апрограмма аныхра азы шәақәыргыла "Ахтәуп" ҳәа
+# ^Name
+Ахь
+# ^Completed
+Ишьақәыргылоуп
+# ^LicenseText
+Ашьақәыргылара алагамҭазы»$(^NameDA)Алитессиатә еизыҟазаашьақәа шәрыдышәкыл. Аизарақәа рыԥшаалак, шәахәаԥш апытә "Аднакыла"
+# ^LicenseTextCB
+Ашьақәыргылара алагамҭазы»$(^NameDA)Алитессиатә еиқәшаҳаҭра шәахәаԥш. Аиқәԥара аҳәаақәа шәрыдыргазар, анаҩстәи абираҭ аргыла. –$_CLICK
+# ^LicenseTextRB
+Ашьақәыргылара алагамҭазы»$(^NameDA)Алитессиатә еиқәшаҳаҭра шәахәаԥш. Аиқәшәара аҳәаақәа шәрыдыргазар, анаҩстәи алагамҭақәа рахь актәи авариант алх$_CLICK
+# ^UnLicenseText
+Ашьақәыргылара алагамҭазы»$(^NameDA)Алитессиатә еизыҟазаашьақәа шәрыдышәкыл. Аизарақәа рыԥшаалак, шәахәаԥш апытә "Аднакыла"
+# ^UnLicenseTextCB
+Ашьақәыргылара алагамҭазы»$(^NameDA)Алитессиатә еиқәшаҳаҭра шәахәаԥш. Аиқәԥара аҳәаақәа шәрыдыргазар, анаҩстәи абираҭ аргыла. –$_CLICK
+# ^UnLicenseTextRB
+Ашьақәыргылара алагамҭазы»$(^NameDA)Алитессиатә еиқәшаҳаҭра шәахәаԥш. Аиқәшәара аҳәаақәа шәрыдыргазар, анаҩстәи алагамҭақәа рахь актәи авариант алх$_CLICK
+# ^Custom
+Иалхк ала
+# ^ComponentsText
+Иалхтәуп апрограмма акомпонентқәа, урҭ рышьақәыргылара шәҭаху. –$_CLICK
+# ^ComponentsSubText1
+Иалхтәуп ааргылара ахкы:
+# ^ComponentsSubText2_NoInstTypes
+Иалхтәуп апрограмма акомпонентқәа, урҭ рышьақәыргыларазы:
+# ^ComponentsSubText2
+Мамзаргьы ашкол аҿы ашьақәыргыларазы ирацәаны иҟоу акомпонентқәа алх:
+# ^UnComponentsText
+Иалхтәуп шәыжьтәу акомпонентқәа. –$_CLICK
+# ^UnComponentsSubText1
+Иалхтәуп аныхра ахкы:
+# ^UnComponentsSubText2_NoInstTypes
+Иалхтәуп акомпонентқәа рыхгаразы:
+# ^UnComponentsSubText2
+Мамзаргьы алхтәуп аицхырааҭақәа:
+# ^DirText
+Апрограмма ашьақәыргылахоит»$(^NameDA)Идырбау афаил ахь. Апринцип даҽа афальк ахь ашьақәыргыларазы, шәахәаԥш апытә "Ахага" анаҩс уи шлан.»$_CLICK
+# ^DirSubText
+Ааргылара афаил
+# ^DirBrowseText
+Идырба ааргылазы афаил»$(^NameDA):
+# ^UnDirText
+Апрограмма аныхра»$(^NameDA)Идырбау афальк аҟынтә. Даҽа афальфк аҟны аныхра анагӡаразы, шәақәыргыла "Ахага" апытә, нас уи ишнарба.»$_CLICK
+# ^UnDirSubText
+""Амазара
+# ^UnDirBrowseText
+Идырба афальт, уи аҟынтә иныхтәуп»$(^NameDA):
+# ^SpaceAvailable
+"Адиск аҿы иасоуп: ""
+# ^SpaceRequired
+"Адиск аҿы иаԥатәуп: """
+# ^UninstallingText
+Апрограмма –$(^NameDA)Иалкаауп шәакәытә комплект аҟынтә. –$_CLICK
+# ^UninstallingSubText
+Акра:
+# ^FileError
+Афаил аартра ауам: «\r\n\t"$0"\r\n"Аркәра": ашьақәыргылара аанкылатәуп;\r\n"Еиҭашьақәыргылара": иацәкра;\r\n"Иабупкыра": ари аусмҩаԥгатә иабуп
+# ^FileError_NoIgnore
+Афаил аартра ауам: «\r\n\t"$0"\r\n"Еиҭашьақәыргылара": иацәкра;\r\n"Архиара": ашьақәыргылара апроцесс арӷәӷәатәуп.
+# ^CantWrite
+"Иԥмчыӡом: "
+# ^CopyFailed
+Акопиа аруан агха
+# ^CopyTo
+"Акопиара а"
+# ^Registering
+"Арегистрациа: "
+# ^Unregistering
+"Аде-регистрациа: "
+# ^SymbolNotFound
+"Асимвол аԥшаара ауам: "
+# ^CouldNotLoad
+"Аԥатәуп ацалара: "
+# ^CreateFolder
+"Аԥҭа аԥҵара: "
+# ^CreateShortcut
+"Абеакра аԥҵара: "
+# ^CreatedUninstaller
+"Ачра апрограмма аԥҵара: "
+# ^Delete
+"Афаил аныхра: "
+# ^DeleteOnReboot
+"Акомпьютер еиҭакраан аныхра: """
+# ^ErrorCreatingShortcut
+"Абеакра аԥҵара абамҭа: ""
+# ^ErrorCreating
+"Ара абамҭа: """
+# ^ErrorDecompressing
+Адырқәа рышьақәыргылара аҿы агхаит! Иалшоит адистрибут ицәгьоу. Адыстрибутиу аилкаара
+# ^ErrorRegistering
+Абиблиотека (DLL) арегистрациа ауам
+# ^ExecShell
+"Амаҭақәа ркомманда анагӡара: "
+# ^Exec
+"Ахыра: "
+# ^Extract
+"Ахыхра: "
+# ^ErrorWriting
+"Ахыхра: афаил арура агха»
+# ^InvalidOpcode
+Адистрибут ицәгьоуп: иымкод
+# ^NoOLE
+"ОLE ыҟам: "
+# ^OutputFolder
+"Архиара афаил: "
+# ^RemoveFolder
+"Аԥҭа аныхра: "
+# ^RenameOnReboot
+"Акомпьютер аркраан ахьӡ аиҭакра: """
+# ^Rename
+"Иҭакра: "
+# ^Skipped
+"Араамҭа: "
+# ^CopyDetails
+Адыррақәа абуфер ахь акопиа аруар
+# ^LogInstall
+Ааргылара азы аҳасабырба аруга
+# byte
+Абаит
+# kilo
+К
+# mega
+М
+# giga
+Г

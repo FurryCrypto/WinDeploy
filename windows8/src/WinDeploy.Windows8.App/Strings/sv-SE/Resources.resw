@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>2.0</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>WinDeploy — installationsverktyg för Windows-partitioner</value></data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve"><value>Öppna avbildning</value></data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve"><value>Uppdatera diskar</value></data>
+  <data name="ToolbarSettings.Text" xml:space="preserve"><value>Inställningar</value></data>
+  <data name="ToolbarHelp.Text" xml:space="preserve"><value>Hjälp</value></data>
+  <data name="StepsHeader.Text" xml:space="preserve"><value>INSTALLERA WINDOWS</value></data>
+  <data name="StepImage.Text" xml:space="preserve"><value>1  Windows-avbildning</value></data>
+  <data name="StepEdition.Text" xml:space="preserve"><value>2  Utgåva</value></data>
+  <data name="StepDestination.Text" xml:space="preserve"><value>3  Mål</value></data>
+  <data name="StepBoot.Text" xml:space="preserve"><value>4  Startkonfiguration</value></data>
+  <data name="StepReview.Text" xml:space="preserve"><value>5  Granska</value></data>
+  <data name="StepInstall.Text" xml:space="preserve"><value>6  Installera</value></data>
+  <data name="SafetyFirst.Text" xml:space="preserve"><value>Säkerheten först</value></data>
+  <data name="SafetySidebarText.Text" xml:space="preserve"><value>Ingen disk väljs automatiskt. Skyddade system-, EFI-, återställnings-, OEM- och reserverade partitioner kan inte användas som mål.</value></data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve"><value>- Jag är redo.</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>- Jag är redo.</value></data>
+  <data name="ImagePageTitle.Text" xml:space="preserve"><value>Välj Windows-avbildning</value></data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve"><value>Välj en Windows ISO, WIM eller ESD-fil. Bilden kontrolleras innan någon skiva berörs.</value></data>
+  <data name="SelectImageButton.Content" xml:space="preserve"><value>Välj Windows-avbildning</value></data>
+  <data name="ImageDropHint.Text" xml:space="preserve"><value>eller dra och släppa en.iso,.wim eller.esd-fil här</value></data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve"><value>Filnamn</value></data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve"><value>Windows-version</value></data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve"><value>Arkitektur</value></data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve"><value>Bilder typ</value></data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve"><value>Filerstorlek</value></data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve"><value>Tillgängliga utgåvor</value></data>
+  <data name="NextButton.Content" xml:space="preserve"><value>Nästa</value></data>
+  <data name="BackButton.Content" xml:space="preserve"><value>Tillbaka</value></data>
+  <data name="EditionPageTitle.Text" xml:space="preserve"><value>Välj Windows-utgåva</value></data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve"><value>Välj ett verkligt bildindex som läses från installationsmediet.</value></data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve"><value>Välj målpartition</value></data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve"><value>Välj en befintlig lämplig partition. Otilldelade och skyddade partitioner visas för sammanhanget men kan inte väljas.</value></data>
+  <data name="BootPageTitle.Text" xml:space="preserve"><value>Startkonfiguration</value></data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve"><value>Kontrollera identifierad inbyggd programvara, partitionsstil och startpartition. En EFI-partition formateras aldrig av detta arbetsflöde.</value></data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve"><value>Fast programvara</value></data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve"><value>Partitionsordning</value></data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve"><value>Stängningspartition</value></data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve"><value>Stängning konfiguration</value></data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve"><value>Förenadhet</value></data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve"><value>Utökade detaljer</value></data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve"><value>Granska installationen</value></data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve"><value>Granska installationsplanen</value></data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve"><value>Kontrollera varje identifierare noga. Utförande använder denna validerade disk- och partitionsidentitet, inte en återupptäckt enhet bokstav.</value></data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve"><value>Bild från Windows</value></data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve"><value>Källa</value></data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve"><value>Destination</value></data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve"><value>Destinationsfilsystem</value></data>
+  <data name="DestructiveWarning.Text" xml:space="preserve"><value>VARNING: Alla data på den valda partitionen kommer att raderas permanent.</value></data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve"><value>Jag förstår att alla befintliga data på den valda målpartitionen kommer att raderas.</value></data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve"><value>Installera Windows</value></data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve"><value>Installerar Windows</value></data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve"><value>Håll datorn ansluten till ström. Framgång rapporteras först efter att bilden, startfilerna och kritiska installerade filer verifierats.</value></data>
+  <data name="ProgressWaiting.Text" xml:space="preserve"><value>-Väntar på administratörens tillstånd...</value></data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve"><value>Installationslogg</value></data>
+  <data name="OpenLogButton.Content" xml:space="preserve"><value>Öppna loggen</value></data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve"><value>Spara loggen som...</value></data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve"><value>Windows installerades.</value></data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve"><value>Avbildningen och Windows-startfilerna har verifierats. Du kan nu starta om datorn.</value></data>
+  <data name="InstallationSuccessTitle" xml:space="preserve"><value>Windows installerades.</value></data>
+  <data name="InstallationSuccessText" xml:space="preserve"><value>Avbildningen och Windows-startfilerna har verifierats. Den nya Windows-posten är standard vid nästa omstart.</value></data>
+  <data name="RestartNowButton.Content" xml:space="preserve"><value>Starta om nu</value></data>
+  <data name="RestartLaterButton.Content" xml:space="preserve"><value>Starta om senare</value></data>
+  <data name="LanguageSystem" xml:space="preserve"><value>Systemspråk</value></data>
+  <data name="AdvancedMode" xml:space="preserve"><value>Avancerat läge</value></data>
+  <data name="AdvancedModeDescription" xml:space="preserve"><value>Den visar stabila disk-ID, offsets och firmware-detaljer. Den avslöjar också en explicit icke-stödda Windows 11-hardware-bypass; diskskyddsskydd förblir aktivt.</value></data>
+  <data name="Yes" xml:space="preserve"><value>- Ja, det är det.</value></data>
+  <data name="No" xml:space="preserve"><value>- Nej, det gör jag inte.</value></data>
+  <data name="EngineLegacy" xml:space="preserve"><value>Helt gamla motorer</value></data>
+  <data name="AdvancedEngine" xml:space="preserve"><value>Motorn: {0}</value></data>
+  <data name="AdvancedFirmware" xml:space="preserve"><value>Fast programvara: {0}</value></data>
+  <data name="AdvancedDiskStyle" xml:space="preserve"><value>Diskstil: {0}</value></data>
+  <data name="AdvancedDiskId" xml:space="preserve"><value>Unique disk ID: {0}</value></data>
+  <data name="AdvancedTargetOffset" xml:space="preserve"><value>Talande avskärmning: {0}</value></data>
+  <data name="AdvancedBootPartition" xml:space="preserve"><value>EFI/startpartition: {0}</value></data>
+  <data name="AdvancedTpm" xml:space="preserve"><value>TPM finns/är redo: {0}/{1}</value></data>
+  <data name="AdvancedSecureBoot" xml:space="preserve"><value>Säker start-kapablerad/aktiverad: {0}- Jag är inte här.{1}</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>Språk</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>Inställningar</value></data>
+  <data name="Save" xml:space="preserve"><value>Spara</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Avbryt</value></data>
+  <data name="Close" xml:space="preserve"><value>Stäng</value></data>
+  <data name="HelpTitle" xml:space="preserve"><value>WinDeploy-hjälp</value></data>
+  <data name="HelpText" xml:space="preserve"><value>WinDeploy tillämpar en vald WIM/ESD-bild på en befintlig partition och konfigurerar startfiler på en verifierad startpartition på samma fysiska skiva. Det skapar inte partitioner eller raderar inte hela skivor. Advanced Mode kan uttryckligen kringgå Windows 11-hardwarekraven efter en separat varning. Windows XP och obestött legatmedia förblir blockerade tills en dedikerad motor existerar.</value></data>
+  <data name="AdvancedModeEnabled" xml:space="preserve"><value>Avancerat läge</value></data>
+  <data name="StandardMode" xml:space="preserve"><value>Standardläge</value></data>
+  <data name="StatusInspectingImage" xml:space="preserve"><value>Inspekterar Windows-avbildningen…</value></data>
+  <data name="StatusImageReady" xml:space="preserve"><value>Windows-avbildningen är klar</value></data>
+  <data name="StatusError" xml:space="preserve"><value>Ett fel inträffade</value></data>
+  <data name="StatusChooseEdition" xml:space="preserve"><value>Välj en Windows-utgåva</value></data>
+  <data name="StatusSelectImageFirst" xml:space="preserve"><value>Välj en bild och redigera först</value></data>
+  <data name="StatusReadingDisks" xml:space="preserve"><value>Läser fysiska diskar och partitioner…</value></data>
+  <data name="StatusSelectDestination" xml:space="preserve"><value>Välj en målpartition</value></data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve"><value>Startkonfigurationen är giltig</value></data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve"><value>Kompatibilitetskontrollen blockerade installationen</value></data>
+  <data name="StatusReviewPlan" xml:space="preserve"><value>Granska och bekräfta installationsplanen</value></data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve"><value>Administratörsbehörighet krävs för att ändra diskpartitioner och Windows-startfiler.</value></data>
+  <data name="StatusInstallationComplete" xml:space="preserve"><value>Windows-installationen slutfördes</value></data>
+  <data name="StatusInstallationFailed" xml:space="preserve"><value>Windows-installationen misslyckades — granska loggen</value></data>
+  <data name="ImageDropCaption" xml:space="preserve"><value>Titta på denna bild i Windows</value></data>
+  <data name="EditionTechnicalDetails" xml:space="preserve"><value>Index {0}  • Utveckla {1}</value></data>
+  <data name="LegacyEngineTitle" xml:space="preserve"><value>Arvtagna Windows-medier upptäcktes</value></data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve"><value>Denna version kräver installationsmotorn Legacy Windows, som ännu inte är tillgänglig.</value></data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve"><value>Denna version kräver installationsmotorn Legacy Windows, som ännu inte är tillgänglig.</value></data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve"><value>Windows Vista kräver Legacy NT6-installationsmotorn, som ännu inte är tillgänglig.</value></data>
+  <data name="FirmwareSummary" xml:space="preserve"><value>Fast programvara: {0}</value></data>
+  <data name="HostArchitectureSummary" xml:space="preserve"><value>Datarkitektur: {0}</value></data>
+  <data name="DiskHeader" xml:space="preserve"><value>Disk {0}  {1}  {2}</value></data>
+  <data name="DiskDetails" xml:space="preserve"><value>{0}  • Den första  {1}  • Serier: {2}</value></data>
+  <data name="DiskOffline" xml:space="preserve"><value>Offline</value></data>
+  <data name="DiskReadOnly" xml:space="preserve"><value>Läsbara</value></data>
+  <data name="DiskSerialUnavailable" xml:space="preserve"><value>inte tillgänglig</value></data>
+  <data name="PartitionUnallocated" xml:space="preserve"><value>Otilldelta</value></data>
+  <data name="PartitionCurrentWindows" xml:space="preserve"><value>Aktuellt Windows — skyddat</value></data>
+  <data name="PartitionProtected" xml:space="preserve"><value>Skyddad</value></data>
+  <data name="PartitionRoleEfi" xml:space="preserve"><value>EFI-system</value></data>
+  <data name="PartitionRoleMsr" xml:space="preserve"><value>Microsoft-reserverad</value></data>
+  <data name="PartitionRoleRecovery" xml:space="preserve"><value>Återställning</value></data>
+  <data name="PartitionRoleOem" xml:space="preserve"><value>OEM</value></data>
+  <data name="PartitionRoleBasic" xml:space="preserve"><value>Grunddata</value></data>
+  <data name="PartitionRoleUnknown" xml:space="preserve"><value>Okänd partition</value></data>
+  <data name="PartitionTooltip" xml:space="preserve"><value>Partition {0} - Jag är inte rädd. {1} {2} - Jag är inte rädd. {3} - Jag är inte rädd. {4}</value></data>
+  <data name="DestinationSelectionSummary" xml:space="preserve"><value>Disk {0}  {1}Avdelning {2} {3}Den här dagen. {4}</value></data>
+  <data name="BootPartitionSummary" xml:space="preserve"><value>Disk {0}, Partition {1} {2}  {3}  {4}</value></data>
+  <data name="BootPartitionNotFound" xml:space="preserve"><value>Ingen lämplig startpartition hittades på destinationsdisken.</value></data>
+  <data name="WindowsBootManager" xml:space="preserve"><value>Windows-starthanterare</value></data>
+  <data name="CompatibilityPassed" xml:space="preserve"><value>Den har godkänts.</value></data>
+  <data name="CompatibilityFailed" xml:space="preserve"><value>Blockad</value></data>
+  <data name="BootConfigurationReady" xml:space="preserve"><value>Starta konfigurationen är klar</value></data>
+  <data name="BootConfigurationReadyText" xml:space="preserve"><value>Den valda bilden, destinationen och startpartitionen på samma skiva är tekniskt kompatibla.</value></data>
+  <data name="BootConfigurationBlocked" xml:space="preserve"><value>Installationen blockeras</value></data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve"><value>Lös kompatibilitetsfelna nedan. WinDeploy kommer inte att omgå dem automatiskt.</value></data>
+  <data name="Unknown" xml:space="preserve"><value>Okänd</value></data>
+  <data name="ReviewDestinationSummary" xml:space="preserve"><value>Disk {0}  {1}Avdelning {2} {3}  {4}</value></data>
+  <data name="WarningDiskModel" xml:space="preserve"><value>Diskmodell: {0}</value></data>
+  <data name="WarningDiskNumber" xml:space="preserve"><value>Disknummer: {0}</value></data>
+  <data name="WarningPartitionNumber" xml:space="preserve"><value>Partitionsnummer: {0}</value></data>
+  <data name="WarningDriveLetter" xml:space="preserve"><value>- Förkort: {0}</value></data>
+  <data name="WarningVolumeName" xml:space="preserve"><value>Namn på volym: {0}</value></data>
+  <data name="WarningCapacity" xml:space="preserve"><value>Förmåga: {0}</value></data>
+  <data name="None" xml:space="preserve"><value>Ingen</value></data>
+  <data name="PlanFingerprint" xml:space="preserve"><value>Validerat fingeravtryck på planen: {0}</value></data>
+  <data name="ElapsedTime" xml:space="preserve"><value>Förlängd: {0}</value></data>
+  <data name="AdministratorCancelled" xml:space="preserve"><value>Administratörens tillstånd avbriss.</value></data>
+  <data name="WorkerExitFailure" xml:space="preserve"><value>Installationsarbetaren stannade med utgångsnummer {0}- Jag är inte rädd.</value></data>
+  <data name="LogFileType" xml:space="preserve"><value>Installationslogg</value></data>
+  <data name="RestartConfirmTitle" xml:space="preserve"><value>- Starta om datorn?</value></data>
+  <data name="RestartConfirmText" xml:space="preserve"><value>Spara ditt arbete i andra applikationer.</value></data>
+  <data name="RestartNow" xml:space="preserve"><value>Starta om nu</value></data>
+  <data name="RestartLaterMessage" xml:space="preserve"><value>Du kan starta om senare från Start-menyn. Den nya Windows-posten har konfigurerats i Windows Boot Manager.</value></data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve"><value>Administratörsbehörighet beviljad</value></data>
+  <data name="ProgressValidatingPlan" xml:space="preserve"><value>Validerar installationsplanen…</value></data>
+  <data name="ProgressPreparingDestination" xml:space="preserve"><value>Förbereder målet…</value></data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve"><value>Målpartitionen har formaterats</value></data>
+  <data name="ProgressApplyingImage" xml:space="preserve"><value>Tillämpar Windows-avbildningen…</value></data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve"><value>Installerar startfiler…</value></data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve"><value>Verifierar installationen…</value></data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve"><value>Windows-installationen är slutförd</value></data>
+  <data name="ProgressInstallationFailed" xml:space="preserve"><value>Installationen misslyckades</value></data>
+  <data name="OperationValidatePlan" xml:space="preserve"><value>Validerar den kompletta planen</value></data>
+  <data name="OperationFormatDestination" xml:space="preserve"><value>Formatera endast den valda partitionen som NTFS</value></data>
+  <data name="OperationApplyImage" xml:space="preserve"><value>Använd den valda Windows-bilderindex</value></data>
+  <data name="OperationInstallBootFiles" xml:space="preserve"><value>Installa Windows-startfiler på samma diskstartpartition</value></data>
+  <data name="OperationVerifyInstallation" xml:space="preserve"><value>Kontrollera installerade och startfiler</value></data>
+  <data name="AdministratorRequired" xml:space="preserve"><value>Administratörstillstånd krävs för att ändra diskpartitioner och Windows-startfiler.</value></data>
+  <data name="ErrorUnexpected" xml:space="preserve"><value>Det inträffade ett oväntat fel.</value></data>
+  <data name="ErrorWorkerMissing" xml:space="preserve"><value>Installationsarbetaren är borta.</value></data>
+  <data name="ErrorWorkerStart" xml:space="preserve"><value>Den upphöjda installationsarbetaren kunde inte startas.</value></data>
+  <data name="ErrorImageNotFound" xml:space="preserve"><value>Den valda bilden hittades inte.</value></data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve"><value>Endast ISO, WIM och ESD bildfiler stöds.</value></data>
+  <data name="ErrorIsoMount" xml:space="preserve"><value>ISO-systemet kunde inte monteras eller kontrolleras.</value></data>
+  <data name="ErrorNoInstallImage" xml:space="preserve"><value>Ingen källor\install.wim eller källor\install.esd hittades i denna ISO.</value></data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve"><value>Denna bild använder split SWM-filer, som inte stöds i denna version.</value></data>
+  <data name="ErrorImageOpen" xml:space="preserve"><value>Bilden från Windows kunde inte öppnas.</value></data>
+  <data name="ErrorNoEditions" xml:space="preserve"><value>Windows-bilden innehåller inga installerbara index.</value></data>
+  <data name="ErrorImageMetadata" xml:space="preserve"><value>Windows-bildsmetadata kunde inte läsas.</value></data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve"><value>Fysiska skivor och partitioner kunde inte läsas.</value></data>
+  <data name="ErrorNoDisks" xml:space="preserve"><value>Inga fysiska skivor hittades.</value></data>
+  <data name="ErrorFormatDestination" xml:space="preserve"><value>Den valda destinationspartitionen kunde inte formateras.</value></data>
+  <data name="ErrorDismApply" xml:space="preserve"><value>DISM kunde inte tillämpa den valda Windows-bilden.</value></data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve"><value>Den validerade startpartitionen kunde inte nås.</value></data>
+  <data name="ErrorBcdBoot" xml:space="preserve"><value>BCDBoot kunde inte installera Windows-startfilerna.</value></data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve"><value>De installerade Windows-filerna gick inte igenom verifiering.</value></data>
+  <data name="ErrorBootVerification" xml:space="preserve"><value>Windows-startfilerna gick inte igenom verifiering.</value></data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve"><value>Den validerade installationsplanen kunde inte läsas.</value></data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve"><value>Denna Windows-build kan inte identifieras på ett tillförlitligt sätt.</value></data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve"><value>Bilderarkitektur är oförenlig med detta dator- och firmware-läge.</value></data>
+  <data name="ValidationProtectedPartition" xml:space="preserve"><value>Den valda partitionen är skyddad och kan inte skrivas över.</value></data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve"><value>Den valda partitionen är BitLocker-skyddad. Lås upp och dekryptera den före distribution.</value></data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve"><value>Den valda partitionen är för liten för den här Windows-versionen.</value></data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve"><value>Måldisken är offline eller skrivskyddad.</value></data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve"><value>För att kunna implementera UEFI krävs en GPT-destinationsdisk.</value></data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve"><value>För att kunna implementera BIOS kräver MBR-destinationsdisken.</value></data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve"><value>Det finns ingen lämplig startpartition på destinationsdisken.</value></data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve"><value>Startpartitionen ska vara på samma fysiska skiva som destinationen.</value></data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve"><value>För att utföra UEFI krävs en EFI-systempartition på destinationsdisken.</value></data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve"><value>EFI-systempartitionen måste redan använda FAT32.</value></data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve"><value>För att kunna implementera BIOS kräver en aktiv NTFS-startpartition på destinationsdisken.</value></data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve"><value>Windows 7 UEFI-utbyggnad är endast aktiverad för x64-bilder.</value></data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve"><value>Windows 11 kräver en stödd x64- eller ARM64-bild.</value></data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve"><value>Windows 11 kräver UEFI-firmware.</value></data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve"><value>TPM 2.0 upptäcktes inte som närvarande och redo. Windows 11 kan avsluta denna dator.</value></data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve"><value>Säker start- kapacitet kunde inte bekräftas.</value></data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve"><value>Secure Boot stöds men är för närvarande inaktiverad.</value></data>
+  <data name="ValidationWindows11Memory" xml:space="preserve"><value>Datorn har mindre än 4 GB fysiskt minne.</value></data>
+  <data name="ValidationSourceChanged" xml:space="preserve"><value>Källan ändrades efter att planen bekräftats.</value></data>
+  <data name="ValidationEditionChanged" xml:space="preserve"><value>Den valda bildindex ändrades efter validering.</value></data>
+  <data name="ValidationDiskMissing" xml:space="preserve"><value>Destinationsdisken är inte längre närvarande.</value></data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve"><value>Denna skiva har ingen stabil seriell eller unik ID och kan inte användas säkert.</value></data>
+  <data name="ValidationDiskChanged" xml:space="preserve"><value>Identifieringen på destinationdisken ändrades.</value></data>
+  <data name="ValidationPartitionChanged" xml:space="preserve"><value>Destinationspartitionens identitet eller geometrin förändrades.</value></data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve"><value>Bootpartitionens identitet eller geometrin förändrades.</value></data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve"><value>Firmware- eller destinationspartitionssystemet motsvarar inte längre planen.</value></data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve"><value>Bilden och startfilerna verifierades på den sekundära disken. Om firmware inte väljer den disk automatiskt, välj den en gång från UEFI-startmenyn.</value></data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve"><value>UEFI-fällbaksfilen gick inte igenom verifiering.</value></data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve"><value>Detta är en sekundär UEFI-skiva. WinDeploy installerar den standard fallback-startfilen utan att ändra firmware NVRAM-variablerna. Du kan behöva välja disken en gång i firmware-startmenyn.</value></data>
+  <data name="ErrorImageScratch" xml:space="preserve"><value>Windows-bildernas temporära arbetsmappe kunde inte initialiseras.</value></data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Avancerad outsupportad maskinvarubbypass är aktiverad för denna Windows 11-installation.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Installa på icke-stödda hårdvara?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Acceptera och aktivera bypass</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft stöder inte Windows 11 på denna hårdvara och garanterar inte uppdateringar. Kompatibilitetsproblem, minskad säkerhet eller startfel kan uppstå. WinDeploy kommer att kringgå CPU, TPM, Secure Boot, RAM och lagringskontroll, men det kan inte göra inkompatibla hårdvara arbete.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Windows 11-hardware-bypass som inte stöds kunde inte konfigureras.</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Ostödda maskinvarubbypass aktiverade</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Konfigurera outsupporterad Windows 11-hardware-bypass...</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Tillåtna med icke-stödda maskinvarubbypass</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Konfigurera outsupporterad Windows 11-hardware-bypass</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Windows 11-kravsfel är varningar.</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Avancerad: omgå Windows 11 CPU, TPM, Secure Boot, RAM och lagringsbehov kontroller.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Denna plan skriver outsupporterade hårdvara omgåsvärden i den offline Windows-installationen.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Installa Windows 11 på icke-stödda hårdvara</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Skapa en riktig grundläggande datapartition eller enkel volym i Disk Management, och uppdatera sedan skivor.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Det valda målet är inte en användbar grunddatapartition. Oallokerat utrymme och utökade MBR-behållare kan inte formateras direkt.</value></data>
+</root>

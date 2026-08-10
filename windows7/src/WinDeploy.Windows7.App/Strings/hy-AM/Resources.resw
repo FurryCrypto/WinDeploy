@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>2.0</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>WinDeploy — Windows բաժինների տեղադրիչ</value></data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve"><value>Բացել Windows-ի պատկերը</value></data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve"><value>Թարմացնել սկավառակները</value></data>
+  <data name="ToolbarSettings.Text" xml:space="preserve"><value>Կարգավորումներ</value></data>
+  <data name="ToolbarHelp.Text" xml:space="preserve"><value>Օգնություն</value></data>
+  <data name="StepsHeader.Text" xml:space="preserve"><value>ՏԵՂԱԴՐԵԼ WINDOWS</value></data>
+  <data name="StepImage.Text" xml:space="preserve"><value>1  Windows-ի պատկեր</value></data>
+  <data name="StepEdition.Text" xml:space="preserve"><value>2  Թողարկում</value></data>
+  <data name="StepDestination.Text" xml:space="preserve"><value>3  Նպատակակետ</value></data>
+  <data name="StepBoot.Text" xml:space="preserve"><value>4  Բեռնման կարգավորում</value></data>
+  <data name="StepReview.Text" xml:space="preserve"><value>5  Վերանայում</value></data>
+  <data name="StepInstall.Text" xml:space="preserve"><value>6  Տեղադրում</value></data>
+  <data name="SafetyFirst.Text" xml:space="preserve"><value>Անվտանգությունն առաջին հերթին</value></data>
+  <data name="SafetySidebarText.Text" xml:space="preserve"><value>Ոչ մի սկավառակ ինքնաբերաբար չի ընտրվում։ Պաշտպանված համակարգային, EFI, վերականգնման, OEM և պահուստավորված բաժինները չեն կարող ընտրվել որպես նպատակակետ։</value></data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve"><value>Պատրաստ</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Պատրաստ</value></data>
+  <data name="ImagePageTitle.Text" xml:space="preserve"><value>Ընտրել Windows-ի պատկերը</value></data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve"><value>Ընտրեք Windows ISO, WIM կամ ESD ֆայլ: Պատկերը ստուգվում է նախքան ցանկացած սկավառակ դիպչելը:</value></data>
+  <data name="SelectImageButton.Content" xml:space="preserve"><value>Ընտրել Windows-ի պատկերը</value></data>
+  <data name="ImageDropHint.Text" xml:space="preserve"><value>կամ այստեղ մի.iso,.wim կամ.esd ֆայլ ձգեք եւ թողեք</value></data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve"><value>Ֆիլմի անվանում</value></data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve"><value>Windows տարբերակը</value></data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve"><value>Արկիտեկտուրա</value></data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve"><value>Պատկերների տեսակ</value></data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve"><value>Ֆայլերի չափը</value></data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve"><value>Գոյություն ունեցող հրատարակություններ</value></data>
+  <data name="NextButton.Content" xml:space="preserve"><value>Հաջորդ</value></data>
+  <data name="BackButton.Content" xml:space="preserve"><value>Հետ</value></data>
+  <data name="EditionPageTitle.Text" xml:space="preserve"><value>Ընտրել Windows-ի թողարկումը</value></data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve"><value>Ընտրեք տեղադրման մեդիա ընթերցված նկարային ինդեքսը:</value></data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve"><value>Ընտրել նպատակային բաժինը</value></data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve"><value>Ընտրեք համապատասխան բաժնետոմսեր: Չբաշխված եւ պաշտպանված բաժնետոմսերը ցուցադրվում են համատեքստով, բայց չեն կարող ընտրվել:</value></data>
+  <data name="BootPageTitle.Text" xml:space="preserve"><value>Բեռնման կարգավորում</value></data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve"><value>Ստուգեք հայտնաբերված firmware ռեժիմը, բաժանման ոճը և բեռնման բաժինը։ Այս գործընթացը երբեք չի ձևաչափում EFI բաժինը։</value></data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve"><value>Ֆիրմվերի ռեժիմ</value></data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve"><value>Կիսման համակարգ</value></data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve"><value>Սկսման բաժանում</value></data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve"><value>Սկսման կարգավորումը</value></data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve"><value>Համատեղելիություն</value></data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve"><value>Հավելյալ մանրամասներ</value></data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve"><value>Վերանայել տեղադրումը</value></data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve"><value>Վերանայել տեղադրման ծրագիրը</value></data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve"><value>Դիտեք յուրաքանչյուր նույնականացողը ուշադիր: Գործարկումը օգտագործում է այս հաստատված սկավառակ եւ բաժնետոմսերի ինքնությունը, այլ ոչ թե վերեւից հայտնաբերված սկավառակային տառը:</value></data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve"><value>Windows պատկեր</value></data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve"><value>Աղբյուր</value></data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve"><value>Կայքի վայր</value></data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve"><value>Կայքում</value></data>
+  <data name="DestructiveWarning.Text" xml:space="preserve"><value>ԶԳՈՒՇԱՑՈՒՄ. Ընտրված բաժնի բոլոր տվյալներն ընդմիշտ կջնջվեն։</value></data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve"><value>Ես հասկանում եմ, որ ընտրված նպատակային բաժնի բոլոր առկա տվյալները կջնջվեն։</value></data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve"><value>Տեղադրել Windows-ը</value></data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve"><value>Windows-ի տեղադրում</value></data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve"><value>Համակարգիչը միացրեք էլեկտրաէներգիայի հետ: Հաջողությունը հաղորդվում է միայն այն բանից հետո, երբ հաստատված են պատկերները, սկիզբային ֆայլերը եւ կարեւոր տեղադրված ֆայլերը:</value></data>
+  <data name="ProgressWaiting.Text" xml:space="preserve"><value>Սպասելով վարչապետի թույլտվության...</value></data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve"><value>Կառուցման օրագիր</value></data>
+  <data name="OpenLogButton.Content" xml:space="preserve"><value>Բաց օրագիր</value></data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve"><value>Պահպանեք Log- ը որպես...</value></data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve"><value>Windows-ը հաջողությամբ տեղադրվեց։</value></data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve"><value>Պատկերը և Windows-ի բեռնման ֆայլերը ստուգվել են։ Այժմ կարող եք վերագործարկել համակարգիչը։</value></data>
+  <data name="InstallationSuccessTitle" xml:space="preserve"><value>Windows-ը հաջողությամբ տեղադրվեց։</value></data>
+  <data name="InstallationSuccessText" xml:space="preserve"><value>Պատկերը և Windows-ի բեռնման ֆայլերը ստուգվել են։ Windows-ի նոր գրառումը հաջորդ վերագործարկման համար լռելյայն է։</value></data>
+  <data name="RestartNowButton.Content" xml:space="preserve"><value>Վերագործարկել հիմա</value></data>
+  <data name="RestartLaterButton.Content" xml:space="preserve"><value>Վերագործարկել ավելի ուշ</value></data>
+  <data name="LanguageSystem" xml:space="preserve"><value>Համակարգի լեզու</value></data>
+  <data name="AdvancedMode" xml:space="preserve"><value>Ընդլայնված ռեժիմ</value></data>
+  <data name="AdvancedModeDescription" xml:space="preserve"><value>Ցուցադրում է կայուն սկավառակ ID- ները, փոխհատուցումները եւ ֆիրմվեերի մանրամասները: Այն նաեւ բացահայտում է Windows 11 սարքավորումների բացասական չկատարված շրջանցումը. սկավառակային անվտանգության պաշտպանությունները շարունակում են ակտիվ լինել:</value></data>
+  <data name="Yes" xml:space="preserve"><value>Այո, այո</value></data>
+  <data name="No" xml:space="preserve"><value>Ոչ, ոչ</value></data>
+  <data name="EngineLegacy" xml:space="preserve"><value>Հուշարձան շարժիչ</value></data>
+  <data name="AdvancedEngine" xml:space="preserve"><value>Մեքենան. {0}</value></data>
+  <data name="AdvancedFirmware" xml:space="preserve"><value>Կառուցվածք: {0}</value></data>
+  <data name="AdvancedDiskStyle" xml:space="preserve"><value>Դիսքի ոճ. {0}</value></data>
+  <data name="AdvancedDiskId" xml:space="preserve"><value>Դիսքի եզակի ID: {0}</value></data>
+  <data name="AdvancedTargetOffset" xml:space="preserve"><value>Նպատակային փոխհատուցում. {0}</value></data>
+  <data name="AdvancedBootPartition" xml:space="preserve"><value>EFI/բութ բաժնետոմսեր {0}</value></data>
+  <data name="AdvancedTpm" xml:space="preserve"><value>TPM առկա/պատրաստ՝ {0}/{1}</value></data>
+  <data name="AdvancedSecureBoot" xml:space="preserve"><value>Անվտանգ Boot- ի հնարավորություն/օգտագործվածություն: {0}/{1}</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>Լեզու</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>Կարգավորումներ</value></data>
+  <data name="Save" xml:space="preserve"><value>Պահպանել</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Չեղարկել</value></data>
+  <data name="Close" xml:space="preserve"><value>Փակել</value></data>
+  <data name="HelpTitle" xml:space="preserve"><value>WinDeploy-ի օգնություն</value></data>
+  <data name="HelpText" xml:space="preserve"><value>WinDeploy- ը ընտրված WIM / ESD պատկեր է կիրառում մեկ առկա բաժնետոմսին եւ կոմպիգուրացնում է սկիզբի ֆայլերը նույն ֆիզիկական սկավառակի վրա ստուգված սկիզբի բաժնետոմսին: Այն չի ստեղծում բաժնետոմսեր կամ ջնջում ամբողջ սկավառակներ: Հրատարակված ռեժիմը կարող է բացարձակապես շրջանցել Windows 11-ի բարդային պահանջները առանձին նախազգուշացումից հետո: Windows XP- ը եւ չաջակցված ժառանգական մեդիա արգելափակված են մինչեւ հատուկ շարժիչը գոյություն ունենա:</value></data>
+  <data name="AdvancedModeEnabled" xml:space="preserve"><value>Հրատարակված ռեժիմ</value></data>
+  <data name="StandardMode" xml:space="preserve"><value>Սովորական ռեժիմ</value></data>
+  <data name="StatusInspectingImage" xml:space="preserve"><value>Windows-ի պատկերը ստուգվում է…</value></data>
+  <data name="StatusImageReady" xml:space="preserve"><value>Windows-ի պատկերը պատրաստ է</value></data>
+  <data name="StatusError" xml:space="preserve"><value>Սխալ է տեղի ունեցել</value></data>
+  <data name="StatusChooseEdition" xml:space="preserve"><value>Ընտրեք Windows-ի թողարկումը</value></data>
+  <data name="StatusSelectImageFirst" xml:space="preserve"><value>Նախ ընտրեք պատկեր եւ խմբագրություն</value></data>
+  <data name="StatusReadingDisks" xml:space="preserve"><value>Ֆիզիկական սկավառակներն ու բաժինները ընթերցվում են…</value></data>
+  <data name="StatusSelectDestination" xml:space="preserve"><value>Ընտրեք նպատակային բաժինը</value></data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve"><value>Բեռնման կարգավորումը վավեր է</value></data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve"><value>Համատեղելիության ստուգումն արգելափակեց տեղադրումը</value></data>
+  <data name="StatusReviewPlan" xml:space="preserve"><value>Վերանայեք և հաստատեք տեղադրման ծրագիրը</value></data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve"><value>Սկավառակի բաժիններն ու Windows-ի բեռնման ֆայլերը փոփոխելու համար պահանջվում է ադմինիստրատորի թույլտվություն։</value></data>
+  <data name="StatusInstallationComplete" xml:space="preserve"><value>Windows-ի տեղադրումը հաջողությամբ ավարտվեց</value></data>
+  <data name="StatusInstallationFailed" xml:space="preserve"><value>Windows-ի տեղադրումը ձախողվեց — ստուգեք մատյանը</value></data>
+  <data name="ImageDropCaption" xml:space="preserve"><value>Վերանայեք այս Windows պատկերը</value></data>
+  <data name="EditionTechnicalDetails" xml:space="preserve"><value>Ցուցանիշ {0}  • Կառուցել {1}</value></data>
+  <data name="LegacyEngineTitle" xml:space="preserve"><value>Հաշվի առնելով Windows- ի ժառանգական մեդիա</value></data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve"><value>Այս տարբերակը պահանջում է Legacy Windows տեղադրման շարժիչը, որը դեռեւս հասանելի չէ:</value></data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve"><value>Այս տարբերակը պահանջում է Legacy Windows տեղադրման շարժիչը, որը դեռեւս հասանելի չէ:</value></data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve"><value>Windows Vista- ն պահանջում է Legacy NT6 տեղադրման շարժիչը, որը դեռեւս հասանելի չէ:</value></data>
+  <data name="FirmwareSummary" xml:space="preserve"><value>Կառուցվածք: {0}</value></data>
+  <data name="HostArchitectureSummary" xml:space="preserve"><value>Համակարգչային ճարտարապետություն. {0}</value></data>
+  <data name="DiskHeader" xml:space="preserve"><value>Դիսք {0}  {1}  {2}</value></data>
+  <data name="DiskDetails" xml:space="preserve"><value>{0}  •  {1}  • Սերիալ: {2}</value></data>
+  <data name="DiskOffline" xml:space="preserve"><value>Offline</value></data>
+  <data name="DiskReadOnly" xml:space="preserve"><value>Միայն ընթերցման համար</value></data>
+  <data name="DiskSerialUnavailable" xml:space="preserve"><value>անհասանելի</value></data>
+  <data name="PartitionUnallocated" xml:space="preserve"><value>Չբաժանված</value></data>
+  <data name="PartitionCurrentWindows" xml:space="preserve"><value>Ընթացիկ Windows — պաշտպանված</value></data>
+  <data name="PartitionProtected" xml:space="preserve"><value>Պաշտպանված</value></data>
+  <data name="PartitionRoleEfi" xml:space="preserve"><value>EFI համակարգ</value></data>
+  <data name="PartitionRoleMsr" xml:space="preserve"><value>Microsoft-ի պահուստավորված</value></data>
+  <data name="PartitionRoleRecovery" xml:space="preserve"><value>Վերականգնում</value></data>
+  <data name="PartitionRoleOem" xml:space="preserve"><value>OEM</value></data>
+  <data name="PartitionRoleBasic" xml:space="preserve"><value>Հիմնական տվյալներ</value></data>
+  <data name="PartitionRoleUnknown" xml:space="preserve"><value>Անհայտ բաժին</value></data>
+  <data name="PartitionTooltip" xml:space="preserve"><value>Կիսվածք {0}  {1} {2}  {3}  {4}</value></data>
+  <data name="DestinationSelectionSummary" xml:space="preserve"><value>Դիսք {0}  {1}; բաժանում {2} {3}_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ {4}</value></data>
+  <data name="BootPartitionSummary" xml:space="preserve"><value>Դիսք {0}, բաժանում {1} {2}  {3}  {4}</value></data>
+  <data name="BootPartitionNotFound" xml:space="preserve"><value>Գնահատման սկավառակի վրա տեղավորված սկավառակի բաժնետոմսեր չեն գտնվել:</value></data>
+  <data name="WindowsBootManager" xml:space="preserve"><value>Windows Boot Manager- ը</value></data>
+  <data name="CompatibilityPassed" xml:space="preserve"><value>Անցել է</value></data>
+  <data name="CompatibilityFailed" xml:space="preserve"><value>Փակված</value></data>
+  <data name="BootConfigurationReady" xml:space="preserve"><value>Սկսման կարգավորումը պատրաստ է</value></data>
+  <data name="BootConfigurationReadyText" xml:space="preserve"><value>Ընտրված պատկեր, նպատակակետ եւ նույն սկավառակային սկավառակային բաժնետոմսերը տեխնիկապես համատեղելի են:</value></data>
+  <data name="BootConfigurationBlocked" xml:space="preserve"><value>Կառուցումը արգելափակվել է</value></data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve"><value>Բացահայտեք համատեղելիության սխալները ստորեւ. WinDeploy- ը դրանք ավտոմատ կերպով չի շրջանցի:</value></data>
+  <data name="Unknown" xml:space="preserve"><value>Անհայտ</value></data>
+  <data name="ReviewDestinationSummary" xml:space="preserve"><value>Դիսք {0}  {1}; բաժանում {2} {3}  {4}</value></data>
+  <data name="WarningDiskModel" xml:space="preserve"><value>Դիսքի մոդել. {0}</value></data>
+  <data name="WarningDiskNumber" xml:space="preserve"><value>Դիսքի թիվ. {0}</value></data>
+  <data name="WarningPartitionNumber" xml:space="preserve"><value>Կիսման համարը. {0}</value></data>
+  <data name="WarningDriveLetter" xml:space="preserve"><value>Գնացքային նամակ. {0}</value></data>
+  <data name="WarningVolumeName" xml:space="preserve"><value>Հավաքի անվանում. {0}</value></data>
+  <data name="WarningCapacity" xml:space="preserve"><value>Հասունակություն. {0}</value></data>
+  <data name="None" xml:space="preserve"><value>Ոչ մի</value></data>
+  <data name="PlanFingerprint" xml:space="preserve"><value>Պլաների վավերացված մատնահետքեր. {0}</value></data>
+  <data name="ElapsedTime" xml:space="preserve"><value>Անցել է: {0}</value></data>
+  <data name="AdministratorCancelled" xml:space="preserve"><value>Վարչապետի թույլտվությունը չեղյալ է հայտարարվել, տեղադրումը չի սկսվել:</value></data>
+  <data name="WorkerExitFailure" xml:space="preserve"><value>Հասարակության աշխատակիցը դադարեցրել է ելքի կոդով: {0}....</value></data>
+  <data name="LogFileType" xml:space="preserve"><value>Կառուցման օրագիր</value></data>
+  <data name="RestartConfirmTitle" xml:space="preserve"><value>Վերագործարկել համակարգիչը:</value></data>
+  <data name="RestartConfirmText" xml:space="preserve"><value>Ձեր աշխատանքը պահեք այլ ծրագրերում: Համակարգիչը անմիջապես վերագործարկվում է:</value></data>
+  <data name="RestartNow" xml:space="preserve"><value>Վերագործարկել հիմա</value></data>
+  <data name="RestartLaterMessage" xml:space="preserve"><value>Կարող եք ավելի ուշ վերագործարկել Start ընտրացանկից։ Windows-ի նոր գրառումը կարգավորված է Windows Boot Manager-ում։</value></data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve"><value>Ադմինիստրատորի թույլտվությունը տրված է</value></data>
+  <data name="ProgressValidatingPlan" xml:space="preserve"><value>Տեղադրման ծրագիրը վավերացվում է…</value></data>
+  <data name="ProgressPreparingDestination" xml:space="preserve"><value>Նպատակակետը պատրաստվում է…</value></data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve"><value>Նպատակային բաժինը ձևաչափված է</value></data>
+  <data name="ProgressApplyingImage" xml:space="preserve"><value>Windows-ի պատկերը կիրառվում է…</value></data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve"><value>Բեռնման ֆայլերը տեղադրվում են…</value></data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve"><value>Տեղադրումը ստուգվում է…</value></data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve"><value>Windows-ի տեղադրումն ավարտված է</value></data>
+  <data name="ProgressInstallationFailed" xml:space="preserve"><value>Տեղադրումը ձախողվեց</value></data>
+  <data name="OperationValidatePlan" xml:space="preserve"><value>Պաշտոնավորել ամբողջական ծրագիրը</value></data>
+  <data name="OperationFormatDestination" xml:space="preserve"><value>Պարզապես ընտրված բաժնետոմսերը ձեւակերպել որպես NTFS</value></data>
+  <data name="OperationApplyImage" xml:space="preserve"><value>Ընտրված Windows պատկերների ցուցակը կիրառել</value></data>
+  <data name="OperationInstallBootFiles" xml:space="preserve"><value>Windows- ի սկավառակի ֆայլերը տեղադրել նույն սկավառակի սկավառակի բաժնետոմսերի վրա</value></data>
+  <data name="OperationVerifyInstallation" xml:space="preserve"><value>Ստուգեք տեղադրված եւ boot ֆայլերը</value></data>
+  <data name="AdministratorRequired" xml:space="preserve"><value>Վարչապետի թույլտվությունը պահանջվում է սկավառակի բաժնետոմսերի եւ Windows- ի սկավառակի ֆայլերի փոփոխման համար:</value></data>
+  <data name="ErrorUnexpected" xml:space="preserve"><value>Անսպասելի սխալ է տեղի ունեցել:</value></data>
+  <data name="ErrorWorkerMissing" xml:space="preserve"><value>Բարձրացված տեղադրման աշխատողը անհետ կորել է:</value></data>
+  <data name="ErrorWorkerStart" xml:space="preserve"><value>Բարձրանացած տեղադրման աշխատակիցը չի կարողացել սկսել:</value></data>
+  <data name="ErrorImageNotFound" xml:space="preserve"><value>Ընտրված պատկերային ֆայլը չի գտնվել:</value></data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve"><value>Միայն ISO, WIM եւ ESD պատկերային ֆայլերը աջակցվում են:</value></data>
+  <data name="ErrorIsoMount" xml:space="preserve"><value>ISO- ն չի կարող տեղադրել կամ ստուգել:</value></data>
+  <data name="ErrorNoInstallImage" xml:space="preserve"><value>Այս ISO- ն չի գտել աղբյուրներ\install.wim կամ աղբյուրներ\install.esd:</value></data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve"><value>Այս պատկերն օգտագործում է բաժանված SWM ֆայլեր, որոնք չեն աջակցվում այս թողարկման մեջ:</value></data>
+  <data name="ErrorImageOpen" xml:space="preserve"><value>Windows- ի պատկերը չի կարող բացվել:</value></data>
+  <data name="ErrorNoEditions" xml:space="preserve"><value>Windows- ի պատկերում տեղադրելի ինդեքսներ չկան:</value></data>
+  <data name="ErrorImageMetadata" xml:space="preserve"><value>Windows- ի պատկերների մետադատները չեն կարող կարդալ:</value></data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve"><value>Ֆիզիկական սկավառակները եւ բաժնետոմսերը չեն կարող կարդալ:</value></data>
+  <data name="ErrorNoDisks" xml:space="preserve"><value>Ոչ մի ֆիզիկական սկավառակ չի հայտնաբերվել:</value></data>
+  <data name="ErrorFormatDestination" xml:space="preserve"><value>Ընտրված նպատակային բաժնետոմսերը չեն կարող ձեւաչափվել:</value></data>
+  <data name="ErrorDismApply" xml:space="preserve"><value>DISM- ը չի կարողացել կիրառել ընտրված Windows պատկերը:</value></data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve"><value>Վավերացված սկիզբի բաժնետոմսին չի կարող հասնել:</value></data>
+  <data name="ErrorBcdBoot" xml:space="preserve"><value>BCDBoot- ը չի կարողացել տեղադրել Windows- ի սկիզբի ֆայլերը:</value></data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve"><value>Windows- ի տեղադրված ֆայլերը չեն անցել ստուգման:</value></data>
+  <data name="ErrorBootVerification" xml:space="preserve"><value>Windows- ի սկիզբի ֆայլերը չեն անցել ստուգման:</value></data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve"><value>Վավերացված տեղադրման ծրագիրը չի կարող կարդալ:</value></data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve"><value>Այս Windows- ի կառուցվածքը չի կարող վստահելիորեն ճանաչվել:</value></data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve"><value>Պատկերի ճարտարապետությունը չի համատեղելի համակարգչի եւ ֆերմվերի այս ռեժիմի հետ:</value></data>
+  <data name="ValidationProtectedPartition" xml:space="preserve"><value>Ընտրված բաժինը պաշտպանված է և չի կարող վերագրվել։</value></data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve"><value>Ընտրված բաժինը պաշտպանված է BitLocker-ով։ Բացեք և ապակոդավորեք այն նախքան տեղակայումը։</value></data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve"><value>Ընտրված բաժնետոմսերը չափազանց փոքր են Windows- ի այս տարբերակի համար:</value></data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve"><value>Նպատակային սկավառակն անցանց է կամ միայն ընթերցման համար է։</value></data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve"><value>UEFI տեղակայման համար անհրաժեշտ է GPT նպատակային սկավառակ:</value></data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve"><value>Հավնության BIOS- ի տեղակայման համար անհրաժեշտ է MBR նպատակային սկավառակ:</value></data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve"><value>Գնահատման սկավառակի վրա չկա համապատասխան սկավառակի բաժնետոմս:</value></data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve"><value>Բուտի բաժնետոմսերը պետք է լինեն նույն ֆիզիկական սկավառակում, ինչպես նպատակակետը:</value></data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve"><value>UEFI տեղակայման համար անհրաժեշտ է EFI համակարգի բաժնետոմսեր ուղղորդական սկավառակում:</value></data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve"><value>EFI համակարգի բաժնետոմսերը պետք է արդեն օգտագործեն FAT32.</value></data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve"><value>Հավնության BIOS- ի տեղակայումը պահանջում է ակտիվ NTFS սկավառակային բաժնետոմս ուղղորդական սկավառակում:</value></data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve"><value>Windows 7 UEFI տեղակայումը հնարավորություն է տրվում միայն x64 պատկերների համար:</value></data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve"><value>Windows 11-ը պահանջում է աջակցվող x64 կամ ARM64 պատկեր:</value></data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve"><value>Windows 11-ին անհրաժեշտ է UEFI ֆիրմվեիր:</value></data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve"><value>TPM 2.0- ը չի հայտնաբերվել որպես ներկա եւ պատրաստ: Windows 11- ի կարգավորումը կարող է մերժել այս համակարգիչը:</value></data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve"><value>Անվտանգ Boot- ի հնարավորությունը չի կարող հաստատվել:</value></data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve"><value>Secure Boot- ը աջակցվում է, բայց ներկայումս անջատված է:</value></data>
+  <data name="ValidationWindows11Memory" xml:space="preserve"><value>Համակարգիչը ունի ավելի քիչ քան 4 ԳԲ ֆիզիկական հիշողություն:</value></data>
+  <data name="ValidationSourceChanged" xml:space="preserve"><value>Գաղտնիության աղբյուրը փոխվել է պլանի հաստատումից հետո:</value></data>
+  <data name="ValidationEditionChanged" xml:space="preserve"><value>Ընտրված պատկերային ինդեքսը փոխվել է հավաստիացումից հետո:</value></data>
+  <data name="ValidationDiskMissing" xml:space="preserve"><value>Գնահատման սկավառակը այլեւս չկա:</value></data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve"><value>Այս սկավառակը չունի կայուն սերիալ կամ եզակի ID եւ չի կարող օգտագործվել անվտանգ.</value></data>
+  <data name="ValidationDiskChanged" xml:space="preserve"><value>Կտակային սկավառակի ինքնությունը փոխվել է, տեղադրումը դադարեցվել է:</value></data>
+  <data name="ValidationPartitionChanged" xml:space="preserve"><value>Կտառման բաժնետոմսերի ինքնությունը կամ գիոմետրիան փոխվել է:</value></data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve"><value>Բուտի բաժնետոմսերի ինքնությունը կամ գիոմետրիան փոխվել է:</value></data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve"><value>Ֆիրմվեյրը կամ նպատակային բաժնետոմսերի սխեման այլեւս չի համապատասխանում պլանին:</value></data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve"><value>Պատկերը եւ սկավառակի ֆայլերը ստուգվել են երկրորդական սկավառակի վրա: Եթե ֆերմուերը չի ընտրում այդ սկավառակը ավտոմատ կերպով, ընտրեք այն UEFI սկավառակի մենյուց:</value></data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve"><value>UEFI- ի հետադարձ սկավառակային ֆայլը չի անցել ստուգման:</value></data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve"><value>Սա երկրորդական UEFI սկավառակ է: WinDeploy- ը տեղադրում է ստանդարտ fallback boot ֆայլը ՝ առանց ֆիրմվերի NVRAM փոփոխականների փոփոխման. Հնարավոր է, որ դուք պետք է ընտրեք սկավառակը մի անգամ ֆիրմվերի սկավառակային մենյում:</value></data>
+  <data name="ErrorImageScratch" xml:space="preserve"><value>Windows- ի պատկերների ժամանակավոր աշխատանքային պտուղը չի կարողացել նախաձեռնվել:</value></data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Windows 11-ի այս տեղադրման համար հնարավորություն է տրվում անաջողված բարդարային շրջանցում:</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Կառուցել չկատարված սարքավորումների վրա:</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Ընդունել եւ թույլ տալ շրջանցում</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft-ը չի աջակցում Windows 11-ին այս սարքավորումների վրա եւ չի երաշխավորում թարմացումներ: Հավասարակշռության խնդիրներ, նվազեցված անվտանգության կամ մեկնարկային ձախողումներ կարող են առաջանալ: WinDeploy- ը շրջանցում է CPU- ն, TPM- ն, Secure Boot- ը, RAM- ը եւ պահեստային ստուգումները, բայց չի կարող անկամտելի սարքավորումների աշխատանք կատարել:</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Windows 11- ի անաջողված սարքավորումների շրջանցումը չի կարող է կազմավորվել:</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Աջակցված չկատարված սարքավորումների շրջանցում</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Կոնֆigurելով Windows 11-ի անաջող սարքավորումների շրջանցումը...</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Թույլատրվում է չկատարված սարքավորումների շրջանցման դեպքում</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Կոնֆigurել Windows 11 սարքավորումների անաջող շրջանցումը</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Windows 11-ի պահանջների ձախողումները նախազգուշացում են: Կրիտիկական սկավառակների, բաժնետոմսերի, սկավառակների եւ ճարտարապետության պաշտպանությունները շարունակում են կիրառվել:</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Հզորություն. շրջանցել Windows 11-ի CPU, TPM, Secure Boot, RAM եւ պահեստավորման պահանջների ստուգումները: Դիսքի ինքնության, բաժնետոմսերի եւ ճարտարապետության անվտանգության ստուգումները շարունակում են ակտիվ մնալ:</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Այս պլանը գրում է չաջակցված սարքավորումների շրջանցման արժեքները օֆլեյնային Windows տեղադրման մեջ: Microsoft- ի աջակցությունը եւ թարմացումները երաշխավորված չեն:</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Windows 11 տեղադրեք չկատարված սարքավորումների վրա</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Ստեղծեք իրական հիմնական տվյալների բաժնետոմս կամ պարզ ծավալ Disk Management- ում, ապա թարմացրեք սկավառակները:</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Ընտրված նպատակակետը օգտագործելի հիմնական տվյալների բաժին չէ։ Չբաշխված տարածքը և ընդլայնված MBR բեռնարկղերը չեն կարող ուղղակիորեն ձևաչափվել։</value></data>
+</root>

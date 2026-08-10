@@ -32,6 +32,20 @@
     </ItemGroup>
     <Copy SourceFiles="@(WorkerOutput)" DestinationFolder="$(OutDir)Worker" SkipUnchangedFiles="true" />
   </Target>
+  <Target Name="IncludeSelfContainedWorkerInPublish" AfterTargets="ComputeFilesToPublish"
+          Condition="'$(RuntimeIdentifier)' != ''">
+    <PropertyGroup>
+      <WorkerPublishDir>$(MSBuildProjectDirectory)\obj\worker-publish\$(Configuration)\$(RuntimeIdentifier)\</WorkerPublishDir>
+    </PropertyGroup>
+    <MSBuild Projects="..\WinDeploy.Worker\WinDeploy.Worker.csproj" Targets="Publish"
+             Properties="Configuration=$(Configuration);RuntimeIdentifier=$(RuntimeIdentifier);SelfContained=true;PublishSingleFile=true;PublishDir=$(WorkerPublishDir)" />
+    <ItemGroup>
+      <ResolvedFileToPublish Include="$(WorkerPublishDir)WinDeploy.Worker.exe">
+        <RelativePath>Worker\WinDeploy.Worker.exe</RelativePath>
+        <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
   <Target Name="CopyPriToPublish" AfterTargets="Publish" Condition="Exists('$(TargetDir)WinDeploy.pri')">
     <Copy SourceFiles="$(TargetDir)WinDeploy.pri" DestinationFolder="$(PublishDir)" SkipUnchangedFiles="true" />
   </Target>

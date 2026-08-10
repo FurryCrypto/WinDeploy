@@ -146,19 +146,36 @@ public sealed class WizardCoordinator
         _window.SetStatus(result.IsValid ? _text.Get("StatusBootConfigurationReady") : _text.Get("StatusCompatibilityProblem"));
     }
 
-    public void ShowReviewPage()
+    public bool ShowReviewPage()
     {
-        if (Session.Image is null || Session.Edition is null || Session.DestinationDisk is null ||
-            Session.DestinationPartition is null || Session.BootPartition is null || Session.Compatibility is null) return;
-        var validation = _services.Compatibility.CheckImageCompatibility(Session.Image, Session.Edition,
-            Session.DestinationDisk, Session.DestinationPartition, Session.BootPartition, Session.Compatibility,
-            Session.BypassWindows11Requirements);
-        if (!validation.IsValid) return;
-        Session.Plan = _services.PlanFactory.Create(Session);
-        CurrentStep = 4;
-        _window.SetStep(4);
-        _window.PageFrame.Content = new ReviewPage(this, validation);
-        _window.SetStatus(_text.Get("StatusReviewPlan"));
+        try
+        {
+            if (Session.Image is null || Session.Edition is null || Session.DestinationDisk is null ||
+                Session.DestinationPartition is null || Session.BootPartition is null || Session.Compatibility is null)
+                throw new InvalidOperationException("The review session is incomplete.");
+
+            var validation = _services.Compatibility.CheckImageCompatibility(Session.Image, Session.Edition,
+                Session.DestinationDisk, Session.DestinationPartition, Session.BootPartition, Session.Compatibility,
+                Session.BypassWindows11Requirements);
+            if (!validation.IsValid)
+                throw new InvalidOperationException("The installation plan is no longer compatible.");
+
+            Session.Plan = _services.PlanFactory.Create(Session);
+            var reviewPage = new ReviewPage(this, validation);
+            CurrentStep = 4;
+            _window.SetStep(4);
+            _window.PageFrame.Content = reviewPage;
+            _window.SetStatus(_text.Get("StatusReviewPlan"));
+            StartupDiagnostics.Write($"Review page shown; plan {Session.Plan.ConfirmationFingerprint}");
+            return true;
+        }
+        catch (Exception exception)
+        {
+            Session.Plan = null;
+            StartupDiagnostics.Write($"Review navigation failed: {exception}");
+            _window.SetStatus(_text.Get("StatusError"));
+            return false;
+        }
     }
 
     public PlanValidationResult SetWindows11RequirementsBypass(bool enabled)

@@ -36,8 +36,13 @@
             </StackPanel>
         </ScrollViewer>
         <Grid Grid.Row="1" Margin="0,16,0,0">
-            <Button x:Uid="BackButton" Click="BackButton_Click" />
-            <Button x:Name="NextButton" x:Uid="ReviewInstallationButton" HorizontalAlignment="Right" Style="{StaticResource PrimaryButtonStyle}" Click="NextButton_Click" />
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Uid="BackButton" Click="BackButton_Click" />
+            <Button Grid.Column="2" x:Name="NextButton" x:Uid="ReviewInstallationButton" Style="{StaticResource PrimaryButtonStyle}" Click="NextButton_Click" />
         </Grid>
     </Grid>
 </Page>

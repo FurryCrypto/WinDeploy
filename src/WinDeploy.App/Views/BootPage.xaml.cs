@@ -117,5 +117,16 @@ public sealed partial class BootPage : Page
     }
 
     private void BackButton_Click(object sender, RoutedEventArgs e) => _coordinator.BackFrom(3);
-    private void NextButton_Click(object sender, RoutedEventArgs e) => _coordinator.ShowReviewPage();
+    private void NextButton_Click(object sender, RoutedEventArgs e)
+    {
+        StartupDiagnostics.Write("Review Installation clicked");
+        NextButton.IsEnabled = false;
+        if (_coordinator.ShowReviewPage()) return;
+
+        NextButton.IsEnabled = true;
+        ResultBar.Severity = InfoBarSeverity.Error;
+        ResultBar.Title = _text.Get("ErrorUnexpected");
+        ResultBar.Message = _text.Get("StatusError");
+        ResultBar.IsOpen = true;
+    }
 }

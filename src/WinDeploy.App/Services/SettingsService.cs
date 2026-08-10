@@ -46,6 +46,18 @@ public sealed class SettingsService
             "pl" => "pl-PL",
             "el" => "el-GR",
             "da" => "da-DK",
+            "nb" => "nb-NO",
+            "no" => "nb-NO",
+            "fi" => "fi-FI",
+            "sv" => "sv-SE",
+            "mn" => "mn-MN",
+            "hy" => "hy-AM",
+            "kk" => "kk-KZ",
+            "ba" => "ba-RU",
+            "tt" => "tt-RU",
+            "crh" => "crh-Latn",
+            "ab" => "ab-GE",
+            "os" => "os-GE",
             _ => ResolveSystemLanguage()
         };
     }
@@ -66,6 +78,18 @@ public sealed class SettingsService
             "pl" => "pl-PL",
             "el" => "el-GR",
             "da" => "da-DK",
+            "nb" => "nb-NO",
+            "no" => "nb-NO",
+            "fi" => "fi-FI",
+            "sv" => "sv-SE",
+            "mn" => "mn-MN",
+            "hy" => "hy-AM",
+            "kk" => "kk-KZ",
+            "ba" => "ba-RU",
+            "tt" => "tt-RU",
+            "crh" => "crh-Latn",
+            "ab" => "ab-GE",
+            "os" => "os-GE",
             _ => "en-US"
         };
     }

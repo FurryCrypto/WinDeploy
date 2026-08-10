@@ -1,0 +1,191 @@
+﻿# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+4097
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ASCII code page
+1200
+# RTL - anything else than RTL means LTR
+-
+# Translation by ..... (any credits should go here)
+# ^Branding
+Nullsoft qurulış sisteması%s
+# ^SetupCaption
+$(^Name)Qurulış
+# ^UninstallCaption
+$(^Name)Qurulmadan çıqaruv
+# ^LicenseSubCaption
+: Litsenziya añlaşması
+# ^ComponentsSubCaption
+: Qurulış variantları
+# ^DirSubCaption
+: Qurulış klasörı
+# ^InstallingSubCaption
+: Qurulması
+# ^CompletedSubCaption
+: Bitirilgen
+# ^UnComponentsSubCaption
+: Qurulmadan çıqaruv variantları
+# ^UnDirSubCaption
+: Qurulmadan çıqaruv klaster
+# ^ConfirmSubCaption
+Tavrı:
+# ^UninstallingSubCaption
+: Qurulmadan çıqaruv
+# ^UnCompletedSubCaption
+: Bitirilgen
+# ^BackBtn
+&quot;Yañıruv
+# ^NextBtn
+&Nektâ >
+# ^AgreeBtn
+Men &Aqılı
+# ^AcceptBtn
+Men litsenziya añlaşmasınıñ şartlarını qabul etem
+# ^DontAcceptBtn
+Men litsenziya añlaşmasınıñ şartlarını qabul etmem.
+# ^InstallBtn
+& İndirüv
+# ^UninstallBtn
+&Uninstall&uuml;r
+# ^CancelBtn
+lâğu etilmek
+# ^CloseBtn
+&close &clse
+# ^BrowseBtn
+B&rowse...
+# ^ShowDetailsBtn
+Gösteriñiz & detayllar
+# ^ClickNext
+devam etmek içün Next tıklañız.
+# ^ClickInstall
+Qurulışnı başlatmaq içün Qurulmaqta basıñız.
+# ^ClickUninstall
+Qurulmadan çıqaruvnı başlatmaq içün Uninstall-ı tıklañız.
+# ^Name
+Adı
+# ^Completed
+Bitirilgen
+# ^LicenseText
+Lütfen, qurulmadan evel litsenziya añlaşmasını baqıñız$(^NameDA)Añlaşmanıñ bütün şartlarını qabul etesiñiz, Men razı olğanımnı basıñız.
+# ^LicenseTextCB
+Lütfen, qurulmadan evel litsenziya añlaşmasını baqıñız$(^NameDA)Eger añlaşmanıñ bütün şartlarını qabul etesiñiz, aşağıdaki işaretleme saifesine basıñız.$_CLICK
+# ^LicenseTextRB
+Lütfen, qurulmadan evel litsenziya añlaşmasını baqıñız$(^NameDA)Eger añlaşmanıñ bütün şartlarını qabul etesiñiz, aşağıdaki birinci variantnı saylañız.$_CLICK
+# ^UnLicenseText
+Silâdan çıqmazdan evel litsenziyalı añlaşmanı baqıñız$(^NameDA)Añlaşmanıñ bütün şartlarını qabul etesiñiz, Men razı olğanımnı basıñız.
+# ^UnLicenseTextCB
+Silâdan çıqmazdan evel litsenziyalı añlaşmanı baqıñız$(^NameDA)Eger añlaşmanıñ bütün şartlarını qabul etesiñiz, aşağıdaki işaretleme saifesine basıñız.$_CLICK
+# ^UnLicenseTextRB
+Silâdan çıqmazdan evel litsenziyalı añlaşmanı baqıñız$(^NameDA)Eger añlaşmanıñ bütün şartlarını qabul etesiñiz, aşağıdaki birinci variantnı saylañız.$_CLICK
+# ^Custom
+Adetleşken
+# ^ComponentsText
+Qurmaq istegen komponentlerni teşkerip, qurmağa istemegen komponentlerini de teşkeriñiz.$_CLICK
+# ^ComponentsSubText1
+Qurulış türüni sayla:
+# ^ComponentsSubText2_NoInstTypes
+Qurmaq içün komponentlerni sayla:
+# ^ComponentsSubText2
+Ya da qurmaq istegen saylav komponentlerini sayla:
+# ^UnComponentsText
+Qurulmağa istegen komponentlerni teşkerip, qurulmağa istemegen komponentlarnı teşkirip çıqıñız.$_CLICK
+# ^UnComponentsSubText1
+Qurulmadan çıqaruv türüni sayla:
+# ^UnComponentsSubText2_NoInstTypes
+Qurulmadan çıqaruv içün komponentlerni sayla:
+# ^UnComponentsSubText2
+Ya da, qurulmasını lâğu etmege istegen saylav komponentlerini sayla:
+# ^DirText
+Qurulış qurulacaq$(^NameDA)Aşağıdaki klasörde. Farqlı klasörge quraşdırmaq içün "Taraqlan" ve diger klasörni saylañız.$_CLICK
+# ^DirSubText
+Yañı yerler
+# ^DirBrowseText
+Qurmaq içün klaserni sayla$(^NameDA)içinde:
+# ^UnDirText
+Qurulışnı yoq etecek$(^NameDA)Aşağıdaki klasardan. Farqlı klasardan qurulmasını yoq etmek içün, Tarla ve başqa klasmanı saylañız.$_CLICK
+# ^UnDirSubText
+" " - dep aytılğan edi .
+# ^UnDirBrowseText
+Qurtarmaq içün klaskanı sayla$(^NameDA)Qırımdan:
+# ^SpaceAvailable
+"Yazıq yer:
+# ^SpaceRequired
+"Yañı yer kerek:
+# ^UninstallingText
+$(^NameDA)aşağıdaki klasörden yoq etilecek.$_CLICK
+# ^UninstallingSubText
+Qurulmadan çıqaruv:
+# ^FileError
+Yazmaq içün açılış hata dosyası:\r\n\r\n$0\r\n\r\nQurulışnı toqtatmaq içün Abort tıklañız,\r\nYa da tekrar tırışacaqsıñız, ya da\r\nBu dosyanı atlamañız.
+# ^FileError_NoIgnore
+Yazmaq içün açılış hata dosyası:\r\n\r\n$0\r\n\r\nYa da tekrar teşkermek içün Tekrar denege basıñız\r\nQurulışnı toqtatmaq içün lâğu et.
+# ^CantWrite
+"Yazmağanım:
+# ^CopyFailed
+Kopiyada hata oldı
+# ^CopyTo
+"Kopiyâ"
+# ^Registering
+"Qırımda qayd etilüv:
+# ^Unregistering
+"Qeyri qayd etilgen:
+# ^SymbolNotFound
+"Simbol tapıp olamadım:
+# ^CouldNotLoad
+"Yüklemege imkânsız:
+# ^CreateFolder
+"Küpçege yarat: "
+# ^CreateShortcut
+"Yasarılğan qısqartma: "
+# ^CreatedUninstaller
+"Yaratılğan qurulışsızlaştırıcı: "
+# ^Delete
+"Faylni sil: "
+# ^DeleteOnReboot
+"Yañı başlatılğanını sil: "
+# ^ErrorCreatingShortcut
+"Yañı yol yaratma hatası:
+# ^ErrorCreating
+"Yaratılğan hata: "
+# ^ErrorDecompressing
+Malümatnı darqatma hata!
+# ^ErrorRegistering
+DLL qayd etilüv hatası
+# ^ExecShell
+"ExecShell: "
+# ^Exec
+"Aqıl:
+# ^Extract
+"Köp: "
+# ^ErrorWriting
+"Köp: faylğa yazma hata"
+# ^InvalidOpcode
+Qurıcı bozulğan: qanunsız opkod
+# ^NoOLE
+"OLE yoq: "
+# ^OutputFolder
+"Yıqış klaskası: "
+# ^RemoveFolder
+"Küpçege çıqar: "
+# ^RenameOnReboot
+"Yañı başlatılğanında adnı deñiştir:
+# ^Rename
+"Aqalanıp adlandır:
+# ^Skipped
+"Saptırıldı:
+# ^CopyDetails
+Detayllerni klipbordqa kopiy et
+# ^LogInstall
+Log yüklemesi esnası
+# ^Byte
+B. Qırım
+# ^Kilo
+K.
+# ^Mega
+M.
+# ^Giga
+G.

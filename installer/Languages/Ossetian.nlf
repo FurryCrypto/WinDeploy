@@ -1,0 +1,191 @@
+﻿# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+4099
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ASCII code page
+1200
+# RTL - anything else than RTL means LTR
+-
+# Translation by ..... (any credits should go here)
+# ^Branding
+Сӕвӕрын системӕ ӕнӕхъӕнӕй%s
+# ^SetupCaption
+$(^Name)Бавæрд
+# ^UninstallCaption
+$(^Name)Схафын
+# ^LicenseSubCaption
+: Лицензионы договор
+# ^ComponentsSubCaption
+: Ӕвӕрын фагæнтæ
+# ^DirSubCaption
+: Ӕвӕрд папкӕ
+# ^InstallingSubCaption
+: Сӕвӕрын
+# ^CompletedSubCaption
+: Саразӕн
+# ^UnComponentsSubCaption
+: Ахицӕн кӕнын фадат
+# ^UnDirSubCaption
+: Схафын папкӕ
+# ^ConfirmSubCaption
+: Фӕдзӕхст
+# ^UninstallingSubCaption
+: Схафын
+# ^UnCompletedSubCaption
+: Саразӕн
+# ^BackBtn
+< &Размӕцыд
+# ^NextBtn
+& Дарддӕр >
+# ^AgreeBtn
+Ӕнӕцӕгӕн
+# ^AcceptBtn
+Ӕз айстан Лицензивӕны бадзырды цы уагӕвӕрдтӕ ис
+# ^DontAcceptBtn
+& Ӕз нӕ айстан, Лицензивы бадзырды цы уагӕвӕрдтӕ ис, уыдонмӕ
+# ^InstallBtn
+&Сӕвӕрын
+# ^UninstallBtn
+& Хицæн кæнын
+# ^CancelBtn
+Ныууадзын
+# ^CloseBtn
+& Хкъæн
+# ^BrowseBtn
+Б&ауӕй...
+# ^ShowDetailsBtn
+Æвдисын лӕмбынӕг
+# ^ClickNext
+Фӕстӕмӕ амонынӕн - иу ныр дӕр амон.
+# ^ClickInstall
+Бахъусӕн ӕвӕрынӕн.
+# ^ClickUninstall
+Ныууадзынӕн кликын сӕ, цӕмӕй ногӕй бахицӕн уай.
+# ^Name
+Ном
+# ^Completed
+Ӕвзарын
+# ^LicenseText
+Дӕ хорзӕхӕй, бафӕлварӕны лантантæнгмӕ нӕ ӕвӕрын$(^NameDA). Кӕд дӕуӕн дӕр дӕ уагӕвӕрдтӕ ӕххӕст кӕнай, уӕд кнопк мӕнмӕ гӕсгӕ цӕрын.
+# ^LicenseTextCB
+Дӕ хорзӕхӕй, бафӕлварӕны лантантæнгмӕ нӕ ӕвӕрын$(^NameDA). Кӕд бадзырды алкӕцыдӕр уагӕвӕрдтӕм гӕсгӕ архайыс, уӕд фынӕйы фӕдыл дӕхи бакӕн.$_CLICK
+# ^LicenseTextRB
+Дӕ хорзӕхӕй, бафӕлварӕны лантантæнгмӕ нӕ вӕрын.$(^NameDA). Кӕд дӕ бадзырды алкӕцыдӕр уагӕвӕрдтӕм гӕсгӕ архайыс, уӕд равзарын фыццаг миниуӕг.$_CLICK
+# ^UnLicenseText
+Ныффыс ӕй, размӕ дӕ бартӕ кæнын уай, лӕмбынӕг кӕй бамбӕрстай.$(^NameDA). Кӕд дӕуӕн дӕр дӕ уагӕвӕрдтӕ ӕххӕст кӕнай, уӕд кнопк мӕнмӕ гӕсгӕ цӕрын.
+# ^UnLicenseTextCB
+Ныффыс ӕй, размӕ дӕ бартӕ кæнын уай, лӕмбынӕг кӕй бамбӕрстай.$(^NameDA). Кӕд бадзырды алкӕцыдӕр уагӕвӕрдтӕм гӕсгӕ архайыс, уӕд фынӕйы фӕдыл дӕхи бакӕн.$_CLICK
+# ^UnLicenseTextRB
+Ныффыс ӕй, размӕ дӕ бартӕ кæнын уай, лӕмбынӕг кӕй бамбӕрстай.$(^NameDA). Кӕд дӕ бадзырды алкӕцыдӕр уагӕвӕрдтӕм гӕсгӕ архайыс, уӕд равзарын фыццаг миниуӕг.$_CLICK
+# ^Custom
+Фӕлындӕнтӕ
+# ^ComponentsText
+Нæ дӕ сӕвӕрын ӕмӕ хицӕн кӕнын, кæнын нӕ фӕнды, кӕцы компоненттӕ сӕвӕрын.$_CLICK
+# ^ComponentsSubText1
+Равзарын сӕвӕрыны хуыз:
+# ^ComponentsSubText2_NoInstTypes
+Сӕвӕрынӕн компоненттӕ равзарын:
+# ^ComponentsSubText2
+кӕнӕ равзарын, дӕ бон у сӕвӕрын æйраг бузныг:
+# ^UnComponentsText
+Нæ дӕ нӕ фӕфӕнды, кæнын кӕцыдӕр компоненты равдисын ӕмӕ аивын.$_CLICK
+# ^UnComponentsSubText1
+Равзарын хицӕн кӕныны хуыз:
+# ^UnComponentsSubText2_NoInstTypes
+Равзарын кæнын сӕвӕрын:
+# ^UnComponentsSubText2
+Кӕнӕ равзарын, дӕ бон цы у ахицӕн кӕнын:
+# ^DirText
+Бавӕрын ӕй кӕндзӕн$(^NameDA)иннӕ папкӕйы. Цӕмӕй ӕндӕр папкӕмӕ сӕвӕрат, бакӕнын ӕмӕ ӕндӕр папка равзарын.$_CLICK
+# ^DirSubText
+Бафыдæрст папкӕ
+# ^DirBrowseText
+Равзарын фадæттæйы$(^NameDA)ӕвзаг:
+# ^UnDirText
+Ӕвзӕрст уыдзӕн ногӕй$(^NameDA)ахицӕн папкӕйӕ. Цӕмӕй хицӕн папкайӕ схайджын уай, бакӕнын ӕмӕ ӕндӕр папкӕ равзарын.$_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+Равзарын папкӕ, хицӕн кӕнынӕн$(^NameDA)хӕстӕг:
+# ^SpaceAvailable
+"Базон:"
+# ^SpaceRequired
+"Бауӕнкъо:"
+# ^UninstallingText
+$(^NameDA)дыккаг папкӕйӕ хицӕн кӕндзыстӕм.$_CLICK
+# ^UninstallingSubText
+Схафын:
+# ^FileError
+Файл баивынмӕ рæд ӕрцыд:\r\n\r\n$0\r\n\r\nӔвӕрынӕн хизынӕн мыхуыр кӕнын\r\nНогӕй бафӕлварын, кӕнӕ\r\nНӕ ивын ацы файлӕй иууылдӕр
+# ^FileError_NoIgnore
+Файл баивынмӕ рæд ӕрцыд:\r\n\r\n$0\r\n\r\nФӕлхатын - иу ногӕй бафӕлварынӕн, кӕнӕ\r\nӔвӕрынӕн айрох кӕнын.
+# ^CantWrite
+"Нӕ ис бафыссын:"
+# ^CopyFailed
+Копy фӕрӕдыд
+# ^CopyTo
+« Скъопи кӕнын »
+# ^Registering
+« Радзырдтам: »
+# ^Unregistering
+« Нӕ бахизӕн ис: »
+# ^SymbolNotFound
+"Нӕ ссардтон амонгӕ:"
+# ^CouldNotLoad
+"Нӕ уаргъ бавзарынӕн."
+# ^CreateFolder
+« Сфӕлдыста папкӕ: »
+# ^CreateShortcut
+« Баивын фӕрстӕн: »
+# ^CreatedUninstaller
+"Сфӕлдыста ӕнӕхицӕн кӕныны:"
+# ^Delete
+« Файл сафын: »
+# ^DeleteOnReboot
+« Ногӕй ногӕй ивыны рӕстӕджы схафын: »
+# ^ErrorCreatingShortcut
+Рӕдыд ӕрцыд саразын фӕрстконды: "
+# ^ErrorCreating
+« Рӕдыд ӕрцыд аразын: »
+# ^ErrorDecompressing
+Рӕдыд ӕрцыд деקопи кӕныны ныв! Сӕйраг сӕвӕрӕджы схайджын?
+# ^ErrorRegistering
+Рӕдыд ӕрцыд бахизын DLL
+# ^ExecShell
+"ExecShell:"
+# ^Exec
+« Ӕвзарын: »
+# ^Extract
+« Бафыссын: »
+# ^ErrorWriting
+Ныффыс: нӕ бафыссы файлмӕ.
+# ^InvalidOpcode
+Ивæрдгӕнӕджы хаст ӕрцыд: рӕдыд opcode
+# ^NoOLE
+"Нӕ, ӕвӕццӕгӕн:"
+# ^OutputFolder
+"Ӕрыхст папкӕ:"
+# ^RemoveFolder
+"Схаф папкӕ:"
+# ^RenameOnReboot
+« Номдӕттӕг ногӕй баиу кӕныны рӕстӕджы: »
+# ^Rename
+« Номт: »
+# ^Skipped
+« Ӕрбауагъта: »
+# ^CopyDetails
+Лӕмбынӕг баивӕнмӕ скъопи кӕнын
+# ^LogInstall
+Равзӕрын
+# ^Byte
+В
+# ^Kilo
+К
+# ^Mega
+М
+# ^Giga
+Г

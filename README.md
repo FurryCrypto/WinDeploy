@@ -2,9 +2,10 @@
 
 WinDeploy is a native Windows desktop utility for applying a Windows installation image directly to one existing partition, installing the matching boot files, verifying the result, and then restarting into the deployed system. It does not use Electron or embedded web content.
 
-Two native editions are maintained in this repository:
+Three native editions are maintained in this repository:
 
 - **Windows 10/11 edition:** C#, .NET 8, and WinUI 3.
+- **Windows 8/8.1 edition:** C#, .NET Framework 4.6.1, and WPF with the same Windows 10-style interface.
 - **Windows 7 edition:** C#, .NET Framework 4.8, and WPF, with Aero integration and a Windows 7 Basic fallback.
 
 > [!CAUTION]
@@ -16,26 +17,39 @@ The application includes multiple safety checks and refuses workflows it cannot 
 
 | Edition | Host operating system | UI framework | Availability |
 | --- | --- | --- | --- |
-| Windows 10/11 | Windows 10 or Windows 11 | .NET 8 and WinUI 3 | Released |
-| Windows 7 | Windows 7 SP1 or later | .NET Framework 4.8 and WPF | Released in v0.1.7 |
+| Windows 10/11 | Windows 10 or Windows 11 | .NET 8 and WinUI 3 | Version 0.1.12 |
+| Windows 8/8.1 | Windows 8 or Windows 8.1 | .NET Framework 4.6.1 and WPF | Version 0.1.11 |
+| Windows 7 | Windows 7 SP1 or later | .NET Framework 4.8 and WPF | Version 0.1.10 |
 
-The Windows 7-compatible edition has now been added under [`windows7/`](windows7/). It preserves the same six-page installation workflow, safety model, features, controls, localization, and elevated-worker separation while replacing Windows 10-only platform dependencies. The Windows 7 installer and checksum manifest are available from the [v0.1.7 release](https://github.com/FurryCrypto/WinDeploy/releases/tag/v0.1.7).
+The Windows 7-compatible edition has now been added under [`windows7/`](windows7/). It preserves the same six-page installation workflow, safety model, features, controls, localization, and elevated-worker separation while replacing Windows 10-only platform dependencies.
+
+The Windows 8/8.1 edition is isolated under [`windows8/`](windows8/). It targets .NET Framework 4.6.1 for genuine Windows 8 support, bundles its Windows 10-style vector UI, and has separate executable, settings, worker, installer, registry, Start-menu, and uninstall identities. It does not replace either existing edition.
+
+## Downloads
+
+The [latest release](https://github.com/FurryCrypto/WinDeploy/releases/latest) contains one installer for each supported host edition and a matching SHA-256 checksum file:
+
+- `WinDeploy-Setup-0.1.12.exe` for Windows 10 and Windows 11.
+- `WinDeploy-Windows8-Setup-0.1.11.exe` for Windows 8 and Windows 8.1.
+- `WinDeploy-Windows7-Setup-0.1.10.exe` for Windows 7 SP1.
+
+Portable builds are not published. Review the [changelog](CHANGELOG.md) before installing.
 
 ## Supported first-release workflow
 
-- Host application: Windows 7 SP1, Windows 10, or Windows 11, using the corresponding native edition.
+- Host application: Windows 7 SP1, Windows 8/8.1, Windows 10, or Windows 11, using the corresponding native edition.
 - Source files: `.iso`, `.wim`, and `.esd`.
 - Image deployment: Windows 7, 8, 8.1, 10, and 11 WIM/ESD indexes.
 - Destination: one existing, suitable partition on an enumerated physical disk.
 - Firmware layouts: UEFI/GPT and Legacy BIOS/MBR when the image and machine support them.
 - Boot files: an existing same-disk EFI System Partition for UEFI, or an existing active NTFS partition for BIOS.
-- Languages: English, French, German, Luxembourgish, Serbian (Latin), Russian, Simplified Chinese, Spanish, Polish, Greek, and Danish, plus system-language selection.
+- Application and installer languages in every edition: English, French, German, Luxembourgish, Serbian (Latin), Russian, Simplified Chinese, Spanish, Polish, Greek, Danish, Norwegian, Finnish, Swedish, Mongolian (Cyrillic), Armenian, Kazakh, Bashkir, Tatar, Crimean Tatar, Abkhazian, and Ossetian, plus system-language selection.
 
 Windows Vista media is routed to the separate legacy NT6 engine and Windows XP media to the legacy NT5 engine. Those engines deliberately report that they are unavailable instead of attempting an invalid WIM-era deployment. Split `install.swm` media, raw/unpartitioned disks, partition creation, and cross-disk EFI modification are blocked in this release. Unsupported Windows 11 hardware remains blocked by default; Advanced Mode provides a separately confirmed bypass for CPU, TPM, Secure Boot, RAM, storage, and UEFI policy checks while retaining architecture, disk-identity, partition, and boot safety checks.
 
 ## Safety architecture
 
-The unelevated UI process (WinUI on Windows 10/11 or WPF on Windows 7) performs inspection and planning. Installation creates an immutable `InstallationPlan` containing the source metadata, WIM index, disk PnP ID and serial, disk size and scheme, partition number, offset, length, GUID, boot partition, and firmware mode. The confirmation page shows the target model, disk number, partition number, drive letter, label, and capacity.
+The unelevated UI process (WinUI on Windows 10/11 or WPF on Windows 7/8/8.1) performs inspection and planning. Installation creates an immutable `InstallationPlan` containing the source metadata, WIM index, disk PnP ID and serial, disk size and scheme, partition number, offset, length, GUID, boot partition, and firmware mode. The confirmation page shows the target model, disk number, partition number, drive letter, label, and capacity.
 
 Only after confirmation does WinDeploy launch `WinDeploy.Worker.exe` with UAC. The worker:
 
@@ -82,12 +96,30 @@ windows7\tests\WinDeploy.Windows7.Tests\bin\Release\net48\WinDeploy.Windows7.Tes
 
 The Windows 7 edition reads ISO/UDF media directly because Windows 7 does not provide `Mount-DiskImage`. It uses ManagedWimLib/wimlib for WIM and ESD operations, WMI for disk enumeration, a validated narrowly scoped DiskPart operation, and the host's BCDBoot. See the dedicated [Windows 7 documentation](windows7/README.md) for details. Its installer is published separately from the Windows 10/11 package.
 
+## Build the Windows 8/8.1 edition
+
+Requirements:
+
+- Windows 8 or Windows 8.1 desktop (x86 or x64; Windows RT is not supported)
+- .NET Framework 4.6.1 or a later compatible in-place .NET Framework 4.x runtime
+- A current .NET SDK for building; reference assemblies restore automatically
+
+```powershell
+dotnet build windows8\WinDeploy.Windows8.sln -c Release
+windows8\tests\WinDeploy.Windows8.Tests\bin\Release\net461\WinDeploy.Windows8.Tests.exe
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File windows8\installer\build-installer.ps1
+```
+
+This edition uses direct ISO/UDF reading, ManagedWimLib/wimlib 1.14.3, WMI disk enumeration, an immutable validated plan, narrowly scoped DiskPart formatting, and the host's BCDBoot. See [the Windows 8/8.1 documentation](windows8/README.md). The installer intentionally accepts only Windows 8 and Windows 8.1 hosts.
+
 ## Logs
 
-Installation logs are written to:
+Installation logs are written to the edition-specific local application-data directory:
 
 ```text
-%LOCALAPPDATA%\WinDeploy\Logs\Install-yyyy-MM-dd-HHmmss.log
+Windows 10/11: %LOCALAPPDATA%\WinDeploy\Logs\Install-yyyy-MM-dd-HHmmss.log
+Windows 8/8.1: %LOCALAPPDATA%\WinDeployWindows8\Logs\Install-yyyy-MM-dd-HHmmss.log
+Windows 7:     %LOCALAPPDATA%\WinDeployWindows7\Logs\Install-yyyy-MM-dd-HHmmss.log
 ```
 
 Logs include the selected image/index, stable disk and partition identifiers, commands, output, exit codes, elapsed times, verification stages, and failures. They intentionally avoid collecting credentials or unrelated user data.
@@ -107,6 +139,10 @@ windows7/
   src/                 separate WPF/.NET Framework 4.8 application, core, and worker
   tests/               Windows 7-compatible safety tests
   installer/           installer source (no untested binary is published)
+windows8/
+  src/                 separate WPF/.NET Framework 4.6.1 application, core, and worker
+  tests/               Windows 8/8.1-compatible safety and integration tests
+  installer/           distinct Windows 8/8.1 installer source
 ```
 
 DISM `/Apply-Image` and its verification options are documented in Microsoft's [DISM image-management reference](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-image-management-command-line-options-s14?view=windows-11). WIM metadata is read with Microsoft's [Windows Imaging API](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/wim/dd834949%28v%3Dmsdn.10%29?view=windows-11).

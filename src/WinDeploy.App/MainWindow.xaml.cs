@@ -84,6 +84,17 @@ public sealed partial class MainWindow : Window
         language.Items.Add(new ComboBoxItem { Content = "Polski", Tag = "pl" });
         language.Items.Add(new ComboBoxItem { Content = "Ελληνικά", Tag = "el" });
         language.Items.Add(new ComboBoxItem { Content = "Dansk", Tag = "da" });
+        language.Items.Add(new ComboBoxItem { Content = "Norsk", Tag = "nb" });
+        language.Items.Add(new ComboBoxItem { Content = "Suomi", Tag = "fi" });
+        language.Items.Add(new ComboBoxItem { Content = "Svenska", Tag = "sv" });
+        language.Items.Add(new ComboBoxItem { Content = "Монгол", Tag = "mn" });
+        language.Items.Add(new ComboBoxItem { Content = "Հայերեն", Tag = "hy" });
+        language.Items.Add(new ComboBoxItem { Content = "Қазақша", Tag = "kk" });
+        language.Items.Add(new ComboBoxItem { Content = "Башҡортса", Tag = "ba" });
+        language.Items.Add(new ComboBoxItem { Content = "Татарча", Tag = "tt" });
+        language.Items.Add(new ComboBoxItem { Content = "Qırımtatarca", Tag = "crh" });
+        language.Items.Add(new ComboBoxItem { Content = "Аҧсшәа", Tag = "ab" });
+        language.Items.Add(new ComboBoxItem { Content = "Ирон", Tag = "os" });
         language.SelectedItem = language.Items.Cast<ComboBoxItem>().FirstOrDefault(item =>
             string.Equals((string)item.Tag, App.Services.Settings.Current.Language, StringComparison.Ordinal)) ?? language.Items[0];
         var advanced = new CheckBox { Content = _text.Get("AdvancedMode"), IsChecked = App.Services.Settings.Current.AdvancedMode };

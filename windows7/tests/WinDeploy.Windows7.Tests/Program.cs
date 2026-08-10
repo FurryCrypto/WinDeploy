@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using WinDeploy.Windows7.Core.Models;
 using WinDeploy.Windows7.Core.Services;
@@ -84,12 +85,24 @@ internal static class Program
     {
         var root = FindRepositoryRoot(); var strings = Path.Combine(root, "windows7", "src", "WinDeploy.Windows7.App", "Strings");
         var english = Keys(Path.Combine(strings, "en-US", "Resources.resw"));
+        var englishValues = Values(Path.Combine(strings, "en-US", "Resources.resw"));
         foreach (var file in Directory.GetFiles(strings, "Resources.resw", SearchOption.AllDirectories))
         {
             var missing = english.Except(Keys(file)).ToArray();
             Require(missing.Length == 0, Path.GetDirectoryName(file) + " is missing " + missing.Length + " keys");
+            var translated = Values(file);
+            Require(translated.Count == englishValues.Count && englishValues.All(item =>
+                    translated.ContainsKey(item.Key) && !string.IsNullOrWhiteSpace(translated[item.Key]) &&
+                    Placeholders(item.Value) == Placeholders(translated[item.Key])),
+                Path.GetDirectoryName(file) + " has incomplete values or placeholders");
         }
-        Require(Directory.GetFiles(strings, "Resources.resw", SearchOption.AllDirectories).Length == 11, "all 11 languages were not preserved");
+        Require(Directory.GetFiles(strings, "Resources.resw", SearchOption.AllDirectories).Length == 22, "all 22 languages were not preserved");
+        var selector = File.ReadAllText(Path.Combine(root, "windows7", "src", "WinDeploy.Windows7.App", "SettingsWindow.xaml.cs"));
+        var settings = File.ReadAllText(Path.Combine(root, "windows7", "src", "WinDeploy.Windows7.App", "Services", "SettingsService.cs"));
+        Require(new[] { "nb", "fi", "sv", "mn", "hy", "kk", "ba", "tt", "crh", "ab", "os" }.All(code => selector.IndexOf("\"" + code + "\"", StringComparison.Ordinal) >= 0),
+            "all new languages are registered in the selector");
+        Require(new[] { "nb-NO", "fi-FI", "sv-SE", "mn-MN", "hy-AM", "kk-KZ", "ba-RU", "tt-RU", "crh-Latn", "ab-GE", "os-GE" }.All(culture => settings.IndexOf("\"" + culture + "\"", StringComparison.Ordinal) >= 0),
+            "all new cultures are registered for system-language detection");
     }
     private static void TestDiskEnumeration()
     {
@@ -98,6 +111,9 @@ internal static class Program
         Require(disks.All(x => x.SizeBytes > 0), "invalid disk size returned");
     }
     private static HashSet<string> Keys(string path) => new HashSet<string>(XDocument.Load(path).Descendants("data").Select(x => x.Attribute("name")?.Value).Where(x => x != null)!);
+    private static Dictionary<string, string> Values(string path) => XDocument.Load(path).Descendants("data")
+        .Where(x => x.Attribute("name") != null).ToDictionary(x => x.Attribute("name")!.Value, x => x.Element("value")?.Value ?? "");
+    private static string Placeholders(string value) => string.Join("|", Regex.Matches(value, @"\{\d+\}").Cast<Match>().Select(x => x.Value).OrderBy(x => x));
     private static string FindRepositoryRoot()
     {
         var directory = new DirectoryInfo(Environment.CurrentDirectory);

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>WinDeploy.Windows8</AssemblyName>
+    <RootNamespace>WinDeploy.Windows8</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <ApplicationIcon Condition="Exists('Assets\WinDeploy.Windows8.ico')">Assets\WinDeploy.Windows8.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net461" Version="1.0.3" PrivateAssets="all" />
+    <ProjectReference Include="..\WinDeploy.Windows8.Core\WinDeploy.Windows8.Core.csproj" />
+    <ProjectReference Include="..\WinDeploy.Windows8.Worker\WinDeploy.Windows8.Worker.csproj" ReferenceOutputAssembly="false" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Strings\**\*.resw"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Resource Include="Assets\WinDeploy.Windows8.ico" Condition="Exists('Assets\WinDeploy.Windows8.ico')" />
+  </ItemGroup>
+  <Target Name="CopyWorker" AfterTargets="Build">
+    <ItemGroup><WorkerFiles Include="..\WinDeploy.Windows8.Worker\bin\$(Configuration)\net461\**\*" /></ItemGroup>
+    <Copy SourceFiles="@(WorkerFiles)" DestinationFiles="@(WorkerFiles->'$(OutDir)Worker\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

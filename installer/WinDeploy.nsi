@@ -6,7 +6,7 @@ Unicode true
 !include "WinVer.nsh"
 
 !ifndef APP_VERSION
-  !define APP_VERSION "0.1.7"
+  !define APP_VERSION "0.1.12"
 !endif
 !ifndef APP_SOURCE
   !error "APP_SOURCE must point to the self-contained WinDeploy publish directory."
@@ -41,7 +41,7 @@ AutoCloseWindow false
 BrandingText "WinDeploy"
 Icon "${APP_ICON}"
 UninstallIcon "${APP_ICON}"
-VIProductVersion "0.1.7.0"
+VIProductVersion "0.1.12.0"
 VIAddVersionKey /LANG=1033 "ProductName" "WinDeploy"
 VIAddVersionKey /LANG=1033 "ProductVersion" "${APP_VERSION}"
 VIAddVersionKey /LANG=1033 "FileDescription" "WinDeploy Setup"
@@ -56,13 +56,16 @@ VIAddVersionKey /LANG=1033 "LegalCopyright" "Copyright (c) 2026 WinDeploy Projec
 !define MUI_LANGDLL_REGISTRY_KEY "${APP_REG_KEY}"
 !define MUI_LANGDLL_REGISTRY_VALUENAME "InstallerLanguage"
 
+!define MUI_WELCOMEPAGE_TITLE_3LINES
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_INSTFILES
+!define MUI_FINISHPAGE_TITLE_3LINES
 !insertmacro MUI_PAGE_FINISH
 
 !insertmacro MUI_UNPAGE_CONFIRM
 !insertmacro MUI_UNPAGE_INSTFILES
+!define MUI_FINISHPAGE_TITLE_3LINES
 !insertmacro MUI_UNPAGE_FINISH
 
 !insertmacro MUI_LANGUAGE "English"
@@ -76,6 +79,17 @@ VIAddVersionKey /LANG=1033 "LegalCopyright" "Copyright (c) 2026 WinDeploy Projec
 !insertmacro MUI_LANGUAGE "Polish"
 !insertmacro MUI_LANGUAGE "Greek"
 !insertmacro MUI_LANGUAGE "Danish"
+!insertmacro MUI_LANGUAGE "Norwegian"
+!insertmacro MUI_LANGUAGE "Finnish"
+!insertmacro MUI_LANGUAGE "Swedish"
+!insertmacro MUI_LANGUAGE "Mongolian"
+!insertmacro MUI_LANGUAGE "Armenian"
+!insertmacro MUI_LANGUAGE "Tatar"
+!insertmacro MUI_LANGUAGEEX "${__FILEDIR__}\Languages" "Kazakh"
+!insertmacro MUI_LANGUAGEEX "${__FILEDIR__}\Languages" "Bashkir"
+!insertmacro MUI_LANGUAGEEX "${__FILEDIR__}\Languages" "CrimeanTatar"
+!insertmacro MUI_LANGUAGEEX "${__FILEDIR__}\Languages" "Abkhazian"
+!insertmacro MUI_LANGUAGEEX "${__FILEDIR__}\Languages" "Ossetian"
 
 LangString UnsupportedWindows ${LANG_ENGLISH} "WinDeploy requires Windows 10 or Windows 11."
 LangString UnsupportedWindows ${LANG_FRENCH} "WinDeploy nécessite Windows 10 ou Windows 11."
@@ -88,6 +102,17 @@ LangString UnsupportedWindows ${LANG_SPANISH} "WinDeploy requiere Windows 10 o W
 LangString UnsupportedWindows ${LANG_POLISH} "WinDeploy wymaga systemu Windows 10 lub Windows 11."
 LangString UnsupportedWindows ${LANG_GREEK} "Το WinDeploy απαιτεί Windows 10 ή Windows 11."
 LangString UnsupportedWindows ${LANG_DANISH} "WinDeploy kræver Windows 10 eller Windows 11."
+LangString UnsupportedWindows ${LANG_NORWEGIAN} "WinDeploy krever Windows 10 eller Windows 11."
+LangString UnsupportedWindows ${LANG_FINNISH} "WinDeploy vaatii Windows 10:n tai Windows 11:n."
+LangString UnsupportedWindows ${LANG_SWEDISH} "WinDeploy kräver Windows 10 eller Windows 11."
+LangString UnsupportedWindows ${LANG_MONGOLIAN} "WinDeploy-д Windows 10 эсвэл Windows 11 шаардлагатай."
+LangString UnsupportedWindows ${LANG_ARMENIAN} "WinDeploy-ի համար անհրաժեշտ է Windows 10 կամ Windows 11։"
+LangString UnsupportedWindows ${LANG_KAZAKH} "WinDeploy бағдарламасына Windows 10 немесе Windows 11 қажет."
+LangString UnsupportedWindows ${LANG_BASHKIR} "WinDeploy өсөн Windows 10 йәки Windows 11 кәрәк."
+LangString UnsupportedWindows ${LANG_TATAR} "WinDeploy өчен Windows 10 яки Windows 11 кирәк."
+LangString UnsupportedWindows ${LANG_CRIMEANTATAR} "WinDeploy içün Windows 10 ya da Windows 11 kerek."
+LangString UnsupportedWindows ${LANG_ABKHAZIAN} "WinDeploy азы Windows 10 ма Windows 11 аҭахуп."
+LangString UnsupportedWindows ${LANG_OSSETIAN} "WinDeploy-æн Windows 10 кæнæ Windows 11 хъæуы."
 
 LangString UnsupportedArchitecture ${LANG_ENGLISH} "This WinDeploy build requires 64-bit Windows (x64)."
 LangString UnsupportedArchitecture ${LANG_FRENCH} "Cette version de WinDeploy nécessite Windows 64 bits (x64)."
@@ -100,6 +125,17 @@ LangString UnsupportedArchitecture ${LANG_SPANISH} "Esta versión de WinDeploy r
 LangString UnsupportedArchitecture ${LANG_POLISH} "Ta wersja WinDeploy wymaga 64-bitowego systemu Windows (x64)."
 LangString UnsupportedArchitecture ${LANG_GREEK} "Αυτή η έκδοση του WinDeploy απαιτεί Windows 64 bit (x64)."
 LangString UnsupportedArchitecture ${LANG_DANISH} "Denne version af WinDeploy kræver 64-bit Windows (x64)."
+LangString UnsupportedArchitecture ${LANG_NORWEGIAN} "Denne WinDeploy-versjonen krever 64-biters Windows (x64)."
+LangString UnsupportedArchitecture ${LANG_FINNISH} "Tämä WinDeploy-versio vaatii 64-bittisen Windowsin (x64)."
+LangString UnsupportedArchitecture ${LANG_SWEDISH} "Den här WinDeploy-versionen kräver 64-bitars Windows (x64)."
+LangString UnsupportedArchitecture ${LANG_MONGOLIAN} "Энэ WinDeploy хувилбарт 64 битийн Windows (x64) шаардлагатай."
+LangString UnsupportedArchitecture ${LANG_ARMENIAN} "WinDeploy-ի այս տարբերակի համար անհրաժեշտ է 64-բիթանոց Windows (x64)։"
+LangString UnsupportedArchitecture ${LANG_KAZAKH} "WinDeploy бағдарламасының бұл нұсқасына 64 биттік Windows (x64) қажет."
+LangString UnsupportedArchitecture ${LANG_BASHKIR} "WinDeploy-ҙың был версияһы 64-битлы Windows (x64) талап итә."
+LangString UnsupportedArchitecture ${LANG_TATAR} "WinDeploy-ның бу версиясе 64 битлы Windows (x64) таләп итә."
+LangString UnsupportedArchitecture ${LANG_CRIMEANTATAR} "WinDeploy-niñ bu sürümi 64-bit Windows (x64) talap ete."
+LangString UnsupportedArchitecture ${LANG_ABKHAZIAN} "WinDeploy ари аверсиа 64-биттә Windows (x64) аҭахуп."
+LangString UnsupportedArchitecture ${LANG_OSSETIAN} "Ацы WinDeploy-ы версийæн 64-битон Windows (x64) хъæуы."
 
 Function .onInit
   !insertmacro MUI_LANGDLL_DISPLAY

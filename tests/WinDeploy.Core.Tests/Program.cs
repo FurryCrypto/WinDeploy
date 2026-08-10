@@ -1,4 +1,6 @@
 using System.Text.Json;
+using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using WinDeploy.Core.Models;
 using WinDeploy.Core.Services;
 
@@ -9,6 +11,14 @@ void Check(bool condition, string name)
     if (condition) Console.WriteLine($"PASS  {name}");
     else { Console.WriteLine($"FAIL  {name}"); failures.Add(name); }
 }
+
+Dictionary<string, string> LoadResources(string file) => XDocument.Load(file).Descendants("data")
+    .Where(element => element.Attribute("name") is not null)
+    .ToDictionary(element => element.Attribute("name")!.Value,
+        element => element.Element("value")?.Value ?? string.Empty, StringComparer.OrdinalIgnoreCase);
+
+string PlaceholderSignature(string value) => string.Join("|", Regex.Matches(value, @"\{\d+\}")
+    .Select(match => match.Value).OrderBy(value => value, StringComparer.Ordinal));
 
 try
 {
@@ -23,6 +33,26 @@ try
 
     var scratchPath = WimService.EnsureScratchDirectory();
     Check(Directory.Exists(scratchPath), "Writable WIMGAPI scratch directory");
+
+    var resourceRoot = Path.Combine(Directory.GetCurrentDirectory(), "src", "WinDeploy.App", "Strings");
+    var resourceFiles = Directory.GetFiles(resourceRoot, "Resources.resw", SearchOption.AllDirectories);
+    var englishResources = LoadResources(Path.Combine(resourceRoot, "en-US", "Resources.resw"));
+    Check(resourceFiles.Length == 22, "All 22 application languages are present");
+    Check(resourceFiles.All(file =>
+    {
+        var translated = LoadResources(file);
+        return translated.Count == englishResources.Count && englishResources.All(entry =>
+            translated.TryGetValue(entry.Key, out var value) && !string.IsNullOrWhiteSpace(value) &&
+            PlaceholderSignature(entry.Value) == PlaceholderSignature(value));
+    }), "Every application language has complete keys and placeholders");
+    var selectorSource = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "src", "WinDeploy.App", "MainWindow.xaml.cs"));
+    var settingsSource = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "src", "WinDeploy.App", "Services", "SettingsService.cs"));
+    var newLanguageCodes = new[] { "nb", "fi", "sv", "mn", "hy", "kk", "ba", "tt", "crh", "ab", "os" };
+    Check(newLanguageCodes.All(code => selectorSource.Contains($"Tag = \"{code}\"", StringComparison.Ordinal)),
+        "All 22 languages are registered in the application selector");
+    Check(new[] { "nb-NO", "fi-FI", "sv-SE", "mn-MN", "hy-AM", "kk-KZ", "ba-RU", "tt-RU", "crh-Latn", "ab-GE", "os-GE" }
+        .All(culture => settingsSource.Contains($"\"{culture}\"", StringComparison.Ordinal)),
+        "System-language mapping includes all new cultures");
 
     var destination = new PartitionInfo(1, 3, 1024 * 1024, 100L * 1024 * 1024 * 1024, 'W', "Target", "NTFS",
         "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee", "Basic", "ebd0a0a2-b9e5-4433-87c0-68b6b72699c7", 0,
@@ -99,6 +129,54 @@ try
     Check(roundTrip?.BypassWindows11Requirements == true &&
           roundTrip.Operations.Any(operation => operation.Id == "win11-bypass"),
         "Windows 11 bypass is explicit in the immutable plan");
+
+    var biosBoot = efi with
+    {
+        LengthBytes = 50L * 1024 * 1024,
+        FileSystem = "NTFS",
+        GptType = string.Empty,
+        MbrType = 0x07,
+        Role = PartitionRole.BasicData,
+        IsActive = true
+    };
+    var biosDisk = disk with { PartitionScheme = PartitionScheme.Mbr, Partitions = [biosBoot, destination] };
+    var windows10Edition = imageEdition with { Name = "Windows 10 Pro", Build = 19045 };
+    var windows10Image = image with
+    {
+        Generation = WindowsGeneration.Windows10,
+        DisplayVersion = "Windows 10",
+        Editions = [windows10Edition]
+    };
+    var biosHost = host with { FirmwareMode = FirmwareMode.Bios, SecureBootCapable = false, SecureBootEnabled = false };
+    var biosValidation = compatibility.CheckImageCompatibility(windows10Image, windows10Edition, biosDisk,
+        destination, biosBoot, biosHost);
+    var biosPlan = new InstallationPlanFactory().Create(new SessionState
+    {
+        Image = windows10Image,
+        Edition = windows10Edition,
+        DestinationDisk = biosDisk,
+        DestinationPartition = destination,
+        BootPartition = biosBoot,
+        Compatibility = biosHost
+    });
+    Check(biosValidation.IsValid && biosPlan.FirmwareMode == FirmwareMode.Bios &&
+          biosPlan.BootPartition.LengthBytes == 50L * 1024 * 1024,
+        "Windows 10 BIOS/MBR review plan can be created");
+
+    var bootPageXaml = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "src", "WinDeploy.App", "Views", "BootPage.xaml"));
+    var coordinatorSource = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "src", "WinDeploy.App", "Services", "WizardCoordinator.cs"));
+    Check(bootPageXaml.Contains("x:Name=\"NextButton\"", StringComparison.Ordinal) &&
+          bootPageXaml.Contains("Grid.Column=\"2\"", StringComparison.Ordinal),
+        "Review button has an isolated footer column");
+    Check(coordinatorSource.Contains("Review navigation failed", StringComparison.Ordinal),
+        "Review navigation failures are surfaced and logged");
+    var appProject = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "src", "WinDeploy.App", "WinDeploy.App.csproj"));
+    var installerBuilder = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "installer", "build-installer.ps1"));
+    Check(appProject.Contains("IncludeSelfContainedWorkerInPublish", StringComparison.Ordinal) &&
+          appProject.Contains("Worker\\WinDeploy.Worker.exe", StringComparison.Ordinal),
+        "Self-contained elevated worker is included in publish output");
+    Check(installerBuilder.Contains("worker failed its startup smoke test", StringComparison.OrdinalIgnoreCase),
+        "Installer build verifies the packaged elevated worker can start");
 
     if (OperatingSystem.IsWindows())
     {

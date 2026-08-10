@@ -18,7 +18,12 @@ public partial class SettingsWindow : Window
             new LanguageItem("Français", "fr"), new LanguageItem("Deutsch", "de"), new LanguageItem("Lëtzebuergesch", "lb"),
             new LanguageItem("Srpski (latinica)", "sr-Latn"), new LanguageItem("Русский", "ru"),
             new LanguageItem("简体中文", "zh-Hans"), new LanguageItem("Español", "es"), new LanguageItem("Polski", "pl"),
-            new LanguageItem("Ελληνικά", "el"), new LanguageItem("Dansk", "da")
+            new LanguageItem("Ελληνικά", "el"), new LanguageItem("Dansk", "da"),
+            new LanguageItem("Norsk", "nb"), new LanguageItem("Suomi", "fi"), new LanguageItem("Svenska", "sv"),
+            new LanguageItem("Монгол", "mn"), new LanguageItem("Հայերեն", "hy"), new LanguageItem("Қазақша", "kk"),
+            new LanguageItem("Башҡортса", "ba"), new LanguageItem("Татарча", "tt"),
+            new LanguageItem("Qırımtatarca", "crh"), new LanguageItem("Аҧсшәа", "ab"),
+            new LanguageItem("Ирон", "os")
         };
         LanguagePicker.ItemsSource = items; LanguagePicker.DisplayMemberPath = "Name";
         LanguagePicker.SelectedItem = items.FirstOrDefault(x => x.Code == _originalLanguage) ?? items[0];

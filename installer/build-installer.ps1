@@ -1,5 +1,5 @@
 param(
-    [string]$Version = '0.1.7'
+    [string]$Version = '0.1.12'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -15,8 +15,16 @@ if ($null -eq $compiler) { throw 'makensis.exe was not found under work\tools.' 
 if (-not (Test-Path -LiteralPath (Join-Path $publishPath 'WinDeploy.exe'))) {
     throw "The self-contained publish directory is missing: $publishPath"
 }
+$workerPath = Join-Path $publishPath 'Worker\WinDeploy.Worker.exe'
+if (-not (Test-Path -LiteralPath $workerPath)) {
+    throw "The self-contained elevated worker is missing from the publish directory: $workerPath"
+}
+$worker = Start-Process -FilePath $workerPath -WorkingDirectory (Split-Path $workerPath -Parent) -PassThru -Wait -WindowStyle Hidden
+if ($worker.ExitCode -ne 64) {
+    throw "The packaged elevated worker failed its startup smoke test with exit code $($worker.ExitCode)."
+}
 if (-not (Test-Path -LiteralPath $iconPath)) { throw "The installer icon is missing: $iconPath" }
-if (Test-Path -LiteralPath $outputPath) { throw "The installer output already exists: $outputPath" }
+if (Test-Path -LiteralPath $outputPath) { Remove-Item -LiteralPath $outputPath -Force }
 
 $bytes = (Get-ChildItem -LiteralPath $publishPath -Recurse -File | Measure-Object Length -Sum).Sum
 $estimatedSizeKb = [Math]::Ceiling($bytes / 1KB)

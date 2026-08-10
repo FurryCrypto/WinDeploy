@@ -1,0 +1,26 @@
+<Project>
+  <!--
+    ManagedWimLib 2.5.3's net46 target links win-arm64 into the x64 directory,
+    overwriting the real AMD64 DLL and causing 0xc000007b on x64 Windows.
+    The broken package build target is excluded in Core; copy only the supported
+    Windows 8 desktop architectures into every executable/test output.
+  -->
+  <PropertyGroup>
+    <ManagedWimLibPackageDir>$(NuGetPackageRoot)managedwimlib\$(ManagedWimLibVersion)</ManagedWimLibPackageDir>
+    <ManagedWimLibX86>$(ManagedWimLibPackageDir)\runtimes\win-x86\native\libwim-15.dll</ManagedWimLibX86>
+    <ManagedWimLibX64>$(ManagedWimLibPackageDir)\runtimes\win-x64\native\libwim-15.dll</ManagedWimLibX64>
+  </PropertyGroup>
+
+  <Target Name="CopyArchitectureCorrectWimLib"
+          AfterTargets="Build"
+          Condition="'$(MSBuildProjectName)' == 'WinDeploy.Windows8.Core' Or
+                     '$(MSBuildProjectName)' == 'WinDeploy.Windows8.App' Or
+                     '$(MSBuildProjectName)' == 'WinDeploy.Windows8.Worker' Or
+                     '$(MSBuildProjectName)' == 'WinDeploy.Windows8.Tests'">
+    <Error Condition="!Exists('$(ManagedWimLibX86)')" Text="The ManagedWimLib x86 native binary was not restored: $(ManagedWimLibX86)" />
+    <Error Condition="!Exists('$(ManagedWimLibX64)')" Text="The ManagedWimLib AMD64 native binary was not restored: $(ManagedWimLibX64)" />
+    <MakeDir Directories="$(OutDir)x86;$(OutDir)x64" />
+    <Copy SourceFiles="$(ManagedWimLibX86)" DestinationFiles="$(OutDir)x86\libwim-15.dll" SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(ManagedWimLibX64)" DestinationFiles="$(OutDir)x64\libwim-15.dll" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

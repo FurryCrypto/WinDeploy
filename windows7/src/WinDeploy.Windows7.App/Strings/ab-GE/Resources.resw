@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>WinDeploy — Windows адиск аҟәшазы аргылага</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Асахь ааргылатәуп</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Адыскқәа арҿыцтәуп</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Аконфигурациақәа</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Ацхыраара</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>АФЕНАА ИРӘХӘУ</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 асахьақәа Windows</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 Абиблиа аҿы</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Аакыра апункт</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Афаилқәа рышьақәыргылара</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Абелешәқәа</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Ашьақәыргылара</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Ашәарҭадара раԥхьатәиуп</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Адискык автоматикала алхом. Иқьоу асистема, EFI, аишьақәыргылара ахәҭақәа, OEM, насгьы зыхьчо абелектртә хәԥақәа хықәкы маҷуп.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Ишьақәыргылоуп</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Ишьақәыргылоуп</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Иалхтәуп асахьақәа Windows</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Иалышәх Windows ISO, WIM ма ESD афаил. Асахь адиск иадкылаанӡа игәаҭоит.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Иалхтәуп асахьақәа Windows</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>Мамзаргьы ари афаил .iso, .wim, ма .esd.</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Афаил ахьӡ</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows азы аверсиа</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Архитектура</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Асахь ахкы</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Афаил аакы</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Аредкақәа рҿы иҟоу аброшиурақәа</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Анаҩс</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Аныхабаа</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Иалх Windows аверсиа</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Иалх асахьақәа риндекс, аргыларатә чымазара аҟынтә иаԥхьоу. Адыргақәа рышьҭахь</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Иалхтәуп ахықәкы аҟәша</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Иалхтәуп иақәиҭу ахәҭак. Иалху, насгьы ихьчау ахәҭақәа аконтекст азы иарбоит, аха урҭ алхра ауам. Аакыра азԥхьагәаӡом: аакырам</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Афаилқәа рышьақәыргылара</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Ишашәарыз асарты, ахәҭақәа ршеихьала, насгьы ахыхгатә ахәҭа шәахәаԥш. Аәԥақәа EFI ари аусуратә процесс аҿы аамҭа формат шьақәыргылам.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Ашышьақәыргылара арежим</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Аҟәатәи асхема</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Акы аруга аҟәша</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Афаилқәа рышьақәыргылара</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Аимадара</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Еиӷьтәудырбарақәеи</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Ааргылара аганахь ала</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Ашьақәыргылара аплана аиԥылара</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Иахьа-иахьала еиднаргала. Аусмҩаԥгатәқәа анагӡараан, иашәырхәуа абукл аҿы акәымкәа, идыскақәеи ахәҭақәеи рыдидентификаторқәа рхы иадырхәоит. Адыск аиндаҵақәа рхатәыра</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Асахь Windows</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Асархатә хықәкы</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Аакыра апункт</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Афаилтә система хықәкыс измоу</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>ИАХАШЬА: Иалху аҟәшазы иҟоу адыррақәа зегьы ихынҳәрагүй ианызаassapput.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Исылкаауеит, иалху ахықәкытә аҟәшазы иҟоу адыррақәа зегьы ихынҳәрагүй ианызаараны ишыҟо.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Ишьақәыргылатәуп Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Ааргылара Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Акомпиутер асарра аганахь ала иақәнаршәа. Аихьашәатә усқәа, афаилқәа рышьақәыргылара, насгьы ишьақәыргылоу акритикатә фаилқәа рбара ашьҭахь мацара ааҳарԥшуеит.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Аадминистратор азин аназыҟазаашьа...</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Ааргылара ажурнал</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Иаргылатәуп аброшиура</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Иқәырхаратәуп аброшиура...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows қәнагала ишьаҭаркын.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Асахьақәеи афаилқәеи Windows шдырбахеит. Уажәы шәкомпиутер еиԥны ашьақәыргылара шәылшоит. Иахьа, ари адгаларатә файлқәа рхатәы-рхатәы иашәма</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows қәнагала ишьаҭаркын.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Асахьи Windows алагаратә фаилқәеи гәарҭоуп. Windows аҿыц анҵамҭа анаҩстәи аиҭашьақәыргылараан ишыҟац еиԥш ахархәаралоит.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Уажәы аиҭакра ауп</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Аиԥатәи афильм ашьҭахь аиҭагара</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Асистематә бызшәа</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Иарбау арежим</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Идырбоит адискқәа ринагӡаратә идентификаторқәеи, аиҭакрақәа рышьақәыргылара азыдырҵо адыррақәа. Иара убас иднаргоит Windows 11 азԥхьагәаарақәа раартра; адискуқәа рыхьчара активла иаакыуп. Адискцәа рынаркразы, рынҳәатә усқәа рышьҭахь, ргәабзиаразы, афирматуратәи асистема</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ааи</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Мап</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Ижәу амотор</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Амотор: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Адыргара: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Адиск астиль: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Адиск еиукаау аидентиор: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Ахатәи аиҭакра: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/ашьақәыргылара аҟәша: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM иҟоу/ишьақәыргылара: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Иақәиҭу ахарра иақәыргылауп/ашьақәыргылара амоуп: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Абызшәақәа</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Аконфигурациақәа</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Иқәырхаратәуп</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Асахра</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Ишьақәыргылатәуп</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>WinDeploy Адыргара</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>WinDeploy ианархәоит WIM/ESD-асахь иақәиҭу аҟәша ахь, насгьы адиск аҿы ахарра еинаҭоит. Апрограмма ахәҭакқәа налагоит, мамзаргьы дискқәа зегьы инапаӡом. Иарту арежим аҟны Windows 11 азҵаара алзыршахоит, уи алагамҭа анԥалшьахь. Ирыцхраауа ажәытә зну амаҭәарқәа рблакаранхоит. Адыскақәа рышьҭахь, урҭ рбаратә усқәа ирзаанагоит</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Иарбау арежим</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Астандарттә режим</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Windows асахьа ачеркәра...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Асахь Windows иауп.</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Агха мҩаԥысит</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Иалх Windows аредакциа</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Раԥхьа асахьа, насгьы апубликациақәа алх.</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Афизикатә дискқәеи ахәҭақәеи рыԥхьареи...</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Иалхтәуп ахықәкы аҟәша</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Афаилқәа рышьақәыргылара иашам</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Аимадара атекст аҿы ашьақәыргылара аалыршан</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Шәахәаԥш, насгьы ашьақәыргылара аплан шәдырба</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Адыск аакықәеи ачареи рфаилқәа Windows рыԥсахразы администратор азин ауп.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Windows ашьақәыргылара қәнагала ихыркәшоуп</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Windows ашьақәыргылара залымшеит — ажурнал гәаҭала</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Ишәыхәала ари асахь Windows</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Индекс {0} • Аизара {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Ишьақәыргылара змоу амедал Windows</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Ари аверсиа азы иаҭахууп Legacy Windows аргылара амеханизм, уи аамҭа иақәиҭам.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Ари аверсиа азы иаҭахууп Legacy Windows аргылара амеханизм, уи аамҭа иақәиҭам.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista иазхымԥадатәиуп Legacy NT6 ашьақәыргылара амодуль, уи макьана иҟам.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Адыргара: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Акомпиутер архитектура: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Адиск {0} – {1}» {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Асериатә номер: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Оффлайн</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Аԥхьара мацара</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>Аамҭа азум</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Иалкаам</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Уажәтәи Windows – ахьчоуп</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Иахьчоу</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>Асистема EFI</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft хықәкыуп</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Аишьақәыргылара</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Хадароу адыррақәа</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Идырым аҟәша</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Аша {0} Kgaleen {1} Kgalee {2} Kgalie {3} Kgaley {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Адиск {0} – {1}; Агарада {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Адиск {0}, Ахәҭа {1} {2}» {3}” {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Иалкаау адиск аҿы ишахәҭоу ахарҭатә ҟәша адаӡам.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Иалгеит</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Иблокҟаҵоу</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Афаилқәа рышьақәыргылара иауп</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Иалху асахьа, ахықәкы, насгьы аныхра аҟәша дискк аҿы техникала еицуп.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Ааргылара хықәкыуп</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Ианыхтәуп анаҩстәи аимадара агхақәа. WinDeploy автоматла урҭ рывагыланы ианымхоит.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Идырым</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Адиск {0} – {1}; Агарада {2} {3}» {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Адиск амодель: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Адиск аномер: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Аҟәатәи аномер: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Адиск ажәабжь: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Атом ахьӡ: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Аыргара: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Мап</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Ишьақәырӷәӷәу аплан ахкы: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Иахьа: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Аадминистратор азин анҵалт. Аиҭаргылара алагамҭа иалагеит</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Амонтажҩы ахыҭатә код {0}. ала даныхын</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Ааргылара ажурнал</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Акомпиутер аиҭагара?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Шәусура егьырҭ аплакциақәа рҿы шәхашә. Акомпиутер анаҩс еицыргоит. Акрақәа рышьҭахь, акомиутер аргылазаашьа иалагоит</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Уажәы аиҭакра ауп</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Амениу «Ара. Апись ҿыц Windows Boot Manager аҿы иақәнарӷәӷәоит. Иахьаалак, уи анбанзаалак амениу аҟынтә акомпиутер еиԥцалар шәылшоит.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Аадминистратор азин аауп</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Ашьақәыргылара аплана аҭара...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Аакыра ахкы азыҟаҵара...</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Амахәҭатәи аҟәша аформатра амоуп</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Windows асахьа ахархәара...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Афаилқәа рышьақәыргылара...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Ашьақәыргылара...</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows ааркра хыркәшауп</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Ааргылара ауам</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Ишьақәырӷәӷәала план зегьы</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Иалху аҟәша мацара NTFS. ҳәа аформат аарԥшлан</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Иалху асахьақәа риндекс Windows ахархәара аарԥштәуп</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Ишьақәыргылатәуп ачарафаилқәа Windows ари диск аныхра аҟәшаҿы.</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Ишьақәыргылоу афаилқәеи ачареи рыбара</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Адыск аакықәеи ачареи рфаилқәа Windows рыԥсахразы администратор азин ауп.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Иахьамыз агхаит.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Адгьыл аҿы амонтажтә аппарат ыҟам.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Иқәнаргылаз аусуратә ашьақәыргылара аус ауам.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Иалху асахьа афаилша ашаам.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Ишьақәырӷәӷәоуп асахьафаилқәа ISO, WIM, насгьы ESD.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO ашьақәыргылара ма атекст аиҭакра ауам.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Ари ISO аҿы ишаам sources\install.wim, source\install .esd.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Ари асахьаҿы ахархәара рымоуп еицырдыруа SWM афаилқәа, урҭ ари аверсиа аҿы адкылара змам. Афотосахьақәа рышьҭахь ирымаз</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Windows асахьа аартуаам.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows асахьа аныхабаа иақәшәо аиндексқәа ааӡом.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Windows асахьа аметодқәа рыԥхьа азы аамҭа ауам</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Афизикатә дискқәеи ахәҭақәеи рыԥхьом.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Афизикатә дискқәа рыԥшаам.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Иалху ахықәкы аҟәша аформатра ауам.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM алхыз асахьа Windows ахархәара илшарым</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Ишаамҭахеит ирацәаны ахарҭатә ҟәша алхра.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot аныхрафаилқәа Windows ашьақәыргылара ауам</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Иарту афаилқәа Windows атекст аҿы атекстациа шымҩаԥысит.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Афаилқәа Windows атекст аҿы атекстациа шымҩаԥысит.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Ишьақәырӷәӷәаз ашьақәыргылара аплана аԥхьара ауам.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Ари аиԥылара Windows иналукааша аилкаара ауам.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Асахь архитектура арикомпиутер, насгьы афишировка арежим еицуам.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Иалху аҟәшә ахьчоуп, насгьы еиԥсахра ауам.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Иалху ахәҭа шьақәырӷәӷәуп BitLocker. Уи аныхрааанӡа шәҽрыжәгала, насгьы шәҽрибаала.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Иалху аҟәша ари аверсиа Windows азы даара ирацәоуп</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Аакытә диск автономтә режим аҿы иҟоуп, мамзаргьы аԥхьара мацара ауп.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI аакыра азы иаҭаху адиск GPT.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Legacy BIOS аакыразы иаҭаху адиск MBR. ауп</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Адыск ахықәкыҿы иақәиҭу ахарра аҟәша ыҟам.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Акы аныхра ахәҭақәа хықәкыс иҟоу физикатә диск аҿы иаурхәалароуп.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI аныхра азы иаҭаху адиск аҿы систематә ҟәша EFI ауп.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>Асистематә ҟәша EFI уахгара ауп FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Legacy BIOS аакыра азы иаҭаху активтәу адгаларатә ҟәша NTFS хықәкыс иҟоу адиск аҿы ауп.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>UEFI Windows 7 асахра x64 аҿы мацара иақәнаргылоит. Асахрақәа рзы мацара</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 азы иаҭаху асахьа x64 ма ARM64. ауп</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 азы иаҭаху афишировка UEFI.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 иҟоу ԥшаам. Windows 11 ашьақәыргылага ари акомпиутер мап ахнаҵар алшоит.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Иақәиҭу ахарра алшара ашьақәырӷәӷәатәуп.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Иақәиҭу ахарра адкылара амоуп, аха уажәтәи аамҭазы инымуп.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Акомпиутер 4 ГБ рҟынӡа иақәиҭу афизикатә гәынкылара амоуп.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Ареспублика аҿы зыӡбахә ҳдырбалак ашьҭахь, ахыхкы асахра иасахьеит.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Иалху асахьа аиндекс аиҭакра ашьҭахь еиԥсаххеит.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Аакытә диск уаҳа ыҟам.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Ари диск аҿы иынтәым асериатә номер, мамзаргьы иуникалтәу аидентификатор, насгьы уи хықәкыс иамоу ахархәара ауам.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Адыск ахықәкы аидентификатор еиԥсаххеит. Аиаргылара аанкымызт. Иалкаауан: адиск аиденификатор</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Исахьеит ахықәкылауа аҟәша аидентификаторқәеи агеометриеи.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Исахьеит аидентификаторқәа, мамзаргьы ахыхгатә ҟәша агеометриа.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Акра, мамзаргьы ахықәкы асхема уаҳа план иақәиҭом.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Асахьақәеи аныхрафаилқәеи аиԥатәи диск аҟны ирацәаны иадыркылеит. Адыск автоматла алшом, уи анихрамениу UEFI аҿык-ҩык алх</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>Арезервтәи аныхрафаил UEFI атекст атрагедициа атекстала атекстификациа шымҩаԥысит.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Ари адиск UEFI. WinDeploy астандарттәи арезервтә ачарафаил ашьақәыргылара азы, иақәиҭу Асофьарқәа рмазара асахрақәа рыԥсахрада; иҟалап шәакәны диск алхтәуп афирматура аагара амениу аҟны. NVRAM</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Асахь Windows абахә аамҭатәи аусуратә абга иналициара ауам</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Ари астудиа Windows 11 азы иақәнаргылоит, уи иалагом амаҭәарқәа рышьҭахь.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Ишьақәыргылатәу аилкаара злам абранқәа рҿы?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Адыргара адкылара, насгьы аидкыла</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft ари аасқәа рҿы Windows 11 адкылара иақәиҭом, насгьы аиҭагара азин риҭоит. Иалшоит еицырдыруа, ашәарҭара, мамзаргьы ачара апроблемақәа. WinDeploy аасрақәа рыбара ианымхар алшоит, аха еицу аасцәа еицырдауа аҟаҵара аарԥшӡом. Аасқәа рмаза-рмызаратә усқәа рзы аак ду рымоуп</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Windows 11 азыҟагақәа рыбара аидкыла ауам</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Ирыцхрааӡом амаругақәа рышьцылара</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Windows 11 аҭакрақәа рышьақәыргылара...</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Аасқәа рышьақәыргылара азы азҵаарақәа рышьра азин рымоуп</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Windows 11 аакыра ахкы аныхтәуп</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Windows 11 азыҟарақәа агәҽаныхра ҳәа иаҵоуп. Адискқәа, ахәҭақәа, аругақәеи архитектураи ркритикатә ахьчара аус адуп.</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Уи адагьы: апроцессор, TPM, хықәкыс иҟоу ахыхгара, АОЗУ, аххарҭақәа рыбара. Адискқәа, ахәҭақәеи архитектуреи рырхьчара активла иаакыуп.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Аплан автономтәшьақәыргылара Windows. иалагоит. Microsoft ацхыраара, насгьы аиҭарреи азин рыҟам.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Ишьақәыргылатәуп Windows 11 ирымаз ашьақәыргылараҿы</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Иҭашәҵала адыскақәа рнапхгараҿы ари ихадоудырҭақәа рыҟәша, мамзаргьы еилыкка иҟоу атом, анаҩс адискқәа реизга ҿыц шәылкаа.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Иалху ахықәкы иҟоудырбаатәи ахәҭақәа рҭак аҿы иақәиҵам. Ижәам аакыра, насгьы еизырҳау аконтеинерқәа MBR иаламҭа-аиҟарала формат аарԥштәуп. Акраҿы иақәыргыларазы, уи ала иара убас, аформат асахра азы афорумтә еснагь аусхкым</value></data>
+</root>
