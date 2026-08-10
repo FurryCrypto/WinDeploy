@@ -1,6 +1,6 @@
-# WinDeploy for Windows 8 and 8.1
+# ESD Installer for Windows 8 and 8.1
 
-This directory contains the separate Windows 8/8.1 edition of WinDeploy. It preserves the current Windows 10-style interface, wizard structure, pages, localization, safety model, worker separation, and deployment workflow.
+This directory contains the separate Windows 8/8.1 edition of ESD Installer. It preserves the current Windows 10-style interface, wizard structure, pages, localization, safety model, worker separation, and deployment workflow.
 
 The Windows 7 WPF edition under `windows7/` and the Windows 10/11 WinUI edition under `src/` are not referenced or modified by this edition.
 
@@ -53,4 +53,4 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File windows8\installer\build
 
 The installer builder locates the Microsoft down-level UCRT redistributables from Windows SDK 14393 or Visual Studio's Remote Debugger components. A custom location containing `x86` and `x64` subdirectories can be supplied with `-UcrtRedistRoot`.
 
-The installer has distinct application, registry, Start-menu, and uninstall identities. It does not replace or uninstall either existing WinDeploy edition.
+The installer has distinct application, registry, Start-menu, and uninstall identities. It does not replace or uninstall either existing ESD Installer edition.
