@@ -13,10 +13,10 @@
 
   <Target Name="CopyArchitectureCorrectWimLib"
           AfterTargets="Build"
-          Condition="'$(MSBuildProjectName)' == 'WinDeploy.Windows8.Core' Or
-                     '$(MSBuildProjectName)' == 'WinDeploy.Windows8.App' Or
-                     '$(MSBuildProjectName)' == 'WinDeploy.Windows8.Worker' Or
-                     '$(MSBuildProjectName)' == 'WinDeploy.Windows8.Tests'">
+          Condition="'$(MSBuildProjectName)' == 'ESDInstaller.Windows8.Core' Or
+                     '$(MSBuildProjectName)' == 'ESDInstaller.Windows8.App' Or
+                     '$(MSBuildProjectName)' == 'ESDInstaller.Windows8.Worker' Or
+                     '$(MSBuildProjectName)' == 'ESDInstaller.Windows8.Tests'">
     <Error Condition="!Exists('$(ManagedWimLibX86)')" Text="The ManagedWimLib x86 native binary was not restored: $(ManagedWimLibX86)" />
     <Error Condition="!Exists('$(ManagedWimLibX64)')" Text="The ManagedWimLib AMD64 native binary was not restored: $(ManagedWimLibX64)" />
     <MakeDir Directories="$(OutDir)x86;$(OutDir)x64" />

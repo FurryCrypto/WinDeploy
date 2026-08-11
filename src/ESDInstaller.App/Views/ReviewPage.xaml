@@ -1,0 +1,47 @@
+<Page
+    x:Class="ESDInstaller.Views.ReviewPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Padding="32,26,32,22">
+        <Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+        <ScrollViewer>
+            <StackPanel Spacing="15" MaxWidth="780" HorizontalAlignment="Left">
+                <TextBlock x:Uid="ReviewPageTitle" Style="{StaticResource PageTitleStyle}" />
+                <TextBlock x:Uid="ReviewPageSubtitle" Foreground="#FF555555" TextWrapping="Wrap" />
+                <Border Style="{StaticResource ExplorerCardStyle}">
+                    <Grid ColumnSpacing="20" RowSpacing="9">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="175"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock x:Uid="ReviewWindowsImageLabel" FontWeight="SemiBold"/><TextBlock x:Name="EditionText" Grid.Column="1"/>
+                        <TextBlock x:Uid="ImageArchitectureLabel" Grid.Row="1" FontWeight="SemiBold"/><TextBlock x:Name="ArchitectureText" Grid.Row="1" Grid.Column="1"/>
+                        <TextBlock x:Uid="ReviewSourceLabel" Grid.Row="2" FontWeight="SemiBold"/><TextBlock x:Name="SourceText" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap"/>
+                        <TextBlock x:Uid="ReviewDestinationLabel" Grid.Row="3" FontWeight="SemiBold"/><TextBlock x:Name="DestinationText" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap"/>
+                        <TextBlock x:Uid="FirmwareModeLabel" Grid.Row="4" FontWeight="SemiBold"/><TextBlock x:Name="FirmwareText" Grid.Row="4" Grid.Column="1"/>
+                        <TextBlock x:Uid="PartitionSchemeLabel" Grid.Row="5" FontWeight="SemiBold"/><TextBlock x:Name="SchemeText" Grid.Row="5" Grid.Column="1"/>
+                        <TextBlock x:Uid="DestinationFilesystemLabel" Grid.Row="6" FontWeight="SemiBold"/><TextBlock x:Name="FilesystemText" Grid.Row="6" Grid.Column="1"/>
+                        <TextBlock x:Uid="BootConfigurationLabel" Grid.Row="7" FontWeight="SemiBold"/><TextBlock x:Name="BootText" Grid.Row="7" Grid.Column="1"/>
+                    </Grid>
+                </Border>
+                <InfoBar x:Name="UnsupportedWindows11Bar" Severity="Warning" IsClosable="False" Visibility="Collapsed"/>
+                <Border Background="#FFFDE7E9" BorderBrush="#FFC42B1C" BorderThickness="1" Padding="14">
+                    <StackPanel Spacing="8">
+                        <StackPanel Orientation="Horizontal" Spacing="9">
+                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE7BA;" Foreground="#FFC42B1C" FontSize="22"/>
+                            <TextBlock x:Uid="DestructiveWarning" FontSize="15" FontWeight="Bold" Foreground="#FF8B0000" TextWrapping="Wrap"/>
+                        </StackPanel>
+                        <TextBlock x:Name="DestructiveDetailsText" TextWrapping="Wrap" FontFamily="Consolas" FontSize="12"/>
+                    </StackPanel>
+                </Border>
+                <CheckBox x:Name="ConfirmationCheckBox" x:Uid="DestructiveConfirmation" Checked="ConfirmationCheckBox_Changed" Unchecked="ConfirmationCheckBox_Changed" />
+                <TextBlock x:Name="FingerprintText" FontSize="11" Foreground="#FF666666" />
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.Row="1" Margin="0,16,0,0">
+            <Button x:Uid="BackButton" Click="BackButton_Click" />
+            <Button x:Name="InstallButton" x:Uid="InstallWindowsButton" HorizontalAlignment="Right" Style="{StaticResource PrimaryButtonStyle}" IsEnabled="False" Click="InstallButton_Click" />
+        </Grid>
+    </Grid>
+</Page>

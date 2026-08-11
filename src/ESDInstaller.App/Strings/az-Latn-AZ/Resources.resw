@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows Bölmə Quraşdırıcısı</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Şəkili açın</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Diskləri Yeniləyin</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Parametrlər</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Kömək edin</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>WINDOWS QURAŞDIRMAQ</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows Şəkil</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 Buraxılış</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Təyinat yeri</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Yükləmə Konfiqurasiyası</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Nəzərdən keçirin</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Quraşdırın</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Əvvəlcə təhlükəsizlik</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Heç bir disk avtomatik seçilmir. Qorunan sistem, EFI, bərpa, OEM və qorunan bölmələr hədəf ola bilməz.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Hazırdır</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Hazırdır</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Windows Şəkil seçin</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Windows ISO, WIM və ya ESD faylı seçin. Hər hansı bir diskə toxunmazdan əvvəl şəkil yoxlanılır.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Windows Şəkil seçin</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>və ya .iso, .wim və ya .esd faylını buraya sürükləyib buraxın</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Fayl adı</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows versiyası</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Memarlıq</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Şəkil növü</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Fayl ölçüsü</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Mövcud nəşrlər</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Sonrakı</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Windows Buraxılışını seçin</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Quraşdırma mediasından oxunan faktiki şəkil indeksini seçin.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Təyinat Bölməsini seçin</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Mövcud uyğun bölmələrdən birini seçin. Ayrılmamış və qorunan bölmələr kontekst üçün göstərilir, lakin seçilə bilməz.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Yükləmə Konfiqurasiyası</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Aşkar edilmiş proqram təminatını, bölmə sxemini və yükləmə bölməsini yoxlayın. EFI bölməsi heç vaxt bu iş axını ilə formatlanmır.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Mikroproqram rejimi</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Bölmə sxemi</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Yükləmə bölməsi</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Yükləmə konfiqurasiyası</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Uyğunluq</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Qabaqcıl detallar</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Quraşdırmanı nəzərdən keçirin</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Quraşdırma Planını nəzərdən keçirin</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Hər bir identifikatoru diqqətlə yoxlayın. İcra, yenidən kəşf edilmiş sürücü hərfindən deyil, bu təsdiqlənmiş diskdən və bölmə identifikasiyasından istifadə edir.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows şəkli</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Mənbə</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Təyinat</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Təyinat fayl sistemi</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>XƏBƏRDARLIQ: Seçilmiş bölmədəki bütün məlumatlar həmişəlik silinəcək.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Mən başa düşürəm ki, seçilmiş təyinat bölməsindəki bütün mövcud məlumatlar silinəcək.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Windows quraşdırın</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Windows quraşdırılır</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Kompüteri gücə bağlı saxlayın. Uğur yalnız şəkil, yükləmə faylları və kritik quraşdırılmış fayllar yoxlanıldıqdan sonra bildirilir.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Administrator icazəsi gözlənilir...</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Quraşdırma jurnalı</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Qeydləri açın</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Qeydləri fərqli saxla...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows uğurla quraşdırıldı.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Şəkil və Windows yükləmə faylları təsdiqləndi. İndi kompüteri yenidən başlada bilərsiniz.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows uğurla quraşdırıldı.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Şəkil və Windows yükləmə faylları təsdiqləndi. Yeni Windows girişi növbəti yenidən başlatma üçün standartdır.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>İndi yenidən başladın</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Daha sonra yenidən başladın</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Sistem dili</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Qabaqcıl Rejim</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Sabit disk identifikatorlarını, ofsetləri və proqram təminatı təfərrüatlarını göstərir. O, həmçinin açıq dəstəklənməyən Windows 11 hardware bypassını ifşa edir; disk təhlükəsizliyi qorumaları aktiv olaraq qalır.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Bəli</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Xeyr</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Köhnə mühərrik</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Mühərrik: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Mikroproqram: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Disk üslubu: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Disk unikal ID-si: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Hədəf ofset: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/yükləmə bölməsi: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM hazırdır/hazır: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot qadir/aktiv: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Parametrlər</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Saxla</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Ləğv et</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Bağlayın</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer Kömək</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer seçilmiş WIM/ESD şəklini bir mövcud bölməyə tətbiq edir və eyni fiziki diskdə təsdiqlənmiş yükləmə bölməsində yükləmə fayllarını konfiqurasiya edir. O, bölmələr yaratmır və ya bütün diskləri silmir. Qabaqcıl Rejim ayrıca xəbərdarlıqdan sonra açıq şəkildə Windows 11 aparat tələblərini aşa bilər. Windows XP və dəstəklənməyən köhnə media xüsusi mühərrik mövcud olana qədər bloklanır.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Qabaqcıl Rejim</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Standart Rejim</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Windows şəkli yoxlanılır...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows şəkli hazırdır</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Xəta baş verdi</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Windows nəşri seçin</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Əvvəlcə şəkil və nəşr seçin</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Fiziki disklər və arakəsmələr oxunur...</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Təyinat bölməsini seçin</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Yükləmə konfiqurasiyası etibarlıdır</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Uyğunluq yoxlanışı bloklanmış quraşdırma</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Quraşdırma planını nəzərdən keçirin və təsdiqləyin</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Disk bölmələrini və Windows yükləmə fayllarını dəyişdirmək üçün administrator icazəsi tələb olunur.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Windows quraşdırılması uğurla tamamlandı</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Windows quraşdırılması uğursuz oldu — jurnalı nəzərdən keçirin</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Bu Windows şəklini yoxlayın</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>{0} indeksi • {1} qurun</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Köhnə Windows media aşkarlandı</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Bu versiya hələ mövcud olmayan Legacy Windows quraşdırma mühərrikini tələb edir.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Bu versiya hələ mövcud olmayan Legacy Windows quraşdırma mühərrikini tələb edir.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista hələ mövcud olmayan Legacy NT6 quraşdırma mühərrikini tələb edir.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Mikroproqram: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Kompüter arxitekturası: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Disk {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Seriya: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Oflayn</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Yalnız oxumaq üçün</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>mövcud deyil</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Bölünməmiş</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Cari Windows — qorunur</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Qorunur</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI Sistemi</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Bərpa</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Əsas məlumatlar</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Naməlum bölmə</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Bölmə {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Disk {0} — {1}; Bölmə {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Disk {0}, Bölmə {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Təyinat diskində müvafiq yükləmə bölməsi tapılmadı.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Keçildi</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Blok edildi</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Yükləmə konfiqurasiyası hazırdır</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Seçilmiş şəkil, təyinat yeri və eyni disk yükləmə bölməsi texniki cəhətdən uyğundur.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Quraşdırma bloklanıb</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Aşağıdakı uyğunluq xətalarını həll edin. ESD Installer onları avtomatik olaraq yan keçməyəcək.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Naməlum</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Disk {0} — {1}; Bölmə {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Disk modeli: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Disk nömrəsi: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Bölmə nömrəsi: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Sürücü məktubu: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Cildin adı: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Tutum: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Yoxdur</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Təsdiqlənmiş plan barmaq izi: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Keçdi: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Administrator icazəsi ləğv edildi. Heç bir quraşdırma başlamadı.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Quraşdırma işçisi {0} çıxış kodu ilə dayandı.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Quraşdırma jurnalı</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Kompüteri yenidən başladın?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>İşinizi digər proqramlarda yadda saxlayın. Kompüter dərhal yenidən başlayacaq.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>İndi yenidən başladın</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Siz daha sonra Başlat menyusundan yenidən başlaya bilərsiniz. Yeni Windows girişi Windows Boot Manager-də konfiqurasiya edilib.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Administrator icazəsi verildi</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Quraşdırma planı təsdiqlənir...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Təyinat hazırlanır...</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Təyinat bölməsi formatlaşdırıldı</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Windows şəkli tətbiq edilir...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Yükləmə faylları quraşdırılır...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Quraşdırma təsdiqlənir...</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows quraşdırılması tamamlandı</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Quraşdırma uğursuz oldu</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Tam planı təsdiq edin</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Yalnız seçilmiş bölməni NTFS kimi formatlaşdırın</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Seçilmiş Windows şəkil indeksini tətbiq edin</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Windows yükləmə fayllarını eyni disk yükləmə bölməsinə quraşdırın</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Quraşdırılmış və yükləmə fayllarını yoxlayın</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Disk bölmələrini və Windows yükləmə fayllarını dəyişdirmək üçün administrator icazəsi tələb olunur.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Gözlənilməz xəta baş verdi.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Yüksək quraşdırma işçisi yoxdur.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Yüksək quraşdırma işçisini işə salmaq mümkün olmadı.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Seçilmiş şəkil faylı tapılmadı.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Yalnız ISO, WIM və ESD şəkil faylları dəstəklənir.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO quraşdırmaq və ya yoxlamaq mümkün olmadı.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Bu ISO-də sources\install.wim və ya sources\install.esd tapılmadı.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Bu şəkil bu buraxılışda dəstəklənməyən split SWM fayllarından istifadə edir.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Windows şəklini açmaq mümkün olmadı.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows təsvirində quraşdırıla bilən indekslər yoxdur.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Windows şəkil metadatasını oxumaq mümkün olmadı.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Fiziki diskləri və bölmələri oxumaq mümkün olmadı.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Heç bir fiziki disk tapılmadı.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Seçilmiş təyinat bölməsini formatlaşdırmaq mümkün olmadı.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM seçilmiş Windows şəklini tətbiq edə bilmədi.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Təsdiqlənmiş yükləmə bölməsinə daxil olmaq mümkün olmadı.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot Windows yükləmə fayllarını quraşdıra bilmədi.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Yerləşdirilmiş Windows faylları yoxlamadan keçmədi.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Windows yükləmə faylları yoxlamadan keçmədi.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Təsdiqlənmiş quraşdırma planını oxumaq mümkün olmadı.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Bu Windows quruluşunu etibarlı şəkildə müəyyən etmək mümkün deyil.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Şəkil arxitekturası bu kompüter və proqram təminatı rejimi ilə uyğun gəlmir.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Seçilmiş bölmə qorunur və üzərinə yazıla bilməz.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Seçilmiş bölmə BitLocker ilə qorunur. Yerləşdirmədən əvvəl kilidini açın və şifrəsini açın.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Seçilmiş bölmə bu Windows versiyası üçün çox kiçikdir.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Təyinat diski oflayndır və ya yalnız oxunur.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI yerləşdirilməsi GPT təyinat diskini tələb edir.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Köhnə BIOS yerləşdirilməsi MBR təyinat diskini tələb edir.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Təyinat diskində müvafiq yükləmə bölməsi yoxdur.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Yükləmə bölməsi təyinat yeri ilə eyni fiziki diskdə olmalıdır.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI yerləşdirilməsi təyinat diskində EFI Sistem Bölməsi tələb edir.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>EFI Sistem Bölməsi artıq FAT32-dən istifadə etməlidir.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Köhnə BIOS yerləşdirilməsi təyinat diskində aktiv NTFS yükləmə bölməsi tələb edir.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 UEFI yerləşdirilməsi yalnız x64 şəkilləri üçün aktivdir.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 dəstəklənən x64 və ya ARM64 şəklini tələb edir.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 UEFI mikroproqramını tələb edir.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 hazır və hazır kimi aşkar edilmədi. Windows 11 quraşdırma bu kompüteri rədd edə bilər.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Secure Boot qabiliyyətini təsdiqləmək mümkün olmadı.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot dəstəklənir, lakin hazırda deaktivdir.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Kompüterin 4 GB-dan az fiziki yaddaşı var.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Plan təsdiqləndikdən sonra mənbə şəkli dəyişdi.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Seçilmiş şəkil indeksi doğrulamadan sonra dəyişdi.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Təyinat diski artıq mövcud deyil.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Bu diskin sabit seriyalı və ya unikal identifikatoru yoxdur və təhlükəsiz şəkildə istifadə edilə bilməz.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Təyinat diskinin şəxsiyyəti dəyişdi. Quraşdırma dayandırıldı.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Təyinat bölməsinin kimliyi və ya həndəsəsi dəyişdi.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Yükləmə bölməsinin identifikasiyası və ya həndəsəsi dəyişdi.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Mikroproqram və ya təyinat bölməsi sxemi artıq plana uyğun gəlmir.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Şəkil və yükləmə faylları ikinci dərəcəli diskdə yoxlanıldı. Əgər proqram təminatı həmin diski avtomatik seçmirsə, onu UEFI yükləmə menyusundan bir dəfə seçin.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>UEFI ehtiyat yükləmə faylı yoxlamadan keçmədi.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Bu, ikinci dərəcəli UEFI diskidir. ESD Installer proqram təminatı NVRAM dəyişənlərini dəyişmədən standart bərpa yükləmə faylını quraşdırır; firmware açılış menyusunda diski bir dəfə seçmək lazım ola bilər.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Windows şəklinin müvəqqəti işçi qovluğunu işə salmaq mümkün olmadı.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>Bu Windows 11 quraşdırması üçün təkmil dəstəklənməyən aparat keçidi aktiv edilib.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>Dəstəklənməyən avadanlığa quraşdırılsın?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>Yan keçidi qəbul edin və aktivləşdirin</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft bu aparatda Windows 11-i dəstəkləmir və yeniləmələrə zəmanət vermir. Uyğunluq problemləri, azaldılmış təhlükəsizlik və ya başlanğıc uğursuzluqları baş verə bilər. ESD Installer CPU, TPM, Secure Boot, RAM və yaddaş yoxlamalarından yan keçəcək, lakin o, uyğun olmayan aparat işini həyata keçirə bilməz.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Windows 11 dəstəklənməyən-hardware bypass konfiqurasiya edilə bilmədi.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>Dəstəklənməyən hardware bypass aktivləşdirilib</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>Dəstəklənməyən Windows 11 hardware bypass konfiqurasiya edilir...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>Dəstəklənməyən hardware bypass ilə icazə verilir</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>Dəstəklənməyən Windows 11 aparat keçidini konfiqurasiya edin</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 tələb uğursuzluqları xəbərdarlıqdır. Kritik disk, bölmə, yükləmə və arxitektura qorumaları qüvvədə qalır.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>Qabaqcıl: Windows 11 CPU, TPM, Secure Boot, RAM və yaddaş tələbləri yoxlamalarından keçin. Disk identifikasiyası, bölmə və arxitektura təhlükəsizliyi yoxlamaları aktiv olaraq qalır.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>Bu plan dəstəklənməyən hardware bypass dəyərlərini oflayn Windows quraşdırmasına yazır. Microsoft dəstəyi və yeniləmələrinə zəmanət verilmir.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>Windows 11-i dəstəklənməyən avadanlığa quraşdırın</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>Disk İdarəetməsində real əsas məlumat bölməsi və ya sadə həcm yaradın, sonra diskləri yeniləyin.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>Seçilmiş hədəf istifadə edilə bilən əsas məlumat bölməsi deyil. Ayrılmamış yer və MBR genişləndirilmiş konteynerləri birbaşa formatlaşdırmaq mümkün deyil.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>Yeniləmələri avtomatik yoxlayın</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Yeniləmələri yoxlayın</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>Güncəlləmələr yoxlanılır...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Siz ən yeni versiyadan istifadə edirsiniz.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>Yeniləmələri yoxlamaq mümkün deyil.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>Proqram təminatı yeniləməsi</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>Yeni versiya mövcuddur.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>{0} versiyası mövcuddur.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>Siz hazırda {0} versiyasından istifadə edirsiniz.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>Bu yeniləmə təkmilləşdirmələr və səhv düzəlişlərini ehtiva edir.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Yeniləyin</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>Güncəlləmə endirilir...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>Güncəlləmə təsdiqlənir...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>Yüklənmiş yeniləməni yoxlamaq mümkün olmadı və başlamadı.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>Güncəlləməni endirmək və ya başlamaq mümkün deyil.</value>
+  </data>
+</root>

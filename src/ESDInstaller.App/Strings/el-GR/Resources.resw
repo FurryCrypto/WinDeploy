@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows Partition Installer</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Ανοίξτε την εικόνα</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Ανανέωση δίσκων</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>ΕΓΚΑΤΑΣΤΑΣΗ ΠΑΡΑΘΥΡΩΝ</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Εικόνα των Windows</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 Έκδοση</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Προορισμός</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Διαμόρφωση εκκίνησης</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Αξιολόγηση</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Εγκατάσταση</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Η ασφάλεια πρώτα</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Κανένας δίσκος δεν επιλέγεται αυτόματα. Προστατευμένο σύστημα, EFI, ανάκτηση, OEM και δεσμευμένα διαμερίσματα δεν μπορούν να είναι στόχοι.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Έτοιμοι</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Έτοιμοι</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Επιλέξτε Εικόνα των Windows</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Επιλέξτε ένα αρχείο ISO, WIM ή ESD των Windows. Η εικόνα ελέγχεται πριν αγγίξετε οποιονδήποτε δίσκο.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Επιλέξτε Εικόνα των Windows</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>ή σύρετε και αποθέστε ένα αρχείο .iso, .wim ή .esd εδώ</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Όνομα αρχείου</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>έκδοση Windows</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Αρχιτεκτονική</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Τύπος εικόνας</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Μέγεθος αρχείου</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Διαθέσιμες εκδόσεις</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Επόμενο</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Πίσω</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Επιλέξτε Windows Edition</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Επιλέξτε ένα πραγματικό ευρετήριο εικόνας που διαβάζεται από το μέσο εγκατάστασης.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Επιλέξτε Διαμέρισμα προορισμού</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Επιλέξτε ένα υπάρχον κατάλληλο διαμέρισμα. Τα μη εκχωρημένα και προστατευμένα διαμερίσματα εμφανίζονται για περιβάλλον αλλά δεν μπορούν να επιλεγούν.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Διαμόρφωση εκκίνησης</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Επαληθεύστε το υλικολογισμικό, το σχήμα διαμερισμάτων και το διαμέρισμα εκκίνησης που εντοπίστηκε. Ένα διαμέρισμα EFI δεν μορφοποιείται ποτέ από αυτήν τη ροή εργασίας.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Λειτουργία υλικολογισμικού</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Σχέδιο κατάτμησης</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Διαμέρισμα εκκίνησης</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Διαμόρφωση εκκίνησης</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Συμβατότητα</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Προηγμένες λεπτομέρειες</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Επανεξέταση εγκατάστασης</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Αναθεώρηση του σχεδίου εγκατάστασης</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Ελέγξτε προσεκτικά κάθε αναγνωριστικό. Η εκτέλεση χρησιμοποιεί αυτήν την επικυρωμένη ταυτότητα δίσκου και διαμερίσματος, όχι ένα γράμμα μονάδας δίσκου που ανακαλύφθηκε ξανά.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>εικόνα των Windows</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Πηγή</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Προορισμός</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Σύστημα αρχείων προορισμού</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Όλα τα δεδομένα στο επιλεγμένο διαμέρισμα θα διαγραφούν οριστικά.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Κατανοώ ότι όλα τα υπάρχοντα δεδομένα στο επιλεγμένο διαμέρισμα προορισμού θα διαγραφούν.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Εγκαταστήστε τα Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Εγκατάσταση των Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Διατηρήστε τον υπολογιστή συνδεδεμένο στο ρεύμα. Η επιτυχία αναφέρεται μόνο μετά την επαλήθευση της εικόνας, των αρχείων εκκίνησης και των κρίσιμων εγκατεστημένων αρχείων.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Αναμονή για άδεια διαχειριστή…</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Ημερολόγιο εγκατάστασης</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Ανοίξτε το αρχείο καταγραφής</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Αποθήκευση καταγραφής ως…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Τα Windows εγκαταστάθηκαν με επιτυχία.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Η εικόνα και τα αρχεία εκκίνησης των Windows επαληθεύτηκαν. Τώρα μπορείτε να επανεκκινήσετε τον υπολογιστή.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Τα Windows εγκαταστάθηκαν με επιτυχία.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Η εικόνα και τα αρχεία εκκίνησης των Windows επαληθεύτηκαν. Η νέα καταχώρηση των Windows είναι η προεπιλογή για την επόμενη επανεκκίνηση.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Κάντε επανεκκίνηση τώρα</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Επανεκκίνηση αργότερα</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Γλώσσα συστήματος</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Προηγμένη λειτουργία</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Εμφανίζει σταθερά αναγνωριστικά δίσκου, μετατοπίσεις και λεπτομέρειες υλικολογισμικού. Προσφέρει επίσης ρητή παράκαμψη υλικού Windows 11· η προστασία δίσκου παραμένει ενεργή.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Κινητήρας παλαιού τύπου</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Κινητήρας: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Υλικολογισμικό: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Στυλ δίσκου: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Μοναδικό αναγνωριστικό δίσκου: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Μετατόπιση στόχου: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/διαμέρισμα εκκίνησης: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM παρόν/έτοιμο: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Ασφαλής εκκίνηση με δυνατότητα/ενεργοποίηση: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Ρυθμίσεις</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Κλείσιμο</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer Βοήθεια</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>Το ESD Installer εφαρμόζει μια εικόνα WIM/ESD σε υπάρχον διαμέρισμα και ρυθμίζει την εκκίνηση σε επαληθευμένο διαμέρισμα του ίδιου δίσκου. Δεν δημιουργεί διαμερίσματα ούτε διαγράφει ολόκληρους δίσκους. Η λειτουργία για προχωρημένους μπορεί να παρακάμψει ρητά τις απαιτήσεις υλικού Windows 11 μετά από ξεχωριστή προειδοποίηση. Τα μη υποστηριζόμενα παλαιά μέσα παραμένουν αποκλεισμένα.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Προηγμένη λειτουργία</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Τυπική λειτουργία</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Έλεγχος εικόνας των Windows…</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Η εικόνα των Windows είναι έτοιμη</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Παρουσιάστηκε σφάλμα</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Επιλέξτε μια έκδοση των Windows</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Επιλέξτε πρώτα μια εικόνα και μια έκδοση</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Ανάγνωση φυσικών δίσκων και κατατμήσεων…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Επιλέξτε ένα διαμέρισμα προορισμού</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Η διαμόρφωση εκκίνησης είναι έγκυρη</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Ο έλεγχος συμβατότητας μπλοκάρει την εγκατάσταση</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Ελέγξτε και επιβεβαιώστε το σχέδιο εγκατάστασης</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Απαιτείται άδεια διαχειριστή για την τροποποίηση διαμερισμάτων δίσκου και αρχείων εκκίνησης των Windows.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Η εγκατάσταση των Windows ολοκληρώθηκε με επιτυχία</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Η εγκατάσταση των Windows απέτυχε — ελέγξτε το αρχείο καταγραφής</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Επιθεωρήστε αυτήν την εικόνα των Windows</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Ευρετήριο {0} • Κατασκευή {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Εντοπίστηκαν πολυμέσα Windows παλαιού τύπου</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Αυτή η έκδοση απαιτεί τη μηχανή εγκατάστασης των Windows Legacy, η οποία δεν είναι ακόμη διαθέσιμη.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Αυτή η έκδοση απαιτεί τη μηχανή εγκατάστασης των Windows Legacy, η οποία δεν είναι ακόμη διαθέσιμη.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Το Windows Vista απαιτεί τη μηχανή εγκατάστασης Legacy NT6, η οποία δεν είναι ακόμη διαθέσιμη.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Υλικολογισμικό: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Αρχιτεκτονική υπολογιστή: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Δίσκος {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Σειρά: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Εκτός σύνδεσης</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Μόνο για ανάγνωση</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>μη διαθέσιμος</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Μη κατανομή</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Τρέχοντα Windows — προστατευμένα</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Προστατεύεται</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>Σύστημα EFI</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Η Microsoft έχει δεσμευτεί</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Ανάκτηση</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Βασικά δεδομένα</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Άγνωστο διαμέρισμα</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Διαμέρισμα {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Δίσκος {0} — {1}; Κατάτμηση {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Disk {0}, Partition {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Δεν βρέθηκε κατάλληλο διαμέρισμα εκκίνησης στο δίσκο προορισμού.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Πέρασε</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Αποκλεισμένος</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Η διαμόρφωση εκκίνησης είναι έτοιμη</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Η επιλεγμένη εικόνα, ο προορισμός και το διαμέρισμα εκκίνησης στον ίδιο δίσκο είναι τεχνικά συμβατά.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Η εγκατάσταση είναι μπλοκαρισμένη</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Επιλύστε τα παρακάτω σφάλματα συμβατότητας. Το ESD Installer δεν θα τα παρακάμψει αυτόματα.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Άγνωστο</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Δίσκος {0} — {1}; Κατάτμηση {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Μοντέλο δίσκου: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Αριθμός δίσκου: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Αριθμός διαμερίσματος: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Επιστολή μονάδας δίσκου: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Όνομα τόμου: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Χωρητικότητα: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Κανένα</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Δακτυλικό αποτύπωμα επικυρωμένου σχεδίου: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Πέρασε: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Η άδεια διαχειριστή ακυρώθηκε. Δεν ξεκίνησε καμία εγκατάσταση.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Ο εργάτης εγκατάστασης σταμάτησε με κωδικό εξόδου {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Ημερολόγιο εγκατάστασης</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Επανεκκίνηση του υπολογιστή;</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Αποθηκεύστε την εργασία σας σε άλλες εφαρμογές. Ο υπολογιστής θα επανεκκινήσει αμέσως.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Κάντε επανεκκίνηση τώρα</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Μπορείτε να κάνετε επανεκκίνηση αργότερα από το μενού Έναρξη. Η νέα καταχώρηση των Windows έχει ρυθμιστεί στο Windows Boot Manager.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Χορηγήθηκε άδεια διαχειριστή</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Επικύρωση του σχεδίου εγκατάστασης…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Προετοιμασία προορισμού…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Μορφοποιήθηκε το διαμέρισμα προορισμού</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Εφαρμογή εικόνας των Windows…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Εγκατάσταση αρχείων εκκίνησης…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Επαλήθευση εγκατάστασης…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Η εγκατάσταση των Windows ολοκληρώθηκε</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Η εγκατάσταση απέτυχε</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Επικυρώστε το πλήρες σχέδιο</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Διαμορφώστε μόνο το επιλεγμένο διαμέρισμα ως NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Εφαρμόστε το επιλεγμένο ευρετήριο εικόνας των Windows</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Εγκαταστήστε τα αρχεία εκκίνησης των Windows στο διαμέρισμα εκκίνησης του ίδιου δίσκου</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Επαληθεύστε τα εγκατεστημένα και εκκινήστε τα αρχεία</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Απαιτείται άδεια διαχειριστή για την τροποποίηση διαμερισμάτων δίσκου και αρχείων εκκίνησης των Windows.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Παρουσιάστηκε απροσδόκητο σφάλμα.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Ο εργάτης της υπερυψωμένης εγκατάστασης λείπει.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η εκκίνηση του εργάτη ανυψωμένης εγκατάστασης.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η εύρεση του επιλεγμένου αρχείου εικόνας.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Υποστηρίζονται μόνο αρχεία εικόνας ISO, WIM και ESD.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η τοποθέτηση ή η επιθεώρηση του ISO.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Δεν βρέθηκε sources\install.wim ή sources\install.esd σε αυτό το ISO.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Αυτή η εικόνα χρησιμοποιεί διαχωρισμένα αρχεία SWM, τα οποία δεν υποστηρίζονται σε αυτήν την έκδοση.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Δεν ήταν δυνατό να ανοίξει η εικόνα των Windows.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Η εικόνα των Windows δεν περιέχει ευρετήρια με δυνατότητα εγκατάστασης.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η ανάγνωση των μεταδεδομένων εικόνας των Windows.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η ανάγνωση φυσικών δίσκων και κατατμήσεων.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Δεν βρέθηκαν φυσικοί δίσκοι.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η μορφοποίηση του επιλεγμένου διαμερίσματος προορισμού.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>Το DISM δεν μπόρεσε να εφαρμόσει την επιλεγμένη εικόνα των Windows.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η πρόσβαση στο επικυρωμένο διαμέρισμα εκκίνησης.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>Το BCDBoot δεν μπόρεσε να εγκαταστήσει τα αρχεία εκκίνησης των Windows.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Τα αρχεία των Windows που έχουν αναπτυχθεί δεν πέρασαν επαλήθευση.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Τα αρχεία εκκίνησης των Windows δεν πέρασαν την επαλήθευση.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η ανάγνωση του επικυρωμένου σχεδίου εγκατάστασης.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Αυτή η έκδοση των Windows δεν μπορεί να αναγνωριστεί αξιόπιστα.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Η αρχιτεκτονική εικόνας δεν είναι συμβατή με αυτόν τον υπολογιστή και τη λειτουργία υλικολογισμικού.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Το επιλεγμένο διαμέρισμα προστατεύεται και δεν μπορεί να αντικατασταθεί.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Το επιλεγμένο διαμέρισμα προστατεύεται από BitLocker. Ξεκλειδώστε και αποκρυπτογραφήστε το πριν από την ανάπτυξη.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Το επιλεγμένο διαμέρισμα είναι πολύ μικρό για αυτήν την έκδοση των Windows.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Ο δίσκος προορισμού είναι εκτός σύνδεσης ή μόνο για ανάγνωση.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>Η ανάπτυξη του UEFI απαιτεί έναν δίσκο προορισμού GPT.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Η ανάπτυξη του Legacy BIOS απαιτεί έναν δίσκο προορισμού MBR.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Δεν υπάρχει κατάλληλο διαμέρισμα εκκίνησης στο δίσκο προορισμού.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Το διαμέρισμα εκκίνησης πρέπει να βρίσκεται στον ίδιο φυσικό δίσκο με τον προορισμό.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>Η ανάπτυξη του UEFI απαιτεί ένα διαμέρισμα συστήματος EFI στο δίσκο προορισμού.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>Το διαμέρισμα συστήματος EFI πρέπει ήδη να χρησιμοποιεί FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Η ανάπτυξη του Legacy BIOS απαιτεί ένα ενεργό διαμέρισμα εκκίνησης NTFS στο δίσκο προορισμού.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Η ανάπτυξη UEFI των Windows 7 είναι ενεργοποιημένη μόνο για εικόνες x64.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Τα Windows 11 απαιτούν μια υποστηριζόμενη εικόνα x64 ή ARM64.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Τα Windows 11 απαιτούν υλικολογισμικό UEFI.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>Το TPM 2.0 δεν εντοπίστηκε ως υπάρχον και έτοιμο. Η εγκατάσταση των Windows 11 ενδέχεται να απορρίψει αυτόν τον υπολογιστή.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η επιβεβαίωση της δυνατότητας Ασφαλούς εκκίνησης.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Η Ασφαλής εκκίνηση υποστηρίζεται αλλά αυτή τη στιγμή είναι απενεργοποιημένη.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Ο υπολογιστής έχει λιγότερο από 4 GB φυσικής μνήμης.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Η εικόνα της πηγής άλλαξε μετά την επιβεβαίωση του σχεδίου.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Το επιλεγμένο ευρετήριο εικόνας άλλαξε μετά την επικύρωση.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Ο δίσκος προορισμού δεν υπάρχει πλέον.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Αυτός ο δίσκος δεν έχει σταθερό σειριακό ή μοναδικό αναγνωριστικό και δεν μπορεί να χρησιμοποιηθεί με ασφάλεια.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Η ταυτότητα του δίσκου προορισμού άλλαξε. Η εγκατάσταση διακόπηκε.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Η ταυτότητα ή η γεωμετρία του διαμερίσματος προορισμού άλλαξε.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Η ταυτότητα ή η γεωμετρία του διαμερίσματος εκκίνησης άλλαξε.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Το υλικολογισμικό ή ο συνδυασμός διαμερισμάτων προορισμού δεν ταιριάζει πλέον με το σχέδιο.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Η εικόνα και τα αρχεία εκκίνησης επαληθεύτηκαν στον δευτερεύοντα δίσκο. Εάν το υλικολογισμικό δεν επιλέγει αυτόματα αυτόν τον δίσκο, επιλέξτε τον μία φορά από το μενού εκκίνησης του UEFI.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>Το εναλλακτικό αρχείο εκκίνησης του UEFI δεν πέρασε την επαλήθευση.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Αυτός είναι ένας δευτερεύων δίσκος UEFI. Το ESD Installer εγκαθιστά το τυπικό εναλλακτικό αρχείο εκκίνησης χωρίς να αλλάξει τις μεταβλητές NVRAM του υλικολογισμικού. ίσως χρειαστεί να επιλέξετε το δίσκο μία φορά στο μενού εκκίνησης υλικολογισμικού.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η προετοιμασία του προσωρινού φακέλου εργασίας της εικόνας των Windows.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Η σύνθετη παράκαμψη μη υποστηριζόμενου υλικού είναι ενεργή για αυτή την εγκατάσταση Windows 11.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Εγκατάσταση σε μη υποστηριζόμενο υλικό;</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Αποδοχή και ενεργοποίηση παράκαμψης</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Η Microsoft δεν υποστηρίζει τα Windows 11 σε αυτό το υλικό και δεν εγγυάται ενημερώσεις. Ενδέχεται να προκύψουν προβλήματα συμβατότητας, ασφάλειας ή εκκίνησης. Το ESD Installer θα παρακάμψει τους ελέγχους υλικού, αλλά δεν μπορεί να κάνει συμβατό το ασύμβατο υλικό.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Δεν ήταν δυνατή η ρύθμιση της παράκαμψης υλικού Windows 11.</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Η παράκαμψη μη υποστηριζόμενου υλικού ενεργοποιήθηκε</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Ρύθμιση παράκαμψης υλικού Windows 11…</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Επιτρέπεται με παράκαμψη απαιτήσεων υλικού</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Ρύθμιση παράκαμψης υλικού Windows 11</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Οι απαιτήσεις των Windows 11 εμφανίζονται ως προειδοποιήσεις. Οι κρίσιμες προστασίες δίσκου, διαμερίσματος, εκκίνησης και αρχιτεκτονικής παραμένουν ενεργές.</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Για προχωρημένους: παρακάμπτει ελέγχους CPU, TPM, Ασφαλούς εκκίνησης, RAM και αποθήκευσης. Οι προστασίες δίσκου, διαμερίσματος και αρχιτεκτονικής παραμένουν ενεργές.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Αυτό το σχέδιο γράφει τιμές παράκαμψης στην εγκατάσταση Windows εκτός σύνδεσης. Η υποστήριξη και οι ενημερώσεις της Microsoft δεν είναι εγγυημένες.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Εγκατάσταση Windows 11 σε μη υποστηριζόμενο υλικό</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Δημιουργήστε ένα πραγματικό βασικό διαμέρισμα δεδομένων ή απλό τόμο στη Διαχείριση δίσκων και έπειτα ανανεώστε τους δίσκους.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Ο επιλεγμένος στόχος δεν είναι χρησιμοποιήσιμο βασικό διαμέρισμα δεδομένων. Ο μη εκχωρημένος χώρος και τα εκτεταμένα κοντέινερ MBR δεν μορφοποιούνται απευθείας.</value></data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve"><value>Αυτόματος έλεγχος για ενημερώσεις</value></data>
+  <data name="CheckForUpdates" xml:space="preserve"><value>Έλεγχος για ενημερώσεις</value></data>
+  <data name="CheckingForUpdates" xml:space="preserve"><value>Έλεγχος για ενημερώσεις...</value></data>
+  <data name="UpToDate" xml:space="preserve"><value>Χρησιμοποιείτε την πιο πρόσφατη έκδοση.</value></data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve"><value>Δεν ήταν δυνατός ο έλεγχος για ενημερώσεις.</value></data>
+  <data name="UpdateTitle" xml:space="preserve"><value>Ενημέρωση λογισμικού</value></data>
+  <data name="UpdateAvailableHeading" xml:space="preserve"><value>Μια νέα έκδοση είναι διαθέσιμη.</value></data>
+  <data name="UpdateVersionAvailable" xml:space="preserve"><value>Η έκδοση {0} είναι διαθέσιμη.</value></data>
+  <data name="UpdateCurrentVersion" xml:space="preserve"><value>Χρησιμοποιείτε αυτήν τη στιγμή την έκδοση {0}.</value></data>
+  <data name="UpdateDefaultNotes" xml:space="preserve"><value>Αυτή η ενημέρωση περιλαμβάνει βελτιώσεις και διορθώσεις σφαλμάτων.</value></data>
+  <data name="UpdateButton" xml:space="preserve"><value>Ενημέρωση</value></data>
+  <data name="DownloadingUpdate" xml:space="preserve"><value>Λήψη ενημέρωσης...</value></data>
+  <data name="VerifyingUpdate" xml:space="preserve"><value>Επαλήθευση ενημέρωσης...</value></data>
+  <data name="UpdateVerificationFailed" xml:space="preserve"><value>Δεν ήταν δυνατή η επαλήθευση της ληφθείσας ενημέρωσης και δεν εκκινήθηκε.</value></data>
+  <data name="UpdateDownloadFailed" xml:space="preserve"><value>Δεν ήταν δυνατή η λήψη ή η εκκίνηση της ενημέρωσης.</value></data>
+</root>

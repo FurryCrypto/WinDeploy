@@ -1,0 +1,36 @@
+<Page x:Class="ESDInstaller.Windows8.Views.ReviewPage"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:loc="clr-namespace:ESDInstaller.Windows8.Markup"
+ xmlns:controls="clr-namespace:ESDInstaller.Windows8.Controls"
+ Background="{StaticResource PageBackgroundBrush}">
+  <Grid Margin="32,26,32,22">
+    <Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+      <StackPanel MaxWidth="780" HorizontalAlignment="Left">
+        <TextBlock Text="{loc:Loc ReviewPageTitle.Text}" Style="{StaticResource PageTitle}"/>
+        <TextBlock Text="{loc:Loc ReviewPageSubtitle.Text}" Style="{StaticResource PageSubtitle}"/>
+        <Border Style="{StaticResource ExplorerCard}">
+          <Grid>
+            <Grid.ColumnDefinitions><ColumnDefinition Width="175"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+            <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+            <TextBlock Text="{loc:Loc ReviewWindowsImageLabel.Text}" Style="{StaticResource FieldLabel}"/><TextBlock x:Name="Image" Grid.Column="1"/>
+            <TextBlock Grid.Row="1" Text="{loc:Loc ImageArchitectureLabel.Text}" Style="{StaticResource FieldLabel}"/><TextBlock x:Name="Architecture" Grid.Row="1" Grid.Column="1"/>
+            <TextBlock Grid.Row="2" Text="{loc:Loc ReviewSourceLabel.Text}" Style="{StaticResource FieldLabel}"/><TextBlock x:Name="Source" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap"/>
+            <TextBlock Grid.Row="3" Text="{loc:Loc ReviewDestinationLabel.Text}" Style="{StaticResource FieldLabel}"/><TextBlock x:Name="Destination" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap"/>
+            <TextBlock Grid.Row="4" Text="{loc:Loc FirmwareModeLabel.Text}" Style="{StaticResource FieldLabel}"/><TextBlock x:Name="Firmware" Grid.Row="4" Grid.Column="1"/>
+            <TextBlock Grid.Row="5" Text="{loc:Loc PartitionSchemeLabel.Text}" Style="{StaticResource FieldLabel}"/><TextBlock x:Name="Scheme" Grid.Row="5" Grid.Column="1"/>
+            <TextBlock Grid.Row="6" Text="{loc:Loc DestinationFilesystemLabel.Text}" Style="{StaticResource FieldLabel}"/><TextBlock x:Name="Filesystem" Grid.Row="6" Grid.Column="1"/>
+            <TextBlock Grid.Row="7" Text="{loc:Loc BootConfigurationLabel.Text}" Style="{StaticResource FieldLabel}"/><TextBlock Grid.Row="7" Grid.Column="1" Text="{loc:Loc WindowsBootManager}"/>
+          </Grid>
+        </Border>
+        <TextBlock x:Name="BypassWarning" Visibility="Collapsed" Foreground="#FF8A4B00" TextWrapping="Wrap" Margin="0,15,0,0"/>
+        <controls:InfoBanner x:Name="Warning" Margin="0,15,0,0"/>
+        <TextBlock x:Name="Identifiers" Margin="12,10" TextWrapping="Wrap" FontFamily="Consolas" FontSize="12"/>
+        <CheckBox x:Name="Confirm" Content="{loc:Loc DestructiveConfirmation.Content}" FontWeight="SemiBold" Checked="Confirm_Changed" Unchecked="Confirm_Changed"/>
+        <TextBlock x:Name="Fingerprint" Foreground="#FF666666" FontSize="11" Margin="22,7,0,0"/>
+      </StackPanel>
+    </ScrollViewer>
+    <Grid Grid.Row="1" Margin="0,16,0,0"><Button Content="{loc:Loc BackButton.Content}" Click="Back_Click"/><Button x:Name="Install" Content="{loc:Loc InstallWindowsButton.Content}" HorizontalAlignment="Right" Style="{StaticResource PrimaryButton}" IsEnabled="False" Click="Install_Click"/></Grid>
+  </Grid>
+</Page>

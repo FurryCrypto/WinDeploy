@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows partíció telepítő</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Kép megnyitása</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Lemezek frissítése</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Segítség</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>A WINDOWS TELEPÍTÉSE</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows kép</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 kiadás</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Cél</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Rendszerindítási konfiguráció</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 áttekintés</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Telepítse</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Első a biztonság</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Nincs lemez automatikusan kiválasztva. A védett rendszer, a EFI, a helyreállítás, a OEM és a fenntartott partíciók nem lehetnek célpontok.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Kész</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Kész</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Válassza ki a Windows képet</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Válasszon egy Windows ISO, WIM vagy ESD fájlt. A lemez megérintése előtt megvizsgálja a képet.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Válassza ki a Windows képet</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>vagy húzzon ide egy .iso, .wim vagy .esd fájlt</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Fájlnév</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows verzió</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Építészet</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Képtípus</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Fájlméret</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Elérhető kiadások</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Következő</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Vissza</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Válassza a Windows Editiont</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Válassza ki a telepítési adathordozóról beolvasott tényleges képindexet.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Válassza ki a célpartíciót</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Válasszon ki egy meglévő megfelelő partíciót. A ki nem osztott és védett partíciók megjelennek a környezet szempontjából, de nem választhatók ki.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Rendszerindítási konfiguráció</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Ellenőrizze az észlelt firmware-t, partíciós sémát és rendszerindító partíciót. Ez a munkafolyamat soha nem formázza a EFI partíciót.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Firmware mód</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Partíciós séma</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Indító partíció</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Rendszerindítási konfiguráció</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Kompatibilitás</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Speciális részletek</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Tekintse át a telepítést</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Tekintse át a telepítési tervet</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Gondosan ellenőrizzen minden azonosítót. A végrehajtás ezt az ellenőrzött lemez- és partícióazonosítót használja, nem pedig egy újra felfedezett meghajtóbetűjelet.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows kép</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Forrás</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Úticél</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Cél fájlrendszer</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>FIGYELMEZTETÉS: A kiválasztott partíción lévő összes adat véglegesen törlődik.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Megértettem, hogy a kiválasztott célpartíción lévő összes meglévő adat törlődik.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Telepítse a Windows fájlt</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>A Windows telepítése</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Tartsa a számítógépet az áramforráshoz csatlakoztatva. A sikerről csak a lemezkép, a rendszerindító fájlok és a kritikus telepített fájlok ellenőrzése után kerül sor.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Várakozás a rendszergazdai engedélyre…</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Telepítési napló</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Napló megnyitása</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Napló mentése másként…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>A Windows sikeresen telepítve.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>A kép és a Windows rendszerindító fájlok ellenőrzése megtörtént. Most újraindíthatja a számítógépet.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>A Windows sikeresen telepítve.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>A kép és a Windows rendszerindító fájlok ellenőrzése megtörtént. Az új Windows bejegyzés az alapértelmezett a következő újraindításkor.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Indítsa újra most</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Indítsa újra később</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Rendszernyelv</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Speciális mód</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Stabil lemezazonosítókat, eltolásokat és firmware-részleteket jelenít meg. Egy explicit, nem támogatott Windows 11 hardvermegkerülést is feltár; a lemezbiztonsági védelem aktív marad.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Igen</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nem</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Örökös motor</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Motor: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Firmware: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Lemezstílus: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Lemez egyedi azonosítója: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Céleltolás: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/indító partíció: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM jelen/készen: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot képes/engedélyezett: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Nyelv</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Bezárás</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer Súgó</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>A ESD Installer egy kiválasztott WIM/ESD lemezképet egy meglévő partícióra alkalmaz, és a rendszerindító fájlokat ugyanazon a fizikai lemezen egy ellenőrzött rendszerindító partíción konfigurálja. Nem hoz létre partíciókat és nem töröl teljes lemezeket. Az Advanced Mode külön figyelmeztetés után kifejezetten megkerülheti a Windows 11 hardverkövetelményeit. A Windows XP és a nem támogatott régebbi adathordozók mindaddig blokkolva maradnak, amíg nem lesz dedikált motor.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Speciális mód</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Normál mód</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>A Windows kép vizsgálata…</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>A Windows kép elkészült</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Hiba történt</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Válasszon egy Windows kiadást</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Először válasszon ki egy képet és a kiadást</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Fizikai lemezek és partíciók olvasása…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Válasszon ki egy célpartíciót</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>A rendszerindítási konfiguráció érvényes</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>A kompatibilitási ellenőrzés blokkolta a telepítést</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Tekintse át és erősítse meg a telepítési tervet</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>A lemezpartíciók és a Windows rendszerindító fájlok módosításához rendszergazdai engedély szükséges.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>A Windows telepítése sikeresen befejeződött</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>A Windows telepítése sikertelen – nézze át a naplót</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Vizsgálja meg ezt a Windows képet</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Index {0} • Build {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Legacy Windows adathordozó észlelve</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Ehhez a verzióhoz a Legacy Windows telepítőmotor szükséges, amely még nem érhető el.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Ehhez a verzióhoz a Legacy Windows telepítőmotor szükséges, amely még nem érhető el.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>A Windows Vistához a Legacy NT6 telepítőmotorra van szükség, amely még nem érhető el.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Firmware: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Számítógép architektúra: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Lemez {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Sorozat: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Csak olvasható</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>nem érhető el</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Nincs kiosztva</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Jelenlegi Windows — védett</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Védett</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI rendszer</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Helyreállítás</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Alapadatok</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Ismeretlen partíció</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Partíció {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Lemez {0} — {1}; {2} {3} partíció; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>{0} lemez, {1} partíció {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Nem található megfelelő rendszerindító partíció a céllemezen.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Sikerült</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Letiltva</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>A rendszerindítási konfiguráció készen áll</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>A kiválasztott kép, a cél és az azonos lemezes rendszerindító partíció műszakilag kompatibilis.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>A telepítés le van tiltva</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Oldja meg az alábbi kompatibilitási hibákat. A ESD Installer nem kerüli meg őket automatikusan.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Ismeretlen</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Lemez {0} — {1}; {2} {3} — {4} partíció</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Lemezmodell: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Lemez száma: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Partíciószám: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Meghajtóbetűjel: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Kötet neve: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Kapacitás: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nincs</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Érvényesített terv ujjlenyomata: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Eltelt: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Az adminisztrátori engedélyt törölték. Nem indult el a telepítés.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>A telepítő leállt a {0} kilépési kóddal.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Telepítési napló</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Indítsa újra a számítógépet?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Mentse el munkáját más alkalmazásokba. A számítógép azonnal újraindul.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Indítsa újra most</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Később újraindíthatja a Start menüből. Az új Windows bejegyzés a Windows Boot Manager-ben van konfigurálva.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Rendszergazdai engedély megadva</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>A telepítési terv ellenőrzése…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Cél előkészítése…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>A célpartíció formázva</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Windows kép alkalmazása…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Indító fájlok telepítése…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Telepítés ellenőrzése…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>A Windows telepítése befejeződött</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>A telepítés sikertelen</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Érvényesítse a teljes tervet</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Formázza csak a kiválasztott partíciót NTFS-ként</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Alkalmazza a kiválasztott Windows képindexet</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Telepítse a Windows rendszerindító fájlokat az azonos lemezes rendszerindító partícióra</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Ellenőrizze a telepített és a rendszerindító fájlokat</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>A lemezpartíciók és a Windows rendszerindító fájlok módosításához rendszergazdai engedély szükséges.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Váratlan hiba történt.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Hiányzik az emelt szintű telepítő.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Az emelt szintű telepítőt nem lehetett elindítani.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>A kiválasztott képfájl nem található.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Csak a ISO, WIM és ESD képfájlok támogatottak.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>A ISO nem szerelhető fel vagy nem ellenőrizhető.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Ebben a ISO-ben nem található sources\install.wim vagy sources\install.esd.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Ez a kép felosztott SWM fájlokat használ, amelyeket ez a kiadás nem támogat.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>A Windows kép nem nyitható meg.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>A Windows képfájl nem tartalmaz telepíthető indexeket.
+A</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>A Windows kép metaadatait nem sikerült beolvasni.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>A fizikai lemezek és partíciók nem olvashatók.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Nem található fizikai lemez.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>A kiválasztott célpartíciót nem lehetett formázni.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>A DISM nem tudta alkalmazni a kiválasztott Windows képet.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Az ellenőrzött rendszerindító partíció nem érhető el.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>A BCDBoot nem tudta telepíteni a Windows rendszerindító fájlokat.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>A telepített Windows fájlok nem feleltek meg az ellenőrzésen.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>A Windows rendszerindító fájlok nem feleltek meg az ellenőrzésen.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Az érvényes telepítési terv nem olvasható.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Ez a Windows build nem azonosítható megbízhatóan.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>A képarchitektúra nem kompatibilis ezzel a számítógéppel és a firmware móddal.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>A kiválasztott partíció védett és nem írható felül.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>A kiválasztott partíció BitLocker-védett. Feloldása és visszafejtése a telepítés előtt.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>A kiválasztott partíció túl kicsi ehhez a Windows verzióhoz.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>A céllemez offline vagy csak olvasható.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>A UEFI telepítéséhez GPT céllemezre van szükség.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>A régi BIOS központi telepítéséhez MBR céllemezre van szükség.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Nincs megfelelő rendszerindító partíció a céllemezen.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>A rendszerindító partíciónak ugyanazon a fizikai lemezen kell lennie, mint a célnak.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>A UEFI telepítéséhez EFI rendszerpartícióra van szükség a céllemezen.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>A EFI rendszerpartíciónak már használnia kell a FAT32-t.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>A régi BIOS központi telepítéshez aktív NTFS rendszerindító partícióra van szükség a céllemezen.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 A UEFI telepítése csak a x64 képekhez engedélyezett.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>A Windows 11 használatához támogatott x64 vagy ARM64 kép szükséges.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>A Windows 11 használatához UEFI firmware szükséges.
+A</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>A TPM 2.0 jelenléte és készenléte nem észlelhető. A Windows 11 beállítás elutasíthatja ezt a számítógépet.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>A Secure Boot képességét nem sikerült megerősíteni.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>A Secure Boot támogatott, de jelenleg le van tiltva.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>A számítógép 4 GB-nál kevesebb fizikai memóriával rendelkezik.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>A forráskép megváltozott a terv megerősítése után.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>A kiválasztott képindex az érvényesítés után megváltozott.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>A céllemez már nincs jelen.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Ennek a lemeznek nincs stabil soros vagy egyedi azonosítója, ezért nem használható biztonságosan.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>A céllemez azonosítója megváltozott. A telepítés leállt.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>A célpartíció azonosítója vagy geometriája megváltozott.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>A rendszerindító partíció azonosítója vagy geometriája megváltozott.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>A firmware vagy a célpartíciós séma már nem egyezik a tervvel.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>A kép- és rendszerindító fájlok ellenőrzése megtörtént a másodlagos lemezen. Ha a firmware nem választja ki automatikusan a lemezt, válassza ki egyszer a UEFI rendszerindító menüből.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>A UEFI tartalék rendszerindító fájl nem ment át az ellenőrzésen.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Ez egy másodlagos UEFI lemez. A ESD Installer a szabványos tartalék rendszerindító fájlt a NVRAM firmware-változók megváltoztatása nélkül telepíti; előfordulhat, hogy egyszer ki kell választania a lemezt a firmware rendszerindítási menüjében.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>A Windows kép ideiglenes munkamappája nem inicializálható.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>Ehhez a Windows 11 telepítéshez engedélyezve van a speciális, nem támogatott hardver bypass.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>Telepítés nem támogatott hardverre?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>A bypass elfogadása és engedélyezése</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>A Microsoft nem támogatja a Windows 11-et ezen a hardveren, és nem vállal garanciát a frissítésekre. Kompatibilitási problémák, csökkentett biztonság vagy indítási hibák léphetnek fel. A ESD Installer megkerüli a CPU, a TPM, a Secure Boot, a RAM és a tárhely ellenőrzését, de nem tudja működésre bírni az inkompatibilis hardvert.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>A Windows 11 nem támogatott hardver bypass nem konfigurálható.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>Nem támogatott hardvermegkerülés engedélyezve</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>A nem támogatott Windows 11 hardver bypass konfigurálása...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>Nem támogatott hardver bypass esetén engedélyezett</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>Konfigurálja a nem támogatott Windows 11 hardveres bypass-t</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>A Windows 11 követelményeinek meghibásodása figyelmeztetés. A kritikus lemez-, partíció-, rendszerindítás- és architektúravédelem továbbra is érvényes.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>Speciális: Windows 11 CPU, TPM, Secure Boot, RAM és tárhelyigény ellenőrzések megkerülése. A lemezazonosság, a partíció és az architektúra biztonsági ellenőrzése aktív marad.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>Ez a terv nem támogatott hardver megkerülési értékeket ír az offline Windows telepítésbe. A Microsoft támogatása és frissítése nem garantált.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>Telepítse a Windows 11-et nem támogatott hardverre</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>Hozzon létre egy valódi alapvető adatpartíciót vagy egyszerű kötetet a Lemezkezelésben, majd frissítse a lemezeket.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>A kiválasztott cél nem használható alapadatpartíció. A fel nem osztott terület és a MBR kiterjesztett tárolók nem formázhatók közvetlenül.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>Automatikusan keressen frissítéseket</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Frissítések keresése</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>Frissítések keresése...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Ön a legújabb verziót használja.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>Nem lehet frissítéseket keresni.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>Szoftverfrissítés</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>Új verzió érhető el.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>A {0} verzió elérhető.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>Jelenleg a {0} verziót használja.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>Ez a frissítés fejlesztéseket és hibajavításokat tartalmaz.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Frissítés</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>Frissítés letöltése...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>Frissítés ellenőrzése...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>A letöltött frissítést nem lehetett ellenőrizni, és nem indult el.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>Nem lehet letölteni vagy elindítani a frissítést.</value>
+  </data>
+</root>

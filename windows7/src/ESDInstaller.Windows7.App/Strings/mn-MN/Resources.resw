@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>2.0</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>ESD Installer — Windows хуваалт суулгагч</value></data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve"><value>Windows дүрс нээх</value></data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve"><value>Дискүүдийг шинэчлэх</value></data>
+  <data name="ToolbarSettings.Text" xml:space="preserve"><value>Тохиргоо</value></data>
+  <data name="ToolbarHelp.Text" xml:space="preserve"><value>Тусламж</value></data>
+  <data name="StepsHeader.Text" xml:space="preserve"><value>WINDOWS СУУЛГАХ</value></data>
+  <data name="StepImage.Text" xml:space="preserve"><value>1  Windows дүрс</value></data>
+  <data name="StepEdition.Text" xml:space="preserve"><value>2  Хувилбар</value></data>
+  <data name="StepDestination.Text" xml:space="preserve"><value>3  Зорилтот хэсэг</value></data>
+  <data name="StepBoot.Text" xml:space="preserve"><value>4  Ачаалах тохиргоо</value></data>
+  <data name="StepReview.Text" xml:space="preserve"><value>5  Хянах</value></data>
+  <data name="StepInstall.Text" xml:space="preserve"><value>6  Суулгах</value></data>
+  <data name="SafetyFirst.Text" xml:space="preserve"><value>Аюулгүй байдал нэн тэргүүнд</value></data>
+  <data name="SafetySidebarText.Text" xml:space="preserve"><value>Ямар ч дискийг автоматаар сонгохгүй. Хамгаалагдсан систем, EFI, сэргээх, OEM болон нөөцлөгдсөн хуваалтыг зорилтот хэсэг болгож болохгүй.</value></data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve"><value>Даваачлан</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Даваачлан</value></data>
+  <data name="ImagePageTitle.Text" xml:space="preserve"><value>Windows дүрс сонгох</value></data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve"><value>Windows ISO, WIM эсвэл ESD файлыг сонгох. зураг нь ямар ч дискээр холбогдох өмнө шалгагдана.</value></data>
+  <data name="SelectImageButton.Content" xml:space="preserve"><value>Windows дүрс сонгох</value></data>
+  <data name="ImageDropHint.Text" xml:space="preserve"><value>эсвэл.iso,.wim эсвэл.esd файлыг энд татаж хаяарай</value></data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve"><value>Тавилангийн нэр</value></data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve"><value>Windows хувилбар</value></data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve"><value>Архитектура</value></data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve"><value>Асарны хэлбэр</value></data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve"><value>Файлын хэмжээ</value></data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve"><value>Нөхцөл хэвлэлүүд</value></data>
+  <data name="NextButton.Content" xml:space="preserve"><value>Дараах</value></data>
+  <data name="BackButton.Content" xml:space="preserve"><value>Буцах</value></data>
+  <data name="EditionPageTitle.Text" xml:space="preserve"><value>Windows хувилбар сонгох</value></data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve"><value>Орноо хангах хэвлэлээс уншсан бодит зургийн индекс сонгох.</value></data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve"><value>Зорилтот хуваалтыг сонгох</value></data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve"><value>Үндсэнд зориулан хуваарилалтгүй, хамгаалалттай хуваарилалт нь илтгэнэ, гэхдээ сонгож чадахгүй.</value></data>
+  <data name="BootPageTitle.Text" xml:space="preserve"><value>Ачаалах тохиргоо</value></data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve"><value>Илрүүлсэн firmware горим, хуваалтын загвар болон ачаалах хуваалтыг шалгана уу. Энэ ажиллагаа EFI хуваалтыг хэзээ ч форматлахгүй.</value></data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve"><value>Фирмавэрний хэв маяг</value></data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve"><value>Бүтгэл хуваарилтын тогтолцоо</value></data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve"><value>Баруун хэсгээс</value></data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve"><value>Бут загвар</value></data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve"><value>Нөхцөл байдал</value></data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve"><value>Алга зэргийн дэлгэрэнгүй мэдээ</value></data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve"><value>Суулгалтыг хянах</value></data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve"><value>Суулгалтын төлөвлөгөөг хянах</value></data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve"><value>Бүх тодруулгыг анхааралтай шалгаарай. гүйцэтгэх нь энэ баталгаажсан диск, хуваарилалтын тодорхойлолт ашигладаг, дахин олж авсан шилгээний албан бичгийг биш.</value></data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve"><value>Windows-ийн зураг</value></data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve"><value>Эх сурвалж</value></data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve"><value>Зорилго</value></data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve"><value>Зохион газрын файлын систем</value></data>
+  <data name="DestructiveWarning.Text" xml:space="preserve"><value>АНХААРУУЛГА: Сонгосон хуваалт дээрх бүх өгөгдөл бүрмөсөн устах болно.</value></data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve"><value>Сонгосон зорилтот хуваалт дээрх бүх өгөгдөл устахыг би ойлгож байна.</value></data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve"><value>Windows суулгах</value></data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve"><value>Windows суулгаж байна</value></data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve"><value>Компьютерийг цахилгаантай холбож байлгана. Тавилга, буут файл, чухал байршуулсан файл шалгаруулагдсанаар л амжилт мэдэгдэх болно.</value></data>
+  <data name="ProgressWaiting.Text" xml:space="preserve"><value>Захиргааны зөвшөөрөл хүлээсэн...</value></data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve"><value>Нэвтрүүлгийн тэмдэглэл</value></data>
+  <data name="OpenLogButton.Content" xml:space="preserve"><value>Нээлттэй тэмдэглэл</value></data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve"><value>- Захираг бичгийг...</value></data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve"><value>Windows амжилттай суулгагдлаа.</value></data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve"><value>Дүрс болон Windows-ийн ачаалах файлуудыг шалгалаа. Та одоо компьютерыг дахин асааж болно.</value></data>
+  <data name="InstallationSuccessTitle" xml:space="preserve"><value>Windows амжилттай суулгагдлаа.</value></data>
+  <data name="InstallationSuccessText" xml:space="preserve"><value>Дүрс болон Windows-ийн ачаалах файлуудыг шалгалаа. Шинэ Windows бичлэг дараагийн дахин асаалтад өгөгдмөл байна.</value></data>
+  <data name="RestartNowButton.Content" xml:space="preserve"><value>Одоо дахин асаах</value></data>
+  <data name="RestartLaterButton.Content" xml:space="preserve"><value>Дараа дахин асаах</value></data>
+  <data name="LanguageSystem" xml:space="preserve"><value>Системийн хэл</value></data>
+  <data name="AdvancedMode" xml:space="preserve"><value>Нарийвчилсан горим</value></data>
+  <data name="AdvancedModeDescription" xml:space="preserve"><value>Тогтвортой дискний ID, офсет болон firmware-ийн дэлгэрэнгүй мэдээллийг харуулна. Мөн Windows 11-ийн дэмжигдээгүй тоног төхөөрөмжийн шаардлагыг ил тод алгасах сонголтыг гаргана; дискний аюулгүй байдлын хамгаалалт идэвхтэй хэвээр байна.</value></data>
+  <data name="Yes" xml:space="preserve"><value>Тийм ээ.</value></data>
+  <data name="No" xml:space="preserve"><value>Үгүй ээ.</value></data>
+  <data name="EngineLegacy" xml:space="preserve"><value>Урьдчилсан хөдөлгүүр</value></data>
+  <data name="AdvancedEngine" xml:space="preserve"><value>Дээрх хөдөлгүүр: {0}</value></data>
+  <data name="AdvancedFirmware" xml:space="preserve"><value>Төгсвэр: {0}</value></data>
+  <data name="AdvancedDiskStyle" xml:space="preserve"><value>Дискний хэв маяг: {0}</value></data>
+  <data name="AdvancedDiskId" xml:space="preserve"><value>Дискний хос тавилга: {0}</value></data>
+  <data name="AdvancedTargetOffset" xml:space="preserve"><value>Зорилгоны орлого: {0}</value></data>
+  <data name="AdvancedBootPartition" xml:space="preserve"><value>EFI/boot хуваарилалт: {0}</value></data>
+  <data name="AdvancedTpm" xml:space="preserve"><value>TPM байгаа/бэлэн: {0}/{1}</value></data>
+  <data name="AdvancedSecureBoot" xml:space="preserve"><value>Аюулгүй шуурхай / идэвхтэй: {0}- Би...{1}</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>Хэл</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>Тохиргоо</value></data>
+  <data name="Save" xml:space="preserve"><value>Хадгалах</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Цуцлах</value></data>
+  <data name="Close" xml:space="preserve"><value>Хаах</value></data>
+  <data name="HelpTitle" xml:space="preserve"><value>ESD Installer тусламж</value></data>
+  <data name="HelpText" xml:space="preserve"><value>ESD Installer нь сонгогдсон WIM/ESD зургийг нэг одоогийн хуваарилалтад хэрэглэдэг бөгөөд ижил физик диск дээр баталгаажуулсан эхлүүлэх хуваарилалтад буут файлуудыг тохируулдаг. Энэ нь хуваарилалтыг үүсгэхгүй, бүх дискүүдийг устгахгүй. Хөгжлийн хэв маяг нь Windows 11 гардуурны шаардлагыг тусгай болгоомжилтны дараа тодорхой орхиж болно. Windows XP болон дэмжлэггүй өвчин хэвлэл мэдээллийн хэрэгсэл тусгайлан зориулсан хөдөлгүүр бий болтол хаагдсан хэвлэлээр үлдэнэ.</value></data>
+  <data name="AdvancedModeEnabled" xml:space="preserve"><value>Алга зэргийн хэв маяг</value></data>
+  <data name="StandardMode" xml:space="preserve"><value>Стандарт хэв маяг</value></data>
+  <data name="StatusInspectingImage" xml:space="preserve"><value>Windows дүрсийг шалгаж байна…</value></data>
+  <data name="StatusImageReady" xml:space="preserve"><value>Windows дүрс бэлэн</value></data>
+  <data name="StatusError" xml:space="preserve"><value>Алдаа гарлаа</value></data>
+  <data name="StatusChooseEdition" xml:space="preserve"><value>Windows хувилбар сонгоно уу</value></data>
+  <data name="StatusSelectImageFirst" xml:space="preserve"><value>Анх зураг, хэвлэл сонго</value></data>
+  <data name="StatusReadingDisks" xml:space="preserve"><value>Физик диск болон хуваалтуудыг уншиж байна…</value></data>
+  <data name="StatusSelectDestination" xml:space="preserve"><value>Зорилтот хуваалтыг сонгоно уу</value></data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve"><value>Ачаалах тохиргоо хүчинтэй</value></data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve"><value>Тохиромжийн шалгалт суулгалтыг хориглолоо</value></data>
+  <data name="StatusReviewPlan" xml:space="preserve"><value>Суулгалтын төлөвлөгөөг хянаж баталгаажуулна уу</value></data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve"><value>Дискний хуваалт болон Windows-ийн ачаалах файлыг өөрчлөхөд администраторын зөвшөөрөл шаардлагатай.</value></data>
+  <data name="StatusInstallationComplete" xml:space="preserve"><value>Windows суулгалт амжилттай дууслаа</value></data>
+  <data name="StatusInstallationFailed" xml:space="preserve"><value>Windows суулгалт амжилтгүй боллоо — бүртгэлийг шалгана уу</value></data>
+  <data name="ImageDropCaption" xml:space="preserve"><value>Windows-ийн зураг шалгаарай</value></data>
+  <data name="EditionTechnicalDetails" xml:space="preserve"><value>Төлгө {0}  • Барилгын ажил {1}</value></data>
+  <data name="LegacyEngineTitle" xml:space="preserve"><value>Windows-ийн өвчин хэвлэлүүд илрүүлсэн</value></data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve"><value>Энэ хувилбар нь Legacy Windows-ийн суурилуулгын хөдөлгүүр шаарддаг бөгөөд одоог хүртэл ашиглаж чадахгүй.</value></data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve"><value>Энэ хувилбар нь Legacy Windows-ийн суурилуулгын хөдөлгүүр шаарддаг бөгөөд одоог хүртэл ашиглаж чадахгүй.</value></data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve"><value>Windows Vista-д Legacy NT6 монтаж хөдөлгүүр шаардлагатай бөгөөд одоо болтол ашиглах боломжгүй.</value></data>
+  <data name="FirmwareSummary" xml:space="preserve"><value>Төгсвэр: {0}</value></data>
+  <data name="HostArchitectureSummary" xml:space="preserve"><value>Компьютерийн архитектура: {0}</value></data>
+  <data name="DiskHeader" xml:space="preserve"><value>Диск {0}  {1}  {2}</value></data>
+  <data name="DiskDetails" xml:space="preserve"><value>{0}  •  {1}  • Төмөрлөгийн: {2}</value></data>
+  <data name="DiskOffline" xml:space="preserve"><value>Газар буулгын</value></data>
+  <data name="DiskReadOnly" xml:space="preserve"><value>Зөвхөн уншигч</value></data>
+  <data name="DiskSerialUnavailable" xml:space="preserve"><value>ашиглалтандгүй</value></data>
+  <data name="PartitionUnallocated" xml:space="preserve"><value>Үүнд хуваарилалтгүй</value></data>
+  <data name="PartitionCurrentWindows" xml:space="preserve"><value>Одоогийн Windows — хамгаалагдсан</value></data>
+  <data name="PartitionProtected" xml:space="preserve"><value>Хамгаалагдсан</value></data>
+  <data name="PartitionRoleEfi" xml:space="preserve"><value>EFI систем</value></data>
+  <data name="PartitionRoleMsr" xml:space="preserve"><value>Microsoft нөөцлөгдсөн</value></data>
+  <data name="PartitionRoleRecovery" xml:space="preserve"><value>Сэргээх</value></data>
+  <data name="PartitionRoleOem" xml:space="preserve"><value>OEM</value></data>
+  <data name="PartitionRoleBasic" xml:space="preserve"><value>Үндсэн өгөгдөл</value></data>
+  <data name="PartitionRoleUnknown" xml:space="preserve"><value>Үл мэдэгдэх хуваалт</value></data>
+  <data name="PartitionTooltip" xml:space="preserve"><value>Хажуулалтын {0}  {1} {2}  {3}  {4}</value></data>
+  <data name="DestinationSelectionSummary" xml:space="preserve"><value>Диск {0}  {1}; хуваалт {2} {3}. {4}</value></data>
+  <data name="BootPartitionSummary" xml:space="preserve"><value>Диск {0}, Бүлэг {1} {2}  {3}  {4}</value></data>
+  <data name="BootPartitionNotFound" xml:space="preserve"><value>Зохион дискийн дээр тохиромжтой зарнаар хувилбаргүй.</value></data>
+  <data name="WindowsBootManager" xml:space="preserve"><value>Windows Boot Manager</value></data>
+  <data name="CompatibilityPassed" xml:space="preserve"><value>Үргэлж</value></data>
+  <data name="CompatibilityFailed" xml:space="preserve"><value>Хөрөгдөл</value></data>
+  <data name="BootConfigurationReady" xml:space="preserve"><value>Бутын konfigurasi бэлэн</value></data>
+  <data name="BootConfigurationReadyText" xml:space="preserve"><value>Сонгон авсан зураг, зорилт болон ижил дискний бутын хуваарилалт техникийн хувьд нийцсэн байна.</value></data>
+  <data name="BootConfigurationBlocked" xml:space="preserve"><value>Нэвтрүүлэг хаагдсан</value></data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve"><value>ESD Installer нь автомат бус арга хэмжээ авахгүй.</value></data>
+  <data name="Unknown" xml:space="preserve"><value>Мэдээгүй</value></data>
+  <data name="ReviewDestinationSummary" xml:space="preserve"><value>Диск {0}  {1}; хуваалт {2} {3}  {4}</value></data>
+  <data name="WarningDiskModel" xml:space="preserve"><value>Диск загвар: {0}</value></data>
+  <data name="WarningDiskNumber" xml:space="preserve"><value>Дискний дугаар: {0}</value></data>
+  <data name="WarningPartitionNumber" xml:space="preserve"><value>Дээрх дугаар: {0}</value></data>
+  <data name="WarningDriveLetter" xml:space="preserve"><value>Тээврийн захиалгаар: {0}</value></data>
+  <data name="WarningVolumeName" xml:space="preserve"><value>Тоглолын нэр: {0}</value></data>
+  <data name="WarningCapacity" xml:space="preserve"><value>Үйлдвэрлэх хүчин чадал: {0}</value></data>
+  <data name="None" xml:space="preserve"><value>Үгүй</value></data>
+  <data name="PlanFingerprint" xml:space="preserve"><value>Планны гарын үсгийг баталгаажуулсан: {0}</value></data>
+  <data name="ElapsedTime" xml:space="preserve"><value>Үдсэн: {0}</value></data>
+  <data name="AdministratorCancelled" xml:space="preserve"><value>Захиргааны зөвшөөрлийг цуцлав.</value></data>
+  <data name="WorkerExitFailure" xml:space="preserve"><value>Уул уурхайн ажилтан гараад зогсоосон {0}..</value></data>
+  <data name="LogFileType" xml:space="preserve"><value>Нэвтрүүлгийн тэмдэглэл</value></data>
+  <data name="RestartConfirmTitle" xml:space="preserve"><value>Компьютерийг дахин шуурхай?</value></data>
+  <data name="RestartConfirmText" xml:space="preserve"><value>Хөгжлийн ажилтаа бусад хэрэгслид хадгалах. Компьютер нь шуурхай сэргээх болно.</value></data>
+  <data name="RestartNow" xml:space="preserve"><value>Одоо дахин асаах</value></data>
+  <data name="RestartLaterMessage" xml:space="preserve"><value>Та Start цэсээс дараа дахин асааж болно. Шинэ Windows бичлэгийг Windows Boot Manager-д тохируулсан.</value></data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve"><value>Администраторын зөвшөөрөл олгогдлоо</value></data>
+  <data name="ProgressValidatingPlan" xml:space="preserve"><value>Суулгалтын төлөвлөгөөг баталгаажуулж байна…</value></data>
+  <data name="ProgressPreparingDestination" xml:space="preserve"><value>Зорилтот хэсгийг бэлтгэж байна…</value></data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve"><value>Зорилтот хуваалтыг форматлалаа</value></data>
+  <data name="ProgressApplyingImage" xml:space="preserve"><value>Windows дүрсийг хэрэглэж байна…</value></data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve"><value>Ачаалах файлуудыг суулгаж байна…</value></data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve"><value>Суулгалтыг шалгаж байна…</value></data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve"><value>Windows суулгалт дууслаа</value></data>
+  <data name="ProgressInstallationFailed" xml:space="preserve"><value>Суулгалт амжилтгүй боллоо</value></data>
+  <data name="OperationValidatePlan" xml:space="preserve"><value>Бүх төлөвлөгөөг баталгаажуулах</value></data>
+  <data name="OperationFormatDestination" xml:space="preserve"><value>Зөвхөн сонгогдсон хуваарилыг NTFS-ээр хэлбэрж</value></data>
+  <data name="OperationApplyImage" xml:space="preserve"><value>Windows-ийн сонгосон дүрс индексг ашиглах</value></data>
+  <data name="OperationInstallBootFiles" xml:space="preserve"><value>Windows-ийн зарнаар зарнаар зарнаар зарна</value></data>
+  <data name="OperationVerifyInstallation" xml:space="preserve"><value>Орноо, зарнаар хувилбар шалгах</value></data>
+  <data name="AdministratorRequired" xml:space="preserve"><value>Дискний хуваарилал болон Windows-ийн бутын файлуудыг өөрчлөхөд захирал зөвшөөрөл шаарддаг.</value></data>
+  <data name="ErrorUnexpected" xml:space="preserve"><value>Удалгүй алдаа гарсан.</value></data>
+  <data name="ErrorWorkerMissing" xml:space="preserve"><value>Тэмцээний ажилтан алга байна.</value></data>
+  <data name="ErrorWorkerStart" xml:space="preserve"><value>Тэсвэрлэлтийн ажилчдыг эхлүүлж чадахгүй.</value></data>
+  <data name="ErrorImageNotFound" xml:space="preserve"><value>Сонгон авсан зургийн файлыг олж чадаагүй.</value></data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve"><value>Зөвхөн ISO, WIM болон ESD зургийн файлууд дэмжлэг үзүүлдэг.</value></data>
+  <data name="ErrorIsoMount" xml:space="preserve"><value>ISO-г монтаж, шалгах боломжгүй.</value></data>
+  <data name="ErrorNoInstallImage" xml:space="preserve"><value>Энэ ISO-д эх сурвалж\install.wim эсвэл эх сурвалж\install.esd гэж байхгүй.</value></data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve"><value>Энэхүү зургийг тусгаарласан SWM файлуудыг ашигладаг бөгөөд энэ дугаар нь дэмжлэг үзүүлдэггүй.</value></data>
+  <data name="ErrorImageOpen" xml:space="preserve"><value>Windows зургийг нээж чадаагүй.</value></data>
+  <data name="ErrorNoEditions" xml:space="preserve"><value>Windows зургийн хувьд орчилцох индекс байхгүй.</value></data>
+  <data name="ErrorImageMetadata" xml:space="preserve"><value>Windows зургийн метадэрүүдийг уншиж чадахгүй.</value></data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve"><value>Дүрс диск, хуваарилалтыг уншиж чадахгүй байсан.</value></data>
+  <data name="ErrorNoDisks" xml:space="preserve"><value>Физикийн дискүүд байхгүй.</value></data>
+  <data name="ErrorFormatDestination" xml:space="preserve"><value>Сонгон шалгагдсан зориулалтын хуваарилыг форматжуулж чадаагүй.</value></data>
+  <data name="ErrorDismApply" xml:space="preserve"><value>DISM нь сонгогдсон Windows зургийг ашиглаж чадахгүй.</value></data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve"><value>Тавигдсан бутын хуванц руу хандах боломжгүй.</value></data>
+  <data name="ErrorBcdBoot" xml:space="preserve"><value>BCDBoot нь Windows-ийн бутын файлуудыг татаж чадахгүй.</value></data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve"><value>Windows-ийн хэрэглэгдсэн файлууд шалгалтыг давж чадсангүй.</value></data>
+  <data name="ErrorBootVerification" xml:space="preserve"><value>Windows-ийн бутын файлууд шалгалтыг давж чадсангүй.</value></data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve"><value>Үйлдвэрлэсэн байгууламжийн төлөвлөгөөг уншиж чадахгүй байна.</value></data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve"><value>Windows-ийн энэ бүтэц нь найдвартай тодорхойлогддоггүй.</value></data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve"><value>Тавианы архитектура нь энэ компьютер болон фирмавэрний хэв маягаар нийцэхгүй.</value></data>
+  <data name="ValidationProtectedPartition" xml:space="preserve"><value>Сонгосон хуваалт хамгаалагдсан тул дарж бичих боломжгүй.</value></data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve"><value>Сонгосон хуваалт BitLocker хамгаалалттай. Байршуулалтын өмнө түгжээг болон шифрлэлтийг тайлна уу.</value></data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve"><value>Сонгон шалгасан хуванц нь Windows-ийн энэ хувилбарын хувьд хэтэрхий бага.</value></data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve"><value>Зорилтот диск офлайн эсвэл зөвхөн унших горимтой байна.</value></data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve"><value>UEFI-ийн хэрэгжилтэд GPT-ийн чиглэлийн диск шаардлагатай.</value></data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve"><value>Барилгатай BIOS-ийг ашиглахдаа MBR-ийн зорилтот диск шаардлагатай.</value></data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve"><value>Зохион дискийн хувьд тохиромжтой бутын хуваарилалт байхгүй.</value></data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve"><value>Баут хэсгээс нь баруун чиглэлтэй ижил физик диск дээр байх ёстой.</value></data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve"><value>UEFI-ийн хэрэглээг хэрэгжүүлэхэд зориулсан системний хэсгээс EFI-ийн хэсгээс гарын диск дээр ашиглах шаардлагатай.</value></data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve"><value>EFI системний хуваарилалтын FAT32-ийг ашиглах ёстой.</value></data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve"><value>Legacy BIOS-ийг ашиглах нь зорилтот дискийн NTFS-ийн ботооны хэсгийг идэвхжүүлэх шаардлагатай.</value></data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve"><value>Windows 7 UEFI-ийн хэрэглээ зөвхөн x64 зургийн хувьд ашиглах боломжтой.</value></data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve"><value>Windows 11 нь дэмжлэгтэй x64 эсвэл ARM64 зураг шаарддаг.</value></data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve"><value>Windows 11 нь UEFI фирмавер шаарддаг.</value></data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve"><value>TPM 2.0 нь бэлэн болон бэлэн гэж илрээгүй. Windows 11 орноо энэ компьютерийг татгалзаж магадгүй.</value></data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve"><value>Аюулгүй шуурхайны хүчин чадлыг баталгаажуулах боломжгүй.</value></data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve"><value>Аюулгүй шуугилт нь дэмжлэгтэй боловч одоогоор хүчингүй.</value></data>
+  <data name="ValidationWindows11Memory" xml:space="preserve"><value>Компьютер нь 4 ГБ-аас бага физик хатаж байна.</value></data>
+  <data name="ValidationSourceChanged" xml:space="preserve"><value>План батлагдсанаас хойш эх сурвалж өөрчлөгдсөн.</value></data>
+  <data name="ValidationEditionChanged" xml:space="preserve"><value>Тавигдсан зургийн индекс нь баталгаажуулалт хийсний дараа өөрчлөгдсөн.</value></data>
+  <data name="ValidationDiskMissing" xml:space="preserve"><value>Зохион цэг нь байхгүй.</value></data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve"><value>Энэ диск нь тогтвортой цуврал эсвэл өвөрмөц идентификаторгүй бөгөөд аюулгүй ашиглаж чадахгүй.</value></data>
+  <data name="ValidationDiskChanged" xml:space="preserve"><value>Даяарны дискний тодорхойлолт өөрчлөгдсөн.</value></data>
+  <data name="ValidationPartitionChanged" xml:space="preserve"><value>Зохион байгууламжийн хуваарилалтын тодорхой байдал эсвэл геометрийн өөрчлөлт.</value></data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve"><value>Бут хэсгүүдийн тодорхой байдал эсвэл геометрийн өөрчлөлт.</value></data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve"><value>Фирмавер эсвэл зориулалтын хуваарилалтын схема нь төлөвлөгөөтэй нийцэхгүй.</value></data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve"><value>Тавилга болон бутын файл нь хоёрдугаар диск дээр баталгаажуулсан. Хэрэв фирмавер энэ дискээ автомат сонгохгүй бол UEFI-ийн бутын жагсаалтад нэг удаа сонгох.</value></data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve"><value>UEFI-ийн сэргээлт замын файл шалгалтыг давж чадсангүй.</value></data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve"><value>Энэ нь хоёр дахь UEFI диск юм. ESD Installer нь фирм웨어 NVRAM хувьчлалыг өөрчлөхгүйгээр стандарт fallback boot файлыг байрлуулдаг.</value></data>
+  <data name="ErrorImageScratch" xml:space="preserve"><value>Windows зурагны түр ажлын хуудас эхлүүлэх боломжгүй.</value></data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Windows 11 -ийн энэхүү тавилгад дэмжлэггүй дэвшилтэт техникний дутагдал ашиглах боломжтой.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Хадвер дээр суурилуулж байна уу?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Урьдчилгааны дутагдал хүлээн зөвшөөрч, зөвшөөрөх</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft нь Windows 11-ийг энэ гардуур дээр дэмжихгүй бөгөөд шинэчлэлийг баталгаажуулахгүй. Хууль нийцүүлэл асуудал, аюулгүй байдал буурсан эсвэл эхлүүлэх алдаа гарч магадгүй. ESD Installer нь CPU, TPM, Secure Boot, RAM, хадгаламжийн шалгалтыг орхино, гэхдээ энэ нь нийцэхгүй гардуур ажиллах боломжгүй.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Windows 11 дэйлхөөгүй аппаратны дутагдал тохируулах боломжгүй.</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Хадварлаг дутагдалгүй дутагдал</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Windows 11 гардуурны дутагдалгүй дутагдал...</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Хадварлаг гарааны дэмжлэггүй явцын дагуу зөвшөөрөлтэй</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Windows 11 гардурын дутагдалгvйг дэмждэггүй тохируула</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Windows 11 -ийн шаардлагын алдаа бол сэрэмжлэл юм.</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Урт дэвшилтэт: Windows 11 CPU, TPM, Secure Boot, RAM болон хадгаламжийн шаардлага шалгалтыг орхиж, дискний тодруулгын, хуваарилалтын болон архитектурын аюулгүй байдлын шалгалтыг идэвхтэй хэвээр байна.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Энэ төлөвлөгөө нь дэмжлэггүй аппаратны дутагдалны үнэ цэнийг офлайн Windows-ийн суурилгад бичиж өгдөг. Microsoft-ийн дэмжлэг болон шинэчлэл баталгаагүй.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Windows 11-ийг дэмжлэггүй гардуер дээр суурилуул</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Диск удирдлагад жинхэнэ үндсэн мэдээллийн хуваарилалт эсвэл энгийн хэмжээг бий болгож, дараа нь дискүүдийг шинэчлээрэй.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Сонгосон зорилтот хэсэг ашиглаж болох үндсэн өгөгдлийн хуваалт биш байна. Хуваарилагдаагүй зай болон өргөтгөсөн MBR контейнерийг шууд форматлах боломжгүй.</value></data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve"><value>Шинэчлэлтийг автоматаар шалгах</value></data>
+  <data name="CheckForUpdates" xml:space="preserve"><value>Шинэчлэлт шалгах</value></data>
+  <data name="CheckingForUpdates" xml:space="preserve"><value>Шинэчлэлт шалгаж байна...</value></data>
+  <data name="UpToDate" xml:space="preserve"><value>Та хамгийн сүүлийн хувилбарыг ашиглаж байна.</value></data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve"><value>Шинэчлэлтийг шалгаж чадсангүй.</value></data>
+  <data name="UpdateTitle" xml:space="preserve"><value>Програмын шинэчлэлт</value></data>
+  <data name="UpdateAvailableHeading" xml:space="preserve"><value>Шинэ хувилбар бэлэн байна.</value></data>
+  <data name="UpdateVersionAvailable" xml:space="preserve"><value>{0} хувилбар бэлэн байна.</value></data>
+  <data name="UpdateCurrentVersion" xml:space="preserve"><value>Та одоогоор {0} хувилбарыг ашиглаж байна.</value></data>
+  <data name="UpdateDefaultNotes" xml:space="preserve"><value>Энэ шинэчлэлтэд сайжруулалт болон алдааны засварууд багтсан.</value></data>
+  <data name="UpdateButton" xml:space="preserve"><value>Шинэчлэх</value></data>
+  <data name="DownloadingUpdate" xml:space="preserve"><value>Шинэчлэлтийг татаж байна...</value></data>
+  <data name="VerifyingUpdate" xml:space="preserve"><value>Шинэчлэлтийг баталгаажуулж байна...</value></data>
+  <data name="UpdateVerificationFailed" xml:space="preserve"><value>Татсан шинэчлэлтийг баталгаажуулж чадсангүй, эхлүүлээгүй.</value></data>
+  <data name="UpdateDownloadFailed" xml:space="preserve"><value>Шинэчлэлтийг татаж эсвэл эхлүүлж чадсангүй.</value></data>
+</root>

@@ -7,7 +7,8 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $root = $PSScriptRoot
+$runtimeIdentifier = "win-$($Platform.ToLowerInvariant())"
 
-dotnet restore (Join-Path $root 'WinDeploy.slnx')
-dotnet build (Join-Path $root 'src\WinDeploy.App\WinDeploy.App.csproj') -c $Configuration -p:Platform=$Platform --no-restore
-dotnet run --project (Join-Path $root 'tests\WinDeploy.Core.Tests\WinDeploy.Core.Tests.csproj') -c $Configuration --no-restore
+dotnet restore (Join-Path $root 'ESDInstaller.slnx')
+dotnet build (Join-Path $root 'src\ESDInstaller.App\ESDInstaller.App.csproj') -c $Configuration -p:Platform=$Platform -r $runtimeIdentifier --no-restore
+dotnet run --project (Join-Path $root 'tests\ESDInstaller.Core.Tests\ESDInstaller.Core.Tests.csproj') -c $Configuration --no-restore

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows დანაყოფის ინსტალერი</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>გახსენით სურათი</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>დისკების განახლება</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>პარამეტრები</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>დახმარება</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>დააინსტალირეთ WINDOWS</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows სურათი</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 გამოცემა</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 დანიშნულება</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 ჩატვირთვის კონფიგურაცია</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 მიმოხილვა</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 ინსტალაცია</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>უსაფრთხოება პირველ რიგში</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>არცერთი დისკი არ არის არჩეული ავტომატურად. დაცული სისტემა, EFI, აღდგენა, OEM და დაცული ტიხრები არ შეიძლება იყოს სამიზნე.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>მზადაა</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>მზადაა</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>აირჩიეთ Windows სურათი</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>აირჩიეთ Windows ISO, WIM ან ESD ფაილი. სურათის შემოწმება ხდება დისკზე შეხებამდე.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>აირჩიეთ Windows სურათი</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>ან გადაათრიეთ და ჩამოაგდეთ .iso, .wim ან .esd ფაილი აქ</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>ფაილის სახელი</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows ვერსია</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>არქიტექტურა</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>სურათის ტიპი</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>ფაილის ზომა</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>ხელმისაწვდომი გამოცემები</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>შემდეგი</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>უკან</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>აირჩიეთ Windows გამოცემა</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>აირჩიეთ ინსტალაციის მედიიდან წაკითხული სურათის რეალური ინდექსი.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>აირჩიეთ დანიშნულების დანაყოფი</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>აირჩიეთ ერთი არსებული შესაფერისი დანაყოფი. გამოუყენებელი და დაცული ტიხრები ნაჩვენებია კონტექსტში, მაგრამ მათი არჩევა შეუძლებელია.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>ჩატვირთვის კონფიგურაცია</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>გადაამოწმეთ აღმოჩენილი პროგრამული უზრუნველყოფა, დანაყოფის სქემა და ჩატვირთვის დანაყოფი. EFI დანაყოფი არასოდეს არ არის ფორმატირებული ამ სამუშაო პროცესით.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>პროგრამული უზრუნველყოფის რეჟიმი</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>დანაყოფის სქემა</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>ჩატვირთვის დანაყოფი</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>ჩატვირთვის კონფიგურაცია</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>თავსებადობა</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>გაფართოებული დეტალები</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>გადახედეთ ინსტალაციას</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>გადახედეთ ინსტალაციის გეგმას</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>ყურადღებით შეამოწმეთ ყველა იდენტიფიკატორი. Execution იყენებს ამ დამოწმებულ დისკს და დანაყოფის იდენტურობას და არა ხელახლა აღმოჩენილ დისკის ასოს.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows სურათი</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>წყარო</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>დანიშნულება</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>დანიშნულების ფაილური სისტემა</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>გაფრთხილება: არჩეულ დანაყოფზე ყველა მონაცემი სამუდამოდ წაიშლება.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>მე მესმის, რომ ყველა არსებული მონაცემი არჩეულ დანიშნულების ნაწილზე წაიშლება.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>დააინსტალირეთ Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>მიმდინარეობს Windows-ის ინსტალაცია</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>შეინახეთ კომპიუტერი დაკავშირებული კვების ბლოკთან. წარმატების შესახებ იტყობინება მხოლოდ სურათის, ჩატვირთვის ფაილების და კრიტიკული დაინსტალირებული ფაილების შემოწმების შემდეგ.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>ველოდები ადმინისტრატორის ნებართვას…</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>ინსტალაციის ჟურნალი</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>გახსენით ჟურნალი</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>ჟურნალის შენახვა როგორც…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows წარმატებით დაინსტალირდა.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>სურათი და Windows ჩატვირთვის ფაილები დადასტურდა. ახლა შეგიძლიათ კომპიუტერის გადატვირთვა.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows წარმატებით დაინსტალირდა.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>სურათი და Windows ჩატვირთვის ფაილები დადასტურდა. ახალი Windows ჩანაწერი ნაგულისხმევია შემდეგი გადატვირთვისთვის.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>გადატვირთეთ ახლავე</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>გადატვირთვა მოგვიანებით</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>სისტემის ენა</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>გაფართოებული რეჟიმი</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>აჩვენებს სტაბილურ დისკის ID-ებს, ოფსეტებს და პროგრამული უზრუნველყოფის დეტალებს. ის ასევე ავლენს აშკარა მხარდაჭერილ Windows 11 ტექნიკის შემოვლებას; დისკის უსაფრთხოების დაცვა აქტიური რჩება.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>დიახ</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>არა</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>ძველი ძრავა</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>ძრავა: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Firmware: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>დისკის სტილი: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>დისკის უნიკალური ID: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>სამიზნე ოფსეტი: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/ჩატვირთვის დანაყოფი: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM იმყოფება/მზადაა: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot შეუძლია/ჩართულია: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>ენა</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>პარამეტრები</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>შენახვა</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>გაუქმება</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>დახურვა</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer დახმარება</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer იყენებს არჩეულ WIM/ESD სურათს ერთ არსებულ დანაყოფზე და აკონფიგურირებს ჩატვირთვის ფაილებს იმავე ფიზიკურ დისკზე დამოწმებულ ჩატვირთვის დანაყოფზე. ის არ ქმნის ტიხრებს და არ შლის მთელ დისკებს. გაფართოებულ რეჟიმს შეუძლია ცალსახად გვერდის ავლით Windows 11 ტექნიკის მოთხოვნები ცალკე გაფრთხილების შემდეგ. Windows XP და მხარდაუჭერელი მოძველებული მედია დაბლოკილი რჩება გამოყოფილი ძრავის არსებობამდე.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>გაფართოებული რეჟიმი</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>სტანდარტული რეჟიმი</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>მიმდინარეობს Windows სურათის შემოწმება…</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows სურათი მზად არის</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>მოხდა შეცდომა</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>აირჩიეთ Windows გამოცემა</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>ჯერ აირჩიეთ სურათი და გამოცემა</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>ფიზიკური დისკების და დანაყოფების კითხვა…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>აირჩიეთ დანიშნულების დანაყოფი</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>ჩატვირთვის კონფიგურაცია მოქმედებს</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>თავსებადობის შემოწმება დაბლოკილია ინსტალაცია</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>გადახედეთ და დაადასტურეთ ინსტალაციის გეგმა</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>საჭიროა ადმინისტრატორის ნებართვა დისკის დანაყოფების და Windows ჩატვირთვის ფაილების შესაცვლელად.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Windows ინსტალაცია წარმატებით დასრულდა</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Windows ინსტალაცია ვერ მოხერხდა — გადახედეთ ჟურნალს</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>შეამოწმეთ ეს Windows სურათი</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>ინდექსი {0} • Build {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>აღმოჩენილია ძველი Windows მედია</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>ამ ვერსიას სჭირდება Legacy Windows ინსტალაციის ძრავა, რომელიც ჯერ არ არის ხელმისაწვდომი.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>ამ ვერსიას სჭირდება Legacy Windows ინსტალაციის ძრავა, რომელიც ჯერ არ არის ხელმისაწვდომი.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista მოითხოვს Legacy NT6 ინსტალაციის ძრავას, რომელიც ჯერ არ არის ხელმისაწვდომი.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>firmware: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>კომპიუტერის არქიტექტურა: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>დისკი {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • სერია: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>ხაზგარეშე</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>მხოლოდ წაკითხვადი</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>მიუწვდომელია</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>გაუნაწილებელი</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>მიმდინარე Windows — დაცული</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>დაცულია</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI სისტემა</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>აღდგენა</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>ძირითადი მონაცემები</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>უცნობი დანაყოფი</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>დანაყოფი {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>დისკი {0} — {1}; დანაყოფი {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>დისკი {0}, დანაყოფი {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>არ მოიძებნა შესაბამისი ჩატვირთვის დანაყოფი დანიშნულების დისკზე.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>გავიდა</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>დაბლოკილია</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>ჩატვირთვის კონფიგურაცია მზად არის</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>არჩეული სურათი, დანიშნულება და იმავე დისკის ჩატვირთვის დანაყოფი ტექნიკურად თავსებადია.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>ინსტალაცია დაბლოკილია</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>მოაგვარეთ თავსებადობის შეცდომები ქვემოთ. ESD Installer მათ ავტომატურად არ გვერდის ავლით.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>უცნობია</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>დისკი {0} — {1}; დანაყოფი {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>დისკის მოდელი: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>დისკის ნომერი: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>დანაყოფის ნომერი: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>დისკის ასო: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>ტომის სახელი: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>მოცულობა: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>არცერთი</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>დადასტურებული გეგმის თითის ანაბეჭდი: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>გასული: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>ადმინისტრატორის ნებართვა გაუქმდა. ინსტალაცია არ დაწყებულა.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>ინსტალაციის მუშაკი გაჩერდა გასასვლელი კოდით {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>ინსტალაციის ჟურნალი</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>გადატვირთოთ კომპიუტერი?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>შეინახეთ თქვენი ნამუშევარი სხვა აპლიკაციებში. კომპიუტერი დაუყოვნებლივ გადაიტვირთება.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>გადატვირთეთ ახლა</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>შეგიძლიათ მოგვიანებით გადატვირთოთ Start მენიუდან. ახალი Windows ჩანაწერი კონფიგურირებულია Windows Boot Manager-ში.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>ადმინისტრატორის ნებართვა გაცემულია</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>მიმდინარეობს ინსტალაციის გეგმის ვალიდაცია…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>მზადდება დანიშნულების ადგილი…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>დანიშნულების დანაყოფი ფორმატირებულია</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Windows სურათის გამოყენება…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>ჩატვირთვის ფაილების ინსტალაცია…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>ინსტალაციის შემოწმება…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows ინსტალაცია დასრულდა</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>ინსტალაცია ვერ მოხერხდა</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>დაადასტურეთ სრული გეგმა</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>მხოლოდ შერჩეული დანაყოფის ფორმატირება, როგორც NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>გამოიყენეთ არჩეული Windows გამოსახულების ინდექსი</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>დააინსტალირეთ Windows ჩატვირთვის ფაილები იმავე დისკის ჩატვირთვის დანაყოფზე</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>დაადასტურეთ დაინსტალირებული და ჩატვირთეთ ფაილები</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>საჭიროა ადმინისტრატორის ნებართვა დისკის დანაყოფებისა და Windows ჩატვირთვის ფაილების შესაცვლელად.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>მოხდა მოულოდნელი შეცდომა.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>ამაღლებული სამონტაჟო თანამშრომელი დაკარგულია.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>ამაღლებული სამონტაჟო მუშაკის გაშვება ვერ მოხერხდა.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>არჩეული სურათის ფაილი ვერ მოიძებნა.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>მხარდაჭერილია მხოლოდ ISO, WIM და ESD გამოსახულების ფაილები.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO-ის დამონტაჟება ან შემოწმება შეუძლებელია.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>sources\install.wim ან sources\install.esd არ მოიძებნა ამ ISO-ში.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>ეს სურათი იყენებს გაყოფილ SWM ფაილებს, რომლებიც არ არის მხარდაჭერილი ამ გამოშვებაში.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Windows სურათის გახსნა ვერ მოხერხდა.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows გამოსახულება არ შეიცავს დასაყენებელ ინდექსებს.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Windows სურათის მეტამონაცემების წაკითხვა ვერ მოხერხდა.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>ფიზიკური დისკების და ტიხრების წაკითხვა შეუძლებელია.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>ფიზიკური დისკები არ მოიძებნა.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>არჩეული დანიშნულების დანაყოფის ფორმატირება ვერ მოხერხდა.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM-მ ვერ გამოიყენა არჩეული Windows სურათი.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>დადასტურებული ჩატვირთვის დანაყოფზე წვდომა ვერ მოხერხდა.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot-მ ვერ დააინსტალირა Windows ჩატვირთვის ფაილები.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>განლაგებულმა Windows ფაილებმა ვერ გაიარეს დადასტურება.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Windows ჩატვირთვის ფაილებმა ვერ გაიარა დადასტურება.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>დადასტურებული ინსტალაციის გეგმის წაკითხვა ვერ მოხერხდა.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>ამ Windows კონსტრუქციის საიმედოდ ამოცნობა შეუძლებელია.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>გამოსახულების არქიტექტურა შეუთავსებელია ამ კომპიუტერთან და firmware რეჟიმში.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>არჩეული დანაყოფი დაცულია და მისი გადაწერა შეუძლებელია.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>არჩეული დანაყოფი დაცულია BitLocker-ით. განბლოკვა და გაშიფვრა განლაგებამდე.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>არჩეული დანაყოფი ძალიან მცირეა ამ Windows ვერსიისთვის.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>დანიშნულების დისკი არის ხაზგარეშე ან მხოლოდ წაკითხვადი.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI განლაგებისთვის საჭიროა GPT დანიშნულების დისკი.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Legacy BIOS განლაგება საჭიროებს MBR დანიშნულების დისკს.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>არ არსებობს შესაბამისი ჩატვირთვის დანაყოფი დანიშნულების დისკზე.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>ჩატვირთვის დანაყოფი უნდა იყოს იმავე ფიზიკურ დისკზე, როგორც დანიშნულების ადგილი.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI განლაგებისთვის საჭიროა EFI სისტემის დანაყოფი დანიშნულების დისკზე.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>EFI სისტემის დანაყოფი უკვე უნდა გამოიყენოს FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Legacy BIOS განლაგებისთვის საჭიროა აქტიური NTFS ჩატვირთვის დანაყოფი დანიშნულების დისკზე.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 UEFI დანერგვა ჩართულია მხოლოდ x64 სურათებისთვის.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 საჭიროებს მხარდაჭერილ x64 ან ARM64 სურათს.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 საჭიროებს UEFI firmware.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 არ იქნა აღმოჩენილი, როგორც არსებული და მზად. Windows 11 დაყენებამ შეიძლება უარყოს ეს კომპიუტერი.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Secure Boot შესაძლებლობის დადასტურება ვერ მოხერხდა.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot მხარდაჭერილია, მაგრამ ამჟამად გამორთულია.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>კომპიუტერს აქვს 4 გბ-ზე ნაკლები ფიზიკური მეხსიერება.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>წყაროს სურათი შეიცვალა გეგმის დადასტურების შემდეგ.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>შერჩეული სურათის ინდექსი შეიცვალა დადასტურების შემდეგ.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>დანიშნულების დისკი აღარ არის.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>ამ დისკს არ აქვს სტაბილური სერიული ან უნიკალური ID და მისი უსაფრთხოდ გამოყენება შეუძლებელია.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>დანიშნულების დისკის იდენტიფიკაცია შეიცვალა. ინსტალაცია შეჩერდა.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>დანიშნულების დანაყოფის იდენტურობა ან გეომეტრია შეიცვალა.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>ჩატვირთვის დანაყოფის იდენტურობა ან გეომეტრია შეიცვალა.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>firmware ან დანიშნულების დანაყოფის სქემა აღარ ემთხვევა გეგმას.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>გამოსახულების და ჩატვირთვის ფაილები დამოწმებული იქნა მეორად დისკზე. თუ firmware არ ირჩევს ამ დისკს ავტომატურად, აირჩიეთ ის ერთხელ UEFI ჩატვირთვის მენიუდან.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>UEFI სარეზერვო ჩატვირთვის ფაილმა ვერ გაიარა დადასტურება.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>ეს არის მეორადი UEFI დისკი. ESD Installer აინსტალირებს სტანდარტული ჩატვირთვის ფაილს firmware NVRAM ცვლადების შეცვლის გარეშე; შეიძლება დაგჭირდეთ დისკის ერთხელ არჩევა firmware ჩატვირთვის მენიუში.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Windows გამოსახულების დროებითი სამუშაო საქაღალდის ინიციალიზაცია ვერ მოხერხდა.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>ამ Windows 11 ინსტალაციისთვის ჩართულია გაფართოებული მხარდაჭერილი აპარატურის შემოვლითი გზა.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>დააინსტალიროთ მხარდაუჭერელ აპარატურაზე?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>მიღება და ჩართვა შემოვლითი გზით</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft არ უჭერს მხარს Windows 11 ამ აპარატურაზე და არ იძლევა განახლებების გარანტიას. შეიძლება მოხდეს თავსებადობის პრობლემები, უსაფრთხოების შემცირებული ან გაშვების წარუმატებლობა. ESD Installer გვერდის ავლით CPU, TPM, Secure Boot, ოპერატიული მეხსიერების და მეხსიერების შემოწმებებს, მაგრამ მას არ შეუძლია შეუთავსებელი აპარატურის მუშაობა.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Windows 11 მხარდაჭერილი აპარატურის შემოვლითი გვერდის კონფიგურაცია ვერ მოხერხდა.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>მხარდაუჭერელი ტექნიკის გვერდის ავლით ჩართულია</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>მიმდინარეობს მხარდაჭერილი Windows 11 ტექნიკის შემოვლითი გვერდის კონფიგურაცია...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>ნებადართულია მხარდაჭერილი აპარატურის შემოვლით</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>მხარდაჭერილი Windows 11 ტექნიკის შემოვლების კონფიგურაცია</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 მოთხოვნის წარუმატებლობა გაფრთხილებაა. კრიტიკული დისკის, დანაყოფის, ჩატვირთვისა და არქიტექტურის დაცვა რჩება ძალაში.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>გაფართოებული: გვერდის ავლით Windows 11 CPU, TPM, Secure Boot, RAM და შენახვის მოთხოვნების შემოწმება. დისკის იდენტურობის, დანაყოფის და არქიტექტურის უსაფრთხოების შემოწმებები კვლავ აქტიურია.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>ეს გეგმა წერს მხარდაჭერილი აპარატურის შემოვლითი მნიშვნელობებს ოფლაინ Windows ინსტალაციაში. Microsoft-ის მხარდაჭერა და განახლებები არ არის გარანტირებული.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>დააინსტალირეთ Windows 11 მხარდაუჭერელ აპარატურაზე</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>შექმენით რეალური ძირითადი მონაცემთა დანაყოფი ან მარტივი ტომი დისკის მენეჯმენტში, შემდეგ განაახლეთ დისკები.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>არჩეული სამიზნე არ არის გამოსაყენებელი ძირითადი მონაცემთა დანაყოფი. გამოუყენებელი სივრცისა და MBR გაფართოებული კონტეინერების პირდაპირ ფორმატირება შეუძლებელია.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>შეამოწმეთ განახლებები ავტომატურად</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>შეამოწმეთ განახლებები</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>მიმდინარეობს განახლებების შემოწმება...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>თქვენ იყენებთ უახლეს ვერსიას.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>განახლებების შემოწმება შეუძლებელია.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>პროგრამული უზრუნველყოფის განახლება</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>ხელმისაწვდომია ახალი ვერსია.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>ვერსია {0} ხელმისაწვდომია.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>თქვენ ამჟამად იყენებთ ვერსიას {0}.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>ეს განახლება მოიცავს გაუმჯობესებებს და შეცდომების გამოსწორებას.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>განახლება</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>მიმდინარეობს განახლების ჩამოტვირთვა...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>მიმდინარეობს განახლების შემოწმება...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>ჩამოტვირთული განახლება ვერ დადასტურდა და არ დაიწყო.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>განახლების ჩამოტვირთვა ან დაწყება შეუძლებელია.</value>
+  </data>
+</root>

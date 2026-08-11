@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — ตัวติดตั้งพาร์ติชัน Windows</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>เปิดภาพ</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>รีเฟรชดิสก์</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>ช่วยด้วย</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>ติดตั้งหน้าต่าง</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 อิมเมจ Windows</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 ฉบับ</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 ปลายทาง</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 การกำหนดค่าการบูต</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 รีวิว</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 ติดตั้ง</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>ปลอดภัยไว้ก่อน</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>ไม่มีการเลือกดิสก์โดยอัตโนมัติ ระบบที่ได้รับการป้องกัน, EFI, การกู้คืน, OEM และพาร์ติชันที่สงวนไว้ไม่สามารถเป็นเป้าหมายได้</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>พร้อมแล้ว</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>พร้อมแล้ว</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>เลือกอิมเมจ Windows</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>เลือกไฟล์ Windows ISO, WIM หรือ ESD รูปภาพจะถูกตรวจสอบก่อนที่จะสัมผัสดิสก์ใดๆ</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>เลือกอิมเมจ Windows</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>หรือลากและวางไฟล์ .iso, .wim หรือ .esd ที่นี่</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>ชื่อไฟล์</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>เวอร์ชัน Windows</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>สถาปัตยกรรม</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>ประเภทรูปภาพ</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>ขนาดไฟล์</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>รุ่นที่มีจำหน่าย</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>ถัดไป</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>กลับ</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>เลือกรุ่น Windows</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>เลือกดัชนีรูปภาพจริงที่อ่านจากสื่อการติดตั้ง</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>เลือกพาร์ติชันปลายทาง</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>เลือกหนึ่งพาร์ติชันที่เหมาะสมที่มีอยู่ พาร์ติชันที่ไม่ได้จัดสรรและได้รับการป้องกันจะแสดงตามบริบทแต่ไม่สามารถเลือกได้</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>การกำหนดค่าการบูต</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>ตรวจสอบเฟิร์มแวร์ที่ตรวจพบ รูปแบบพาร์ติชัน และพาร์ติชันสำหรับบูต พาร์ติชัน EFI ไม่เคยถูกฟอร์แมตตามเวิร์กโฟลว์นี้</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>โหมดเฟิร์มแวร์</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>รูปแบบพาร์ติชัน</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>พาร์ติชันสำหรับบูต</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>การกำหนดค่าการบูต</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>ความเข้ากันได้</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>รายละเอียดขั้นสูง</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>ตรวจสอบการติดตั้ง</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>ตรวจสอบแผนการติดตั้ง</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>ตรวจสอบทุกตัวระบุอย่างระมัดระวัง การดำเนินการใช้ดิสก์และพาร์ติชันที่ได้รับการตรวจสอบแล้ว ไม่ใช่อักษรระบุไดรฟ์ที่ค้นพบใหม่</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>รูปภาพ Windows</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>ที่มา</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>ปลายทาง</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>ระบบไฟล์ปลายทาง</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>คำเตือน: ข้อมูลทั้งหมดในพาร์ติชั่นที่เลือกจะถูกลบอย่างถาวร</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>ฉันเข้าใจว่าข้อมูลที่มีอยู่ทั้งหมดในพาร์ติชันปลายทางที่เลือกจะถูกลบ</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>ติดตั้ง Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>กำลังติดตั้ง Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>ให้คอมพิวเตอร์เชื่อมต่อกับแหล่งจ่ายไฟ ความสำเร็จจะถูกรายงานหลังจากตรวจสอบอิมเมจ ไฟล์บูต และไฟล์สำคัญที่ติดตั้งแล้วเท่านั้น</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>กำลังรอการอนุญาตจากผู้ดูแลระบบ...</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>บันทึกการติดตั้ง</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>เปิดบันทึก</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>บันทึกบันทึกเป็น...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>ติดตั้ง Windows สำเร็จแล้ว</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>อิมเมจและไฟล์บูต Windows ได้รับการยืนยันแล้ว ตอนนี้คุณสามารถรีสตาร์ทคอมพิวเตอร์ได้แล้ว</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>ติดตั้ง Windows สำเร็จแล้ว</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>อิมเมจและไฟล์บูต Windows ได้รับการยืนยันแล้ว รายการ Windows ใหม่เป็นค่าเริ่มต้นสำหรับการรีสตาร์ทครั้งถัดไป</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>รีสตาร์ททันที</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>เริ่มต้นใหม่ในภายหลัง</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>ภาษาของระบบ</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>โหมดขั้นสูง</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>แสดงรหัสดิสก์ที่เสถียร รายละเอียดออฟเซ็ต และเฟิร์มแวร์ นอกจากนี้ยังเปิดเผยการบายพาสฮาร์ดแวร์ Windows 11 ที่ไม่รองรับอย่างชัดเจน การป้องกันความปลอดภัยของดิสก์ยังคงทำงานอยู่</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ใช่</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ไม่ใช่</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>เครื่องยนต์รุ่นเก่า</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>เครื่องยนต์: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>เฟิร์มแวร์: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>รูปแบบของดิสก์: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>ID เฉพาะของดิสก์: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>ออฟเซ็ตเป้าหมาย: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/พาร์ติชันสำหรับบูต: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM มี/พร้อม: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>ความสามารถ/เปิดใช้งาน Secure Boot: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>ภาษา</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>การตั้งค่า</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>วิธีใช้ ESD Installer</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer ใช้อิมเมจ WIM/ESD ที่เลือกกับพาร์ติชันที่มีอยู่หนึ่งพาร์ติชัน และกำหนดค่าไฟล์บูตบนพาร์ติชันสำหรับบูตที่ได้รับการตรวจสอบแล้วบนฟิสิคัลดิสก์เดียวกัน มันไม่ได้สร้างพาร์ติชั่นหรือลบดิสก์ทั้งหมด โหมดขั้นสูงสามารถข้ามข้อกำหนดฮาร์ดแวร์ Windows 11 ได้อย่างชัดเจนหลังจากคำเตือนแยกต่างหาก Windows XP และสื่อแบบเดิมที่ไม่รองรับยังคงถูกบล็อกจนกว่าจะมีกลไกเฉพาะ</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>โหมดขั้นสูง</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>โหมดมาตรฐาน</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>กำลังตรวจสอบอิมเมจ Windows...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>อิมเมจ Windows พร้อมแล้ว</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>เกิดข้อผิดพลาด</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>เลือกรุ่น Windows</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>เลือกรูปภาพและรุ่นก่อน</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>กำลังอ่านฟิสิคัลดิสก์และพาร์ติชัน...</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>เลือกพาร์ติชันปลายทาง</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>การกำหนดค่าการบูตถูกต้อง</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>การตรวจสอบความเข้ากันได้ถูกบล็อกการติดตั้ง</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>ตรวจสอบและยืนยันแผนการติดตั้ง</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>ต้องได้รับอนุญาตจากผู้ดูแลระบบเพื่อแก้ไขพาร์ติชันดิสก์และไฟล์บูต Windows</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>การติดตั้ง Windows เสร็จสมบูรณ์</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>การติดตั้ง Windows ล้มเหลว — ตรวจสอบบันทึก</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>ตรวจสอบอิมเมจ Windows นี้</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>ดัชนี {0} • สร้าง {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>ตรวจพบสื่อ Windows รุ่นเก่า</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>เวอร์ชันนี้ต้องใช้กลไกการติดตั้ง Legacy Windows ซึ่งยังไม่มีให้บริการ</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>เวอร์ชันนี้ต้องใช้กลไกการติดตั้ง Legacy Windows ซึ่งยังไม่มีให้บริการ</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista ต้องใช้กลไกการติดตั้ง Legacy NT6 ซึ่งยังไม่พร้อมใช้งาน</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>เฟิร์มแวร์: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>สถาปัตยกรรมคอมพิวเตอร์: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>ดิสก์ {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • อนุกรม: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>ออฟไลน์</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>อ่านอย่างเดียว</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>ไม่พร้อมใช้งาน</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>ไม่ได้ถูกจัดสรร</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Windows ปัจจุบัน — ได้รับการป้องกัน</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>ได้รับการป้องกัน</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>ระบบ EFI</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>การกู้คืน</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>ข้อมูลพื้นฐาน</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>พาร์ติชันที่ไม่รู้จัก</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>พาร์ติชัน {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>ดิสก์ {0} — {1}; พาร์ติชัน {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>ดิสก์ {0}, พาร์ติชัน {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>ไม่พบพาร์ติชันสำหรับเริ่มระบบที่เหมาะสมบนดิสก์ปลายทาง</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>ผ่านแล้ว</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>ถูกบล็อค</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>การกำหนดค่าการบูตพร้อมแล้ว</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>อิมเมจ ปลายทาง และพาร์ติชั่นสำหรับบูตดิสก์เดียวกันที่เลือกนั้นเข้ากันได้ทางเทคนิค</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>การติดตั้งถูกบล็อก</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>แก้ไขข้อผิดพลาดความเข้ากันได้ด้านล่าง ESD Installer จะไม่ข้ามโดยอัตโนมัติ</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>ไม่ทราบ</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>ดิสก์ {0} — {1}; พาร์ติชั่น {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>ดิสก์รุ่น: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>หมายเลขดิสก์: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>หมายเลขพาร์ติชัน: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>ตัวอักษรของไดรฟ์: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>ชื่อโวลุ่ม: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>ความจุ: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>ลายนิ้วมือแผนที่ผ่านการตรวจสอบแล้ว: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>ผ่านไป: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>สิทธิ์ของผู้ดูแลระบบถูกยกเลิก ไม่มีการติดตั้งเริ่มต้น</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>ผู้ปฏิบัติงานการติดตั้งหยุดทำงานโดยมีรหัสทางออก {0}</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>บันทึกการติดตั้ง</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>รีสตาร์ทคอมพิวเตอร์?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>บันทึกงานของคุณในแอปพลิเคชันอื่น คอมพิวเตอร์จะรีสตาร์ททันที</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>รีสตาร์ททันที</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>คุณสามารถรีสตาร์ทในภายหลังได้จากเมนู Start รายการ Windows ใหม่ได้รับการกำหนดค่าใน Windows Boot Manager</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>ได้รับสิทธิ์ผู้ดูแลระบบแล้ว</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>กำลังตรวจสอบแผนการติดตั้ง...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>กำลังเตรียมปลายทาง...</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>ฟอร์แมตพาร์ติชันปลายทางแล้ว</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>กำลังใช้อิมเมจ Windows...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>กำลังติดตั้งไฟล์บูต...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>กำลังตรวจสอบการติดตั้ง...</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>การติดตั้ง Windows เสร็จสมบูรณ์</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>การติดตั้งล้มเหลว</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>ตรวจสอบความถูกต้องของแผนงานที่สมบูรณ์</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>ฟอร์แมตเฉพาะพาร์ติชั่นที่เลือกเป็น NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>ใช้ดัชนีรูปภาพ Windows ที่เลือก</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>ติดตั้งไฟล์บูต Windows บนพาร์ติชันสำหรับบูตดิสก์เดียวกัน</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>ตรวจสอบไฟล์ที่ติดตั้งและบูต</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>ต้องได้รับอนุญาตจากผู้ดูแลระบบเพื่อแก้ไขพาร์ติชันดิสก์และไฟล์บูต Windows</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดที่ไม่คาดคิด</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>ผู้ปฏิบัติงานการติดตั้งที่ยกระดับหายไป</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>ไม่สามารถเริ่มงานติดตั้งแบบยกระดับได้</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>ไม่พบไฟล์รูปภาพที่เลือก</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>รองรับเฉพาะไฟล์ภาพ ISO, WIM และ ESD เท่านั้น</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ไม่สามารถติดตั้งหรือตรวจสอบ ISO ได้</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>ไม่พบ sources\install.wim หรือ sources\install.esd ใน ISO นี้</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>รูปภาพนี้ใช้ไฟล์ SWM แบบแยก ซึ่งไม่รองรับในรุ่นนี้</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>ไม่สามารถเปิดอิมเมจ Windows ได้</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>อิมเมจ Windows ไม่มีดัชนีที่สามารถติดตั้งได้</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>ไม่สามารถอ่านข้อมูลเมตาของรูปภาพ Windows ได้</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>ไม่สามารถอ่านดิสก์และพาร์ติชันจริงได้</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>ไม่พบดิสก์จริง</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>ไม่สามารถฟอร์แมตพาร์ติชันปลายทางที่เลือกได้</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM ไม่สามารถใช้อิมเมจ Windows ที่เลือกได้</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>ไม่สามารถเข้าถึงพาร์ติชันสำหรับบูตที่ได้รับการตรวจสอบแล้ว</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot ไม่สามารถติดตั้งไฟล์สำหรับบูต Windows ได้</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>ไฟล์ Windows ที่ปรับใช้ไม่ผ่านการตรวจสอบ</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>ไฟล์บูต Windows ไม่ผ่านการตรวจสอบ</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>ไม่สามารถอ่านแผนการติดตั้งที่ได้รับการตรวจสอบแล้ว</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>ไม่สามารถระบุบิวด์ Windows นี้ได้อย่างน่าเชื่อถือ</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>สถาปัตยกรรมรูปภาพเข้ากันไม่ได้กับคอมพิวเตอร์เครื่องนี้และโหมดเฟิร์มแวร์</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>พาร์ติชันที่เลือกได้รับการป้องกันและไม่สามารถเขียนทับได้</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>พาร์ติชันที่เลือกมีการป้องกัน BitLocker ปลดล็อกและถอดรหัสก่อนใช้งาน</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>พาร์ติชันที่เลือกมีขนาดเล็กเกินไปสำหรับเวอร์ชัน Windows นี้</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>ดิสก์ปลายทางออฟไลน์หรืออ่านอย่างเดียว</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>การใช้งาน UEFI ต้องใช้ดิสก์ปลายทาง GPT</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>การใช้งาน BIOS แบบเดิมต้องใช้ดิสก์ปลายทาง MBR</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>ไม่มีพาร์ติชั่นสำหรับบูตที่เหมาะสมบนดิสก์ปลายทาง</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>พาร์ติชันสำหรับเริ่มระบบต้องอยู่บนฟิสิคัลดิสก์เดียวกันกับปลายทาง</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>การใช้งาน UEFI จำเป็นต้องมีพาร์ติชันระบบ EFI บนดิสก์ปลายทาง</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>พาร์ติชันระบบ EFI ต้องใช้ FAT32 อยู่แล้ว</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>การใช้งาน BIOS แบบเดิมจำเป็นต้องมีพาร์ติชันสำหรับบูต NTFS ที่ใช้งานอยู่บนดิสก์ปลายทาง</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>การใช้งาน Windows 7 UEFI ถูกเปิดใช้งานสำหรับอิมเมจ x64 เท่านั้น</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 ต้องใช้อิมเมจ x64 หรือ ARM64 ที่รองรับ</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 ต้องใช้เฟิร์มแวร์ UEFI</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>ตรวจไม่พบ TPM 2.0 ว่ามีอยู่และพร้อมใช้งาน การตั้งค่า Windows 11 อาจปฏิเสธคอมพิวเตอร์เครื่องนี้</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>ไม่สามารถยืนยันความสามารถของ Secure Boot ได้</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>รองรับ Secure Boot แต่ปิดการใช้งานอยู่ในขณะนี้</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>คอมพิวเตอร์มีหน่วยความจำกายภาพน้อยกว่า 4 GB</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>อิมเมจต้นฉบับเปลี่ยนไปหลังจากแผนได้รับการยืนยัน</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>ดัชนีรูปภาพที่เลือกมีการเปลี่ยนแปลงหลังจากการตรวจสอบความถูกต้อง</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>ไม่มีดิสก์ปลายทางอีกต่อไป</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>ดิสก์นี้ไม่มีซีเรียลหรือ ID เฉพาะที่เสถียร และไม่สามารถใช้งานได้อย่างปลอดภัย</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>ข้อมูลประจำตัวของดิสก์ปลายทางมีการเปลี่ยนแปลง การติดตั้งถูกหยุด</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>ข้อมูลประจำตัวของพาร์ติชันปลายทางหรือรูปทรงเรขาคณิตเปลี่ยนไป</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>ข้อมูลประจำตัวของพาร์ติชันสำหรับบูตหรือรูปทรงเปลี่ยนไป</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>เฟิร์มแวร์หรือโครงร่างพาร์ติชันปลายทางไม่ตรงกับแผนอีกต่อไป</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>อิมเมจและไฟล์บูตได้รับการตรวจสอบบนดิสก์รอง หากเฟิร์มแวร์ไม่เลือกดิสก์นั้นโดยอัตโนมัติ ให้เลือกหนึ่งครั้งจากเมนูบูต UEFI</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>ไฟล์บูตสำรอง UEFI ไม่ผ่านการตรวจสอบ</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>นี่คือดิสก์ UEFI สำรอง ESD Installer ติดตั้งไฟล์บูตทางเลือกมาตรฐานโดยไม่ต้องเปลี่ยนตัวแปรเฟิร์มแวร์ NVRAM คุณอาจต้องเลือกดิสก์หนึ่งครั้งในเมนูการบูตเฟิร์มแวร์</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>ไม่สามารถเตรียมใช้งานโฟลเดอร์การทำงานชั่วคราวอิมเมจ Windows ได้</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>เปิดใช้งานบายพาสฮาร์ดแวร์ขั้นสูงที่ไม่รองรับสำหรับการติดตั้ง Windows 11 นี้</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>ติดตั้งบนฮาร์ดแวร์ที่ไม่รองรับ?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>ยอมรับและเปิดใช้งานบายพาส</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft ไม่รองรับ Windows 11 บนฮาร์ดแวร์นี้และไม่รับประกันการอัปเดต ปัญหาความเข้ากันได้ การรักษาความปลอดภัยลดลง หรือความล้มเหลวในการเริ่มต้นระบบอาจเกิดขึ้นได้ ESD Installer จะข้ามการตรวจสอบ CPU, TPM, Secure Boot, RAM และที่เก็บข้อมูล แต่ไม่สามารถทำให้การทำงานของฮาร์ดแวร์ที่เข้ากันไม่ได้</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>ไม่สามารถกำหนดค่าบายพาสฮาร์ดแวร์ที่ไม่รองรับ Windows 11 ได้</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>เปิดใช้งานการบายพาสฮาร์ดแวร์ที่ไม่รองรับ</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>กำลังกำหนดค่าบายพาสฮาร์ดแวร์ Windows 11 ที่ไม่รองรับ...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>อนุญาตโดยบายพาสฮาร์ดแวร์ที่ไม่รองรับ</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>กำหนดค่าบายพาสฮาร์ดแวร์ Windows 11 ที่ไม่รองรับ</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>ความล้มเหลวของข้อกำหนด Windows 11 ถือเป็นคำเตือน การป้องกันดิสก์ พาร์ติชั่น การบูต และสถาปัตยกรรมที่สำคัญยังคงบังคับใช้อยู่</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>ขั้นสูง: บายพาสการตรวจสอบข้อกำหนด CPU Windows 11, TPM, Secure Boot, RAM และที่เก็บข้อมูล การตรวจสอบความปลอดภัยของข้อมูลประจำตัวดิสก์ พาร์ติชัน และสถาปัตยกรรมยังคงทำงานอยู่</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>แผนนี้จะเขียนค่าบายพาสฮาร์ดแวร์ที่ไม่รองรับลงในการติดตั้ง Windows แบบออฟไลน์ ไม่รับประกันการสนับสนุนและการอัปเดตของ Microsoft</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>ติดตั้ง Windows 11 บนฮาร์ดแวร์ที่ไม่รองรับ</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>สร้างพาร์ติชันข้อมูลพื้นฐานจริงหรือวอลุ่มธรรมดาในการจัดการดิสก์ จากนั้นรีเฟรชดิสก์</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>เป้าหมายที่เลือกไม่ใช่พาร์ติชันข้อมูลพื้นฐานที่ใช้งานได้ พื้นที่ที่ไม่ได้จัดสรรและคอนเทนเนอร์ขยาย MBR ไม่สามารถจัดรูปแบบได้โดยตรง</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>ตรวจสอบการอัปเดตโดยอัตโนมัติ</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>ตรวจสอบการอัปเดต</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>กำลังตรวจสอบการอัปเดต...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>คุณกำลังใช้เวอร์ชันใหม่ล่าสุด</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>ไม่สามารถตรวจสอบการอัปเดตได้</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>อัพเดตซอฟต์แวร์</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>มีเวอร์ชันใหม่แล้ว</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>มีเวอร์ชัน {0} แล้ว</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>คุณกำลังใช้เวอร์ชัน {0}</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>การอัปเดตนี้ประกอบด้วยการปรับปรุงและแก้ไขข้อบกพร่อง</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>อัปเดต</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>กำลังดาวน์โหลดอัปเดต...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>กำลังตรวจสอบการอัปเดต...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>ไม่สามารถตรวจสอบการอัปเดตที่ดาวน์โหลดมาได้และไม่ได้เริ่มทำงาน</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>ไม่สามารถดาวน์โหลดหรือเริ่มการอัปเดตได้</value>
+  </data>
+</root>

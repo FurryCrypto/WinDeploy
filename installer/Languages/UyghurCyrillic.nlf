@@ -1,0 +1,191 @@
+﻿# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+32767
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ASCII code page
+1200
+# RTL - anything else than RTL means LTR
+-
+# ESD Installer project translation
+# ^Branding
+Nullsoft қачилаш системиси %s
+# ^SetupCaption
+$(^Name) Setup
+# ^UninstallCaption
+$(^Name) өчүрүң
+# ^LicenseSubCaption
+: иҗазәтнамә
+# ^ComponentsSubCaption
+: қачилаш талланмилири
+# ^DirSubCaption
+: қачилаш һөҗҗәт қисқучи
+# ^InstallingSubCaption
+: қачилаш
+# ^CompletedSubCaption
+: тамамланди
+# ^UnComponentsSubCaption
+: өчүрүш талланмилири
+# ^UnDirSubCaption
+: өчүрүш һөҗҗәт қисқучи
+# ^ConfirmSubCaption
+: җәзмләштүрүш
+# ^UninstallingSubCaption
+: өчүрүветиш
+# ^UnCompletedSubCaption
+: тамамланди
+# ^BackBtn
+<& қайтиш
+# ^NextBtn
+& Next>
+# ^AgreeBtn
+мән & мақул
+# ^AcceptBtn
+мән иҗазәт келишиминиң маддилирини қобул қилимән
+# ^DontAcceptBtn
+мән иҗазәт келишиминиң маддилирини қобул қилмаймән
+# ^InstallBtn
+& қачилаш
+# ^UninstallBtn
+& өчүрүш
+# ^CancelBtn
+бикар қилиш
+# ^CloseBtn
+& тақаш
+# ^BrowseBtn
+B & rowse ...
+# ^ShowDetailsBtn
+көрсәт вә тәпсилатлар
+# ^ClickNext
+давамлаштуруш үчүн «кейинки» ни чекиң.
+# ^ClickInstall
+қачилашни чекип қачилашни чекиң.
+# ^ClickUninstall
+өчүрүшни чекип өчүрүшни башлаң.
+# ^Name
+исми
+# ^Completed
+тамамланди
+# ^LicenseText
+$(^NameDA) ни орнитиштин бурун иҗазәт келишимини көрүп беқиң. әгәр келишимниң барлиқ маддилирини қобул қилсиңиз , «мақул» ни чекиң.
+# ^LicenseTextCB
+$(^NameDA) ни орнитиштин бурун иҗазәт келишимини көрүп беқиң. әгәр келишимниң барлиқ маддилирини қобул қилсиңиз , төвәндики таллаш рамкисини чекиң. $_CLICK
+# ^LicenseTextRB
+$(^NameDA) ни орнитиштин бурун иҗазәт келишимини көрүп беқиң. әгәр келишимниң барлиқ маддилирини қобул қилсиңиз , төвәндики биринчи таллашни таллаң. $_CLICK
+# ^UnLicenseText
+$(^NameDA) ни өчүрүштин бурун иҗазәт келишимини көрүп беқиң. әгәр келишимниң барлиқ маддилирини қобул қилсиңиз , «мақул» ни чекиң.
+# ^UnLicenseTextCB
+$(^NameDA) ни өчүрүштин бурун иҗазәт келишимини көрүп беқиң. әгәр келишимниң барлиқ маддилирини қобул қилсиңиз , төвәндики таллаш рамкисини чекиң. $_CLICK
+# ^UnLicenseTextRB
+$(^NameDA) ни өчүрүштин бурун иҗазәт келишимини көрүп беқиң. әгәр келишимниң барлиқ маддилирини қобул қилсиңиз , төвәндики биринчи таллашни таллаң. $_CLICK
+# ^Custom
+Custom
+# ^ComponentsText
+қачилимақчи болған запчасларни тәкшүрүп , қачилимақчи болмиған запчасларни таллаң. $_CLICK
+# ^ComponentsSubText1
+қачилашниң түрини таллаң:
+# ^ComponentsSubText2_NoInstTypes
+қачилаш үчүн запчасларни таллаң:
+# ^ComponentsSubText2
+йаки қачилимақчи болған қошумчә запчасларни таллаң:
+# ^UnComponentsText
+өчүрмәкчи болған запчасларни тәкшүрүп өчүрмәкчи болмиған запчасларни таллаң. $_CLICK
+# ^UnComponentsSubText1
+өчүрүшниң түрини таллаң:
+# ^UnComponentsSubText2_NoInstTypes
+өчүрүш үчүн запчасларни таллаң:
+# ^UnComponentsSubText2
+йаки өчүрмәкчи болған қошумчә запчасларни таллаң:
+# ^DirText
+Setup төвәндики һөҗҗәт қисқучқа $(^NameDA) ни орнитиду. башқа һөҗҗәт қисқучқа қачилаш үчүн «көрүш» ни чекип башқа һөҗҗәт қисқучни таллаң. $_CLICK
+# ^DirSubText
+нишан һөҗҗәт қисқуч
+# ^DirBrowseText
+$(^NameDA) ни қачилаш үчүн қисқучни таллаң:
+# ^UnDirText
+Setup төвәндики һөҗҗәт қисқучтин $(^NameDA) ни өчүрүветиду. башқа һөҗҗәт қисқучтин өчүрүш үчүн «көрүш» ни чекип башқа һөҗҗәт қисқучни таллаң. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+$(^NameDA) ни өчүрүш үчүн қисқучни таллаң:
+# ^SpaceAvailable
+"бошлуқ:"
+# ^SpaceRequired
+"бошлуқ тәләп қилиниду:"
+# ^UninstallingText
+$(^NameDA) төвәндики һөҗҗәт қисқучтин өчүрүлиду. $_CLICK
+# ^UninstallingSubText
+өчүрүветиш:
+# ^FileError
+йезиш үчүн һөҗҗәтни ачқанда хаталиқ көрүлди: \r\n\r\n$0\r\n\r\nқачилашни тохтитиш үчүн «Тохтат», қайта синаш үчүн «Қайта сина», бу һөҗҗәтни атлаш үчүн «Нәзәрдин сақит қил» ни бесиң.
+# ^FileError_NoIgnore
+йезиш үчүн һөҗҗәтни ачқанда хаталиқ көрүлди: \r\n\r\n$0\r\n\r\nқайта синаш үчүн «Қайта сина» яки қачилашни тохтитиш үчүн «Бекар қил» ни бесиң.
+# ^CantWrite
+"йазалмиди:"
+# ^CopyFailed
+көчүрүш мәғлуб болди
+# ^CopyTo
+"көчүрүң"
+# ^Registering
+"тизимлитиш:"
+# ^Unregistering
+"тизимлатмиғанлар:"
+# ^SymbolNotFound
+"бәлгә тапалмиди:"
+# ^CouldNotLoad
+"йүклийәлмиди:"
+# ^CreateFolder
+"һөҗҗәт қисқуч қуруш:"
+# ^CreateShortcut
+"тезләтмә қуруш:"
+# ^CreatedUninstaller
+"өчүрүветилди:"
+# ^Delete
+"һөҗҗәтни өчүрүш:"
+# ^DeleteOnReboot
+"қайта қозғитишни өчүрүң:"
+# ^ErrorCreatingShortcut
+"тезләтмә қурушта хаталиқ:"
+# ^ErrorCreating
+"хаталиқ:"
+# ^ErrorDecompressing
+санлиқ мәлуматларни йешиштә хаталиқ! қачилаш программиси бузулғанму?
+# ^ErrorRegistering
+DLL ни тизимлашта хаталиқ
+# ^ExecShell
+"ExecShell:"
+# ^Exec
+"иҗра:"
+# ^Extract
+"қошумчә:"
+# ^ErrorWriting
+"чиқириш: һөҗҗәткә хаталиқ йезиш"
+# ^InvalidOpcode
+қачилиғуч бузулған: инавәтсиз
+# ^NoOLE
+"OLE for:"
+# ^OutputFolder
+"чиқириш қисқучи:"
+# ^RemoveFolder
+"һөҗҗәт қисқучни өчүрүң:"
+# ^RenameOnReboot
+"қайта қозғитишниң намини өзгәртиш:"
+# ^Rename
+"исми:"
+# ^Skipped
+"атлап өтүп кәтти:"
+# ^CopyDetails
+тәпсилатларни чаплаш тахтисиға көчүрүң
+# ^LogInstall
+қачилаш җәрйани
+# ^Byte
+B.
+# ^Kilo
+K.
+# ^Mega
+м
+# ^Giga
+G.

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows skiptingaruppsetningarforrit</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Opnaðu mynd</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Endurnýjaðu diska</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Stillingar</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Hjálp</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>SETJA UPP GLUGGA</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows mynd</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 útgáfa</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Áfangastaður</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Uppsetningarstillingar</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Skoðaðu</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Settu upp</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Öryggi fyrst</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Enginn diskur er valinn sjálfkrafa. Varið kerfi, EFI, bati, OEM og frátekin skipting geta ekki verið skotmörk.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Tilbúið</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Tilbúið</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Veldu Windows mynd</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Veldu Windows ISO, WIM eða ESD skrá. Myndin er skoðuð áður en diskur er snert.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Veldu Windows mynd</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>eða dragðu og slepptu .iso, .wim eða .esd skrá hér</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Skráarnafn</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows útgáfa</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Arkitektúr</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Myndagerð</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Skráarstærð</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Tiltækar útgáfur</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Næst</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Til baka</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Veldu Windows Edition</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Veldu raunverulegan myndvísi lesinn af uppsetningarmiðlinum.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Veldu Destination Partition</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Veldu eina viðeigandi skipting sem fyrir er. Óúthlutaðar og verndaðar skiptingar eru sýndar fyrir samhengi en ekki er hægt að velja þær.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Uppsetningarstillingar</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Staðfestu fastbúnaðinn sem hefur fundist, skiptingarkerfi og ræsiskipting. EFI skipting er aldrei sniðin af þessu verkflæði.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Fastbúnaðarstilling</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Skiptingakerfi</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Ræfill skipting</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Uppsetningarstillingar</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Samhæfni</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Ítarlegar upplýsingar</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Skoðaðu uppsetningu</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Farðu yfir uppsetningaráætlun</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Athugaðu hvert auðkenni vandlega. Framkvæmd notar þennan staðfesta disk og skiptingaauðkenni, ekki endurfundinn drifstaf.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows mynd</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Heimild</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Áfangastaður</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Áfangaskráarkerfi</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>VIÐVÖRUN: Öllum gögnum á völdu skiptingunni verður eytt varanlega.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Mér skilst að öllum núverandi gögnum á valinni áfangasneið verður eytt.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Settu upp Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Setur upp Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Haltu tölvunni tengdri við rafmagn. Aðeins er tilkynnt um árangur eftir að myndin, ræsiskrár og mikilvægar uppsettar skrár hafa verið staðfestar.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Bíður eftir leyfi stjórnanda...</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Uppsetningarskrá</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Opna log</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Vista annál sem...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows var sett upp.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Myndin og Windows ræsiskrárnar voru staðfestar. Þú getur nú endurræst tölvuna.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows var sett upp.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Myndin og Windows ræsiskrárnar voru staðfestar. Nýja Windows færslan er sjálfgefin fyrir næstu endurræsingu.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Endurræstu núna</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Endurræstu síðar</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Kerfistungumál</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Ítarleg stilling</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Sýnir stöðug diskauðkenni, frávik og upplýsingar um fastbúnað. Það afhjúpar einnig beinlínis óstudd Windows 11 vélbúnaðarframhjábraut; öryggisvörn fyrir diska er áfram virk.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Já</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Eldri vél</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Vél: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Fastbúnaður: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Diskur stíll: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Einkvæmt auðkenni disks: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Markjöfnun: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/ræsa skipting: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM til staðar/tilbúið: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot fær/virkt: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Tungumál</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Stillingar</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Hætta við</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Lokaðu</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer Hjálp</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer beitir valinni WIM/ESD mynd á eina núverandi skipting og stillir ræsiskrár á staðfestri ræsingarsneiðu á sama líkamlega disknum. Það býr ekki til skipting eða eyðir heilum diskum. Advanced Mode getur beinlínis framhjá Windows 11 vélbúnaðarkröfum eftir sérstaka viðvörun. Windows XP og óstuddir eldri miðlar eru lokaðir þar til sérstök vél er til.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Ítarleg stilling</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Stöðluð stilling</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Skoðar Windows mynd...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows mynd er tilbúin</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Villa kom upp</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Veldu Windows útgáfu</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Veldu mynd og útgáfu fyrst</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Les líkamlega diska og skipting...</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Veldu áfangasneið</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Stígvélastilling er gild</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Athugun á eindrægni læsti uppsetningu</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Skoðaðu og staðfestu uppsetningaráætlunina</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Leyfi stjórnanda er krafist til að breyta disksneiðum og Windows ræsiskrám.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Windows uppsetningu lokið</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Windows uppsetning mistókst — skoðaðu annálinn</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Skoðaðu þessa Windows mynd</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Vísitala {0} • Byggja {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Eldri Windows miðill fannst</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Þessi útgáfa krefst Legacy Windows uppsetningarvélarinnar, sem er ekki enn fáanleg.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Þessi útgáfa krefst Legacy Windows uppsetningarvélarinnar, sem er ekki enn fáanleg.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista krefst Legacy NT6 uppsetningarvélarinnar, sem er ekki enn fáanleg.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Fastbúnaður: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Tölvuarkitektúr: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Diskur {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Raðnúmer: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Ótengdur</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Skrifvarinn</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>ekki tiltækt</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Óúthlutað</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Núverandi Windows — varið</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Varið</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI kerfi</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Endurheimt</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Grunngögn</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Óþekkt skipting</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Skipting {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Diskur {0} — {1}; Skipting {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Diskur {0}, skipting {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Engin viðeigandi ræsingarsneið fannst á ákvörðunardisknum.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Samþykkt</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Lokað</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Stígvélastilling er tilbúin</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Valin mynd, áfangastaður og ræsiskipting á sama diski eru tæknilega samhæf.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Lokað er fyrir uppsetningu</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Leysaðu samhæfisvillurnar hér að neðan. ESD Installer mun ekki fara framhjá þeim sjálfkrafa.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Óþekkt</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Diskur {0} — {1}; Skipting {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Gerð disks: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Disknúmer: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Deilinúmer: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Drifstafur: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Nafn bindis: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Stærð: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Enginn</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Staðfest fingrafar áætlunar: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Liðinn: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Heimild stjórnanda var afturkölluð. Engin uppsetning var hafin.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Uppsetningarstarfsmaðurinn stöðvaði með útgöngukóða {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Uppsetningarskrá</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Endurræsa tölvuna?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Vistaðu verkin þín í öðrum forritum. Tölvan mun endurræsa strax.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Endurræstu núna</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Þú getur endurræst síðar frá Start valmyndinni. Nýja Windows færslan er stillt í Windows Boot Manager.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Leyfi stjórnanda veitt</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Staðfestir uppsetningaráætlun...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Undirbýr áfangastað...</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Áfangasvæði skipting sniðin</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Notar Windows mynd...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Setur upp ræsiskrár...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Staðfestir uppsetningu...</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows uppsetningu lokið</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Uppsetning mistókst</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Staðfestu heildaráætlunina</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Forsníða aðeins valda skiptinguna sem NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Notaðu valda Windows myndvísitölu</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Settu upp Windows ræsiskrár á sama ræsihluti</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Staðfestu uppsettar og ræstu skrár</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Leyfi stjórnanda er krafist til að breyta disksneiðum og Windows ræsiskrám.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Óvænt villa kom upp.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Hækkað uppsetningarstarfsmann vantar.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Ekki var hægt að ræsa hækkuðu uppsetningarstarfsmanninn.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Valin myndskrá fannst ekki.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Aðeins ISO, WIM og ESD myndaskrár eru studdar.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO var ekki hægt að setja upp eða skoða.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Enginn sources\install.wim eða sources\install.esd fannst í þessum ISO.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Þessi mynd notar skiptar SWM skrár, sem eru ekki studdar í þessari útgáfu.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Ekki var hægt að opna Windows myndina.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows myndin inniheldur engar uppsetningarskrár.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Ekki var hægt að lesa Windows myndlýsigögn.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Ekki var hægt að lesa líkamlega diska og skipting.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Engir líkamlegir diskar fundust.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Ekki var hægt að forsníða valda áfangasneið.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM gat ekki beitt valinni Windows mynd.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Ekki var hægt að opna staðfesta ræsihluti.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot gat ekki sett upp Windows ræsiskrárnar.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Windows skrárnar sem voru notaðar stóðust ekki staðfestingu.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Windows ræsiskrárnar stóðust ekki staðfestingu.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Ekki var hægt að lesa staðfestu uppsetningaráætlunina.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Ekki er hægt að bera kennsl á þessa Windows byggingu á áreiðanlegan hátt.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Myndabyggingin er ósamrýmanleg þessari tölvu og fastbúnaðarstillingu.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Valin skipting er varin og ekki er hægt að skrifa yfir hana.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Valið skipting er BitLocker-varið. Opnaðu og afkóðaðu það fyrir uppsetningu.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Valin skipting er of lítil fyrir þessa Windows útgáfu.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Áfangadiskurinn er ótengdur eða skrifvarinn.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI dreifing krefst GPT ákvörðunardisks.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Eldri BIOS dreifing krefst MBR ákvörðunardisks.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Engin viðeigandi ræsingarsneiðing er til á ákvörðunardisknum.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Ræsingarsneiðin verður að vera á sama líkamlega disknum og áfangastaðurinn.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI dreifing krefst EFI kerfisskiptingar á ákvörðunardiskinum.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>EFI kerfisskiptingin verður nú þegar að nota FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Eldri BIOS dreifing krefst virkra NTFS ræsingarsneiða á áfangadisknum.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 UEFI dreifing er aðeins virkjuð fyrir x64 myndir.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 krefst studdar x64 eða ARM64 mynd.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 krefst UEFI fastbúnaðar.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 fannst ekki til staðar og tilbúið. Windows 11 uppsetning gæti hafnað þessari tölvu.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Secure Boot getu var ekki hægt að staðfesta.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot er stutt en óvirkt sem stendur.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Tölvan er með minna en 4 GB af líkamlegu minni.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Upprunamyndin breyttist eftir að áætlunin var staðfest.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Valin myndvísitala breyttist eftir staðfestingu.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Áfangadiskurinn er ekki lengur til staðar.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Þessi diskur hefur ekkert stöðugt raðnúmer eða einstakt auðkenni og er ekki hægt að nota hann á öruggan hátt.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Auðkenni ákvörðunardisksins breyttist. Uppsetning var stöðvuð.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Auðkenni eða rúmfræði áfangaskiptihlutans breytt.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Auðkenni ræsihlutans eða rúmfræði breytt.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Fastbúnaðar- eða áfangaskiptingakerfið passar ekki lengur við áætlunina.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Myndin og ræsiskrárnar voru staðfestar á aukadisknum. Ef fastbúnaður velur þann disk ekki sjálfkrafa skaltu velja hann einu sinni í UEFI ræsivalmyndinni.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>UEFI varastígvélin stóðst ekki staðfestingu.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Þetta er auka UEFI diskur. ESD Installer setur upp venjulegu fallback ræsiskrána án þess að breyta vélbúnaðar NVRAM breytum; þú gætir þurft að velja diskinn einu sinni í ræsivalmynd vélbúnaðar.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Ekki var hægt að frumstilla tímabundna vinnumöppu Windows myndarinnar.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>Háþróuð framhjáveiting á óstuddum vélbúnaði er virkjuð fyrir þessa Windows 11 uppsetningu.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>Setja upp á óstuddum vélbúnaði?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>Samþykkja og virkja framhjá</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft styður ekki Windows 11 á þessum vélbúnaði og ábyrgist ekki uppfærslur. Samhæfnisvandamál, skert öryggi eða ræsingarbilanir geta komið upp. ESD Installer mun framhjá CPU, TPM, Secure Boot, vinnsluminni og geymsluathugunum, en það getur ekki látið ósamhæfan vélbúnað virka.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Ekki var hægt að stilla Windows 11 óstudd vélbúnaðarframhjáhlaup.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>Óstudd framhjáhlaup vélbúnaðar virkt</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>Stillir óstudda Windows 11 vélbúnaðarframhjábraut...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>Leyft með framhjáhlaupi um óstudd vélbúnað</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>Stilla óstudda Windows 11 vélbúnaðarframhjábraut</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 kröfubilanir eru viðvaranir. Mikilvægum diskum, skiptingum, ræsingu og arkitektúrvörnum er áfram framfylgt.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>Ítarlegt: framhjá Windows 11 CPU, TPM, Secure Boot, vinnsluminni og geymsluþörf. Öryggisathuganir á diska, skiptingum og arkitektúr eru áfram virkar.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>Þessi áætlun skrifar óstudd framhjáhaldsgildi fyrir vélbúnað inn í Windows uppsetninguna án nettengingar. Stuðningur og uppfærslur frá Microsoft eru ekki tryggðar.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>Settu upp Windows 11 á óstuddum vélbúnaði</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>Búðu til alvöru grunngagnaskiptingu eða einfalt bindi í Disk Management, endurnýjaðu síðan diska.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>Valið skotmark er ekki nothæf grunngagnasneiðing. Ekki er hægt að forsníða óúthlutað pláss og MBR útbreidda gáma beint.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>Leitaðu að uppfærslum sjálfkrafa</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Leitaðu að uppfærslum</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>Leitar að uppfærslum...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Þú ert að nota nýjustu útgáfuna.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>Get ekki leitað að uppfærslum.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>Hugbúnaðaruppfærsla</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>Ný útgáfa er fáanleg.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>Útgáfa {0} er fáanleg.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>Þú ert að nota útgáfu {0}.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>Þessi uppfærsla inniheldur endurbætur og villuleiðréttingar.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Uppfærsla</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>Sækir uppfærslu...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>Staðfestir uppfærslu...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>Ekki var hægt að staðfesta niðurhalaða uppfærslu og var ekki ræst.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>Ekki er hægt að hlaða niður eða hefja uppfærsluna.</value>
+  </data>
+</root>

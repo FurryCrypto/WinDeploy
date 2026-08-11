@@ -5,17 +5,17 @@ param(
 $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
 $publishPath = Join-Path $root "work\publish-$Version-final-win-x64"
-$iconPath = Join-Path $root 'src\WinDeploy.App\Assets\WinDeploy.ico'
-$scriptPath = Join-Path $PSScriptRoot 'WinDeploy.nsi'
-$outputPath = Join-Path $root "outputs\WinDeploy-Setup-$Version.exe"
+$iconPath = Join-Path $root 'src\ESDInstaller.App\Assets\ESDInstaller.ico'
+$scriptPath = Join-Path $PSScriptRoot 'ESDInstaller.nsi'
+$outputPath = Join-Path $root "outputs\ESD-Installer-Setup-$Version.exe"
 $compiler = Get-ChildItem -LiteralPath (Join-Path $root 'work\tools') -Recurse -Filter makensis.exe |
     Select-Object -First 1
 
 if ($null -eq $compiler) { throw 'makensis.exe was not found under work\tools.' }
-if (-not (Test-Path -LiteralPath (Join-Path $publishPath 'WinDeploy.exe'))) {
+if (-not (Test-Path -LiteralPath (Join-Path $publishPath 'ESDInstaller.exe'))) {
     throw "The self-contained publish directory is missing: $publishPath"
 }
-$workerPath = Join-Path $publishPath 'Worker\WinDeploy.Worker.exe'
+$workerPath = Join-Path $publishPath 'Worker\ESDInstaller.Worker.exe'
 if (-not (Test-Path -LiteralPath $workerPath)) {
     throw "The self-contained elevated worker is missing from the publish directory: $workerPath"
 }

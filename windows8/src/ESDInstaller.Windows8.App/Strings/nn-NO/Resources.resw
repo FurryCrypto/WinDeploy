@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows partisjonsinstallasjonsprogram</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Åpne bilde</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Oppdater disker</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Innstillingar</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Hjelp</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>INSTALLER WINDOWS</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows-bilde</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 utgave</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Destinasjon</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Oppstartskonfigurasjon</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Gjennomgå</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Installer</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Tryggleik først</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Ingen disk velges automatisk. Verna system, EFI, gjenoppretting, OEM og reserverte partisjoner kan ikkje være mål.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Klar</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Velg Windows-bilde</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Velg en Windows ISO, WIM eller ESD fil. Bildet inspiseres før en disk berøres.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Velg Windows-bilde</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>eller dra og slipp en .iso-, .wim- eller .esd-fil her</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Filnavn</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows versjon</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Arkitektur</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Bildetype</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Filstørrelse</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Tilgjengelige utgaver</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Neste</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Tilbake</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Velg Windows Edition</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Velg en faktisk bildeindeks lest fra installasjonsmediet.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Velg destinasjonspartisjon</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Velg en eksisterende egnet partisjon. Ikkje-allokerte og verna partisjoner vises for kontekst, men kan ikkje velges.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Oppstartskonfigurasjon</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Stadfest den oppdagede fastvaren, partisjonsskjemaet og oppstartspartisjonen. En EFI-partisjon blir aldri formatert av denne arbeidsflyten.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Fastvaremodus</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Partisjonsskjema</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Oppstartspartisjon</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Oppstartskonfigurasjon</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Kompatibilitet</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Avanserte detaljer</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Se gjennom installasjonen</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Gjennomgå installasjonsplanen</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Sjekk hver identifikator nøye. Utførelse bruker denne validerte disk- og partisjonsidentiteten, ikkje en gjenoppdaget stasjonsbokstav.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows-bilde</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Kilde</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Destinasjon</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Destinasjonsfilsystem</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>ADVARSEL: Alle data på den valgte partisjonen vil bli permanent slettet.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Jeg forstår at alle eksisterende data på den valgte destinasjonspartisjonen vil bli slettet.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Installer Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Installerer Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Hold datamaskina koblet til strøm. Suksess rapporteres først etter at bildet, oppstartsfiler og kritiske installerte filer er verifisert.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Venter på administratortillatelse …</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Installasjonslogg</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Åpne logg</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Lagre logg som...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows ble installert.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Bildet og Windows oppstartsfilene ble stadfesta. Du kan nå starte datamaskina på nytt.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows ble installert.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Bildet og Windows oppstartsfilene ble stadfesta. Den nye Windows-oppføringen er standard for neste omstart.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Start på nytt nå</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Start på nytt senere</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Systemspråk</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Avansert modus</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Viser stabile disk-IDer, forskyvninger og fastvaredetaljer. Den avslører også en eksplisitt ustøttet Windows 11 maskinvarebypass; disksikkerhetsbeskyttelse forblir aktiv.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nei</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Eldre motor</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Motor: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Fastvare: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Diskstil: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Disk unik ID: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Målforskyvning: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/oppstartspartisjon: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM tilstede/klar: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot-kompatible/aktiverte: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Innstillingar</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Lagre</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Lukk</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer Hjelp</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer bruker et valgt WIM/ESD-bilde på én eksisterende partisjon og konfigurerer oppstartsfiler på en stadfesta oppstartspartisjon på den samme fysiske disken. Den lager ikkje partisjoner eller sletter hele disker. Avansert modus kan eksplisitt omgå Windows 11 maskinvarekrav etter en separat advarsel. Windows XP og ikkje-støttede eldre medier forblir blokkert til en dedikert motor eksisterer.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Avansert modus</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Standardmodus</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Inspiserer Windows-bilde...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows-bildet er klart</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Det oppstod en feil</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Velg en Windows-utgave</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Velg et bilde og en utgave først</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Leser fysiske disker og partisjoner...</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Velg en destinasjonspartisjon</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Oppstartskonfigurasjonen er gyldig</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Kompatibilitetssjekk blokkerte installasjonen</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Se gjennom og stadfest installasjonsplanen</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Administratortillatelse kreves for å endre diskpartisjoner og Windows-oppstartsfiler.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Installasjonen av Windows ble fullført</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Installasjonen av Windows mislyktes – se gjennom loggen</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Inspiser dette Windows-bildet</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Indeks {0} • Bygg {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Eldre Windows-medier oppdaget</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Denne versjonen krever Legacy Windows installasjonsmotor, som ennå ikkje er tilgjengeleg.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Denne versjonen krever Legacy Windows installasjonsmotor, som ennå ikkje er tilgjengeleg.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista krever Legacy NT6-installasjonsmotoren, som ennå ikkje er tilgjengeleg.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Fastvare: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Datamaskinarkitektur: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Disk {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Serie: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Frakoblet</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Skriveverna</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>utilgjengeleg</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Ikkje tildelt</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Nåværende Windows — verna</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Verna</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI-system</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Gjenoppretting</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Grunnleggende data</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Ukjent partisjon</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Partisjon {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Disk {0} — {1}; Partisjon {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Disk {0}, partisjon {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Ingen passende oppstartspartisjon ble funnet på måldisken.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Bestått</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Blokkert</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Oppstartskonfigurasjonen er klar</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Det valgte bildet, destinasjonen og oppstartspartisjonen på samme disk er teknisk kompatible.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Installasjonen er blokkert</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Løs kompatibilitetsfeilene nedenfor. ESD Installer vil ikkje omgå dem automatisk.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Ukjent</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Disk {0} — {1}; Partisjon {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Diskmodell: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Disknummer: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Partisjonsnummer: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Stasjonsbokstav: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Volumnavn: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Kapasitet: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Validert planfingeravtrykk: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Forløpt: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Administratortillatelse ble kansellert. Ingen installasjon ble startet.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Installasjonsarbeideren stoppet med utgangskode {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Installasjonslogg</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Vil du starte datamaskina på nytt?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Lagre arbeidet ditt i andre applikasjoner. Datamaskina vil starte på nytt umiddelbart.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Start på nytt nå</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Du kan starte på nytt senere fra Start-menyen. Den nye Windows-oppføringen er konfigurert i Windows Boot Manager.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Administratortillatelse gitt</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Validerer installasjonsplanen...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Forbereder destinasjon …</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Destinasjonspartisjon formatert</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Bruker Windows-bilde...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Installerer oppstartsfiler...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Bekrefter installasjonen …</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows-installasjonen fullført</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Installasjonen mislyktes</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Valider hele planen</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Formater kun den valgte partisjonen som NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Bruk den valgte Windows bildeindeksen</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Installer Windows oppstartsfiler på oppstartspartisjonen på samme disk</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Stadfest installerte og oppstartsfiler</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Administratortillatelse kreves for å endre diskpartisjoner og Windows oppstartsfiler.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Det oppstod en uventet feil.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Den forhøyede installasjonsarbeideren mangler.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Den forhøyede installasjonsarbeideren kunne ikkje startes.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Den valgte bildefilen ble ikkje funnet.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Berre ISO, WIM og ESD bildefiler støttes.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO kunne ikkje monteres eller inspiseres.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Ingen sources\install.wim eller sources\install.esd ble funnet i denne ISO.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Dette bildet bruker delte SWM-filer, som ikkje støttes i denne utgivelsen.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Windows-bildet kunne ikkje åpnes.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows-bildet inneholder ingen installerbare indekser.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Windows bildemetadata kunne ikkje leses.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Fysiske disker og partisjoner kunne ikkje leses.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Ingen fysiske disker ble funnet.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Den valgte destinasjonspartisjonen kunne ikkje formateres.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM kunne ikkje bruke det valgte Windows-bildet.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Den validerte oppstartspartisjonen kunne ikkje åpnes.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot kunne ikkje installere Windows oppstartsfilene.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>De distribuerte Windows-filene besto ikkje verifiseringen.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Windows-oppstartsfilene besto ikkje verifiseringen.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Den validerte installasjonsplanen kunne ikkje leses.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Denne Windows-bygningen kan ikkje identifiseres pålitelig.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Bildearkitekturen er inkompatibel med denne datamaskina og fastvaremodus.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Den valgte partisjonen er verna og kan ikkje overskrives.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Den valgte partisjonen er BitLocker-verna. Lås opp og dekrypter den før distribusjon.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Den valgte partisjonen er for liten for denne Windows-versjonen.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Destinasjonsdisken er frakoblet eller skriveverna.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI-distribusjon krever en GPT destinasjonsdisk.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Eldre BIOS-distribusjon krever en MBR destinasjonsdisk.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Det finnes ingen passende oppstartspartisjon på måldisken.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Oppstartspartisjonen må være på samme fysiske disk som destinasjonen.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI-distribusjon krever en EFI-systempartisjon på måldisken.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>EFI-systempartisjonen må allereie bruke FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Eldre BIOS-distribusjon krever en aktiv NTFS-oppstartspartisjon på måldisken.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 UEFI-distribusjon er kun aktivert for x64-bilder.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 krever et støttet x64- eller ARM64-bilde.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 krever UEFI-fastvare.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 ble ikkje oppdaget som tilstede og klar. Windows 11-oppsettet kan avvise denne datamaskina.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Secure Boot-funksjonen kunne ikkje bekreftes.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot støttes, men er for øyeblikket deaktivert.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Datamaskina har mindre enn 4 GB fysisk minne.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Kildebildet endret seg etter at planen ble stadfesta.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Den valgte bildeindeksen endret seg etter validering.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Destinasjonsdisken er ikkje lenger til stede.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Denne disken har ingen stabil seriell eller unik ID og kan ikkje brukes trygt.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Destinasjonsdiskens identitet endret. Installasjonen ble stoppet.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Destinasjonspartisjonens identitet eller geometri endret.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Oppstartspartisjonens identitet eller geometri endret.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Fastvaren eller destinasjonspartisjonsskjemaet samsvarer ikkje lenger med planen.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Bilde- og oppstartsfilene ble stadfesta på den sekundære disken. Viss fastvaren ikkje velger den disken automatisk, velg den én gang fra UEFI oppstartsmenyen.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>UEFI reserveoppstartsfilen besto ikkje verifiseringen.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Dette er en sekundær UEFI-disk. ESD Installer installerer standard reserveoppstartsfilen uten å endre fastvare NVRAM-variabler; Det kan hende du må velge disken én gang i fastvareoppstartsmenyen.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Den midlertidige arbeidsmappen for Windows-bildet kunne ikkje initialiseres.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>Avansert ustøttet maskinvarebypass er aktivert for denne Windows 11-installasjonen.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>Installere på maskinvare som ikkje støttes?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>Godta og aktiver bypass</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft støtter ikkje Windows 11 på denne maskinvaren og garanterer ikkje oppdateringar. Kompatibilitetsproblemer, redusert tryggleik eller oppstartsfeil kan forekomme. ESD Installer vil omgå CPU-, TPM-, Secure Boot-, RAM- og lagringskontroller, men den kan ikkje få inkompatibel maskinvare til å fungere.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Windows 11 ustøttet maskinvarebypass kunne ikkje konfigureres.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>Ustøttet maskinvarebypass aktivert</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>Konfigurerer ustøttet Windows 11 maskinvarebypass...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>Tillatt med ustøttet maskinvarebypass</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>Konfigurer ustøttet Windows 11 maskinvarebypass</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 kravfeil er advarsler. Kritisk disk-, partisjons-, oppstarts- og arkitekturbeskyttelse forblir håndhevet.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>Avansert: omgå Windows 11 CPU, TPM, Secure Boot, RAM og lagringskravkontroller. Sikkerhetssjekker for diskidentitet, partisjon og arkitektur forblir aktive.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>Denne planen skriver ustøttede maskinvarebypass-verdier inn i den offline Windows-installasjonen. Microsoft-støtte og oppdateringar er ikkje garantert.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>Installer Windows 11 på maskinvare som ikkje støttes</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>Lag en ekte grunnleggende datapartisjon eller enkelt volum i Diskbehandling, og oppdater deretter diskene.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>Det valgte målet er ikkje en brukbar grunnleggende datapartisjon. Ikkje-allokert plass og utvidede MBR-beholdere kan ikkje formateres direkte.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>Se etter oppdateringar automatisk</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Se etter oppdateringar</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>Ser etter oppdateringar...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Du bruker den nyeste versjonen.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>Kan ikkje se etter oppdateringar.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>Programvareoppdatering</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>En ny versjon er tilgjengeleg.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>Versjon {0} er tilgjengeleg.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>Du bruker for øyeblikket versjon {0}.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>Denne oppdateringen inkluderer forbedringer og feilrettinger.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Oppdatering</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>Laster ned oppdatering...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>Bekrefter oppdatering...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>Den nedlastede oppdateringen kunne ikkje bekreftes og ble ikkje startet.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>Kan ikkje laste ned eller starte oppdateringen.</value>
+  </data>
+</root>

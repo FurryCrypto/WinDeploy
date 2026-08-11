@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Instalator de partiții Windows</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Deschide imaginea</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Actualizează discuri</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Ajutor</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>INSTALATI WINDOWS</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows Imagine</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>Ediția a 2-a</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Destinație</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Configurare de pornire</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Revizuire</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Instalați</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Siguranța pe primul loc</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Niciun disc nu este selectat automat. Sistemul protejat, EFI, recuperare, OEM și partițiile rezervate nu pot fi ținte.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Gata</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Selectați imaginea Windows</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Alegeți un fișier Windows ISO, WIM sau ESD. Imaginea este inspectată înainte de a atinge orice disc.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Selectați imaginea Windows</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>sau trageți și plasați un fișier .iso, .wim sau .esd aici</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Nume de fișier</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Versiunea Windows</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Arhitectură</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Tipul imaginii</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Dimensiunea fișierului</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Ediții disponibile</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Următorul</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Spate</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Alegeți Windows Edition</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Selectați un index de imagine real citit din mediul de instalare.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Selectați Partiția de destinație</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Selectați o partiție adecvată existentă. Partițiile nealocate și protejate sunt afișate pentru context, dar nu pot fi selectate.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Configurație de pornire</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Verificați firmware-ul detectat, schema de partiție și partiția de pornire. O partiție EFI nu este niciodată formatată de acest flux de lucru.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Modul firmware</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Schema de partiții</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Partiția de pornire</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Configurație de pornire</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Compatibilitate</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Detalii avansate</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Verificați instalarea</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Examinați planul de instalare</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Verificați cu atenție fiecare identificator. Execution folosește această identitate validată de disc și partiție, nu o literă de unitate redescoperită.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Imagine Windows</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Sursă</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Destinaţie</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Sistemul de fișiere de destinație</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>AVERTISMENT: Toate datele de pe partiția selectată vor fi șterse definitiv.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Înțeleg că toate datele existente pe partiția de destinație selectată vor fi șterse.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Instalați Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Se instalează Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Țineți computerul conectat la curent. Succesul este raportat numai după ce imaginea, fișierele de boot și fișierele critice instalate sunt verificate.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Se așteaptă permisiunea administratorului...</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Jurnal de instalare</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Deschide Log</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Salvare jurnal ca...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows a fost instalat cu succes.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Imaginea și fișierele de pornire Windows au fost verificate. Acum puteți reporni computerul.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows a fost instalat cu succes.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Imaginea și fișierele de pornire Windows au fost verificate. Noua intrare Windows este implicită pentru următoarea repornire.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Reporniți acum</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Reporniți mai târziu</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Limba sistemului</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Modul avansat</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Afișează ID-uri stabile ale discurilor, decalaje și detalii de firmware. De asemenea, expune un bypass hardware explicit neacceptat Windows 11; protecțiile de siguranță ale discurilor rămân active.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Motor vechi</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Motor: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Firmware: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Stilul disc: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>ID unic disc: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Compensare țintă: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/partiție de pornire: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM prezent/gata: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot capabil/activat: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Limbă</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Aproape</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer Ajutor</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer aplică o imagine WIM/ESD selectată unei partiții existente și configurează fișierele de boot pe o partiție de boot verificată de pe același disc fizic. Nu creează partiții și nu șterge discuri întregi. Modul avansat poate ocoli în mod explicit cerințele hardware Windows 11 după un avertisment separat. Windows XP și mediile vechi neacceptate rămân blocate până când există un motor dedicat.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Modul avansat</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Modul standard</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Se inspectează imaginea Windows...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Imaginea Windows este gata</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>A apărut o eroare</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Alegeți o ediție Windows</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Selectați mai întâi o imagine și o ediție</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Se citesc discuri fizice și partiții...</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Selectați o partiție de destinație</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Configurația de pornire este validă</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Verificare compatibilitate instalarea blocată</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Examinați și confirmați planul de instalare</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Este necesară permisiunea de administrator pentru a modifica partițiile de disc și fișierele de boot Windows.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Instalarea Windows a fost finalizată cu succes</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Instalarea Windows a eșuat — examinați jurnalul</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Inspectați această imagine Windows</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Index {0} • Construiți {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Media moștenită Windows detectată</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Această versiune necesită motorul de instalare Legacy Windows, care nu este încă disponibil.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Această versiune necesită motorul de instalare Legacy Windows, care nu este încă disponibil.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista necesită motorul de instalare Legacy NT6, care nu este încă disponibil.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Firmware: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Arhitectura computerului: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Disc {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Serial: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Numai citire</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>indisponibil</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Nealocate</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Curent Windows — protejat</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Protejat</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>Sistemul EFI</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Recuperare</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Date de bază</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Partiție necunoscută</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Partiție {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Disc {0} — {1}; Partiție {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Disc {0}, partiție {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Nu a fost găsită nicio partiție de boot adecvată pe discul de destinație.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>A trecut</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Blocat</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Configurația de pornire este gata</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Imaginea selectată, destinația și partiția de pornire pe același disc sunt compatibile din punct de vedere tehnic.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Instalarea este blocată</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Rezolvați erorile de compatibilitate de mai jos. ESD Installer nu le va ocoli automat.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Necunoscut</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Disc {0} — {1}; Partiție {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Model de disc: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Număr disc: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Numărul partiției: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Litera de unitate: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Nume volum: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Capacitate: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nici unul</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Amprenta digitală a planului validat: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>S-a scurs: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Permisiunea de administrator a fost anulată. Nicio instalare nu a fost începută.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Lucrătorul de instalare sa oprit cu codul de ieșire {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Jurnal de instalare</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Reporniți computerul?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Salvați-vă munca în alte aplicații. Computerul va reporni imediat.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Reporniți acum</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Puteți reporni mai târziu din meniul Start. Noua intrare Windows este configurată în Windows Boot Manager.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Permisiunea de administrator a fost acordată</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Se validează planul de instalare...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Se pregătește destinația…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Partiția de destinație formatată</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Se aplică imaginea Windows...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Se instalează fișierele de boot...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Se verifică instalarea...</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Instalarea Windows a fost finalizată</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Instalarea a eșuat</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Validați planul complet</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Formatați numai partiția selectată ca NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Aplicați indexul de imagine Windows selectat</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Instalați fișierele de pornire Windows pe partiția de pornire pe același disc</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Verificați fișierele instalate și de pornire</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Este necesară permisiunea de administrator pentru a modifica partițiile de disc și fișierele de boot Windows.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>A apărut o eroare neașteptată.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Muncitorul instalator înălțat lipsește.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Lucrătorul de instalare ridicat nu a putut fi pornit.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Fișierul imagine selectat nu a putut fi găsit.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Sunt acceptate numai fișierele imagine ISO, WIM și ESD.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO nu a putut fi montat sau inspectat.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Nu a fost găsit niciun sources\install.wim sau sources\install.esd în acest ISO.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Această imagine utilizează fișiere SWM divizate, care nu sunt acceptate în această versiune.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Imaginea Windows nu a putut fi deschisă.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Imaginea Windows nu conține indecși instalabili.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Metadatele imaginii Windows nu au putut fi citite.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Discurile fizice și partițiile nu au putut fi citite.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Nu au fost găsite discuri fizice.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Partiția de destinație selectată nu a putut fi formatată.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM nu a putut aplica imaginea Windows selectată.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Partiția de boot validată nu a putut fi accesată.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot nu a putut instala fișierele de boot Windows.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Fișierele Windows implementate nu au trecut verificarea.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Fișierele de boot Windows nu au trecut verificarea.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Planul de instalare validat nu a putut fi citit.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Această versiune Windows nu poate fi identificată în mod fiabil.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Arhitectura imaginii este incompatibilă cu acest computer și cu modul firmware.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Partiția selectată este protejată și nu poate fi suprascrisă.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Partiția selectată este protejată de BitLocker. Deblocați-l și decriptați-l înainte de implementare.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Partiția selectată este prea mică pentru această versiune Windows.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Discul de destinație este offline sau numai pentru citire.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>Implementarea UEFI necesită un disc de destinație GPT.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Implementarea anterioară a BIOS necesită un disc de destinație MBR.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Nu există nicio partiție de boot adecvată pe discul de destinație.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Partiția de pornire trebuie să fie pe același disc fizic cu destinația.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>Implementarea UEFI necesită o partiție de sistem EFI pe discul de destinație.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>Partiția de sistem EFI trebuie să folosească deja FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Implementarea anterioară a BIOS necesită o partiție de pornire NTFS activă pe discul de destinație.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 Implementarea UEFI este activată numai pentru imaginile x64.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 necesită o imagine acceptată x64 sau ARM64.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 necesită firmware UEFI.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 nu a fost detectat ca prezent și gata. Configurarea Windows 11 poate respinge acest computer.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Capacitatea Secure Boot nu a putut fi confirmată.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot este acceptat, dar este dezactivat în prezent.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Computerul are mai puțin de 4 GB de memorie fizică.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Imaginea sursă s-a schimbat după ce planul a fost confirmat.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Indexul imaginii selectate s-a schimbat după validare.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Discul de destinație nu mai este prezent.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Acest disc nu are un ID serial stabil sau unic și nu poate fi utilizat în siguranță.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Identitatea discului de destinație s-a schimbat. Instalarea a fost oprită.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Identitatea sau geometria partiției de destinație s-a schimbat.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Identitatea sau geometria partiției de pornire s-a schimbat.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Firmware-ul sau schema de partiție de destinație nu se mai potrivește cu planul.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Fișierele imagine și de boot au fost verificate pe discul secundar. Dacă firmware-ul nu alege automat acel disc, selectați-l o dată din meniul de pornire UEFI.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>Fișierul de boot de rezervă UEFI nu a trecut verificarea.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Acesta este un disc secundar UEFI. ESD Installer instalează fișierul de boot standard de rezervă fără a schimba variabilele firmware NVRAM; poate fi necesar să selectați discul o dată în meniul de boot firmware.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Dosarul de lucru temporar al imaginii Windows nu a putut fi inițializat.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>Ocolirea avansată a hardware-ului neacceptat este activată pentru această instalare Windows 11.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>Instalați pe hardware neacceptat?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>Acceptați și activați ocolirea</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft nu acceptă Windows 11 pe acest hardware și nu garantează actualizări. Pot apărea probleme de compatibilitate, securitate redusă sau erori de pornire. ESD Installer va ocoli CPU, TPM, Secure Boot, RAM și verificări de stocare, dar nu poate face ca hardware-ul incompatibil să funcționeze.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Windows 11 ocolire hardware neacceptată nu a putut fi configurată.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>Bypass hardware neacceptat activat</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>Se configurează ocolirea hardware Windows 11 neacceptată...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>Permis cu ocolire hardware neacceptată</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>Configurați ocolirea hardware Windows 11 neacceptată</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 eșecurile cerințelor sunt avertismente. Protecțiile critice ale discurilor, partițiilor, încărcării și arhitecturii rămân aplicate.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>Avansat: ocoliți CPU Windows 11, TPM, Secure Boot, RAM și verificări ale cerințelor de stocare. Verificările de siguranță pentru identitatea discului, partiția și arhitectura rămân active.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>Acest plan scrie valori de ocolire hardware neacceptate în instalarea offline Windows. Asistența și actualizările Microsoft nu sunt garantate.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>Instalați Windows 11 pe hardware neacceptat</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>Creați o partiție de date de bază reală sau un volum simplu în Gestionarea discurilor, apoi reîmprospătați discurile.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>Ținta selectată nu este o partiție de date de bază utilizabilă. Spațiul nealocat și containerele extinse MBR nu pot fi formatate direct.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>Verificați automat actualizările</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Verificați actualizările</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>Se verifică actualizările...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Folosiți cea mai nouă versiune.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>Nu se pot verifica actualizări.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>Actualizare software</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>Este disponibilă o nouă versiune.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>Versiunea {0} este disponibilă.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>În prezent utilizați versiunea {0}.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>Această actualizare include îmbunătățiri și remedieri de erori.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Actualizare</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>Se descarcă actualizarea...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>Se verifică actualizarea...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>Actualizarea descărcată nu a putut fi verificată și nu a fost pornită.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>Nu se poate descărca sau începe actualizarea.</value>
+  </data>
+</root>

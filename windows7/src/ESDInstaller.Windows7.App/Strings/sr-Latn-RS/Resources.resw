@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows Partition Installer</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Otvorite sliku</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Osvežite diskove</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Podešavanja</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>INSTALACIJA WINDOWS-a</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows slika</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 Izdanje</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Odredište</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Konfiguracija pokretanja</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Pregled</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Instalirajte</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Bezbednost na prvom mestu</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Nijedan disk se ne bira automatski. Zaštićeni sistem, EFI, oporavak, OEM i rezervisane particije ne mogu biti mete.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Spreman</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Spreman</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Izaberite Windows slika</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Izaberite Windows ISO, WIM ili ESD datoteku. Slika se pregleda pre nego što se dodirne bilo koji disk.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Izaberite Windows slika</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>ili prevucite i otpustite datoteku .iso, .vim ili .esd ovde</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Ime datoteke</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows verzija</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Arhitektura</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Tip slike</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Veličina datoteke</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Dostupna izdanja</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Sledeće</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Nazad</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Izaberite Windows izdanje</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Izaberite stvarni indeks slike pročitan sa instalacionog medija.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Izaberite Odredišna particija</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Izaberite jednu postojeću odgovarajuću particiju. Nedodeljene i zaštićene particije su prikazane za kontekst, ali se ne mogu izabrati.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Konfiguracija pokretanja</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Proverite otkriveni firmver, šemu particija i particiju za pokretanje. EFI particija se nikada ne formatira ovim tokom rada.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Režim firmvera</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Šema particije</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Particija za pokretanje</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Konfiguracija pokretanja</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Kompatibilnost</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Napredni detalji</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Pregledajte instalaciju</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Pregledajte plan instalacije</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Pažljivo proverite svaki identifikator. Izvršenje koristi ovaj potvrđeni identitet diska i particije, a ne ponovo otkriveno slovo disk jedinice.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows slika</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Izvor</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Odredište</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Odredišni sistem datoteka</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>UPOZORENJE: Svi podaci na izabranoj particiji će biti trajno izbrisani.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Razumem da će svi postojeći podaci na izabranoj odredišnoj particiji biti izbrisani.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Instalirajte Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Instaliranje Windows-a</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Držite računar priključen na napajanje. Uspeh se prijavljuje tek nakon što se verifikuje slika, datoteke za pokretanje i kritične instalirane datoteke.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Čeka se dozvola administratora…</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Dnevnik instalacije</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Otvorite dnevnik</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Sačuvaj evidenciju kao…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows je uspešno instaliran.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Verifikovane su datoteke slike i Windows za pokretanje. Sada možete ponovo pokrenuti računar.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows je uspešno instaliran.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Verifikovane su datoteke slike i Windows za pokretanje. Novi unos u Windows-u je podrazumevani za sledeće ponovno pokretanje.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Restart Nov</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Ponovo pokreni kasnije</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Sistemski jezik</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Napredni režim</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Prikazuje stabilne ID-ove diska, pomake i detalje firmvera. Nudi i izričito zaobilaženje Windows 11 hardvera; zaštita diska ostaje aktivna.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>br</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Zastareli mehanizam</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Motor: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Firmver: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Stil diska: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Jedinstveni ID diska: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Pomak cilja: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/particija za pokretanje: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM prisutan/spreman: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Omogućeno/bezbedno pokretanje: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Podešavanja</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Otkaži</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer Pomoć</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer primenjuje WIM/ESD sliku na jednu postojeću particiju i podešava pokretanje na proverenoj particiji istog diska. Ne pravi particije i ne briše cele diskove. Napredni režim može izričito zaobići Windows 11 hardverske zahteve nakon posebnog upozorenja. Nepodržani stari mediji ostaju blokirani.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Napredni režim</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Standardni režim</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Proveravam Windows sliku…</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows slika je spremna</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>Došlo je do greške</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Izaberite Windows izdanje</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Prvo izaberite sliku i izdanje</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Čitanje fizičkih diskova i particija…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Izaberite odredišnu particiju</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Konfiguracija pokretanja je važeća</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Provera kompatibilnosti blokirana instalacija</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Pregledajte i potvrdite plan instalacije</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Administratorska dozvola je potrebna za modifikovanje particija diska i datoteka za pokretanje operativnog sistema Windows.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Instalacija Windows-a je uspešno završena</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Instalacija Windows-a nije uspela — pregledajte evidenciju</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Pregledajte ovu Windows sliku</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Indeks {0} • Izrada {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Otkriven je zastareli Windows medij</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Ova verzija zahteva instalacioni mehanizam za starije verzije sistema Windows, koji još uvek nije dostupan.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Ova verzija zahteva instalacioni mehanizam za starije verzije sistema Windows, koji još uvek nije dostupan.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista zahteva stariji NT6 mehanizam za instalaciju, koji još nije dostupan.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Firmver: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Arhitektura računara: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Disk {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Serija: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Van mreže</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Samo za čitanje</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>nedostupan</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Neraspoređeno</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Trenutni Windows — zaštićen</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Zaštićeno</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI sistem</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft rezervisano</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Oporavak</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Osnovni podaci</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Nepoznata particija</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Particija {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Disk {0} — {1}; Particija {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Disk {0}, particija {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Na odredišnom disku nije pronađena odgovarajuća particija za pokretanje.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Prošao</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Blokirano</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Konfiguracija pokretanja je spremna</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Izabrana slika, odredište i particija za pokretanje istog diska su tehnički kompatibilni.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Instalacija je blokirana</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Rešite greške kompatibilnosti u nastavku. ESD Installer ih neće automatski zaobići.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Nepoznato</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Disk {0} — {1}; Pregrada {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Model diska: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Broj diska: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Broj particije: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Slovo diska: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Naziv sveske: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Kapacitet: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nijedan</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Potvrđen otisak prsta plana: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Proteklo: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Administratorska dozvola je otkazana. Instalacija nije započeta.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Instalacioni radnik je stao sa izlaznim kodom {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Dnevnik instalacije</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Ponovo pokrenuti računar?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Sačuvajte svoj rad u drugim aplikacijama. Računar će se odmah ponovo pokrenuti.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Restart Nov</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Možete ponovo pokrenuti kasnije iz menija Start. Novi unos u Windows-u je konfigurisan u Windows Boot Manager.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Administratorska dozvola je data</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Potvrđivanje plana instalacije…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Priprema odredišta…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Odredišna particija je formatirana</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Primena Windows slike…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Instaliranje datoteka za pokretanje…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Verifikacija instalacije…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Instalacija Windows-a je završena</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Instalacija nije uspela</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Potvrdite kompletan plan</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Formatirajte samo izabranu particiju kao NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Primenite izabrani indeks Windows slike</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Instalirajte Windows datoteke za pokretanje na istu particiju za pokretanje sa istog diska</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Proverite instalirane i pokrenute datoteke</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Administratorska dozvola je potrebna za modifikovanje particija diska i datoteka za pokretanje operativnog sistema Windows.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>Došlo je do neočekivane greške.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Nedostaje povišeni instalater.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Uzvišeni instalater nije mogao da se pokrene.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Izabrana datoteka slike nije pronađena.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Podržane su samo ISO, WIM i ESD datoteke slika.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO nije mogao da se montira ili pregleda.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Nije pronađen nijedan sources\install.wim ili sources\install.esd u ovom ISO-u.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Ova slika koristi podeljene SWM datoteke, koje nisu podržane u ovom izdanju.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Windows slika nije mogla da se otvori.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows slika ne sadrži indekse koji se mogu instalirati.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Metapodaci Windows slike nisu mogli da se pročitaju.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Fizički diskovi i particije nisu mogli da se pročitaju.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Nisu pronađeni fizički diskovi.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Izabrana odredišna particija se ne može formatirati.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM nije mogao da primeni izabranu Windows sliku.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Nije moguće pristupiti potvrđenoj particiji za pokretanje.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot nije mogao da instalira Windows datoteke za pokretanje.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Primenjene Windows datoteke nisu prošle verifikaciju.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Datoteke za pokretanje sistema Windows nisu prošle verifikaciju.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Nije moguće pročitati validirani plan instalacije.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Ova Windows verzija se ne može pouzdano identifikovati.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Arhitektura slike nije kompatibilna sa ovim računarom i režimom firmvera.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Izabrana particija je zaštićena i ne može se prepisati.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Izabrana particija je zaštićena BitLocker-om. Otključajte i dešifrujte ga pre postavljanja.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Izabrana particija je premala za ovu verziju operativnog sistema Windows.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Odredišni disk je van mreže ili je samo za čitanje.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>Za primenu UEFI-ja je potreban GPT odredišni disk.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Legacy BIOS implementacija zahteva MBR odredišni disk.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Na odredišnom disku ne postoji odgovarajuća particija za pokretanje.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Particija za pokretanje mora biti na istom fizičkom disku kao odredište.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI implementacija zahteva EFI sistemsku particiju na odredišnom disku.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>Sistemska particija EFI već mora da koristi FAT32.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Legacy BIOS implementacija zahteva aktivnu NTFS particiju za pokretanje na odredišnom disku.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 UEFI implementacija je omogućena samo za x64 slike.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 zahteva podržanu x64 ili ARM64 sliku.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 zahteva UEFI firmver.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 nije otkriven kao prisutan i spreman. Podešavanje operativnog sistema Windows 11 može odbiti ovaj računar.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Mogućnost bezbednog pokretanja nije mogla biti potvrđena.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Bezbedno pokretanje je podržano, ali trenutno onemogućeno.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Računar ima manje od 4 GB fizičke memorije.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Izvorna slika se promenila nakon što je plan potvrđen.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Izabrani indeks slike se promenio nakon validacije.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Odredišni disk više nije prisutan.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Ovaj disk nema stabilan serijski ili jedinstveni ID i ne može se bezbedno koristiti.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Identitet odredišnog diska je promenjen. Instalacija je zaustavljena.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Promenjen je identitet ili geometrija odredišne particije.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Promenjen je identitet ili geometrija particije za pokretanje.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Firmver ili šema odredišne particije više ne odgovaraju planu.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Datoteke slike i pokretanja su verifikovane na sekundarnom disku. Ako firmver ne izabere taj disk automatski, izaberite ga jednom u UEFI meniju za pokretanje.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>UEFI rezervna datoteka za pokretanje nije prošla verifikaciju.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Ovo je sekundarni UEFI disk. ESD Installer instalira standardnu rezervnu datoteku za pokretanje bez promene NVRAM promenljivih firmvera; možda ćete morati jednom da izaberete disk u meniju za pokretanje firmvera.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Privremena radna fascikla Windows slike nije mogla da se inicijalizuje.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Napredno zaobilaženje nepodržanog hardvera uključeno je za ovu Windows 11 instalaciju.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Instalirati na nepodržanom hardveru?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Prihvati i uključi zaobilaženje</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft ne podržava Windows 11 na ovom hardveru i ne garantuje ažuriranja. Mogući su problemi sa kompatibilnošću, bezbednošću ili pokretanjem. ESD Installer će zaobići hardverske provere, ali ne može učiniti nekompatibilan hardver kompatibilnim.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Zaobilaženje Windows 11 hardvera nije moglo da se podesi.</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Zaobilaženje nepodržanog hardvera je uključeno</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Podešavanje zaobilaženja Windows 11 hardvera…</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Dozvoljeno uz zaobilaženje hardvera</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Podesi zaobilaženje Windows 11 hardvera</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Windows 11 zahtevi su upozorenja. Kritične zaštite diska, particija, pokretanja i arhitekture ostaju aktivne.</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Napredno: zaobilazi provere procesora, TPM-a, bezbednog pokretanja, RAM-a i prostora. Zaštita diska, particija i arhitekture ostaje aktivna.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Ovaj plan upisuje vrednosti zaobilaženja u vanmrežnu Windows instalaciju. Microsoft podrška i ažuriranja nisu garantovani.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Instaliraj Windows 11 na nepodržanom hardveru</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Napravite pravu osnovnu particiju podataka ili jednostavan volumen u Upravljanju diskovima, pa osvežite diskove.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Izabrano odredište nije upotrebljiva osnovna particija podataka. Nedodeljeni prostor i MBR prošireni kontejneri ne mogu se direktno formatirati.</value></data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve"><value>Automatski proveravaj ažuriranja</value></data>
+  <data name="CheckForUpdates" xml:space="preserve"><value>Proveri ažuriranja</value></data>
+  <data name="CheckingForUpdates" xml:space="preserve"><value>Provera ažuriranja...</value></data>
+  <data name="UpToDate" xml:space="preserve"><value>Koristite najnoviju verziju.</value></data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve"><value>Nije moguće proveriti ažuriranja.</value></data>
+  <data name="UpdateTitle" xml:space="preserve"><value>Ažuriranje softvera</value></data>
+  <data name="UpdateAvailableHeading" xml:space="preserve"><value>Dostupna je nova verzija.</value></data>
+  <data name="UpdateVersionAvailable" xml:space="preserve"><value>Dostupna je verzija {0}.</value></data>
+  <data name="UpdateCurrentVersion" xml:space="preserve"><value>Trenutno koristite verziju {0}.</value></data>
+  <data name="UpdateDefaultNotes" xml:space="preserve"><value>Ovo ažuriranje sadrži poboljšanja i ispravke grešaka.</value></data>
+  <data name="UpdateButton" xml:space="preserve"><value>Ažuriraj</value></data>
+  <data name="DownloadingUpdate" xml:space="preserve"><value>Preuzimanje ažuriranja...</value></data>
+  <data name="VerifyingUpdate" xml:space="preserve"><value>Provera ažuriranja...</value></data>
+  <data name="UpdateVerificationFailed" xml:space="preserve"><value>Preuzeto ažuriranje nije moguće potvrditi i nije pokrenuto.</value></data>
+  <data name="UpdateDownloadFailed" xml:space="preserve"><value>Nije moguće preuzeti ili pokrenuti ažuriranje.</value></data>
+</root>

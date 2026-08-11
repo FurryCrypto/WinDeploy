@@ -2,15 +2,15 @@ param([string]$Version = '0.1.10')
 $ErrorActionPreference = 'Stop'
 $repository = Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
 $windows7 = Split-Path $PSScriptRoot -Parent
-$source = Join-Path $windows7 'src\WinDeploy.Windows7.App\bin\Release\net48'
+$source = Join-Path $windows7 'src\ESDInstaller.Windows7.App\bin\Release\net48'
 $staging = Join-Path $repository "work\windows7-package-$Version"
 $outputs = Join-Path $repository 'outputs'
-$installer = Join-Path $outputs "WinDeploy-Windows7-Setup-$Version.exe"
-$icon = Join-Path $windows7 'src\WinDeploy.Windows7.App\Assets\WinDeploy.Windows7.ico'
-$nsi = Join-Path $PSScriptRoot 'WinDeploy.Windows7.nsi'
+$installer = Join-Path $outputs "ESD-Installer-Windows7-Setup-$Version.exe"
+$icon = Join-Path $windows7 'src\ESDInstaller.Windows7.App\Assets\ESDInstaller.Windows7.ico'
+$nsi = Join-Path $PSScriptRoot 'ESDInstaller.Windows7.nsi'
 $compiler = Get-ChildItem -LiteralPath (Join-Path $repository 'work\tools') -Recurse -Filter makensis.exe | Select-Object -First 1
 if ($null -eq $compiler) { throw 'makensis.exe was not found under work\tools.' }
-if (-not (Test-Path (Join-Path $source 'WinDeploy.Windows7.exe'))) { throw 'Build the Windows 7 solution first.' }
+if (-not (Test-Path (Join-Path $source 'ESDInstaller.Windows7.exe'))) { throw 'Build the Windows 7 solution first.' }
 if (Test-Path $staging) { Remove-Item -LiteralPath $staging -Recurse -Force }
 New-Item -ItemType Directory -Path $staging -Force | Out-Null
 Copy-Item -Path (Join-Path $source '*') -Destination $staging -Recurse -Force

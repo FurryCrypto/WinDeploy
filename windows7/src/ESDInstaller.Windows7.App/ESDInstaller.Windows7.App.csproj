@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ESDInstaller.Windows7</AssemblyName>
+    <RootNamespace>ESDInstaller.Windows7</RootNamespace>
+    <Product>ESD Installer</Product>
+    <AssemblyTitle>ESD Installer for Windows 7</AssemblyTitle>
+    <Description>Install Windows directly to a selected disk partition on Windows 7.</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <ApplicationIcon Condition="Exists('Assets\ESDInstaller.Windows7.ico')">Assets\ESDInstaller.Windows7.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" PrivateAssets="all" />
+    <ProjectReference Include="..\ESDInstaller.Windows7.Core\ESDInstaller.Windows7.Core.csproj" />
+    <ProjectReference Include="..\ESDInstaller.Windows7.Worker\ESDInstaller.Windows7.Worker.csproj" ReferenceOutputAssembly="false" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Strings\**\*.resw"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></Content>
+    <Resource Include="Assets\ESDInstaller.Windows7.ico" Condition="Exists('Assets\ESDInstaller.Windows7.ico')" />
+  </ItemGroup>
+  <Target Name="CopyWorker" AfterTargets="Build">
+    <ItemGroup><WorkerFiles Include="..\ESDInstaller.Windows7.Worker\bin\$(Configuration)\net48\**\*" /></ItemGroup>
+    <Copy SourceFiles="@(WorkerFiles)" DestinationFiles="@(WorkerFiles->'$(OutDir)Worker\%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

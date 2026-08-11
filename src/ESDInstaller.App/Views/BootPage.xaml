@@ -1,0 +1,48 @@
+<Page
+    x:Class="ESDInstaller.Views.BootPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Padding="32,26,32,22">
+        <Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+        <ScrollViewer>
+            <StackPanel Spacing="15" MaxWidth="760" HorizontalAlignment="Left">
+                <TextBlock x:Uid="BootPageTitle" Style="{StaticResource PageTitleStyle}" />
+                <TextBlock x:Uid="BootPageSubtitle" Foreground="#FF555555" TextWrapping="Wrap" />
+                <Border Style="{StaticResource ExplorerCardStyle}">
+                    <Grid ColumnSpacing="20" RowSpacing="11">
+                        <Grid.ColumnDefinitions><ColumnDefinition Width="170"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+                        <TextBlock x:Uid="FirmwareModeLabel" FontWeight="SemiBold"/><TextBlock x:Name="FirmwareText" Grid.Column="1"/>
+                        <TextBlock x:Uid="PartitionSchemeLabel" Grid.Row="1" FontWeight="SemiBold"/><TextBlock x:Name="SchemeText" Grid.Row="1" Grid.Column="1"/>
+                        <TextBlock x:Uid="BootPartitionLabel" Grid.Row="2" FontWeight="SemiBold"/><TextBlock x:Name="BootPartitionText" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap"/>
+                        <TextBlock x:Uid="BootConfigurationLabel" Grid.Row="3" FontWeight="SemiBold"/><TextBlock x:Name="BootConfigurationText" Grid.Row="3" Grid.Column="1"/>
+                        <TextBlock x:Uid="CompatibilityLabel" Grid.Row="4" FontWeight="SemiBold"/><TextBlock x:Name="CompatibilityText" Grid.Row="4" Grid.Column="1"/>
+                    </Grid>
+                </Border>
+                <InfoBar x:Name="ResultBar" IsOpen="True" IsClosable="False" />
+                <StackPanel x:Name="IssuesPanel" Spacing="8" />
+                <Border x:Name="AdvancedPanel" Style="{StaticResource ExplorerCardStyle}" Visibility="Collapsed">
+                    <StackPanel Spacing="6">
+                        <TextBlock x:Uid="AdvancedDetailsTitle" Style="{StaticResource SectionTitleStyle}"/>
+                        <TextBlock x:Name="AdvancedDetailsText" FontFamily="Consolas" FontSize="12" TextWrapping="Wrap"/>
+                        <Rectangle x:Name="UnsupportedWindows11Separator" Height="1" Fill="#FFD0D0D0" Margin="0,8,0,6" Visibility="Collapsed"/>
+                        <CheckBox x:Name="UnsupportedWindows11CheckBox" x:Uid="UnsupportedWindows11Toggle"
+                                  Visibility="Collapsed" Checked="UnsupportedWindows11CheckBox_Changed"
+                                  Unchecked="UnsupportedWindows11CheckBox_Changed"/>
+                        <TextBlock x:Name="UnsupportedWindows11Description" x:Uid="UnsupportedWindows11Description"
+                                   Foreground="#FF8A4B00" TextWrapping="Wrap" Visibility="Collapsed"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+        <Grid Grid.Row="1" Margin="0,16,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" x:Uid="BackButton" Click="BackButton_Click" />
+            <Button Grid.Column="2" x:Name="NextButton" x:Uid="ReviewInstallationButton" Style="{StaticResource PrimaryButtonStyle}" Click="NextButton_Click" />
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,34 @@
+<Page x:Class="ESDInstaller.Windows8.Views.DestinationPage"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:loc="clr-namespace:ESDInstaller.Windows8.Markup"
+ xmlns:controls="clr-namespace:ESDInstaller.Windows8.Controls"
+ Background="{StaticResource PageBackgroundBrush}">
+  <Grid Margin="32,26,32,22">
+    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+    <StackPanel Margin="0,0,0,12"><TextBlock Text="{loc:Loc DestinationPageTitle.Text}" Style="{StaticResource PageTitle}"/><TextBlock Text="{loc:Loc DestinationPageSubtitle.Text}" Foreground="#FF555555" TextWrapping="Wrap" Margin="0,7,0,0"/></StackPanel>
+    <Border Grid.Row="1" Background="#FFE9F3FB" BorderBrush="#FFB6D6F2" BorderThickness="1" Padding="12" Margin="0,0,0,12">
+      <Grid>
+        <StackPanel Orientation="Horizontal">
+          <StackPanel Orientation="Horizontal" Margin="0,0,22,0"><controls:SymbolIcon Kind="Boot" Width="16" Height="16" Foreground="{StaticResource ExplorerBlueBrush}" Margin="0,0,7,0"/><TextBlock x:Name="Firmware" VerticalAlignment="Center"/></StackPanel>
+          <StackPanel Orientation="Horizontal"><controls:SymbolIcon Kind="Disk" Width="16" Height="16" Foreground="{StaticResource ExplorerBlueBrush}" Margin="0,0,7,0"/><TextBlock x:Name="HostArchitecture" VerticalAlignment="Center"/></StackPanel>
+        </StackPanel>
+        <ProgressBar x:Name="Loading" Width="130" Height="12" IsIndeterminate="True" HorizontalAlignment="Right" VerticalAlignment="Center" Visibility="Collapsed"/>
+      </Grid>
+    </Border>
+    <Grid Grid.Row="2">
+      <ScrollViewer VerticalScrollBarVisibility="Auto"><StackPanel x:Name="DiskList"/></ScrollViewer>
+      <controls:InfoBanner x:Name="Banner" Visibility="Collapsed" VerticalAlignment="Top"/>
+    </Grid>
+    <Grid Grid.Row="3" Margin="0,14,0,0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+      <Button Grid.Column="0" Content="{loc:Loc BackButton.Content}" Click="Back_Click"/>
+      <TextBlock x:Name="SelectionText" Grid.Column="1" Margin="16,0" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextAlignment="Center" Foreground="#FF444444" FontSize="12" TextTrimming="CharacterEllipsis"/>
+      <Button x:Name="Next" Grid.Column="2" Content="{loc:Loc NextButton.Content}" Style="{StaticResource PrimaryButton}" IsEnabled="False" Click="Next_Click"/>
+    </Grid>
+  </Grid>
+</Page>

@@ -1,10 +1,10 @@
-# WinDeploy Disclaimer
+# ESD Installer Disclaimer
 
-WinDeploy is a destructive disk-deployment utility. It formats a selected partition, applies a Windows image, and modifies boot files. These operations can cause permanent and unrecoverable data loss.
+ESD Installer is a destructive disk-deployment utility. It formats a selected partition, applies a Windows image, and modifies boot files. These operations can cause permanent and unrecoverable data loss.
 
 ## Use at your own risk
 
-By downloading, building, running, or distributing WinDeploy, you acknowledge that:
+By downloading, building, running, or distributing ESD Installer, you acknowledge that:
 
 - You are solely responsible for selecting the correct physical disk and partition.
 - You must maintain verified, offline backups of all important data before using the software.

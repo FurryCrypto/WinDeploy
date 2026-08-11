@@ -1,5 +1,5 @@
-; Language: Kazakh (1087)
-; WinDeploy project translation
+﻿; Language: Kazakh (1087)
+; ESDInstaller project translation
 
 !insertmacro LANGFILE "Kazakh" = "Қазақша" "Qazaqsha"
 

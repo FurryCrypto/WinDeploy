@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/ESDInstaller.Core/ESDInstaller.Core.csproj" />
+  <Project Path="src/ESDInstaller.Worker/ESDInstaller.Worker.csproj" />
+  <Project Path="src/ESDInstaller.App/ESDInstaller.App.csproj" />
+  <Project Path="tests/ESDInstaller.Core.Tests/ESDInstaller.Core.Tests.csproj" />
+</Solution>

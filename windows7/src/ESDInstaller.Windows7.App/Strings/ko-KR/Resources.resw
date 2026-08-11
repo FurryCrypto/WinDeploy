@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows 파티션 설치 프로그램</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>이미지 열기</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>디스크 새로 고침</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>Windows 설치</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows 이미지</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2판</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 목적지</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 부팅 구성</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 검토</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 설치</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>안전 제일</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>자동으로 선택된 디스크가 없습니다. 보호된 시스템, EFI, 복구, OEM 및 예약된 파티션은 대상이 될 수 없습니다.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>준비됨</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>준비됨</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Windows 이미지 선택</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Windows ISO, WIM 또는 ESD 파일을 선택합니다. 디스크를 터치하기 전에 이미지가 검사됩니다.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Windows 이미지 선택</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>또는 .iso, .wim 또는 .esd 파일을 여기에 끌어서 놓으세요.</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>파일 이름</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows 버전</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>아키텍처</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>이미지 유형</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>파일 크기</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>사용 가능한 버전</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>뒤로</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Windows 에디션 선택</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>설치 미디어에서 읽어온 실제 이미지 인덱스를 선택합니다.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>대상 파티션 선택</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>기존의 적합한 파티션 하나를 선택합니다. 할당되지 않은 보호된 파티션은 상황에 맞게 표시되지만 선택할 수는 없습니다.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>부팅 구성</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>감지된 펌웨어, 파티션 구성표 및 부팅 파티션을 확인하십시오. EFI 파티션은 이 워크플로로 포맷되지 않습니다.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>펌웨어 모드</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>파티션 구성표</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>부팅 파티션</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>부팅 구성</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>호환성</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>고급 세부정보</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>설치 검토</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>설치 계획 검토</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>모든 식별자를 주의 깊게 확인하세요. 실행에서는 재발견된 드라이브 문자가 아닌 검증된 디스크 및 파티션 ID를 사용합니다.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows 이미지</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>소스</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>목적지</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>대상 파일 시스템</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>경고: 선택한 파티션의 모든 데이터가 영구적으로 삭제됩니다.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>선택한 대상 파티션의 기존 데이터가 모두 삭제된다는 점을 이해합니다.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Windows 설치</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Windows 설치</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>컴퓨터를 전원에 연결해 두십시오. 이미지, 부팅 파일 및 중요 설치 파일이 검증된 후에만 성공이 보고됩니다.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>관리자 권한을 기다리는 중…</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>설치 로그</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>로그 열기</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>다른 이름으로 로그 저장…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows가 성공적으로 설치되었습니다.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>이미지와 Windows 부팅 파일이 확인되었습니다. 이제 컴퓨터를 다시 시작할 수 있습니다.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows가 성공적으로 설치되었습니다.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>이미지와 Windows 부팅 파일이 확인되었습니다. 새로운 Windows 항목은 다음에 다시 시작할 때의 기본값입니다.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>지금 다시 시작</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>나중에 다시 시작</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>시스템 언어</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>고급 모드</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>안정적인 디스크 ID, 오프셋 및 펌웨어 세부 정보를 표시합니다. 또한 지원되지 않는 명시적인 Windows 11 하드웨어 우회를 노출합니다. 디스크 안전 보호는 활성 상태로 유지됩니다.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>레거시 엔진</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>엔진: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>펌웨어: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>디스크 스타일: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>디스크 고유 ID: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>타겟 오프셋: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/부팅 파티션: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM 존재/준비: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot 가능/활성화됨: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer 도움말</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer는 선택한 WIM/ESD 이미지를 하나의 기존 파티션에 적용하고 동일한 실제 디스크의 자체 검사 부팅 파티션에 부팅 파일을 구성합니다. 파티션을 생성하거나 전체 디스크를 지우지 않습니다. 고급 모드는 별도의 경고 후에 Windows 11 하드웨어 요구 사항을 명시적으로 우회할 수 있습니다. Windows XP 및 지원되지 않는 레거시 미디어는 전용 엔진이 존재할 때까지 차단된 상태로 유지됩니다.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>고급 모드</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>표준 모드</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Windows 이미지 검사 중…</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows 이미지가 준비되었습니다</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>오류가 발생했습니다.</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Windows 버전을 선택하세요</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>먼저 이미지와 에디션을 선택하세요.</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>물리적 디스크 및 파티션을 읽는 중…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>대상 파티션을 선택하세요.</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>부팅 구성이 유효합니다.</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>호환성 검사로 인해 설치가 차단되었습니다.</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>설치 계획을 검토하고 확인합니다.</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>디스크 파티션 및 Windows 부팅 파일을 수정하려면 관리자 권한이 필요합니다.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Windows 설치가 성공적으로 완료되었습니다.</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Windows 설치 실패 — 로그 검토</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>이 Windows 이미지를 검사하세요.</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>인덱스 {0} • {1} 빌드</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>기존 Windows 미디어가 감지되었습니다.</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>이 버전에는 아직 사용할 수 없는 레거시 Windows 설치 엔진이 필요합니다.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>이 버전에는 아직 사용할 수 없는 레거시 Windows 설치 엔진이 필요합니다.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista에는 아직 사용할 수 없는 레거시 NT6 설치 엔진이 필요합니다.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>펌웨어: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>컴퓨터 아키텍처: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>디스크 {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • 직렬: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>오프라인</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>읽기 전용</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>사용할 수 없음</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>할당되지 않음</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>현재 Windows — 보호됨</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>보호됨</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI 시스템</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>회복</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>기본 데이터</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>알 수 없는 파티션</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>파티션 {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>디스크 {0} — {1}; 파티션 {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>디스크 {0}, 파티션 {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>대상 디스크에서 적절한 부팅 파티션을 찾을 수 없습니다.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>통과됨</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>차단됨</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>부팅 구성이 준비되었습니다.</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>선택한 이미지, 대상 및 동일 디스크 부팅 파티션은 기술적으로 호환됩니다.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>설치가 차단되었습니다</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>아래의 호환성 오류를 해결하세요. ESD Installer는 이를 자동으로 우회하지 않습니다.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>알 수 없음</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>디스크 {0} — {1}; 파티션 {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>디스크 모델: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>디스크 번호: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>파티션 번호: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>드라이브 문자: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>볼륨 이름: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>용량: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>검증된 계획 지문: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>경과됨: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>관리자 권한이 취소되었습니다. 설치가 시작되지 않았습니다.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>설치 작업자가 종료 코드 {0}로 중지되었습니다.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>설치 로그</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>컴퓨터를 다시 시작하시겠습니까?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>다른 응용 프로그램에서 작업 내용을 저장합니다. 컴퓨터가 즉시 다시 시작됩니다.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>지금 다시 시작</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>나중에 시작 메뉴에서 다시 시작할 수 있습니다. 새 Windows 항목은 Windows Boot Manager에 구성됩니다.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>관리자 권한이 부여되었습니다.</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>설치 계획을 검증하는 중…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>대상 준비 중…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>대상 파티션이 포맷되었습니다.</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Windows 이미지를 적용하는 중…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>부팅 파일 설치 중…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>설치 확인 중…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows 설치 완료</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>설치 실패</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>전체 계획 검증</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>선택한 파티션만 NTFS로 포맷합니다.</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>선택한 Windows 이미지 인덱스를 적용합니다.</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>동일한 디스크 부팅 파티션에 Windows 부팅 파일을 설치합니다.</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>설치 및 부팅 파일 확인</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>디스크 파티션 및 Windows 부팅 파일을 수정하려면 관리자 권한이 필요합니다.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>예상치 못한 오류가 발생했습니다.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>고가 설치 작업자가 없습니다.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>관리자 권한 설치 작업자를 시작할 수 없습니다.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>선택한 이미지 파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>ISO, WIM 및 ESD 이미지 파일만 지원됩니다.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO를 장착하거나 검사할 수 없습니다.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>이 ISO에서는 sources\install.wim 또는 sources\install.esd가 발견되지 않았습니다.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>이 이미지는 이번 릴리스에서 지원되지 않는 분할 SWM 파일을 사용합니다.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Windows 이미지를 열 수 없습니다.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows 이미지에는 설치 가능한 인덱스가 없습니다.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Windows 이미지 메타데이터를 읽을 수 없습니다.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>물리적 디스크와 파티션을 읽을 수 없습니다.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>물리적 디스크를 찾을 수 없습니다.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>선택한 대상 파티션을 포맷할 수 없습니다.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM가 선택한 Windows 이미지를 적용할 수 없습니다.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>검증된 부팅 파티션에 액세스할 수 없습니다.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot가 Windows 부팅 파일을 설치할 수 없습니다.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>배포된 Windows 파일이 확인을 통과하지 못했습니다.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Windows 부팅 파일이 확인을 통과하지 못했습니다.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>검증된 설치 계획을 읽을 수 없습니다.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>이 Windows 빌드를 안정적으로 식별할 수 없습니다.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>이미지 아키텍처가 이 컴퓨터 및 펌웨어 모드와 호환되지 않습니다.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>선택한 파티션은 보호되어 있어 덮어쓸 수 없습니다.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>선택한 파티션은 BitLocker로 보호됩니다. 배포하기 전에 잠금을 해제하고 해독하세요.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>선택한 파티션이 이 Windows 버전에 비해 너무 작습니다.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>대상 디스크가 오프라인이거나 읽기 전용입니다.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI 배포에는 GPT 대상 디스크가 필요합니다.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>레거시 BIOS 배포에는 MBR 대상 디스크가 필요합니다.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>대상 디스크에 적절한 부팅 파티션이 없습니다.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>부팅 파티션은 대상과 동일한 물리적 디스크에 있어야 합니다.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI 배포에는 대상 디스크에 EFI 시스템 파티션이 필요합니다.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>EFI 시스템 파티션은 이미 FAT32를 사용해야 합니다.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>레거시 BIOS 배포에는 대상 디스크에 활성 NTFS 부팅 파티션이 필요합니다.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 UEFI 배포는 x64 이미지에만 활성화됩니다.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11에는 지원되는 x64 또는 ARM64 이미지가 필요합니다.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11에는 UEFI 펌웨어가 필요합니다.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0이 존재하지 않고 준비된 것으로 감지되지 않았습니다. Windows 11 설치 프로그램이 이 컴퓨터를 거부할 수 있습니다.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Secure Boot 기능을 확인할 수 없습니다.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot는 지원되지만 현재 비활성화되어 있습니다.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>컴퓨터의 실제 메모리가 4GB 미만입니다.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>계획이 확정된 후 원본 이미지가 변경되었습니다.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>선택한 이미지 인덱스가 유효성 검사 후 변경되었습니다.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>대상 디스크가 더 이상 존재하지 않습니다.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>이 디스크에는 안정적인 일련 번호 또는 고유 ID가 없으므로 안전하게 사용할 수 없습니다.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>대상 디스크 ID가 변경되었습니다. 설치가 중지되었습니다.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>대상 파티션 ID 또는 구조가 변경되었습니다.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>부팅 파티션 ID 또는 구조가 변경되었습니다.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>펌웨어 또는 대상 파티션 구성표가 더 이상 계획과 일치하지 않습니다.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>보조 디스크에서 이미지와 부팅 파일이 확인되었습니다. 펌웨어가 해당 디스크를 자동으로 선택하지 않으면 UEFI 부팅 메뉴에서 해당 디스크를 한 번 선택하십시오.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>UEFI 대체 부팅 파일이 확인을 통과하지 못했습니다.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>보조 UEFI 디스크입니다. ESD Installer는 펌웨어 NVRAM 변수를 변경하지 않고 표준 대체 부팅 파일을 설치합니다. 펌웨어 부팅 메뉴에서 디스크를 한 번 선택해야 할 수도 있습니다.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Windows 이미지 임시 작업 폴더를 초기화할 수 없습니다.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>이 Windows 11 설치에는 지원되지 않는 고급 하드웨어 바이패스가 활성화되었습니다.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>지원되지 않는 하드웨어에 설치하시겠습니까?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>우회 승인 및 활성화</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft는 이 하드웨어에서 Windows 11을 지원하지 않으며 업데이트를 보장하지 않습니다. 호환성 문제, 보안 저하 또는 시작 오류가 발생할 수 있습니다. ESD Installer는 CPU, TPM, Secure Boot, RAM 및 스토리지 검사를 우회하지만 호환되지 않는 하드웨어 작업을 수행할 수는 없습니다.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Windows 11 지원되지 않음-하드웨어 바이패스를 구성할 수 없습니다.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>지원되지 않는 하드웨어 바이패스가 활성화되었습니다.</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>지원되지 않는 Windows 11 하드웨어 바이패스 구성 중...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>지원되지 않는 하드웨어 우회로 허용됨</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>지원되지 않는 Windows 11 하드웨어 바이패스 구성</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 요구 사항 실패는 경고입니다. 중요한 디스크, 파티션, 부팅 및 아키텍처 보호는 계속 적용됩니다.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>고급: Windows 11 CPU, TPM, Secure Boot, RAM 및 스토리지 요구 사항 확인을 우회합니다. 디스크 ID, 파티션 및 아키텍처 안전 검사는 활성 상태로 유지됩니다.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>이 계획은 지원되지 않는 하드웨어 바이패스 값을 오프라인 Windows 설치에 기록합니다. Microsoft 지원 및 업데이트는 보장되지 않습니다.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>지원되지 않는 하드웨어에 Windows 11을 설치합니다.</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>디스크 관리에서 실제 기본 데이터 파티션이나 단순 볼륨을 생성한 다음 디스크를 새로 고칩니다.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>선택한 대상은 사용 가능한 기본 데이터 파티션이 아닙니다. 할당되지 않은 공간과 MBR 확장 컨테이너는 직접 포맷할 수 없습니다.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>자동으로 업데이트 확인</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>업데이트 확인</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>업데이트 확인 중...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>최신 버전을 사용하고 있습니다.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>업데이트를 확인할 수 없습니다.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>소프트웨어 업데이트</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>새 버전이 출시되었습니다.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>{0} 버전을 사용할 수 있습니다.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>현재 {0} 버전을 사용하고 있습니다.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>이 업데이트에는 개선 사항과 버그 수정이 포함되어 있습니다.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>업데이트 다운로드 중...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>업데이트 확인 중...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>다운로드한 업데이트를 확인할 수 없어 시작되지 않았습니다.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>업데이트를 다운로드하거나 시작할 수 없습니다.</value>
+  </data>
+</root>

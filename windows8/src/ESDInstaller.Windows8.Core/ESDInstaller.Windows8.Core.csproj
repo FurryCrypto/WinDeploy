@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>ESDInstaller.Windows8.Core</AssemblyName>
+    <RootNamespace>ESDInstaller.Windows8.Core</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net461" Version="1.0.3" PrivateAssets="all" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="DiscUtils.Iso9660" Version="0.16.13" />
+    <PackageReference Include="DiscUtils.Udf" Version="0.16.13" />
+    <!-- ManagedWimLib 2.5.3's net46 build target incorrectly maps win-arm64 to
+         x64. Exclude that target and let Directory.Build.targets copy the
+         architecture-correct native binaries explicitly. -->
+    <PackageReference Include="ManagedWimLib" Version="$(ManagedWimLibVersion)" ExcludeAssets="build" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+</Project>

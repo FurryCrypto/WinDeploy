@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>2.0</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>ESD Installer — Windows бөлімін орнату құралы</value></data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve"><value>Кескінді ашу</value></data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve"><value>Дискілерді жаңарту</value></data>
+  <data name="ToolbarSettings.Text" xml:space="preserve"><value>Параметрлер</value></data>
+  <data name="ToolbarHelp.Text" xml:space="preserve"><value>Анықтама</value></data>
+  <data name="StepsHeader.Text" xml:space="preserve"><value>WINDOWS ОРНАТУ</value></data>
+  <data name="StepImage.Text" xml:space="preserve"><value>1  Windows кескіні</value></data>
+  <data name="StepEdition.Text" xml:space="preserve"><value>2  Шығарылым</value></data>
+  <data name="StepDestination.Text" xml:space="preserve"><value>3  Мақсат</value></data>
+  <data name="StepBoot.Text" xml:space="preserve"><value>4  Жүктеу конфигурациясы</value></data>
+  <data name="StepReview.Text" xml:space="preserve"><value>5  Шолу</value></data>
+  <data name="StepInstall.Text" xml:space="preserve"><value>6  Орнату</value></data>
+  <data name="SafetyFirst.Text" xml:space="preserve"><value>Қауіпсіздік бірінші орында</value></data>
+  <data name="SafetySidebarText.Text" xml:space="preserve"><value>Ешбір диск автоматты түрде таңдалмайды. Қорғалған жүйелік, EFI, қалпына келтіру, OEM және резервтелген бөлімдерді мақсат ретінде таңдауға болмайды.</value></data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve"><value>Дайын</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Дайын</value></data>
+  <data name="ImagePageTitle.Text" xml:space="preserve"><value>Windows кескінін таңдау</value></data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve"><value>Windows ISO, WIM немесе ESD файлын таңдаңыз. Сүртті кез келген дискке қол сұғылмастан бұрын тексеріңіз.</value></data>
+  <data name="SelectImageButton.Content" xml:space="preserve"><value>Windows кескінін таңдау</value></data>
+  <data name="ImageDropHint.Text" xml:space="preserve"><value>немесе.iso,.wim немесе.esd файлын сүйреп тастаңыз</value></data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve"><value>Файл атауы</value></data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve"><value>Windows нұсқасы</value></data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve"><value>Сәулет</value></data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve"><value>Сурет түрі</value></data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve"><value>Файл өлшемі</value></data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve"><value>Қолда бар басылымдар</value></data>
+  <data name="NextButton.Content" xml:space="preserve"><value>Келесі</value></data>
+  <data name="BackButton.Content" xml:space="preserve"><value>Артқа</value></data>
+  <data name="EditionPageTitle.Text" xml:space="preserve"><value>Windows шығарылымын таңдау</value></data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve"><value>Құрылғы құралынан оқылатын нақты суреттің индексін таңдаңыз.</value></data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve"><value>Мақсатты бөлімді таңдау</value></data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve"><value>Қолданыстағы жарамды бөліністерден бірін таңдаңыз. Контекст үшін бөліністерді бөлусіз және қорғалған көрсетіледі, бірақ таңдауға болмайды.</value></data>
+  <data name="BootPageTitle.Text" xml:space="preserve"><value>Жүктеу конфигурациясы</value></data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve"><value>Анықталған firmware режимін, бөлім стилін және жүктеу бөлімін тексеріңіз. Бұл жұмыс үрдісі EFI бөлімін ешқашан пішімдемейді.</value></data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve"><value>Фирмалық бағдарламаның режимі</value></data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve"><value>Бөлшек жүйесі</value></data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve"><value>Бастау бөлінісі</value></data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve"><value>Бастау баптау</value></data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve"><value>Қатысу</value></data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve"><value>Алға табағы мәліметтер</value></data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve"><value>Орнатуды шолу</value></data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve"><value>Орнату жоспарын шолу</value></data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve"><value>Әрбір идентификаторды мұқият тексеріңіз. Орындалу қайта табылған диск пен бөлініс сәйкестігін пайдаланады.</value></data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve"><value>Windows кескіні</value></data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve"><value>Көзге</value></data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve"><value>Мақсат</value></data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve"><value>Жоспар файлдар жүйесі</value></data>
+  <data name="DestructiveWarning.Text" xml:space="preserve"><value>ЕСКЕРТУ: Таңдалған бөлімдегі барлық дерек біржола жойылады.</value></data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve"><value>Таңдалған мақсатты бөлімдегі барлық дерек жойылатынын түсінемін.</value></data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve"><value>Windows орнату</value></data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve"><value>Windows орнатылуда</value></data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve"><value>Компьютерді қуатқа қосыңыз. Сүртті, бастау файлдарын және маңызды орнатылған файлдарды тексергеннен кейін ғана табыс туралы хабарланады.</value></data>
+  <data name="ProgressWaiting.Text" xml:space="preserve"><value>Әкімшінің рұқсатын күтіп тұрмын...</value></data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve"><value>Құрылғы журналы</value></data>
+  <data name="OpenLogButton.Content" xml:space="preserve"><value>Ашық журналы</value></data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve"><value>Тіркелгілерді сақтау...</value></data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve"><value>Windows сәтті орнатылды.</value></data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve"><value>Кескін мен Windows жүктеу файлдары тексерілді. Енді компьютерді қайта іске қосуға болады.</value></data>
+  <data name="InstallationSuccessTitle" xml:space="preserve"><value>Windows сәтті орнатылды.</value></data>
+  <data name="InstallationSuccessText" xml:space="preserve"><value>Кескін мен Windows жүктеу файлдары тексерілді. Жаңа Windows жазбасы келесі қайта іске қосу үшін әдепкі ретінде орнатылды.</value></data>
+  <data name="RestartNowButton.Content" xml:space="preserve"><value>Қазір қайта іске қосу</value></data>
+  <data name="RestartLaterButton.Content" xml:space="preserve"><value>Кейін қайта іске қосу</value></data>
+  <data name="LanguageSystem" xml:space="preserve"><value>Жүйе тілі</value></data>
+  <data name="AdvancedMode" xml:space="preserve"><value>Кеңейтілген режим</value></data>
+  <data name="AdvancedModeDescription" xml:space="preserve"><value>Бұл тұрақты диск ID-лерін, оффсеттер мен фирм-вердеде нақты деректерді көрсетеді. Ол сонымен қатар Windows 11 аппараттық айдауын ашық қолдамайды; диск қауіпсіздігі қорғау белсенді болып қалады.</value></data>
+  <data name="Yes" xml:space="preserve"><value>Иә, солай</value></data>
+  <data name="No" xml:space="preserve"><value>Жоқ, жоқ</value></data>
+  <data name="EngineLegacy" xml:space="preserve"><value>Мұралы қозғалтқыш</value></data>
+  <data name="AdvancedEngine" xml:space="preserve"><value>Дұру: {0}</value></data>
+  <data name="AdvancedFirmware" xml:space="preserve"><value>Пландық бағдарлама: {0}</value></data>
+  <data name="AdvancedDiskStyle" xml:space="preserve"><value>Диск стилі: {0}</value></data>
+  <data name="AdvancedDiskId" xml:space="preserve"><value>Дисктің бірегей идентификаторы: {0}</value></data>
+  <data name="AdvancedTargetOffset" xml:space="preserve"><value>Мақсатты өтемақы: {0}</value></data>
+  <data name="AdvancedBootPartition" xml:space="preserve"><value>EFI/boot бөлінісі: {0}</value></data>
+  <data name="AdvancedTpm" xml:space="preserve"><value>TPM бар/дайын: {0}/{1}</value></data>
+  <data name="AdvancedSecureBoot" xml:space="preserve"><value>Қауіпсіз бастау мүмкіндігі/белгісі: {0}- Мен...{1}</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>Тіл</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>Параметрлер</value></data>
+  <data name="Save" xml:space="preserve"><value>Сақтау</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Болдырмау</value></data>
+  <data name="Close" xml:space="preserve"><value>Жабу</value></data>
+  <data name="HelpTitle" xml:space="preserve"><value>ESD Installer анықтамасы</value></data>
+  <data name="HelpText" xml:space="preserve"><value>ESD Installer таңдалған WIM / ESD суретті бір бар бөлініске қолданады және бір физикалық дисктегі тексерілген бастау бөлінісінде бастау файлдарын баптайды. Ол бөліністерді жасамайды немесе бүтін дисктерді өшірмейді. Жедел режим Windows 11 аппараттық талаптарын бөлек ескертуден кейін айқын айналдыра алады. Windows XP және қолдалмаған мұралық медиа арнаулы қозғалтқыш болғанға дейін бұғатталады.</value></data>
+  <data name="AdvancedModeEnabled" xml:space="preserve"><value>Жетілген режим</value></data>
+  <data name="StandardMode" xml:space="preserve"><value>Стандартты режим</value></data>
+  <data name="StatusInspectingImage" xml:space="preserve"><value>Windows кескіні тексерілуде…</value></data>
+  <data name="StatusImageReady" xml:space="preserve"><value>Windows кескіні дайын</value></data>
+  <data name="StatusError" xml:space="preserve"><value>Қате орын алды</value></data>
+  <data name="StatusChooseEdition" xml:space="preserve"><value>Windows шығарылымын таңдаңыз</value></data>
+  <data name="StatusSelectImageFirst" xml:space="preserve"><value>Алдымен суретті және редакцияны таңдаңыз</value></data>
+  <data name="StatusReadingDisks" xml:space="preserve"><value>Физикалық дискілер мен бөлімдер оқылуда…</value></data>
+  <data name="StatusSelectDestination" xml:space="preserve"><value>Мақсатты бөлімді таңдаңыз</value></data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve"><value>Жүктеу конфигурациясы жарамды</value></data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve"><value>Үйлесімділікті тексеру орнатуды бұғаттады</value></data>
+  <data name="StatusReviewPlan" xml:space="preserve"><value>Орнату жоспарын қарап, растаңыз</value></data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve"><value>Диск бөлімдері мен Windows жүктеу файлдарын өзгерту үшін әкімші рұқсаты қажет.</value></data>
+  <data name="StatusInstallationComplete" xml:space="preserve"><value>Windows орнату сәтті аяқталды</value></data>
+  <data name="StatusInstallationFailed" xml:space="preserve"><value>Windows орнату сәтсіз аяқталды — журналды тексеріңіз</value></data>
+  <data name="ImageDropCaption" xml:space="preserve"><value>Осы Windows кескінін тексеріңіз</value></data>
+  <data name="EditionTechnicalDetails" xml:space="preserve"><value>Индекс {0}  • Құрылыс {1}</value></data>
+  <data name="LegacyEngineTitle" xml:space="preserve"><value>Windows- та өскелең медиалар анықталды</value></data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve"><value>Бұл нұсқада Legacy Windows орнату қозғалтқышы қажет, ол әлі де қолжетімді емес.</value></data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve"><value>Бұл нұсқада Legacy Windows орнату қозғалтқышы қажет, ол әлі де қолжетімді емес.</value></data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve"><value>Windows Vista-ға Legacy NT6 орнату қозғалтқышы қажет, ол әлі де қол жетімді емес.</value></data>
+  <data name="FirmwareSummary" xml:space="preserve"><value>Пландық бағдарлама: {0}</value></data>
+  <data name="HostArchitectureSummary" xml:space="preserve"><value>Компьютерлік сәулет: {0}</value></data>
+  <data name="DiskHeader" xml:space="preserve"><value>Диск {0}  {1}  {2}</value></data>
+  <data name="DiskDetails" xml:space="preserve"><value>{0}  •  {1}  • Сериялық: {2}</value></data>
+  <data name="DiskOffline" xml:space="preserve"><value>Оффлайн</value></data>
+  <data name="DiskReadOnly" xml:space="preserve"><value>Тек оқуға арналған</value></data>
+  <data name="DiskSerialUnavailable" xml:space="preserve"><value>қолжетімді емес</value></data>
+  <data name="PartitionUnallocated" xml:space="preserve"><value>Бөлінбейді</value></data>
+  <data name="PartitionCurrentWindows" xml:space="preserve"><value>Қазіргі Windows — қорғалған</value></data>
+  <data name="PartitionProtected" xml:space="preserve"><value>Қорғалған</value></data>
+  <data name="PartitionRoleEfi" xml:space="preserve"><value>EFI жүйесі</value></data>
+  <data name="PartitionRoleMsr" xml:space="preserve"><value>Microsoft резерві</value></data>
+  <data name="PartitionRoleRecovery" xml:space="preserve"><value>Қалпына келтіру</value></data>
+  <data name="PartitionRoleOem" xml:space="preserve"><value>OEM</value></data>
+  <data name="PartitionRoleBasic" xml:space="preserve"><value>Негізгі деректер</value></data>
+  <data name="PartitionRoleUnknown" xml:space="preserve"><value>Белгісіз бөлім</value></data>
+  <data name="PartitionTooltip" xml:space="preserve"><value>Бөлшек {0}  {1} {2}  {3}  {4}</value></data>
+  <data name="DestinationSelectionSummary" xml:space="preserve"><value>Диск {0}  {1}; бөлшек {2} {3}Ауырушы; {4}</value></data>
+  <data name="BootPartitionSummary" xml:space="preserve"><value>Диск {0}, Бөлшек {1} {2}  {3}  {4}</value></data>
+  <data name="BootPartitionNotFound" xml:space="preserve"><value>Жоспарлық дискіде тиісті бот-партиция табылмады.</value></data>
+  <data name="WindowsBootManager" xml:space="preserve"><value>Windows Boot менеджері</value></data>
+  <data name="CompatibilityPassed" xml:space="preserve"><value>Өткен</value></data>
+  <data name="CompatibilityFailed" xml:space="preserve"><value>Қалпына келтірілді</value></data>
+  <data name="BootConfigurationReady" xml:space="preserve"><value>Бастау баптау дайын</value></data>
+  <data name="BootConfigurationReadyText" xml:space="preserve"><value>Таңдалған сурет, мақсат және бір дискіге қосылу бөлшегі техникалық жағынан үйлесімді.</value></data>
+  <data name="BootConfigurationBlocked" xml:space="preserve"><value>Құрылғы бұғатталды</value></data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve"><value>Келесі сәйкестік қателерін шешу. ESD Installer оларды автоматты түрде айналып кетпейді.</value></data>
+  <data name="Unknown" xml:space="preserve"><value>Белгісіз</value></data>
+  <data name="ReviewDestinationSummary" xml:space="preserve"><value>Диск {0}  {1}; бөлшек {2} {3}  {4}</value></data>
+  <data name="WarningDiskModel" xml:space="preserve"><value>Диск үлгісі: {0}</value></data>
+  <data name="WarningDiskNumber" xml:space="preserve"><value>Диск нөмірі: {0}</value></data>
+  <data name="WarningPartitionNumber" xml:space="preserve"><value>Бөлшек нөмірі: {0}</value></data>
+  <data name="WarningDriveLetter" xml:space="preserve"><value>Жолдауыш хат: {0}</value></data>
+  <data name="WarningVolumeName" xml:space="preserve"><value>Толықтама атауы: {0}</value></data>
+  <data name="WarningCapacity" xml:space="preserve"><value>Жарамдық: {0}</value></data>
+  <data name="None" xml:space="preserve"><value>Ешқайсысы</value></data>
+  <data name="PlanFingerprint" xml:space="preserve"><value>Планның қолтаңбалы қолы: {0}</value></data>
+  <data name="ElapsedTime" xml:space="preserve"><value>Өткен: {0}</value></data>
+  <data name="AdministratorCancelled" xml:space="preserve"><value>Әкімшінің рұқсаты бұзылды.</value></data>
+  <data name="WorkerExitFailure" xml:space="preserve"><value>Құрылғы қызметкері шығыс кодымен тоқтады {0}.</value></data>
+  <data name="LogFileType" xml:space="preserve"><value>Құрылғы журналы</value></data>
+  <data name="RestartConfirmTitle" xml:space="preserve"><value>Компьютерді қайта бастау?</value></data>
+  <data name="RestartConfirmText" xml:space="preserve"><value>Жұмысыңызды басқа қолданбаларға сақтаңыз. Компьютер дереу қайта басталады.</value></data>
+  <data name="RestartNow" xml:space="preserve"><value>Қазір қайта іске қосу</value></data>
+  <data name="RestartLaterMessage" xml:space="preserve"><value>Start мәзірінен кейінірек қайта іске қосуға болады. Жаңа Windows жазбасы Windows Boot Manager ішінде конфигурацияланған.</value></data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve"><value>Әкімші рұқсаты берілді</value></data>
+  <data name="ProgressValidatingPlan" xml:space="preserve"><value>Орнату жоспары тексерілуде…</value></data>
+  <data name="ProgressPreparingDestination" xml:space="preserve"><value>Мақсат дайындалуда…</value></data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve"><value>Мақсатты бөлім пішімделді</value></data>
+  <data name="ProgressApplyingImage" xml:space="preserve"><value>Windows кескіні қолданылуда…</value></data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve"><value>Жүктеу файлдары орнатылуда…</value></data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve"><value>Орнату тексерілуде…</value></data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve"><value>Windows орнату аяқталды</value></data>
+  <data name="ProgressInstallationFailed" xml:space="preserve"><value>Орнату сәтсіз аяқталды</value></data>
+  <data name="OperationValidatePlan" xml:space="preserve"><value>Толық жоспарды растаңыз</value></data>
+  <data name="OperationFormatDestination" xml:space="preserve"><value>Тек таңдалған бөлімді NTFS ретінде пішімдеу</value></data>
+  <data name="OperationApplyImage" xml:space="preserve"><value>Таңдалған Windows кескін индексін қолдану</value></data>
+  <data name="OperationInstallBootFiles" xml:space="preserve"><value>Windows- дың бастапқы файлдарын бір дисктің бастапқы бөлімінде орнату</value></data>
+  <data name="OperationVerifyInstallation" xml:space="preserve"><value>Құрылтылған файлдарды тексеру және бастау</value></data>
+  <data name="AdministratorRequired" xml:space="preserve"><value>Диск бөліністерін және Windows боуті файлдарын өзгерту үшін әкімші рұқсаты қажет.</value></data>
+  <data name="ErrorUnexpected" xml:space="preserve"><value>Күткен жоқ қате пайда болды.</value></data>
+  <data name="ErrorWorkerMissing" xml:space="preserve"><value>Жоғары биіктіктегі монтаждаушы дайынсыз.</value></data>
+  <data name="ErrorWorkerStart" xml:space="preserve"><value>Жоғары көтерілген монтажшы жұмысшысын бастау мүмкін емес.</value></data>
+  <data name="ErrorImageNotFound" xml:space="preserve"><value>Таңдалған суретті файл таба алмады.</value></data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve"><value>Тек ISO, WIM және ESD бейне файлдары ғана қолдайды.</value></data>
+  <data name="ErrorIsoMount" xml:space="preserve"><value>ISO орнатылмады немесе тексерілмеді.</value></data>
+  <data name="ErrorNoInstallImage" xml:space="preserve"><value>Бұл ISO-да \install.wim немесе \install.esd көздері табылмады.</value></data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve"><value>Бұл суретте осы релизде қолданатын SWM файлдары пайдаланылады.</value></data>
+  <data name="ErrorImageOpen" xml:space="preserve"><value>Windows бейнесі ашылмады.</value></data>
+  <data name="ErrorNoEditions" xml:space="preserve"><value>Windows бейнесінде орнатылатын индекстер жоқ.</value></data>
+  <data name="ErrorImageMetadata" xml:space="preserve"><value>Windows бейнесі метамәдени деректері оқуға келмеді.</value></data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve"><value>Физикалық дискілер мен бөліністерді оқу мүмкін емес.</value></data>
+  <data name="ErrorNoDisks" xml:space="preserve"><value>Физикалық дискілер табылмады.</value></data>
+  <data name="ErrorFormatDestination" xml:space="preserve"><value>Таңдалған мақсат бөлінісі форматталмады.</value></data>
+  <data name="ErrorDismApply" xml:space="preserve"><value>DISM таңдалған Windows бейнесін қолданбады.</value></data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve"><value>Құрылтайланған бот-парастицияға қол жеткізу мүмкін емес.</value></data>
+  <data name="ErrorBcdBoot" xml:space="preserve"><value>BCDBoot Windows бастау файлдарын орнатуға мүмкіндік бермеді.</value></data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve"><value>Windows файлдары тексеруден өтпеді.</value></data>
+  <data name="ErrorBootVerification" xml:space="preserve"><value>Windows-тың бастау файлдары тексеруден өтпеді.</value></data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve"><value>Құрылтайланған қондырғы жоспарын оқу мүмкін болмады.</value></data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve"><value>Бұл Windows-тың құрылымын сенімді түрде анықтауға болмайды.</value></data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve"><value>Суреттің сәулеленуі осы компьютер мен фирм-вер режимінде үйлеспейді.</value></data>
+  <data name="ValidationProtectedPartition" xml:space="preserve"><value>Таңдалған бөлім қорғалған және оны қайта жазу мүмкін емес.</value></data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve"><value>Таңдалған бөлім BitLocker арқылы қорғалған. Орналастыру алдында оның құлпын ашып, шифрын шешіңіз.</value></data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve"><value>Таңдалған бөлініс Windows нұсқасы үшін тым кішкентай.</value></data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve"><value>Мақсатты диск офлайн немесе жазудан қорғалған.</value></data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve"><value>UEFI-ді іске асыру үшін GPT-тің мақсатты дискісі қажет.</value></data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve"><value>Мұрагерлік BIOS-ты орналастыру үшін MBR-деректі дискі қажет.</value></data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve"><value>Жоспарлық дискіде тиісті бот-партиция жоқ.</value></data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve"><value>Баут-парасионер мақсатымен бірдей физикалық дискте болуы керек.</value></data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve"><value>UEFI-ны орналастыру үшін мақсатты дискке EFI жүйелік бөлінісі қажет.</value></data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve"><value>EFI жүйелік бөлінісінде FAT32 қолданылуы тиіс.</value></data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve"><value>Мұрагерлік BIOS-ты орналастыру үшін мақсат дискісінде белсенді NTFS боуті бөлімін қажет етеді.</value></data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve"><value>Windows 7 UEFI-ны тек x64 суреттер үшін іске қосуға болады.</value></data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve"><value>Windows 11 қолданатын x64 немесе ARM64 бейнесі қажет.</value></data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve"><value>Windows 11 үшін UEFI фирм-вері қажет.</value></data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve"><value>TPM 2.0-ді дайын және бар деп анықтамады. Windows 11 орнату осы компьютерді бас тартуы мүмкін.</value></data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve"><value>Қауіпсіз бастау қабілеті расталмады.</value></data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve"><value>Қауіпсіз қоңырау қосу қол жетімді, бірақ қазіргі уақытта рұқсат етілмеген.</value></data>
+  <data name="ValidationWindows11Memory" xml:space="preserve"><value>Компьютерде 4 ГБ-дан аз физикалық жады бар.</value></data>
+  <data name="ValidationSourceChanged" xml:space="preserve"><value>Жоспар расталғаннан кейін бастапқы сурет өзгерді.</value></data>
+  <data name="ValidationEditionChanged" xml:space="preserve"><value>Таңдалған суреттің индексі беделден кейін өзгерді.</value></data>
+  <data name="ValidationDiskMissing" xml:space="preserve"><value>Жоспар дискісі жоқ.</value></data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve"><value>Бұл дискте тұрақты сериялық немесе бірегей идентификатор жоқ және қауіпсіз пайдаланылмайды.</value></data>
+  <data name="ValidationDiskChanged" xml:space="preserve"><value>Жоспар дискісінің идентификациясы өзгерді.</value></data>
+  <data name="ValidationPartitionChanged" xml:space="preserve"><value>Жеткізу бөлінісінің сәйкестігі немесе геометриясы өзгерді.</value></data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve"><value>Бату бөлімінің сәйкестігі немесе геометриясы өзгерді.</value></data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve"><value>Фирмалық бағдарлама немесе мақсатты бөлшек схемасы жоспарға сәйкес келмейді.</value></data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve"><value>Суреттегі файлдар мен бастау файлдар екінші дискте тексерілді. Егер фирмалық бағдарламалық жасақтама автоматты түрде дискті таңдамаса, оны UEFI бастау мәзірінен бір рет таңдаңыз.</value></data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve"><value>UEFI қайта жүктеу файлы тексеруден өтпеді.</value></data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve"><value>Бұл қосымша UEFI дискісі. ESD Installer firmware NVRAM айнымалыларын өзгертпей стандартты резервтік жүктеу файлын орнатады; firmware жүктеу мәзірінен дискіні бір рет таңдау қажет болуы мүмкін.</value></data>
+  <data name="ErrorImageScratch" xml:space="preserve"><value>Windows кескінінің уақытша жұмыс қапшығын бастау мүмкін емес.</value></data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Бұл Windows 11 орнату үшін қолдалмаған аппараттық оқшаулаудың алдын ала жасалуы рұқсат етіледі.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Қолданбалмаған аппараттарға орнату?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Орауды қабылдау және рұқсат ету</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft бұл аппараттық жүйеде Windows 11 бағдарламасын қолдамайды және жаңартуларды кепілдендімейді. Қосылымдық проблемалар, төмендеуі мүмкін қауіпсіздік немесе старт қателері. ESD Installer CPU, TPM, Secure Boot, RAM және сақтау тексерулерін айналып өтеді, бірақ сәйкес келмейтін аппараттық жұмыс жасай алмайды.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Windows 11 қолдалмаған аппараттық бұрушыны баптай алмады.</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Қолданбалмаған аппараттық бұру рұқсат етілді</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Windows 11 аппараттық бұруын баптау...</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Қолданылмайтын аппараттық бұрумен рұқсат етіледі</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Қолданбалмаған Windows 11 аппараттық бұруды баптау</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Windows 11 талаптарының қателері ескерту болып табылады.</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Жедел: Windows 11 CPU, TPM, Secure Boot, RAM және сақтау қажеттіліктерін тексеруден өту. Дисктің сәйкестігі, бөлініс және архитектура қауіпсіздігі тексерісі белсенді болып қалады.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Бұл жоспар қолданбайтын аппараттық бұру мәндерін офлайн-Windows орнатуына жазады. Microsoft қолдау мен жаңартулары кепілдендірілмейді.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Windows 11 бағдарламасын қолдалмаған аппараттық құрылғыларға орнату</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Диск менеджментіне нақты негізгі деректер бөлінісін немесе қарапайым көлемді құру, содан кейін дискілерді жаңарту.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Таңдалған мақсат пайдалануға болатын негізгі деректер бөлімі емес. Бөлінбеген кеңістік пен кеңейтілген MBR контейнерлерін тікелей пішімдеу мүмкін емес.</value></data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve"><value>Жаңартуларды автоматты түрде тексеру</value></data>
+  <data name="CheckForUpdates" xml:space="preserve"><value>Жаңартуларды тексеру</value></data>
+  <data name="CheckingForUpdates" xml:space="preserve"><value>Жаңартулар тексерілуде...</value></data>
+  <data name="UpToDate" xml:space="preserve"><value>Сіз ең соңғы нұсқаны пайдаланып отырсыз.</value></data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve"><value>Жаңартуларды тексеру мүмкін болмады.</value></data>
+  <data name="UpdateTitle" xml:space="preserve"><value>Бағдарламалық құралды жаңарту</value></data>
+  <data name="UpdateAvailableHeading" xml:space="preserve"><value>Жаңа нұсқа қолжетімді.</value></data>
+  <data name="UpdateVersionAvailable" xml:space="preserve"><value>{0} нұсқасы қолжетімді.</value></data>
+  <data name="UpdateCurrentVersion" xml:space="preserve"><value>Қазір {0} нұсқасын пайдаланып отырсыз.</value></data>
+  <data name="UpdateDefaultNotes" xml:space="preserve"><value>Бұл жаңартуда жақсартулар мен қателер түзетулері бар.</value></data>
+  <data name="UpdateButton" xml:space="preserve"><value>Жаңарту</value></data>
+  <data name="DownloadingUpdate" xml:space="preserve"><value>Жаңарту жүктелуде...</value></data>
+  <data name="VerifyingUpdate" xml:space="preserve"><value>Жаңарту тексерілуде...</value></data>
+  <data name="UpdateVerificationFailed" xml:space="preserve"><value>Жүктелген жаңартуды тексеру мүмкін болмады және ол іске қосылмады.</value></data>
+  <data name="UpdateDownloadFailed" xml:space="preserve"><value>Жаңартуды жүктеу немесе іске қосу мүмкін болмады.</value></data>
+</root>

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — نصب کننده پارتیشن Windows</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>تصویر را باز کنید</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>دیسک‌ها را تازه‌سازی کنید</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>راهنما</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>WINDOWS را نصب کنید</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 تصویر Windows</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>نسخه 2</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 مقصد</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 پیکربندی بوت</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 بررسی</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 نصب کنید</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>ابتدا ایمنی</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>هیچ دیسکی به طور خودکار انتخاب نمی‌شود. سیستم محافظت شده، EFI، بازیابی، OEM و پارتیشن های رزرو شده نمی توانند هدف باشند.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>آماده است</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>آماده است</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>تصویر Windows را انتخاب کنید</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>یک فایل Windows ISO، WIM یا ESD را انتخاب کنید. تصویر قبل از لمس هر دیسک بررسی می شود.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>تصویر Windows را انتخاب کنید</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>یا یک فایل .iso، .wim یا .esd را بکشید و رها کنید</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>نام فایل</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>نسخه Windows</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>معماری</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>نوع تصویر</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>اندازه فایل</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>نسخه‌های موجود</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>بعدی</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>برگشت</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Windows Edition را انتخاب کنید</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>یک نمایه واقعی تصویر خوانده شده از رسانه نصب را انتخاب کنید.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>پارتیشن مقصد را انتخاب کنید</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>یک پارتیشن مناسب موجود را انتخاب کنید. پارتیشن های تخصیص نشده و محافظت شده برای زمینه نشان داده می شوند اما نمی توان آنها را انتخاب کرد.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>پیکربندی بوت</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>سیستم عامل، طرح پارتیشن و پارتیشن بوت شناسایی شده را تأیید کنید. یک پارتیشن EFI هرگز توسط این گردش کار فرمت نمی شود.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>حالت سفت‌افزار</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>طرح پارتیشن</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>پارتیشن بوت</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>پیکربندی بوت</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>سازگاری</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>جزئیات پیشرفته</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>نصب را مرور کنید</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>طرح نصب را مرور کنید</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>هر شناسه را به دقت بررسی کنید. Execution از این هویت دیسک و پارتیشن معتبر استفاده می کند، نه یک حرف درایو کشف شده مجدد.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>تصویر Windows</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>منبع</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>مقصد</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>سیستم فایل مقصد</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>هشدار: همه داده‌های پارتیشن انتخابی برای همیشه پاک می‌شوند.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>می‌دانم که تمام داده‌های موجود در پارتیشن مقصد انتخاب‌شده پاک می‌شوند.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Windows را نصب کنید</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>در حال نصب Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>کامپیوتر را به برق متصل نگه دارید. موفقیت تنها پس از تأیید تصویر، فایل‌های بوت و فایل‌های نصب شده حیاتی گزارش می‌شود.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>در انتظار مجوز سرپرست…</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>گزارش نصب</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>گزارش را باز کنید</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>ذخیره ورود به عنوان…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows با موفقیت نصب شد.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>تصویر و فایل‌های راه‌اندازی Windows تأیید شدند. اکنون می توانید کامپیوتر را مجددا راه اندازی کنید.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows با موفقیت نصب شد.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>تصویر و فایل‌های راه‌اندازی Windows تأیید شدند. ورودی جدید Windows پیش فرض برای راه اندازی مجدد بعدی است.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>اکنون راه اندازی مجدد کنید</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>بعداً راه‌اندازی مجدد شود</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>زبان سیستم</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>حالت پیشرفته</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>شناسه‌های دیسک پایدار، آفست‌ها و جزئیات میان‌افزار را نشان می‌دهد. همچنین یک بای پس سخت افزاری صریح پشتیبانی نشده Windows 11 را نشان می دهد. حفاظت های ایمنی دیسک همچنان فعال است.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>شماره</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>موتور قدیمی</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>موتور: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>سفت‌افزار: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>سبک دیسک: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>شناسه منحصر به فرد دیسک: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>افست هدف: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/پارتیشن بوت: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM موجود/آماده: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot قابلیت/فعال: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>زبان</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>ذخیره کنید</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer راهنما</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer یک تصویر WIM/ESD انتخاب شده را روی یک پارتیشن موجود اعمال می‌کند و فایل‌های بوت را روی یک پارتیشن بوت تایید شده روی همان دیسک فیزیکی پیکربندی می‌کند. پارتیشن ایجاد نمی کند یا کل دیسک ها را پاک نمی کند. حالت پیشرفته می تواند به صراحت نیازهای سخت افزاری Windows 11 را پس از یک هشدار جداگانه دور بزند. Windows XP و رسانه های قدیمی پشتیبانی نشده تا زمانی که موتور اختصاصی وجود نداشته باشد مسدود می مانند.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>حالت پیشرفته</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>حالت استاندارد</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>در حال بررسی تصویر Windows…</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>تصویر Windows آماده است</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>خطایی روی داد</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>یک نسخه Windows را انتخاب کنید</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>ابتدا یک تصویر و نسخه را انتخاب کنید</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>خواندن دیسک‌ها و پارتیشن‌های فیزیکی…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>پارتیشن مقصد را انتخاب کنید</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>پیکربندی بوت معتبر است</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>بررسی سازگاری نصب مسدود شد</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>طرح نصب را بررسی و تأیید کنید</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>برای اصلاح پارتیشن‌های دیسک و فایل‌های راه‌اندازی Windows به مجوز مدیر نیاز است.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>نصب Windows با موفقیت انجام شد</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>نصب Windows ناموفق بود — گزارش را مرور کنید</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>این تصویر Windows را بررسی کنید</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>فهرست {0} • ساخت {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>رسانه Windows قدیمی شناسایی شد</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>این نسخه به موتور نصب Legacy Windows نیاز دارد که هنوز در دسترس نیست.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>این نسخه به موتور نصب Legacy Windows نیاز دارد که هنوز در دسترس نیست.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista به موتور نصب Legacy NT6 نیاز دارد که هنوز در دسترس نیست.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>سفت‌افزار: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>معماری کامپیوتر: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>دیسک {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • سریال: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>آفلاین</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>فقط خواندنی</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>در دسترس نیست</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>تخصیص نیافته است</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Windows فعلی — محافظت شده است</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>محافظت شده است</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>سیستم EFI</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>بازیابی</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>داده‌های پایه</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>پارتیشن ناشناخته</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>پارتیشن {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>دیسک {0} — {1}; پارتیشن {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>دیسک {0}، پارتیشن {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>هیچ پارتیشن بوت مناسبی در دیسک مقصد یافت نشد.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>گذشت</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>مسدود شده است</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>پیکربندی بوت آماده است</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>تصویر انتخاب شده، مقصد و پارتیشن بوت همان دیسک از نظر فنی سازگار هستند.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>نصب مسدود شده است</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>خطاهای سازگاری زیر را حل کنید. ESD Installer به طور خودکار آنها را دور نمی زند.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>ناشناخته</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>دیسک {0} — {1}; پارتیشن {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>مدل دیسک: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>شماره دیسک: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>شماره پارتیشن: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>حرف درایو: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>نام جلد: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>ظرفیت: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>هیچ کدام</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>اثر انگشت طرح تأیید شده: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>سپری شده: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>مجوز سرپرست لغو شد. هیچ نصبی شروع نشد</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>کارگر نصب با کد خروج {0} متوقف شد.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>گزارش نصب</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>رایانه مجدداً راه اندازی شود؟</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>کار خود را در سایر برنامه‌ها ذخیره کنید. کامپیوتر بلافاصله راه اندازی مجدد خواهد شد.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>اکنون راه اندازی مجدد</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>می‌توانید بعداً از منوی Start راه‌اندازی مجدد کنید. ورودی جدید Windows در Windows Boot Manager پیکربندی شده است.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>مجوز سرپرست داده شد</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>اعتبار سنجی طرح نصب…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>آماده‌سازی مقصد…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>پارتیشن مقصد قالب‌بندی شد</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>اعمال تصویر Windows…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>در حال نصب فایل‌های بوت…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>تأیید نصب…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>نصب Windows تکمیل شد</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>نصب انجام نشد</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>طرح کامل را اعتبارسنجی کنید</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>فقط پارتیشن انتخابی را به عنوان NTFS فرمت کنید</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>شاخص تصویر Windows انتخاب شده را اعمال کنید</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>فایل‌های بوت Windows را روی پارتیشن بوت همان دیسک نصب کنید</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>فایل‌های نصب شده و راه‌اندازی را تأیید کنید</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>برای اصلاح پارتیشن‌های دیسک و فایل‌های راه‌اندازی Windows به مجوز سرپرست نیاز است.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>یک خطای غیرمنتظره رخ داد.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>کارگر نصب مرتفع گم شده است.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>کارگر نصب بالا راه اندازی نشد.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>فایل تصویر انتخابی یافت نشد.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>فقط فایل‌های تصویری ISO، WIM و ESD پشتیبانی می‌شوند.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO قابل نصب یا بازرسی نیست.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>هیچ sources\install.wim یا sources\install.esd در این ISO یافت نشد.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>این تصویر از فایل‌های تقسیم‌شده SWM استفاده می‌کند که در این نسخه پشتیبانی نمی‌شوند.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>تصویر Windows باز نشد.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>تصویر Windows فاقد فهرست قابل نصب است.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>فراداده تصویر Windows خوانده نشد.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>دیسک‌های فیزیکی و پارتیشن‌ها قابل خواندن نیستند.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>هیچ دیسک فیزیکی پیدا نشد.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>پارتیشن مقصد انتخابی قابل قالب بندی نیست.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM نتوانست تصویر Windows انتخاب شده را اعمال کند.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>پارتیشن بوت تایید شده قابل دسترسی نیست.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot نتوانست فایل‌های بوت Windows را نصب کند.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>فایل‌های Windows مستقر شده تأیید نشدند.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>فایل‌های بوت Windows تأیید نشدند.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>طرح نصب معتبر خوانده نشد.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>این ساخت Windows را نمی توان به طور قابل اعتماد شناسایی کرد.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>معماری تصویر با این حالت کامپیوتر و سیستم عامل ناسازگار است.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>پارتیشن انتخابی محافظت شده است و نمی توان آن را رونویسی کرد.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>پارتیشن انتخاب شده با BitLocker محافظت می شود. قبل از استقرار آن را باز کرده و رمزگشایی کنید.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>پارتیشن انتخاب شده برای این نسخه Windows بسیار کوچک است.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>دیسک مقصد آفلاین یا فقط خواندنی است.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>استقرار UEFI به دیسک مقصد GPT نیاز دارد.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>استقرار BIOS قدیمی به دیسک مقصد MBR نیاز دارد.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>هیچ پارتیشن بوت مناسبی در دیسک مقصد وجود ندارد.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>پارتیشن بوت باید روی همان دیسک فیزیکی مقصد باشد.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>استقرار UEFI به یک پارتیشن سیستم EFI در دیسک مقصد نیاز دارد.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>پارتیشن سیستم EFI باید قبلاً از FAT32 استفاده کند.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>استقرار Legacy BIOS به یک پارتیشن بوت NTFS فعال در دیسک مقصد نیاز دارد.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>استقرار Windows 7 UEFI فقط برای تصاویر x64 فعال است.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 به یک تصویر x64 یا ARM64 پشتیبانی شده نیاز دارد.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 به سیستم عامل UEFI نیاز دارد.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 موجود و آماده تشخیص داده نشد. راه‌اندازی Windows 11 ممکن است این رایانه را رد کند.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>قابلیت Secure Boot تأیید نشد.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot پشتیبانی می‌شود اما در حال حاضر غیرفعال است.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>رایانه کمتر از 4 گیگابایت حافظه فیزیکی دارد.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>تصویر منبع پس از تأیید طرح تغییر کرد.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>نمایه تصویر انتخابی پس از اعتبارسنجی تغییر کرد.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>دیسک مقصد دیگر وجود ندارد.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>این دیسک سریال پایدار یا شناسه منحصربه‌فرد ندارد و نمی‌توان با خیال راحت از آن استفاده کرد.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>هویت دیسک مقصد تغییر کرد. نصب متوقف شد.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>هویت یا هندسه پارتیشن مقصد تغییر کرد.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>هویت یا هندسه پارتیشن بوت تغییر کرد.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>طرح پارتیشن میان‌افزار یا مقصد دیگر با طرح مطابقت ندارد.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>تصویر و فایل‌های راه‌اندازی روی دیسک ثانویه تأیید شدند. اگر سیستم عامل آن دیسک را به طور خودکار انتخاب نکرد، یک بار آن را از منوی بوت UEFI انتخاب کنید.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>فایل راه‌اندازی بازگشتی UEFI تأیید نشد.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>این یک دیسک ثانویه UEFI است. ESD Installer فایل بوت بازگشتی استاندارد را بدون تغییر متغیرهای سیستم عامل NVRAM نصب می کند. ممکن است لازم باشد دیسک را یک بار در منوی بوت سیستم عامل انتخاب کنید.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>پوشه کار موقت تصویر Windows نمی تواند مقداردهی اولیه شود.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>دور زدن سخت افزار پیشرفته پشتیبانی نشده برای نصب Windows 11 فعال است.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>روی سخت افزار پشتیبانی نشده نصب شود؟</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>دور زدن را بپذیرید و فعال کنید</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>مایکروسافت از Windows 11 در این سخت افزار پشتیبانی نمی کند و به روز رسانی را تضمین نمی کند. مشکلات سازگاری، کاهش امنیت یا خرابی راه اندازی ممکن است رخ دهد. ESD Installer بررسی‌های CPU، TPM، Secure Boot، RAM و ذخیره‌سازی را دور می‌زند، اما نمی‌تواند سخت‌افزار ناسازگار را کار کند.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>بای پس سخت افزاری پشتیبانی نشده Windows 11 پیکربندی نشد.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>دور زدن سخت افزار پشتیبانی نشده فعال شد</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>در حال پیکربندی بای پس سخت افزاری پشتیبانی نشده Windows 11...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>با دور زدن سخت افزار پشتیبانی نشده مجاز است</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>بای پس سخت افزاری پشتیبانی نشده Windows 11 را پیکربندی کنید</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>خرابی‌های الزامی Windows 11 هشدار هستند. حفاظت از دیسک بحرانی، پارتیشن، بوت و معماری همچنان اجرا می شود.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>پیشرفته: دور زدن Windows 11 CPU، TPM، Secure Boot، RAM و بررسی های مورد نیاز فضای ذخیره سازی. بررسی های ایمنی دیسک، پارتیشن و معماری همچنان فعال هستند.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>این طرح مقادیر دور زدن سخت‌افزار پشتیبانی‌نشده را در نصب آفلاین Windows می‌نویسد. پشتیبانی و به روز رسانی مایکروسافت تضمین نمی شود.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>Windows 11 را روی سخت افزار پشتیبانی نشده نصب کنید</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>یک پارتیشن داده اصلی واقعی یا حجم ساده در مدیریت دیسک ایجاد کنید، سپس دیسک‌ها را تازه‌سازی کنید.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>هدف انتخاب شده یک پارتیشن داده پایه قابل استفاده نیست. فضای تخصیص نیافته و ظروف توسعه یافته MBR را نمی توان مستقیماً قالب بندی کرد.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>به‌روزرسانی‌ها را به‌طور خودکار بررسی کنید</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>به‌روزرسانی‌ها را بررسی کنید</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>در حال بررسی به‌روزرسانی‌ها...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>شما از جدیدترین نسخه استفاده می کنید.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>نمی‌توان به‌روزرسانی‌ها را بررسی کرد.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>به‌روزرسانی نرم‌افزار</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>نسخه جدیدی در دسترس است.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>نسخه {0} موجود است.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>شما در حال حاضر از نسخه {0} استفاده می کنید.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>این به‌روزرسانی شامل بهبودها و رفع اشکال است.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>به‌روزرسانی</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>در حال بارگیری به‌روزرسانی...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>تأیید به‌روزرسانی...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>به‌روزرسانی دانلود شده تأیید نشد و شروع نشد.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>دانلود یا شروع به‌روزرسانی ممکن نیست.</value>
+  </data>
+</root>

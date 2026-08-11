@@ -1,4 +1,4 @@
-# WinDeploy safety model
+# ESD Installer safety model
 
 ## Invariants
 
@@ -25,4 +25,4 @@
 
 ## Recovery expectations
 
-Formatting and image application are not transactional and cannot be rolled back. If DISM, BCDBoot, power, storage, or hardware fails after formatting begins, the destination partition can be incomplete. WinDeploy preserves its detailed log and reports failure; it never converts an incomplete deployment into a success message.
+Formatting and image application are not transactional and cannot be rolled back. If DISM, BCDBoot, power, storage, or hardware fails after formatting begins, the destination partition can be incomplete. ESD Installer preserves its detailed log and reports failure; it never converts an incomplete deployment into a success message.

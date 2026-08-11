@@ -1,0 +1,52 @@
+<Page
+    x:Class="ESDInstaller.Views.ProgressPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Padding="32,26,32,22">
+        <ScrollViewer>
+            <StackPanel Spacing="16" MaxWidth="780" HorizontalAlignment="Left">
+                <TextBlock x:Uid="ProgressPageTitle" Style="{StaticResource PageTitleStyle}" />
+                <TextBlock x:Uid="ProgressPageSubtitle" Foreground="#FF555555" TextWrapping="Wrap" />
+                <Border Style="{StaticResource ExplorerCardStyle}">
+                    <StackPanel Spacing="12">
+                        <Grid>
+                            <StackPanel Orientation="Horizontal" Spacing="10">
+                                <ProgressRing x:Name="OperationRing" Width="24" Height="24" IsActive="True"/>
+                                <TextBlock x:Name="OperationText" x:Uid="ProgressWaiting" FontSize="16" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                            </StackPanel>
+                            <TextBlock x:Name="PercentText" HorizontalAlignment="Right" FontSize="18" FontWeight="SemiBold"/>
+                        </Grid>
+                        <ProgressBar x:Name="OverallProgress" Minimum="0" Maximum="100" Value="0" Height="18" />
+                        <Grid>
+                            <TextBlock x:Name="DetailText" Foreground="#FF555555" TextWrapping="Wrap"/>
+                            <TextBlock x:Name="ElapsedText" HorizontalAlignment="Right" Foreground="#FF555555"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+                <InfoBar x:Name="ResultBar" IsOpen="False" IsClosable="False" />
+                <Expander x:Name="LogExpander" x:Uid="InstallationLogExpander" IsExpanded="False">
+                    <Grid Height="220">
+                        <TextBox x:Name="LogText" IsReadOnly="True" AcceptsReturn="True" TextWrapping="NoWrap" FontFamily="Consolas" FontSize="11" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+                    </Grid>
+                </Expander>
+                <StackPanel x:Name="LogButtons" Orientation="Horizontal" Spacing="8" Visibility="Collapsed">
+                    <Button x:Uid="OpenLogButton" Click="OpenLogButton_Click" />
+                    <Button x:Uid="SaveLogAsButton" Click="SaveLogAsButton_Click" />
+                </StackPanel>
+                <Border x:Name="SuccessPanel" Style="{StaticResource ExplorerCardStyle}" Visibility="Collapsed">
+                    <StackPanel Spacing="12">
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE73E;" Foreground="#FF107C10" FontSize="28"/>
+                            <TextBlock x:Uid="InstallationSuccessTitleLabel" FontSize="19" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <TextBlock x:Uid="InstallationSuccessTextLabel" TextWrapping="Wrap"/>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button x:Uid="RestartNowButton" Style="{StaticResource PrimaryButtonStyle}" Click="RestartNowButton_Click"/>
+                            <Button x:Uid="RestartLaterButton" Click="RestartLaterButton_Click"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

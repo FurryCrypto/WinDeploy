@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows Partition Installer</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>Maak prent oop</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>Herlaai skywe</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>Hulp</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>INSTALLEER WINDOWS</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows Beeld</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 Uitgawe</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 Bestemming</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 Selflaaikonfigurasie</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 Hersien</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 Installeer</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>Veiligheid eerste</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>Geen skyf word outomaties gekies nie. Beskermde stelsel, EFI, herstel, OEM en gereserveerde partisies kan nie teikens wees nie.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>Gereed</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>Gereed</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Kies Windows Beeld</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Kies 'n Windows ISO, WIM of ESD lêer. Die prent word geïnspekteer voordat enige skyf aangeraak word.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Kies Windows Beeld</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>of sleep en los 'n .iso-, .wim- of .esd-lêer hier</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>Lêernaam</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows weergawe</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>Argitektuur</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>Prenttipe</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>Lêergrootte</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>Beskikbare uitgawes</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>Volgende</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Kies Windows Edition</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>Kies 'n werklike beeldindeks wat van die installasiemedia gelees is.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>Kies Bestemmingpartisie</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>Kies een bestaande geskikte partisie. Ongeallokeerde en beskermde partisies word vir konteks gewys, maar kan nie gekies word nie.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>Opstartkonfigurasie</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>Verifieer die bespeurde firmware, partisieskema en selflaaipartisie. 'n EFI-partisie word nooit deur hierdie werkvloei geformateer nie.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>Fermwaremodus</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>Partisieskema</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>Selflaai partisie</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>Opstartkonfigurasie</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>Verenigbaarheid</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>Gevorderde besonderhede</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>Hersien installasie</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>Hersien installasieplan</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>Gaan elke identifiseerder noukeurig na. Uitvoering gebruik hierdie gevalideerde skyf- en partisie-identiteit, nie 'n herontdekte dryfletter nie.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows beeld</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>Bron</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>Bestemming</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>Bestemming lêerstelsel</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>WAARSKUWING: Alle data op die geselekteerde partisie sal permanent uitgevee word.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>Ek verstaan ​​dat alle bestaande data op die geselekteerde bestemmingspartisie uitgevee sal word.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Installeer Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Installeer Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>Hou die rekenaar gekoppel aan krag. Sukses word slegs gerapporteer nadat die prent, selflaailêers en kritieke geïnstalleerde lêers geverifieer is.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>Wag tans vir administrateurtoestemming …</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>Installasielogboek</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>Maak logboek oop</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>Stoor log as...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows is suksesvol geïnstalleer.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>Die prent en Windows selflaailêers is geverifieer. Jy kan nou die rekenaar herbegin.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows is suksesvol geïnstalleer.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>Die beeld en Windows selflaailêers is geverifieer. Die nuwe Windows-inskrywing is die verstek vir die volgende herbegin.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>Herbegin nou</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>Herbegin later</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>Stelseltaal</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>Gevorderde modus</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>Toon stabiele skyf-ID's, afwykings en firmware-besonderhede. Dit ontbloot ook 'n eksplisiete nie-ondersteunde Windows 11 hardeware omleiding; skyfveiligheidsbeskerming bly aktief.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>Ouderenjin</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>Enjin: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>Fermware: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>Skyfstyl: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>Skyf unieke ID: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>Teikenverstelling: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/selflaai partisie: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM teenwoordig/gereed: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot in staat/geaktiveer: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>Instellings</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Stoor</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Maak toe</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer Hulp</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer pas 'n geselekteerde WIM/ESD-beeld toe op een bestaande partisie en konfigureer selflaailêers op 'n geverifieerde selflaaipartisie op dieselfde fisiese skyf. Dit skep nie partisies of vee hele skywe uit nie. Gevorderde modus kan Windows 11 hardewarevereistes na 'n aparte waarskuwing uitdruklik omseil. Windows XP en nie-ondersteunde erfenismedia bly geblokkeer totdat 'n toegewyde enjin bestaan.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>Gevorderde modus</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>Standaardmodus</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Inspekteer tans Windows-prent …</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows-prent is gereed</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>'n Fout het voorgekom</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Kies 'n Windows-uitgawe</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>Kies eers 'n prent en uitgawe</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>Lees tans fisiese skywe en partisies …</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>Kies 'n bestemmingspartisie</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>Opstartopstelling is geldig</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>Verenigbaarheidkontrole het installasie geblokkeer</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>Hersien en bevestig die installasieplan</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>Administrateur toestemming word vereis om skyfpartisies en Windows selflaailêers te wysig.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Windows-installasie is suksesvol voltooi</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Windows-installasie het misluk – hersien die logboek</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>Inspekteer hierdie Windows-prent</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>Indeks {0} • Bou {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>Ouderwetse Windows-media bespeur</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>Hierdie weergawe vereis die Legacy Windows installasie-enjin, wat nog nie beskikbaar is nie.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>Hierdie weergawe vereis die Legacy Windows installasie-enjin, wat nog nie beskikbaar is nie.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista vereis die Legacy NT6 installasie-enjin, wat nog nie beskikbaar is nie.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>Fermware: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>Rekenaarargitektuur: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>Skyf {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • Reeks: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>Vanlyn</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>Leesalleen</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>nie beskikbaar nie</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>Ontoegewys</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Huidige Windows — beskerm</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>Beskerm</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI-stelsel</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>Herstel</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>Basiese data</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>Onbekende partisie</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>Partisie {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>Skyf {0} — {1}; Partisie {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>Skyf {0}, partisie {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>Geen toepaslike selflaaipartisie is op die bestemmingskyf gevind nie.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>Slaag</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>Geblokkeer</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>Opstartkonfigurasie is gereed</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>Die geselekteerde prent, bestemming en self-skyf selflaai partisie is tegnies versoenbaar.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>Installasie is geblokkeer</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>Los die versoenbaarheidsfoute hieronder op. ESD Installer sal hulle nie outomaties omseil nie.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Onbekend</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>Skyf {0} — {1}; Partisie {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>Skyfmodel: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>Skyfnommer: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>Partisienommer: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>Rybrief: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>Volume naam: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>Kapasiteit: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>Gevalideerde planvingerafdruk: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>Verstreke: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>Administrateurtoestemming is gekanselleer. Geen installasie is begin nie.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>Die installasiewerker het gestop met uittreekode {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>Installasielogboek</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>Herbegin die rekenaar?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>Stoor jou werk in ander toepassings. Die rekenaar sal onmiddellik herbegin.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Herbegin nou</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>Jy kan later herbegin vanaf die Start-kieslys. Die nuwe Windows-inskrywing is in Windows Boot Manager gekonfigureer.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>Administrateur toestemming verleen</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>Valideer tans die installasieplan...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>Berei tans bestemming voor...</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>Bestemming partisie geformateer</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Pas tans Windows-prent toe...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>Installeer tans selflaailêers...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>Verifieer tans installasie …</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows-installasie voltooi</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>Installasie het misluk</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>Bekragtig die volledige plan</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>Formateer slegs die geselekteerde partisie as NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>Pas die geselekteerde Windows-beeldindeks toe</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Installeer Windows selflaailêers op dieselfde skyf selflaai partisie</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>Verifieer geïnstalleerde en selflaailêers</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>Administrateur toestemming word vereis om skyfpartisies en Windows selflaailêers te wysig.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>'n Onverwagte fout het voorgekom.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>Die verhoogde installasiewerker word vermis.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>Die verhoogde installasiewerker kon nie begin word nie.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>Die geselekteerde prentlêer kon nie gevind word nie.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>Slegs ISO, WIM en ESD beeldlêers word ondersteun.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>Die ISO kon nie gemonteer of geïnspekteer word nie.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>Geen sources\install.wim of sources\install.esd is in hierdie ISO gevind nie.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>Hierdie prent gebruik gesplete SWM-lêers, wat nie in hierdie vrystelling ondersteun word nie.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Die Windows-prent kon nie oopgemaak word nie.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Die Windows-beeld bevat geen installeerbare indekse nie.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Windows beeldmetadata kon nie gelees word nie.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>Fisiese skywe en partisies kon nie gelees word nie.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>Geen fisiese skywe is gevind nie.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>Die geselekteerde bestemmingspartisie kon nie geformateer word nie.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM kon nie die geselekteerde Windows-beeld toepas nie.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>Die gevalideerde selflaaipartisie kon nie verkry word nie.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot kon nie die Windows selflaailêers installeer nie.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>Die ontplooide Windows-lêers het nie verifikasie geslaag nie.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Die Windows selflaailêers het nie verifikasie geslaag nie.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>Die bekragtigde installasieplan kon nie gelees word nie.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>Hierdie Windows-bou kan nie betroubaar geïdentifiseer word nie.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>Die beeldargitektuur is onversoenbaar met hierdie rekenaar- en fermwaremodus.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>Die geselekteerde partisie is beskerm en kan nie oorgeskryf word nie.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>Die geselekteerde partisie is BitLocker-beskermd. Ontsluit en dekripteer dit voor ontplooiing.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>Die geselekteerde partisie is te klein vir hierdie Windows weergawe.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>Die bestemmingskyf is vanlyn of leesalleen.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI-ontplooiing vereis 'n GPT-bestemmingskyf.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>Ouderwetse BIOS-ontplooiing vereis 'n MBR-bestemmingskyf.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>Geen toepaslike selflaaipartisie bestaan ​​op die bestemmingskyf nie.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>Die selflaaipartisie moet op dieselfde fisiese skyf as die bestemming wees.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI-ontplooiing vereis 'n EFI-stelselpartisie op die bestemmingskyf.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>Die EFI-stelselpartisie moet reeds FAT32 gebruik.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>Ouderwetse BIOS-ontplooiing vereis 'n aktiewe NTFS-selflaaipartisie op die bestemmingskyf.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 UEFI-ontplooiing is slegs vir x64-beelde geaktiveer.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 vereis 'n ondersteunde x64- of ARM64-beeld.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 vereis UEFI-firmware.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 is nie as teenwoordig en gereed bespeur nie. Windows 11-opstelling kan hierdie rekenaar verwerp.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Secure Boot-vermoë kon nie bevestig word nie.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot word ondersteun maar tans gedeaktiveer.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>Die rekenaar het minder as 4 GB fisiese geheue.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>Die bronbeeld het verander nadat die plan bevestig is.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>Die geselekteerde beeld-indeks het verander na validering.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>Die bestemmingskyf is nie meer teenwoordig nie.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>Hierdie skyf het geen stabiele reeks- of unieke ID nie en kan nie veilig gebruik word nie.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>Die bestemmingskyfidentiteit het verander. Installasie is gestop.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>Die bestemmingspartisie-identiteit of geometrie het verander.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>Die selflaaipartisie-identiteit of geometrie het verander.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>Die firmware of bestemmingsverdelingskema pas nie meer by die plan nie.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>Die prent en selflaailêers is op die sekondêre skyf geverifieer. As firmware nie daardie skyf outomaties kies nie, kies dit een keer uit die UEFI selflaaimenu.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>Die UEFI terugval selflaailêer het nie verifikasie geslaag nie.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>Dit is 'n sekondêre UEFI-skyf. ESD Installer installeer die standaard terugval selflaailêer sonder om firmware NVRAM veranderlikes te verander; jy sal dalk die skyf een keer in die firmware-selflaaimenu moet kies.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Die tydelike werkvouer van die Windows-beeld kon nie geïnisialiseer word nie.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>Gevorderde nie-ondersteunde hardeware-omleiding is vir hierdie Windows 11-installasie geaktiveer.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>Installeer op nie-ondersteunde hardeware?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>Aanvaar en aktiveer omseil</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft ondersteun nie Windows 11 op hierdie hardeware nie en waarborg nie opdaterings nie. Verenigbaarheidsprobleme, verminderde sekuriteit of opstartfoute kan voorkom. ESD Installer sal SVE-, TPM-, Secure Boot-, RAM- en bergingkontroles omseil, maar dit kan nie onversoenbare hardeware laat werk nie.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Windows 11 nie-ondersteunde hardeware-omleiding kon nie opgestel word nie.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>Ongesteunde hardeware-omleiding geaktiveer</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>Konfigureer tans nie-ondersteunde Windows 11 hardeware-omleiding...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>Toegelaat met nie-ondersteunde hardeware-omleiding</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>Stel nie-ondersteunde Windows 11 hardeware-omleiding op</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 vereiste mislukkings is waarskuwings. Kritieke skyf-, partisie-, selflaai- en argitektuurbeskermings bly afgedwing.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>Gevorderd: omseil Windows 11 SVE, TPM, Secure Boot, RAM en bergingvereistekontroles. Skyfidentiteit, partisie en argitektuurveiligheidskontroles bly aktief.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>Hierdie plan skryf nie-ondersteunde hardeware-omleidingswaardes in die vanlyn Windows-installasie. Microsoft-ondersteuning en opdaterings word nie gewaarborg nie.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>Installeer Windows 11 op nie-ondersteunde hardeware</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>Skep 'n regte basiese datapartisie of eenvoudige volume in Skyfbestuur, verfris dan skywe.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>Die geselekteerde teiken is nie 'n bruikbare basiese datapartisie nie. Ongeallokeerde spasie en MBR uitgebreide houers kan nie direk geformateer word nie.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>Kyk outomaties vir opdaterings</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>Kyk vir opdaterings</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>Kyk tans vir opdaterings...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Jy gebruik die nuutste weergawe.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>Kan nie kyk vir opdaterings nie.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>Sagteware-opdatering</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>'n Nuwe weergawe is beskikbaar.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>Weergawe {0} is beskikbaar.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>Jy gebruik tans weergawe {0}.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>Hierdie opdatering sluit verbeterings en foutoplossings in.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Opdatering</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>Laai tans opdatering af...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>Verifieer tans opdatering...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>Die afgelaaide opdatering kon nie geverifieer word nie en is nie begin nie.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>Kan nie die opdatering aflaai of begin nie.</value>
+  </data>
+</root>

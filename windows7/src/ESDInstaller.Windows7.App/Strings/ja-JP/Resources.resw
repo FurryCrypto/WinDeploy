@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows パーティション インストーラー</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>画像を開く</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>ディスクのリフレッシュ</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>ウィンドウをインストールする</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows 画像</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>2 エディション</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 目的地</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 ブート構成</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 レビュー</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 インストール</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>安全第一</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>ディスクは自動的に選択されません。保護されたシステム、EFI、リカバリ、OEM、および予約されたパーティションはターゲットにすることはできません。</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>準備完了</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>準備完了</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>Windows 画像を選択</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>Windows ISO、WIM、または ESD ファイルを選択します。ディスクに触れる前にイメージが検査されます。</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>Windows 画像を選択</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>または .iso、.wim、または .esd ファイルをここにドラッグ アンド ドロップします</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows バージョン</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>アーキテクチャ</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>画像タイプ</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>ファイルサイズ</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>利用可能なエディション</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>Windows エディションを選択してください</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>インストール メディアから読み取られた実際のイメージ インデックスを選択します。</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>宛先パーティションの選択</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>既存の適切なパーティションを 1 つ選択します。未割り当ておよび保護されたパーティションはコンテキストのために表示されますが、選択することはできません。</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>ブート構成</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>検出されたファームウェア、パーティション スキーム、およびブート パーティションを確認します。 EFI パーティションは、このワークフローでは決してフォーマットされません。</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>ファームウェアモード</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>パーティション スキーム</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>ブートパーティション</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>ブート構成</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>互換性</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>詳細な詳細</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>インストールの確認</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>インストール計画を確認する</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>すべての識別子を注意深く確認してください。実行には、再検出されたドライブ文字ではなく、この検証されたディスクとパーティションの ID が使用されます。</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows 画像</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>ソース</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>目的地</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>宛先ファイルシステム</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>警告: 選択したパーティション上のすべてのデータは完全に消去されます。</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>選択した宛先パーティション上の既存のデータがすべて消去されることを理解しました。</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>Windows をインストールする</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>Windows のインストール</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>コンピューターを電源に接続したままにしてください。成功は、イメージ、ブート ファイル、および重要なインストール ファイルが検証された後にのみ報告されます。</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>管理者の許可を待っています…</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>インストールログ</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>ログを開く</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>ログに名前を付けて保存…</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows は正常にインストールされました。</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>イメージと Windows ブート ファイルが検証されました。これでコンピュータを再起動できます。</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows は正常にインストールされました。</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>イメージと Windows ブート ファイルが検証されました。新しい Windows エントリは、次回の再起動のデフォルトになります。</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>今すぐ再起動してください</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>後で再起動する</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>システム言語</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>アドバンストモード</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>安定したディスク ID、オフセット、ファームウェアの詳細を表示します。また、明示的にサポートされていない Windows 11 ハードウェア バイパスも公開されます。ディスクの安全保護はアクティブなままです。</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>レガシーエンジン</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>エンジン: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>ファームウェア: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>ディスク スタイル: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>ディスク固有 ID: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>ターゲットオフセット: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/ブートパーティション: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM 存在/準備完了: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot 対応/有効: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer ヘルプ</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer は、選択した WIM/ESD イメージを 1 つの既存のパーティションに適用し、同じ物理ディスク上の検証済みブート パーティションにブート ファイルを構成します。パーティションを作成したり、ディスク全体を消去したりすることはありません。詳細モードでは、別の警告の後、Windows 11 のハードウェア要件を明示的にバイパスできます。 Windows XP およびサポートされていないレガシー メディアは、専用エンジンが存在するまでブロックされたままになります。</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>アドバンストモード</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>標準モード</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>Windows イメージを検査しています…</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows イメージの準備ができました</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>エラーが発生しました</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>Windows エディションを選択してください</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>最初に画像とエディションを選択してください</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>物理ディスクとパーティションを読み取り中…</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>宛先パーティションを選択してください</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>ブート構成は有効です</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>互換性チェックによりインストールがブロックされました</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>インストール計画を検討して確認します</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>ディスク パーティションと Windows ブート ファイルを変更するには、管理者権限が必要です。</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Windows のインストールが正常に完了しました</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Windows のインストールに失敗しました - ログを確認してください</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>この Windows 画像を検査してください</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>インデックス {0} • {1} をビルドする</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>レガシー Windows メディアが検出されました</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>このバージョンには、まだ利用できないレガシー Windows インストール エンジンが必要です。</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>このバージョンには、まだ利用できないレガシー Windows インストール エンジンが必要です。</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista にはレガシー NT6 インストール エンジンが必要ですが、これはまだ利用できません。</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>ファームウェア: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>コンピュータ アーキテクチャ: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>ディスク {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • シリアル: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>オフライン</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>読み取り専用</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>は利用できません</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>未割り当て</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>現在の Windows — 保護されています</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>保護されています</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI システム</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>回復</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>基本データ</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>不明なパーティション</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>パーティション {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>ディスク {0} — {1};パーティション {2} {3}; {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>ディスク {0}、パーティション {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>宛先ディスク上に適切なブート パーティションが見つかりませんでした。</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>合格</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>ブロックされました</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>ブート構成の準備ができました</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>選択したイメージ、宛先、および同一ディスクのブート パーティションには技術的な互換性があります。</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>インストールがブロックされています</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>以下の互換性エラーを解決します。 ESD Installer はそれらを自動的にバイパスしません。</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>ディスク {0} — {1};パーティション {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>ディスクモデル: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>ディスク番号: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>パーティション番号: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>ドライブ文字: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>ボリューム名: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>容量: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>検証されたプランのフィンガープリント: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>経過時間: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>管理者権限が取り消されました。インストールは開始されませんでした。</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>インストール ワーカーは終了コード {0} で停止しました。</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>インストールログ</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>コンピューターを再起動しますか?</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>作業内容を他のアプリケーションに保存します。コンピュータはすぐに再起動します。</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>今すぐ再起動してください</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>後で [スタート] メニューから再起動できます。新しい Windows エントリは、Windows Boot Manager で構成されます。</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>管理者権限が付与されました</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>インストール計画を検証しています…</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>宛先を準備しています…</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>宛先パーティションがフォーマットされました</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>Windows イメージを適用しています…</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>ブート ファイルをインストールしています…</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>インストールを確認しています…</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows のインストールが完了しました</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>インストールに失敗しました</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>完全な計画を検証する</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>選択したパーティションのみ NTFS としてフォーマットします</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>選択した Windows イメージ インデックスを適用します</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>Windows ブート ファイルを同じディスクのブート パーティションにインストールします</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>インストールされたファイルとブートファイルを確認する</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>ディスク パーティションと Windows ブート ファイルを変更するには、管理者権限が必要です。</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>予期しないエラーが発生しました。</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>昇格されたインストール作業者が見つかりません。</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>昇格されたインストール ワーカーを開始できませんでした。</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>選択した画像ファイルが見つかりませんでした。</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>ISO、WIM、および ESD イメージ ファイルのみがサポートされます。</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>ISO をマウントまたは検査できませんでした。</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>この ISO には sources\install.wim または sources\install.esd が見つかりませんでした。</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>このイメージでは、分割された SWM ファイルが使用されていますが、このリリースではサポートされていません。</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Windows イメージを開けませんでした。</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows イメージには、インストール可能なインデックスが含まれていません。</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Windows 画像メタデータを読み取れませんでした。</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>物理ディスクとパーティションを読み取れませんでした。</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>物理ディスクが見つかりませんでした。</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>選択した宛先パーティションをフォーマットできませんでした。</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM は、選択された Windows イメージを適用できませんでした。</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>検証されたブート パーティションにアクセスできませんでした。</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot は Windows ブート ファイルをインストールできませんでした。</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>デプロイされた Windows ファイルは検証に合格しませんでした。</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Windows ブート ファイルは検証に合格しませんでした。</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>検証されたインストール計画を読み取れませんでした。</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>この Windows ビルドは確実に識別できません。</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>イメージ アーキテクチャは、このコンピューターおよびファームウェア モードと互換性がありません。</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>選択したパーティションは保護されており、上書きできません。</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>選択したパーティションは BitLocker で保護されています。導入前にロックを解除して復号化します。</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>選択したパーティションは、この Windows バージョンには小さすぎます。</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>宛先ディスクはオフラインまたは読み取り専用です。</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI デプロイメントには、GPT 宛先ディスクが必要です。</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>従来の BIOS 展開には、MBR 宛先ディスクが必要です。</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>宛先ディスク上に適切なブート パーティションが存在しません。</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>ブート パーティションは、宛先と同じ物理ディスク上に存在する必要があります。</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI の展開には、宛先ディスク上に EFI システム パーティションが必要です。</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>EFI システム パーティションはすでに FAT32 を使用している必要があります。</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>従来の BIOS 展開には、宛先ディスク上にアクティブな NTFS ブート パーティションが必要です。</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 UEFI デプロイメントは、x64 イメージに対してのみ有効です。</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 には、サポートされている x64 または ARM64 イメージが必要です。</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 には UEFI ファームウェアが必要です。</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 が存在し、準備ができているものとして検出されませんでした。 Windows 11 セットアップがこのコンピューターを拒否する可能性があります。</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>Secure Boot の機能は確認できませんでした。</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot はサポートされていますが、現在無効になっています。</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>コンピューターの物理メモリが 4 GB 未満です。</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>プラン確定後にソース画像が変更されました。</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>選択した画像インデックスが検証後に変更されました。</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>宛先ディスクはもう存在しません。</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>このディスクには安定したシリアルまたは一意の ID がないため、安全に使用できません。</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>宛先ディスクの ID が変更されました。インストールが中止されました。</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>宛先パーティションの ID またはジオメトリが変更されました。</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>ブート パーティションの ID またはジオメトリが変更されました。</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>ファームウェアまたは宛先パーティション スキームがプランと一致しなくなりました。</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>イメージ ファイルとブート ファイルがセカンダリ ディスク上で検証されました。ファームウェアがそのディスクを自動的に選択しない場合は、UEFI ブート メニューから一度選択してください。</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>UEFI フォールバック ブート ファイルは検証に合格しませんでした。</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>これはセカンダリ UEFI ディスクです。 ESD Installer は、ファームウェア NVRAM 変数を変更せずに、標準のフォールバック ブート ファイルをインストールします。ファームウェアのブート メニューでディスクを 1 回選択する必要がある場合があります。</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Windows イメージの一時作業フォルダーを初期化できませんでした。</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>この Windows 11 インストールでは、サポートされていないハードウェアの高度なバイパスが有効になっています。</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>サポートされていないハードウェアにインストールしますか?</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>バイパスを受け入れて有効にする</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft は、このハードウェアでは ZXTRM2XZ 11 をサポートしておらず、更新を保証しません。互換性の問題、セキュリティの低下、または起動の失敗が発生する可能性があります。 ESD Installer は CPU、TPM、Secure Boot、RAM、ストレージのチェックをバイパスしますが、互換性のないハードウェアを動作させることはできません。</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Windows 11 サポートされていないハードウェア バイパスを設定できませんでした。</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>サポートされていないハードウェア バイパスが有効になっています</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>サポートされていない Windows 11 ハードウェア バイパスを構成しています...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>サポートされていないハードウェアのバイパスで許可されます</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>サポートされていない Windows 11 ハードウェア バイパスを構成します</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 要件の失敗は警告です。重要なディスク、パーティション、ブート、およびアーキテクチャの保護は引き続き適用されます。</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>詳細: Windows 11 CPU、TPM、Secure Boot、RAM、およびストレージ要件のチェックをバイパスします。ディスク ID、パーティション、アーキテクチャの安全性チェックはアクティブなままです。</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>このプランは、サポートされていないハードウェア バイパス値をオフラインの ZXTRM0XZ インストールに書き込みます。 Microsoft のサポートとアップデートは保証されません。</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>サポートされていないハードウェアに Windows 11 をインストールします</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>ディスクの管理で実際の基本データ パーティションまたはシンプル ボリュームを作成し、ディスクを更新します。</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>選択されたターゲットは使用可能な基本データ パーティションではありません。未割り当て領域および MBR 拡張コンテナーは、直接フォーマットできません。</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>アップデートを自動的にチェックする</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>アップデートをチェックする</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>アップデートをチェックしています...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>最新バージョンを使用しています。</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>アップデートをチェックできません。</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>ソフトウェアアップデート</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>新しいバージョンが利用可能です。</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>バージョン {0} が利用可能です。</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>現在、バージョン {0} を使用しています。</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>このアップデートには改善とバグ修正が含まれています。</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>アップデート</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>アップデートをダウンロード中...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>更新を確認しています...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>ダウンロードされたアップデートは検証できなかったため、開始されませんでした。</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>アップデートをダウンロードまたは開始できません。</value>
+  </data>
+</root>

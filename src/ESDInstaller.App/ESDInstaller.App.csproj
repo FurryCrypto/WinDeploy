@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <AssemblyName>ESDInstaller</AssemblyName>
+    <RootNamespace>ESDInstaller</RootNamespace>
+    <Product>ESD Installer</Product>
+    <AssemblyTitle>ESD Installer</AssemblyTitle>
+    <Description>Install Windows directly to a selected disk partition.</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\ESDInstaller.ico</ApplicationIcon>
+    <WindowsPackageType>None</WindowsPackageType>
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+    <Platforms>x64;ARM64</Platforms>
+    <RuntimeIdentifiers>win-x64;win-arm64</RuntimeIdentifiers>
+    <PublishSingleFile>false</PublishSingleFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260710003" />
+    <ProjectReference Include="..\ESDInstaller.Core\ESDInstaller.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\ESDInstallerIcon.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="BuildWorkerFirst" BeforeTargets="PrepareForBuild">
+    <MSBuild Projects="..\ESDInstaller.Worker\ESDInstaller.Worker.csproj" Targets="Build" Properties="Configuration=$(Configuration);Platform=AnyCPU" />
+  </Target>
+  <Target Name="CopyWorkerOutputs" AfterTargets="Build">
+    <PropertyGroup>
+      <WorkerBuildDir>..\ESDInstaller.Worker\bin\$(Configuration)\net8.0-windows10.0.17763.0\</WorkerBuildDir>
+      <WorkerBuildDir Condition="'$(RuntimeIdentifier)' != ''">..\ESDInstaller.Worker\bin\$(Configuration)\net8.0-windows10.0.17763.0\$(RuntimeIdentifier)\</WorkerBuildDir>
+    </PropertyGroup>
+    <ItemGroup>
+      <WorkerOutput Include="$(WorkerBuildDir)ESDInstaller.Worker.exe" />
+      <WorkerOutput Include="$(WorkerBuildDir)ESDInstaller.Worker.dll" />
+      <WorkerOutput Include="$(WorkerBuildDir)ESDInstaller.Worker.deps.json" />
+      <WorkerOutput Include="$(WorkerBuildDir)ESDInstaller.Worker.runtimeconfig.json" />
+    </ItemGroup>
+    <Copy SourceFiles="@(WorkerOutput)" DestinationFolder="$(OutDir)Worker" SkipUnchangedFiles="true" />
+  </Target>
+  <Target Name="IncludeSelfContainedWorkerInPublish" AfterTargets="ComputeFilesToPublish"
+          Condition="'$(RuntimeIdentifier)' != ''">
+    <PropertyGroup>
+      <WorkerPublishDir>$(MSBuildProjectDirectory)\obj\worker-publish\$(Configuration)\$(RuntimeIdentifier)\</WorkerPublishDir>
+    </PropertyGroup>
+    <MSBuild Projects="..\ESDInstaller.Worker\ESDInstaller.Worker.csproj" Targets="Publish"
+             Properties="Configuration=$(Configuration);RuntimeIdentifier=$(RuntimeIdentifier);SelfContained=true;PublishSingleFile=true;PublishDir=$(WorkerPublishDir)" />
+    <ItemGroup>
+      <ResolvedFileToPublish Include="$(WorkerPublishDir)ESDInstaller.Worker.exe">
+        <RelativePath>Worker\ESDInstaller.Worker.exe</RelativePath>
+        <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+  <Target Name="CopyPriToPublish" AfterTargets="Publish" Condition="Exists('$(TargetDir)ESDInstaller.pri')">
+    <Copy SourceFiles="$(TargetDir)ESDInstaller.pri" DestinationFolder="$(PublishDir)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

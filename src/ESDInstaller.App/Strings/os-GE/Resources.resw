@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="AppTitle" xml:space="preserve"><value>ESD Installer — Windows-ы диск хайы инсталлятор</value></data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve"><value>Бакӕнын ныв</value></data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve"><value>Дисктӕ ногæй бацæй кæнын</value></data>
+  <data name="ToolbarSettings.Text" xml:space="preserve"><value>Уагæвæрдтæ</value></data>
+  <data name="ToolbarHelp.Text" xml:space="preserve"><value>Æххуыс</value></data>
+  <data name="StepsHeader.Text" xml:space="preserve"><value>ИНСТАЛӔГТӔ</value></data>
+  <data name="StepImage.Text" xml:space="preserve"><value>1 Windows Ныв</value></data>
+  <data name="StepEdition.Text" xml:space="preserve"><value>2 статьятӕ</value></data>
+  <data name="StepDestination.Text" xml:space="preserve"><value>3 Балц</value></data>
+  <data name="StepBoot.Text" xml:space="preserve"><value>4 Иу кæныны баивӕн</value></data>
+  <data name="StepReview.Text" xml:space="preserve"><value>5 Ахъуыды кӕн</value></data>
+  <data name="StepInstall.Text" xml:space="preserve"><value>6 Сӕвӕрын</value></data>
+  <data name="SafetyFirst.Text" xml:space="preserve"><value>Фыццаг — хъахъхъӕддзинад</value></data>
+  <data name="SafetySidebarText.Text" xml:space="preserve"><value>Хӕдзарыккӕ нӕ равзарӕн диск. Хъахъхъӕнгӕ системӕ, EFI, сӕрстдзинад, OEM ӕмӕ хъахъхӕнд кӕмӕйттӕ нӕй нысӕнттӕ.</value></data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve"><value>Цæгъдæн</value></data>
+  <data name="StatusReady" xml:space="preserve"><value>Цæгъдæн</value></data>
+  <data name="ImagePageTitle.Text" xml:space="preserve"><value>Равзарын Windows Ныв</value></data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve"><value>Ныффыс Windows ISO, WIM кӕнӕ ESD файл. Диск ныв нӕ фехъусдзӕн.</value></data>
+  <data name="SelectImageButton.Content" xml:space="preserve"><value>Равзарын Windows Ныв</value></data>
+  <data name="ImageDropHint.Text" xml:space="preserve"><value>кӕнӕ аивӕн .iso, .wim кӕнӕ .esd файл ӕмӕ ардӕм ӕрхауӕм</value></data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve"><value>Файлы файл</value></data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve"><value>Windows верси</value></data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve"><value>Архитектӕ</value></data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve"><value>Нывты хуыз</value></data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve"><value>Файлы бӕрц</value></data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve"><value>Бынтон ивддзинӕдтӕ</value></data>
+  <data name="NextButton.Content" xml:space="preserve"><value>Фæстæмæ</value></data>
+  <data name="BackButton.Content" xml:space="preserve"><value>Раздӕхгӕ</value></data>
+  <data name="EditionPageTitle.Text" xml:space="preserve"><value>Равзар Windows статьяйы</value></data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve"><value>Равзарын равдисын, ӕцӕгдӕр нывтӕ бакӕсынӕн индекс сӕвӕрӕнӕй.</value></data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve"><value>Равзарын бæлӕхы хай</value></data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve"><value>Равзарын иу ӕмбӕлгӕ қисм. Ӕнхъӕнӕй кӕм нӕ бахъӕуа ӕмӕ хъахъхъӕд цӕуы контекстмӕ, фӕлӕ равдисын нӕ хъӕуы.</value></data>
+  <data name="BootPageTitle.Text" xml:space="preserve"><value>Бавæрдæн кæнын</value></data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve"><value>Сбӕрӕг кӕн, базыдта фермware, partition scheme ӕмӕ ӕхцайы шаг. Ацы хицӕнтӕ EFI нӕ фӕивта ацы дзаумайы форматӕй.</value></data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve"><value>Фермбæртæ</value></data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve"><value>Æвдæлон шегæнтæ</value></data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve"><value>Иу кæнын шантинг</value></data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve"><value>Иу кæныны баивæн</value></data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve"><value>ӕмхуызон</value></data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve"><value>Разæг æмæстæг дæхтæнтæ</value></data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve"><value>Ӕвӕрд балхӕнын</value></data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve"><value>Ӕвзаг ӕвӕрд план фӕлхат кӕнынӕн</value></data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve"><value>Ӕвзаг уаид, алы идентификаттӕ дӕр лӕмбынӕг сбӕлвырд кӕнӕн ис.</value></data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve"><value>Windows Ныв</value></data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve"><value>Суад</value></data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve"><value>Бафӕразын</value></data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve"><value>Системӕйӕ разӕвӕрд</value></data>
+  <data name="DestructiveWarning.Text" xml:space="preserve"><value>ДЗУАПП РАТДЗЫНӔ: Равзӕрст хайадыл ӕппӕт рардтӕ ӕнусонӕй сӕфт ӕрцӕудзысты.</value></data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve"><value>Ӕз ӕмбарын, ӕмӕ равзӕрст нысанон хайады ӕппӕт рардтӕ ӕнусонӕй сӕфт ӕрцӕудзысты.</value></data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve"><value>Сӕвӕрын Windows</value></data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve"><value>Сӕвӕрын Windows</value></data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve"><value>Компьютер иу у тыхимӕ. Ӕвӕццӕгӕн, ивд сты нывтӕ, ӕхцауагъд файлтӕ ӕмӕ ӕвӕрд файлтӕ.</value></data>
+  <data name="ProgressWaiting.Text" xml:space="preserve"><value>Ӕхцагӕнӕджы бартӕмӕ кӕсынмӕ...</value></data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve"><value>Ӕвӕрын журнал</value></data>
+  <data name="OpenLogButton.Content" xml:space="preserve"><value>Бакӕнын журнал</value></data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve"><value>Бавæр журнал куыд...</value></data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve"><value>Windows ӕнтыстджынӕй инсталляцигонд ӕрцыд.</value></data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve"><value>Сывӕлд ӕрцыд ныв ӕмӕ Windows ӕндзарыны файлтӕ. Ныр дӕ бон у компьютер ногӕй баиу кӕнын.</value></data>
+  <data name="InstallationSuccessTitle" xml:space="preserve"><value>Windows ӕнтыстджынӕй инсталляцигонд ӕрцыд.</value></data>
+  <data name="InstallationSuccessText" xml:space="preserve"><value>Ныв ӕмӕ Windows-ы ӕндзарыны файлтӕ фӕлвӕрд ӕрцыдысты. Ног Windows-ы фыст у сӕйраг нӕуӕгӕй ӕндзарынӕн.</value></data>
+  <data name="RestartNowButton.Content" xml:space="preserve"><value>Ныры баиу кæнын</value></data>
+  <data name="RestartLaterButton.Content" xml:space="preserve"><value>Фӕстӕдӕр ногӕй баиу кӕнын</value></data>
+  <data name="LanguageSystem" xml:space="preserve"><value>Системӕ</value></data>
+  <data name="AdvancedMode" xml:space="preserve"><value>Æфæгæнтæ</value></data>
+  <data name="AdvancedModeDescription" xml:space="preserve"><value>Фӕстӕмӕ ӕвдисы, ӕнцад кӕй ис, уый ID, нывтӕ ӕмӕ фирмware. Windows 11</value></data>
+  <data name="Yes" xml:space="preserve"><value>О</value></data><data name="No" xml:space="preserve"><value>Нӕ</value></data><data name="EngineLegacy" xml:space="preserve"><value>Хъӕбатыр мотор</value></data>
+  <data name="AdvancedEngine" xml:space="preserve"><value>Рухайӕг {0}</value></data><data name="AdvancedFirmware" xml:space="preserve"><value>Фермварты: {0}</value></data><data name="AdvancedDiskStyle" xml:space="preserve"><value>Стыль дискы: {0}</value></data><data name="AdvancedDiskId" xml:space="preserve"><value>Дискы иу ID: {0}</value></data><data name="AdvancedTargetOffset" xml:space="preserve"><value>Растмӕхъусӕн: {0}</value></data><data name="AdvancedBootPartition" xml:space="preserve"><value>EFI/хицӕн parti: {0}</value></data><data name="AdvancedTpm" xml:space="preserve"><value>TPM ӕмбырд/цӕттӕ: {0}/{1}</value></data><data name="AdvancedSecureBoot" xml:space="preserve"><value>Ӕдас загрузкӕйӕн йӕ бон/уагъд кӕны: {0}/{1}</value></data>
+  <data name="LanguageLabel" xml:space="preserve"><value>Ӕвзаг</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>Уагæвæрдтæ</value></data>
+  <data name="Save" xml:space="preserve"><value>Бавæр</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Ныууадзын</value></data>
+  <data name="Close" xml:space="preserve"><value>Сæхгæнын</value></data>
+  <data name="HelpTitle" xml:space="preserve"><value>ESD Installer Ӕххуыс</value></data>
+  <data name="HelpText" xml:space="preserve"><value>ESD Installer равзӕрста равдисыны нывд WIM/ESD иууыл дӕр ӕмӕ йӕ баивын кӕны ӕндзарыны файлтӕ, хицӕн дискы йеддӕмӕ нӕдӕр фӕивта. Уый нӕ скӕны штрицытӕ кӕнӕ сӕфт уыны ӕнӕхъӕн диск. Раздӕлдай режимӕн гӕнӕн ис, цӕмӕй хицӕнӕй фӕдзӕхстмӕ гӕсгӕ араза Windows 11 хъарутӕ кӕмӕйдӕр фӕрсынц. Windows XP</value></data>
+  <data name="AdvancedModeEnabled" xml:space="preserve"><value>Æфæгæнтæ</value></data>
+  <data name="StandardMode" xml:space="preserve"><value>Стандартæг режим</value></data>
+  <data name="StatusInspectingImage" xml:space="preserve"><value>Мыхуыры Windows Ныв...</value></data>
+  <data name="StatusImageReady" xml:space="preserve"><value>Windows Ныв цӕттӕ у</value></data>
+  <data name="StatusError" xml:space="preserve"><value>Рӕдыд ӕрцыд</value></data>
+  <data name="StatusChooseEdition" xml:space="preserve"><value>Равзар Windows амыдта</value></data>
+  <data name="StatusSelectImageFirst" xml:space="preserve"><value>Фыццаг равзарын ныв ӕмӕ эмули</value></data>
+  <data name="StatusReadingDisks" xml:space="preserve"><value>Бӕрӕг у, нӕ бон ӕй бакӕсын...</value></data>
+  <data name="StatusSelectDestination" xml:space="preserve"><value>Равзарын хицӕн partition</value></data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve"><value>Иу кæныны баивӕн у раст</value></data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve"><value>Ӕвзӕрст фӕлварӕн ӕвӕрд ӕрцыд ӕвӕрд</value></data>
+  <data name="StatusReviewPlan" xml:space="preserve"><value>Ӕвӕрын план фӕлхат ӕмӕ бӕлвырд кӕнын</value></data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve"><value>Адӕймаджы бартӕ хъуыд, цӕмӕй дискы шцифæн ӕмӕ Windows ӕндзарыны файлтӕ ивой.</value></data>
+  <data name="StatusInstallationComplete" xml:space="preserve"><value>Windows-ы инсталляци ӕнтыстджынӕй фӕци</value></data>
+  <data name="StatusInstallationFailed" xml:space="preserve"><value>Windows-ы инсталляци нӕ рауад — журнал рабар</value></data>
+  <data name="ImageDropCaption" xml:space="preserve"><value>Басгар ацы Windows Ныв</value></data>
+  <data name="EditionTechnicalDetails" xml:space="preserve"><value>Индекс {0} • Аразын {1}</value></data>
+  <data name="LegacyEngineTitle" xml:space="preserve"><value>Растдӕр базыдта Windows медийы</value></data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve"><value>Ацы верси домы, цӕмӕй ӕвӕрд машинӕ « Highback Windows » сӕвӕрын кӕна, ӕмӕ уый нырма нӕй.</value></data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve"><value>Ацы верси домы, цӕмӕй ӕвӕрд машинӕ « Highback Windows » сӕвӕрын кӕна, ӕмӕ уый нырма нӕй.</value></data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve"><value>[ 900] Vista домы, цӕмӕй ногӕй NT6 сӕвӕрынгӕнӕн машинӕ уа. Windows</value></data>
+  <data name="FirmwareSummary" xml:space="preserve"><value>Фермварты: {0}</value></data>
+  <data name="HostArchitectureSummary" xml:space="preserve"><value>Компьютер архитектӕ: {0}</value></data>
+  <data name="DiskHeader" xml:space="preserve"><value>Диск {0} – {1} — {2}</value></data>
+  <data name="DiskDetails" xml:space="preserve"><value>{0} • {1} • Уыцы фарста: {2}</value></data>
+  <data name="DiskOffline" xml:space="preserve"><value>Хицæн</value></data>
+  <data name="DiskReadOnly" xml:space="preserve"><value>Ӕрнӕдисгӕ</value></data>
+  <data name="DiskSerialUnavailable" xml:space="preserve"><value>æдæлон</value></data>
+  <data name="PartitionUnallocated" xml:space="preserve"><value>Ӕнӕивын</value></data>
+  <data name="PartitionCurrentWindows" xml:space="preserve"><value>Windows – хъахъхъӕнӕн</value></data>
+  <data name="PartitionProtected" xml:space="preserve"><value>Хъахъхъӕд</value></data>
+  <data name="PartitionRoleEfi" xml:space="preserve"><value>EFI системӕ</value></data>
+  <data name="PartitionRoleMsr" xml:space="preserve"><value>Microsoft хъахъхъӕд цӕуы</value></data>
+  <data name="PartitionRoleRecovery" xml:space="preserve"><value>Ирвӕзын</value></data>
+  <data name="PartitionRoleOem" xml:space="preserve"><value>OEM</value></data>
+  <data name="PartitionRoleBasic" xml:space="preserve"><value>Сӕйраг дыссаты</value></data>
+  <data name="PartitionRoleUnknown" xml:space="preserve"><value>Ӕнӕзонгӕ розділ</value></data>
+  <data name="PartitionTooltip" xml:space="preserve"><value>Хайад {0} | {1} {2} | {3} | {4}</value></data>
+  <data name="DestinationSelectionSummary" xml:space="preserve"><value>Диск {0} — {1}; хабӕрт {2} {3}; {4}</value></data>
+  <data name="BootPartitionSummary" xml:space="preserve"><value>Диск {0}, Компонент {1} {2} – {3} — {4}</value></data>
+  <data name="BootPartitionNotFound" xml:space="preserve"><value>Нӕ рауадис баивын дискы.</value></data>
+  <data name="WindowsBootManager" xml:space="preserve"><value>Windows Иу кæныны хицæн</value></data>
+  <data name="CompatibilityPassed" xml:space="preserve"><value>Рауад</value></data>
+  <data name="CompatibilityFailed" xml:space="preserve"><value>Блокгонд</value></data>
+  <data name="BootConfigurationReady" xml:space="preserve"><value>Иу кæныны баивӕн цæгъд</value></data>
+  <data name="BootConfigurationReadyText" xml:space="preserve"><value>Ӕвзӕрст ивд уырдӕм, бæлӕх ӕмӕ иу диск загрузкӕйы шандӕн кæнын у.</value></data>
+  <data name="BootConfigurationBlocked" xml:space="preserve"><value>Ӕвӕрддзинад хӕцӕнгӕрзт</value></data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve"><value>Ныфсджын у, иннӕрдӕм ӕнаиппӕй чи цӕры, уыцы рӕдыдтытӕ. ESD Installer сӕ нӕ хиуылхӕцдзӕн.</value></data>
+  <data name="Unknown" xml:space="preserve"><value>Ӕнӕзонгӕ</value></data>
+  <data name="ReviewDestinationSummary" xml:space="preserve"><value>Диск {0} — {1}; Компонти {2} {3} – {4}</value></data>
+  <data name="WarningDiskModel" xml:space="preserve"><value>Мадели диск: {0}</value></data>
+  <data name="WarningDiskNumber" xml:space="preserve"><value>Диск нымӕц: {0}</value></data>
+  <data name="WarningPartitionNumber" xml:space="preserve"><value>Ахуыргӕнӕн нымӕц: {0}</value></data>
+  <data name="WarningDriveLetter" xml:space="preserve"><value>Уӕззау уӕздандзинады фыстӕ: {0}</value></data>
+  <data name="WarningVolumeName" xml:space="preserve"><value>Нӕмт дзулы: {0}</value></data>
+  <data name="WarningCapacity" xml:space="preserve"><value>Монтæ: {0}</value></data>
+  <data name="None" xml:space="preserve"><value>Никӕцы</value></data>
+  <data name="PlanFingerprint" xml:space="preserve"><value>Ӕвӕццӕгӕн, планы скъола фӕивта: {0}</value></data>
+  <data name="ElapsedTime" xml:space="preserve"><value>Ӕрцыд: {0}</value></data>
+  <data name="AdministratorCancelled" xml:space="preserve"><value>Адӕймаджы нывондӕн айста. Сӕвӕрд кӕнын нӕ райдыдта.</value></data>
+  <data name="WorkerExitFailure" xml:space="preserve"><value>Ӕвӕрыст кусӕг ӕрлӕууыд {0} хицӕн кодӕй.</value></data>
+  <data name="LogFileType" xml:space="preserve"><value>Ӕвӕрын журнал</value></data>
+  <data name="RestartConfirmTitle" xml:space="preserve"><value>Нæуæгæй компьютер баиу кæнын?</value></data>
+  <data name="RestartConfirmText" xml:space="preserve"><value>Бавӕр дӕ куыст ӕндӕр ӕфтуӕтты. Компьютер уайтагъд ногӕй баиу кӕндзӕн.</value></data>
+  <data name="RestartNow" xml:space="preserve"><value>Ныры баиу кæнын</value></data>
+  <data name="RestartLaterMessage" xml:space="preserve"><value>Дӕ бон у фӕстӕдӕр Райдайӕн менюйӕ нӕуӕгӕй байдайын. Ног Windows-ы фыст Windows ӕндзарыны диспетчеры уагӕй аразгонд у.</value></data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve"><value>Раст дин ныууагъта</value></data>
+  <data name="ProgressValidatingPlan" xml:space="preserve"><value>Ӕвӕрын план аразын...</value></data>
+  <data name="ProgressPreparingDestination" xml:space="preserve"><value>Балцæгъдын...</value></data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve"><value>Ширхӕфыны формат</value></data>
+  <data name="ProgressApplyingImage" xml:space="preserve"><value>Windows Ныв бахӕс цӕуы...</value></data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve"><value>Ӕвзӕрст ӕндзарыны файлтӕ...</value></data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve"><value>Сбӕлвырд кӕны ӕвӕрд...</value></data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve"><value>Windows сӕвӕрын фӕци</value></data>
+  <data name="ProgressInstallationFailed" xml:space="preserve"><value>Ӕвӕрддзинад нӕ рауад</value></data>
+  <data name="OperationValidatePlan" xml:space="preserve"><value>Ӕппӕт планыл баст у</value></data>
+  <data name="OperationFormatDestination" xml:space="preserve"><value>Фоматын ӕрмӕст равзӕрстай диссӕгтӕн куыд NTFS</value></data>
+  <data name="OperationApplyImage" xml:space="preserve"><value>Сӕвӕрын равзӕрстаг Windows вурӕг индæкс</value></data>
+  <data name="OperationInstallBootFiles" xml:space="preserve"><value>Сӕвӕрын Windows загрузкӕйы файлтӕ иу дискы рахизӕныл</value></data>
+  <data name="OperationVerifyInstallation" xml:space="preserve"><value>Бавӕрын ӕвӕрд ӕмӕ ӕндзарыны файлтӕ</value></data>
+  <data name="AdministratorRequired" xml:space="preserve"><value>Адӕймаджы бартӕ хъуыд, цӕмӕй дискы шцифæн ӕмӕ Windows ӕндзарыны файлтӕ ивой.</value></data>
+  <data name="ErrorUnexpected" xml:space="preserve"><value>Ӕнӕнхъӕлӕджы рӕдыд ӕрцыд.</value></data>
+  <data name="ErrorWorkerMissing" xml:space="preserve"><value>Уӕлдӕр кусӕг нӕй.</value></data>
+  <data name="ErrorWorkerStart" xml:space="preserve"><value>Уыцы кусӕг нӕ райдыдта.</value></data>
+  <data name="ErrorImageNotFound" xml:space="preserve"><value>Ӕвзӕрст уагӕвӕрд файл нӕ разындис.</value></data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve"><value>Ӕнӕзӕрдӕр у ISO, WIM ӕмӕ ESD нывты файлтӕ.</value></data>
+  <data name="ErrorIsoMount" xml:space="preserve"><value>ISO нӕ бахизӕн ис кӕнӕ нӕ фӕлварӕн кодта.</value></data>
+  <data name="ErrorNoInstallImage" xml:space="preserve"><value>Ацы ӕвзагыл нӕй иу\install.wim кӕнӕ дзуаппæй\install .esd. ISO</value></data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve"><value>Ацы ныв пайда кӕны SWM-тӕ хауы хицӕнӕй, тӕссаг кӕмӕй уыны, ахӕм файлтӕй.</value></data>
+  <data name="ErrorImageOpen" xml:space="preserve"><value>Windows Ныв нӕ рауадис бакӕнын.</value></data>
+  <data name="ErrorNoEditions" xml:space="preserve"><value>Windows Нывы ис ӕвӕрд индекстӕ.</value></data>
+  <data name="ErrorImageMetadata" xml:space="preserve"><value>Windows Ныв метадауонӕй нӕ бон бакӕсын.</value></data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve"><value>Нӕ бон у бакӕсын буар дисктӕ ӕмӕ хайадтӕ.</value></data>
+  <data name="ErrorNoDisks" xml:space="preserve"><value>Нӕй ссарӕн нӕй.</value></data>
+  <data name="ErrorFormatDestination" xml:space="preserve"><value>Ӕвзӕрстаг бӕстӕйы шанты нӕ фӕхонӕн у.</value></data>
+  <data name="ErrorDismApply" xml:space="preserve"><value>DISM ӕвзӕрст Нывмӕ нӕ хауы. Windows</value></data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve"><value>Ӕнӕуиуӕгӕн загрузкӕйы хай бафыст нӕ уыд.</value></data>
+  <data name="ErrorBcdBoot" xml:space="preserve"><value>BCDBoot нӕ рауадис сӕвӕрын Windows ӕндзарыны файлтӕ.</value></data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve"><value>Windows ӕвӕрд файлтӕ нӕ аивтой.</value></data>
+  <data name="ErrorBootVerification" xml:space="preserve"><value>Windows ӕндзарыны файлтӕ нӕ фӕивтой.</value></data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve"><value>Ӕнӕуи ӕвӕрд план нӕ бон бакӕсын.</value></data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve"><value>Ацы аразӕн Windows нӕ бон у ӕууӕндӕн.</value></data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve"><value>Ныв архитектурӕйы ныхмӕ нӕ цӕуы ацы компьютер ӕмӕ фирмware режимимӕ.</value></data>
+  <data name="ValidationProtectedPartition" xml:space="preserve"><value>Равзӕрст хайад хъахъхъӕд у ӕмӕ йӕ ивын нӕй гӕнӕн.</value></data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve"><value>Ӕвзӕрст хайад у BitLocker хъахъхъӕнӕн. Хицæн ӕй скӕныны размӕ рафысс.</value></data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve"><value>Ӕвзӕрст розділ ӕгӕр гыццыл у ацы версийы Windows.</value></data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve"><value>Бынатæлон диск у хицӕн кӕнӕ ӕрмӕст бакӕсын.</value></data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve"><value>UEFI ӕмбырд кӕнынӕн хъӕуы GPT бӕстӕйы диск.</value></data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve"><value>Хӕстӕг BIOS ӕмбырд кӕнынӕн хъӕуы MBR бӕстӕйы диск.</value></data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve"><value>Бынатæйы дискы нӕй иу раст загрузкӕйы шанд.</value></data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve"><value>Хъуамӕ ӕхца загрузкӕйы хай уа, бӕстӕйы хуызӕн ӕмхуызон дискыл.</value></data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve"><value>UEFI ивынӕн хъӕуы EFI Системӕйӕ хай UEFI бӕстӕйы дискы.</value></data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve"><value>EFI Системӕйы хайад нырмӕ хъуамӕ пайда кӕна FAT32.</value></data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve"><value>Хӕстӕг BIOS ивынӕн хъӕуы хицӕнтӕ NTFS ӕндзарыны дискы хицӕнгӕнӕн.</value></data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve"><value>Windows 7 UEFI ивын кӕны ӕрмӕст x64 нывтытӕн.</value></data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve"><value>Windows 11 ӕнхъӕлмӕ кӕсын хъӕуы, цӕмӕй уӕм нывтӕ x64 кӕнӕ ARM64.</value></data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve"><value>Windows 11 хъӕуы UEFI фирмӕй.</value></data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve"><value>TPM 2.0 нӕ базыдта, ӕмбырд кӕй уыд ӕмӕ цӕттӕ. Windows 11 сӕвӕрӕн йӕ бон у уыцы компьютерыл айсын.</value></data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve"><value>Ӕнӕзӕр загрузкӕйӕн йӕ бон нӕ у бафидар кӕнын.</value></data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve"><value>Ӕвзӕр загрузкӕнӕн ӕххуыс у, фӕлӕ ныртӕккӕ хицӕн кӕны.</value></data>
+  <data name="ValidationWindows11Memory" xml:space="preserve"><value>Компьютерӕн йӕ 4 GB адӕймагӕй къаддӕр у.</value></data>
+  <data name="ValidationSourceChanged" xml:space="preserve"><value>План куы бафидар кодта, уӕд сыл йӕ цӕстытыл аивта.</value></data>
+  <data name="ValidationEditionChanged" xml:space="preserve"><value>Ӕвзӕрст уиугӕнаг индекс ивд.</value></data>
+  <data name="ValidationDiskMissing" xml:space="preserve"><value>Бынӕттон диск нал у.</value></data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve"><value>Ацы дискӕн йӕ бон нӕу ӕдасӕй пайда кӕнын.</value></data>
+  <data name="ValidationDiskChanged" xml:space="preserve"><value>Адӕймагӕн йӕ бон у баиу кӕнын.</value></data>
+  <data name="ValidationPartitionChanged" xml:space="preserve"><value>Бынат хицӕн partition хуызӕн у кӕнӕ геометри ивд.</value></data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve"><value>Ӕхца загрузкӕйы шлюзайы хуыз кӕнӕ геометри ивд.</value></data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve"><value>Фермware кӕнӕ бӕстӕйы хицӕнгӕнӕн пълӕнттӕн ӕмхуызон нӕу.</value></data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve"><value>Ӕвзӕрст дискы сбӕлвырд сты дыккаг дискы нывтӕ ӕмӕ ӕндзарыны файлтӕ. Кӕд фирмware уыцы диск равзарын нӕ кӕны, уӕд ӕй иу хатт равдисын UEFI загрузкӕйы менюйӕ.</value></data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve"><value>UEFI ӕдыхы загрузкӕйы файл нӕ фӕивта.</value></data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve"><value>Ай у дыккаг UEFI диск. ESD Installer ӕвӕрд кӕны стандартӕй хицӕн загрузкӕйы файл ӕнӕ ивгӕйӕ, фирмware NVRAM хицӕнгӕнӕнтӕ. Гӕнӕн ис, дӕ хъӕуы диск равзарын, фермуарджины загрузк менюйы иухатт.</value></data>
+  <data name="ErrorImageScratch" xml:space="preserve"><value>Нӕ рауадис сӕвӕрын Windows хъыгдарӕг куыст папкӕ.</value></data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve"><value>Раздæг уӕззау уӕ хицӕн аразӕн у Windows 11 сӕвӕрынӕн.</value></data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve"><value>Сӕвӕрын ӕнӕ фарсӕй бахъӕудзӕн?</value></data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve"><value>Сӕхи бакӕнын ӕмӕ сӕ бон ӕй кӕнын</value></data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve"><value>Microsoft ӕнтыстджын нӕу Windows 11 ацы хъазты бынаты ӕмӕ нӕ фӕдыл нывтӕ нӕ уадзы. Ӕмхуызон зындзинӕдтӕ, ӕдасдзинад кӕнӕ разиугӕнгӕ рӕдыдтытӕ хауы. ESD Installer ныппырх уыдзӕн CPU, TPM, Secure Authort, RAM ӕмӕ хъахъхъӕнӕнтӕ, фӕлӕ дзы нӕй гӕнӕн, цӕмӕй ӕнӕхуымӕгӕс архайа.</value></data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve"><value>Windows 11 ӕнӕ фарс хъаруйы ивын нӕ рауадис сӕвӕрын.</value></data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve"><value>Ӕнӕххуысы аивӕн</value></data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve"><value>Нӕ ӕвӕрд гыццыл бэтерсип Windows 11...</value></data>
+  <data name="CompatibilityBypassed" xml:space="preserve"><value>Ӕвӕццӕгӕн ӕнӕ фарс-хардware bypass</value></data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve"><value>Бавӕрын ӕнӕ ӕвӕрд Windows 11 машинӕйы ивӕн</value></data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve"><value>Уый фӕрцы ӕдзухдӕр хъӕуы, цӕмӕй уыцы ӕгъдӕуттӕ уой. Windows 11</value></data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve"><value>Аразд: ивын кӕм хъӕуы Windows 11 CPU, TPM, Ӕвзӕр загрузкӕйӕн, RAM ӕмӕ хъахъхъӕнӕн домӕн. Диск хуызӕндзинад, ахицӕн ӕхца ӕмӕ архитектуры тӕссаг схонӕн ис.</value></data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve"><value>Ацы план фысты ӕнӕхъӕн-хардware ивд хъомыстӕ хицӕнӕй сӕвӕрынмӕ Windows. Microsoft ӕххуыс ӕмӕ ноггӕнӕн нӕй.</value></data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve"><value>Windows 11 сӕвӕрын ӕнӕ ӕвӕрд архатытыл</value></data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve"><value>Сфӕлдыста ӕцӕг сӕйраг данæг шцицит кӕнӕ хуымӕтӕг вулӕф дыскӕйы дискы, ӕмӕ уӕд сӕвӕр дисктӕ.</value></data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve"><value>Ӕвзӕрст бӕстӕ нӕу, сӕйраг нысӕнттӕ иууылдӕр пайда кæныны хай. Ӕнӕххӕст уацары бӕстӕйы ӕмӕ MBR авддӕр контейнерты нӕ фӕивын кӕны уӕлдайдӕр.</value></data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve"><value>Ноггондтæ автоматон æркæсын</value></data>
+  <data name="CheckForUpdates" xml:space="preserve"><value>Ноггондтæ æркæсын</value></data>
+  <data name="CheckingForUpdates" xml:space="preserve"><value>Ноггондтæ æркæсынц...</value></data>
+  <data name="UpToDate" xml:space="preserve"><value>Дæ хорзæйдæр версийы пайда кæныс.</value></data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve"><value>Ноггондтæ æркæсын нæ бантæст.</value></data>
+  <data name="UpdateTitle" xml:space="preserve"><value>Программон ноггонд</value></data>
+  <data name="UpdateAvailableHeading" xml:space="preserve"><value>Ног верси ис.</value></data>
+  <data name="UpdateVersionAvailable" xml:space="preserve"><value>Верси {0} ис.</value></data>
+  <data name="UpdateCurrentVersion" xml:space="preserve"><value>Ныр верси {0}-йы пайда кæныс.</value></data>
+  <data name="UpdateDefaultNotes" xml:space="preserve"><value>Ацы ноггонд хæссы фæххуыс æмæ рæдыдты раст кæнын.</value></data>
+  <data name="UpdateButton" xml:space="preserve"><value>Ног кæнын</value></data>
+  <data name="DownloadingUpdate" xml:space="preserve"><value>Ноггонд æрбахæссынц...</value></data>
+  <data name="VerifyingUpdate" xml:space="preserve"><value>Ноггонд æркæсынц...</value></data>
+  <data name="UpdateVerificationFailed" xml:space="preserve"><value>Æрбахаст ноггонд æркæсын нæ бантæст æмæ уый нæ райдыдта.</value></data>
+  <data name="UpdateDownloadFailed" xml:space="preserve"><value>Ноггонд æрбахæссын кæнæ райдайын нæ бантæст.</value></data>
+</root>

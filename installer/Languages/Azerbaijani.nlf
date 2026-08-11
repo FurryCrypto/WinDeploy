@@ -1,0 +1,191 @@
+﻿# Header, don't edit
+NLF v6
+# Start editing here
+# Language ID
+1068
+# Font and size - dash (-) means default
+-
+-
+# Codepage - dash (-) means ASCII code page
+1200
+# RTL - anything else than RTL means LTR
+-
+# ESD Installer project translation
+# ^Branding
+Nullsoft Quraşdırma Sistemi %s
+# ^SetupCaption
+$(^Name) Setup
+# ^UninstallCaption
+$(^Name) Silin
+# ^LicenseSubCaption
+: Lisenziya Müqaviləsi
+# ^ComponentsSubCaption
+: Quraşdırma Seçimləri
+# ^DirSubCaption
+: Quraşdırma Qovluğu
+# ^InstallingSubCaption
+: Quraşdırılır
+# ^CompletedSubCaption
+: Tamamlandı
+# ^UnComponentsSubCaption
+: Silinmə Seçimləri
+# ^UnDirSubCaption
+: Silinmə Qovluğu
+# ^ConfirmSubCaption
+: Təsdiq
+# ^UninstallingSubCaption
+: Silinir
+# ^UnCompletedSubCaption
+: Tamamlandı
+# ^BackBtn
+< &Geri
+# ^NextBtn
+&Növbəti >
+# ^AgreeBtn
+Razıyam
+# ^AcceptBtn
+Mən Lisenziya Müqaviləsinin şərtlərini qəbul edirəm
+# ^DontAcceptBtn
+Mən Lisenziya Müqaviləsinin şərtlərini qəbul etmirəm
+# ^InstallBtn
+&Quraşdırın
+# ^UninstallBtn
+&Sil
+# ^CancelBtn
+Ləğv et
+# ^CloseBtn
+&Bağla
+# ^BrowseBtn
+B&gözdən keçirin...
+# ^ShowDetailsBtn
+&Detalları göstərin
+# ^ClickNext
+Davam etmək üçün Next klikləyin.
+# ^ClickInstall
+Quraşdırmaya başlamaq üçün Quraşdır üzərinə klikləyin.
+# ^ClickUninstall
+Silinməni başlatmaq üçün Sil üzərinə klikləyin.
+# ^Name
+ad
+# ^Completed
+Tamamlandı
+# ^LicenseText
+$(^NameDA) quraşdırmadan əvvəl lisenziya müqaviləsini nəzərdən keçirin. Müqavilənin bütün şərtlərini qəbul edirsinizsə, Razıyam düyməsini klikləyin.
+# ^LicenseTextCB
+$(^NameDA) quraşdırmadan əvvəl lisenziya müqaviləsini nəzərdən keçirin. Müqavilənin bütün şərtlərini qəbul edirsinizsə, aşağıdakı onay qutusuna klikləyin. $_CLICK
+# ^LicenseTextRB
+$(^NameDA) quraşdırmadan əvvəl lisenziya müqaviləsini nəzərdən keçirin. Əgər müqavilənin bütün şərtlərini qəbul edirsinizsə, aşağıdakı birinci seçimi seçin. $_CLICK
+# ^UnLicenseText
+$(^NameDA)-ni silməzdən əvvəl lisenziya müqaviləsini nəzərdən keçirin. Müqavilənin bütün şərtlərini qəbul edirsinizsə, Razıyam düyməsini klikləyin.
+# ^UnLicenseTextCB
+$(^NameDA)-ni silməzdən əvvəl lisenziya müqaviləsini nəzərdən keçirin. Müqavilənin bütün şərtlərini qəbul edirsinizsə, aşağıdakı onay qutusuna klikləyin. $_CLICK
+# ^UnLicenseTextRB
+$(^NameDA)-ni silməzdən əvvəl lisenziya müqaviləsini nəzərdən keçirin. Əgər müqavilənin bütün şərtlərini qəbul edirsinizsə, aşağıdakı birinci seçimi seçin. $_CLICK
+# ^Custom
+Xüsusi
+# ^ComponentsText
+Quraşdırmaq istədiyiniz komponentləri yoxlayın və quraşdırmaq istəmədiyiniz komponentlərin işarəsini çıxarın. $_CLICK
+# ^ComponentsSubText1
+Quraşdırma növünü seçin:
+# ^ComponentsSubText2_NoInstTypes
+Quraşdırmaq üçün komponentləri seçin:
+# ^ComponentsSubText2
+Və ya quraşdırmaq istədiyiniz əlavə komponentləri seçin:
+# ^UnComponentsText
+Silmək istədiyiniz komponentləri yoxlayın və silmək istəmədiyiniz komponentlərin işarəsini silin. $_CLICK
+# ^UnComponentsSubText1
+Silinmə növünü seçin:
+# ^UnComponentsSubText2_NoInstTypes
+Silinəcək komponentləri seçin:
+# ^UnComponentsSubText2
+Və ya silmək istədiyiniz əlavə komponentləri seçin:
+# ^DirText
+Setup $(^NameDA)-ni aşağıdakı qovluğa quraşdıracaq. Fərqli qovluğa quraşdırmaq üçün Browse düyməsini klikləyin və başqa qovluq seçin. $_CLICK
+# ^DirSubText
+Təyinat Qovluğu
+# ^DirBrowseText
+$(^NameDA)-ni quraşdırmaq üçün qovluğu seçin:
+# ^UnDirText
+Setup $(^NameDA)-i aşağıdakı qovluqdan siləcək. Fərqli qovluqdan silmək üçün Gözdən keçirin üzərinə klikləyin və başqa qovluq seçin. $_CLICK
+# ^UnDirSubText
+""
+# ^UnDirBrowseText
+$(^NameDA)-ni silmək üçün qovluğu seçin:
+# ^SpaceAvailable
+"Mövcud yer:"
+# ^SpaceRequired
+"Tələb olunan yer:"
+# ^UninstallingText
+$(^NameDA) aşağıdakı qovluqdan silinəcək. $_CLICK
+# ^UninstallingSubText
+Buradan silinir:
+# ^FileError
+Yazmaq üçün faylı açarkən xəta baş verdi: \r\n\r\n$0\r\n\r\nQuraşdırmanı dayandırmaq üçün “Dayandır”, yenidən cəhd etmək üçün “Yenidən cəhd et”, bu faylı keçmək üçün “İqnor et” düyməsini basın.
+# ^FileError_NoIgnore
+Yazmaq üçün faylı açarkən xəta baş verdi: \r\n\r\n$0\r\n\r\nYenidən cəhd etmək üçün “Yenidən cəhd et”, quraşdırmanı dayandırmaq üçün “Ləğv et” düyməsini basın.
+# ^CantWrite
+"Yaza bilmirəm:"
+# ^CopyFailed
+Kopyalama alınmadı
+# ^CopyTo
+"kopyalayın"
+# ^Registering
+"Qeydiyyat:"
+# ^Unregistering
+"Qeydiyyatdan çıxarılma:"
+# ^SymbolNotFound
+"Simvol tapılmadı:"
+# ^CouldNotLoad
+"Yükləmək mümkün olmadı:"
+# ^CreateFolder
+"Qovluq yaradın:"
+# ^CreateShortcut
+"Qısayol yaradın:"
+# ^CreatedUninstaller
+"Yaradılmış silici:"
+# ^Delete
+"Faylı silin:"
+# ^DeleteOnReboot
+"Yenidən başladıqda silin:"
+# ^ErrorCreatingShortcut
+"Qısayol yaratmaq xətası:"
+# ^ErrorCreating
+"Yaratma xətası:"
+# ^ErrorDecompressing
+Məlumatın açılması xətası! Zədələnmiş quraşdırıcı?
+# ^ErrorRegistering
+DLL-nin qeydiyyatı zamanı xəta baş verdi
+# ^ExecShell
+"ExecShell:"
+# ^Exec
+"İcra edin:"
+# ^Extract
+"Çıxarış:"
+# ^ErrorWriting
+"Çıxarış: fayla yazma xətası"
+# ^InvalidOpcode
+Quraşdırıcı xarab olub: etibarsız əməliyyat kodu
+# ^NoOLE
+"Üçün OLE yoxdur:"
+# ^OutputFolder
+"Çıxış qovluğu:"
+# ^RemoveFolder
+"Qovluğu silin:"
+# ^RenameOnReboot
+"Yenidən başladıqda adını dəyişdirin:"
+# ^Rename
+"Adını dəyişdirin:"
+# ^Skipped
+"Keçildi:"
+# ^CopyDetails
+Təfərrüatları Panoya Kopyalayın
+# ^LogInstall
+Giriş quraşdırma prosesi
+# ^Byte
+B
+# ^Kilo
+K
+# ^Mega
+M
+# ^Giga
+G

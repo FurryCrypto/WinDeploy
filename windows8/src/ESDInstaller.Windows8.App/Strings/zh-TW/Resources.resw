@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — Windows 分區安裝程序</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>開啟影像</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>刷新磁碟</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>幫助</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>安裝 Windows</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 Windows 影像</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>第二版</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 目的地</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 啟動配置</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 則評論</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 安裝</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>安全第一</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>沒有自動選擇磁碟。受保護的系統、EFI、復原、OEM 和保留分割區不能作為目標。</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>準備好</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>準備好</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>選擇 Windows 影像</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>選擇 Windows、ISO、WIM 或 ESD 檔案。在接觸任何磁碟之前都會檢查影像。</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>選擇 Windows 影像</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>或將 .iso、.wim 或 .esd 檔案拖曳到此處</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>檔案名</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>Windows 版本</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>架構</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>影像類型</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>檔案大小</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>可用版本</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>下一頁</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>選擇Windows版本</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>選擇從安裝媒體讀取的實際影像索引。</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>選擇目標分割區</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>選擇一個現有的合適分割區。未指派和受保護的分割區會顯示在上下文中，但無法選擇。</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>啟動配置</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>驗證偵測到的韌體、分區方案和啟動分區。此工作流程永遠不會格式化 EFI 分割區。</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>韌體模式</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>分區方案</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>啟動分區</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>啟動配置</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>相容性</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>高級詳細信息</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>檢查安裝</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>審查安裝計劃</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>仔細檢查每個識別碼。執行時使用此經過驗證的磁碟和分割區標識，而不是重新發現的磁碟機號。</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>Windows 影像</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>來源</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>目的地</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>目標檔案系統</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>警告：所選分割區上的所有資料將會永久刪除。</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>我了解所選目標分割區上的所有現有資料都將被刪除。</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>安裝Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>安裝Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>保持電腦與電源連接。僅在驗證映像、啟動檔案和關鍵安裝檔案後才會報告成功。</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>等待管理員權限...</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>安裝日誌</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>開啟日誌</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>將日誌儲存為...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>Windows 已成功安裝。</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>映像和 Windows 啟動檔已驗證。現在您可以重新啟動電腦。</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>Windows 已成功安裝。</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>映像和 Windows 啟動檔已驗證。新的 Windows 條目是下次重新啟動的預設值。</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>立即重新啟動</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>稍後重新啟動</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>系統語言</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>進階模式</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>顯示穩定的磁碟 ID、偏移量和韌體詳細資訊。它還暴露了一個明確不受支援的 Windows 11 硬體旁路；磁碟安全保護保持活動狀態。</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>舊版引擎</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>引擎：{0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>韌體：{0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>磁碟樣式：{0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>磁碟唯一 ID：{0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>目標偏移：{0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/啟動分割區：{0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM 存在/就緒：{0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>Secure Boot 支援/啟用：{0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>語言</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>設置</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>ESD Installer 幫助</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>ESD Installer 將選定的 WIM/ESD 映像套用到現有分割區，並在相同實體磁碟上經過驗證的啟動分割區上設定啟動檔。它不會建立分割區或擦除整個磁碟。進階模式可以在單獨警告後明確繞過 Windows 11 硬體要求。 Windows XP 和不受支援的舊媒體將保持阻止狀態，直到出現專用引擎為止。</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>進階模式</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>標準模式</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>正在檢查 Windows 影像...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>Windows 影像已準備好</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>發生錯誤</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>選擇 Windows 版本</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>首先選擇圖像和版本</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>正在讀取實體磁碟和分割區...</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>選擇目標分割區</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>啟動設定有效</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>相容性檢查阻止安裝</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>審查並確認安裝計劃</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>修改磁碟分割區和 Windows 啟動檔需要管理員權限。</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>Windows 安裝成功完成</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>Windows 安裝失敗 — 查看日誌</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>檢查此 Windows 影像</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>索引 {0} • 建構 {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>偵測到舊版 Windows 媒體</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>此版本需要舊版 Windows 安裝引擎，但尚不可用。</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>此版本需要舊版 Windows 安裝引擎，但尚不可用。</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>Windows Vista 需要舊版 NT6 安裝引擎，但該引擎尚未提供。</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>韌體：{0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>電腦架構：{0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>磁碟 {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • 序號：{2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>離線</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>唯讀</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>不可用</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>未分配</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>目前 Windows — 受保護</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>受保護</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>EFI 系統</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>恢復</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>基本數據</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>未知分區</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>分區 {0} | {1} {2} | {3}| {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>磁碟 {0} — {1}；分割區{2} {3}；{4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>磁碟 {0}，分割區 {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>在目標磁碟上找不到適當的開機分割區。</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>透過</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>被阻止</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>啟動設定已準備就緒</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>所選映像、目標和相同磁碟啟動分割區在技術上是相容的。</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>安裝被阻止</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>解決下列相容性錯誤。 ESD Installer 不會自動繞過它們。</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>磁碟 {0} — {1}；分割區 {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>磁碟型號：{0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>磁碟編號：{0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>分區號：{0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>磁碟機代號：{0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>卷名：{0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>容量：{0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>已驗證的計劃指紋：{0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>已過：{0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>管理員權限被取消。沒有開始安裝。</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>安裝工作人員停止並退出代碼 {0}。</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>安裝日誌</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>重新啟動電腦？</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>將您的工作保存在其他應用程式中。計算機將立即重新啟動。</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>立即重新啟動</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>您可以稍後從「開始」功能表重新啟動。新的 Windows 條目在 Windows Boot Manager 中設定。</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>已授予管理員權限</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>正在驗證安裝計劃...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>正在準備目的地...</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>目標分割區已格式化</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>應用 Windows 影像...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>正在安裝啟動檔...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>正在驗證安裝...</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>Windows安裝完成</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>安裝失敗</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>驗證完整的計劃</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>僅將選取的分割區格式化為 NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>套用所選的 Windows 影像索引</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>在同一磁碟啟動分割區上安裝 Windows 啟動文件</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>驗證已安裝和啟動文件</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>修改磁碟分割區和Windows啟動檔需要管理員權限。</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>發生意外錯誤。</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>缺乏提升的安裝工作人員。</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>無法啟動提升的安裝工作程序。</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>找不到所選的圖像檔案。</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>僅支援 ISO、WIM 和 ESD 影像檔。</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>無法安裝或檢查 ISO。</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>在這個ISO中沒有找到sources\install.wim或sources\install.esd。</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>此映像使用分割的 SWM 文件，此版本不支援該文件。</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>Windows 影像無法開啟。</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>Windows 映像不包含可安裝的索引。</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>Windows 影像元資料無法讀取。</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>無法讀取實體磁碟和分割區。</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>找不到實體磁碟。</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>無法格式化所選目標分割區。</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>DISM 無法套用所選的 Windows 影像。</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>無法存取已驗證的啟動分割區。</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>BCDBoot 無法安裝 Windows 啟動檔。</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>部署的Windows檔案未通過驗證。</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>Windows 啟動檔未通過驗證。</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>無法讀取經過驗證的安裝計劃。</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>無法可靠地識別此 Windows 版本。</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>映像架構與此電腦和韌體模式不相容。</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>所選分區受保護且無法覆蓋。</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>所選分區受 BitLocker 保護。在部署之前對其進行解鎖和解密。</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>所選分割區對於此 Windows 版本太小。</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>目標磁碟離線或唯讀。</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>UEFI 部署需要 GPT 目標磁碟。</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>舊版 BIOS 部署需要 MBR 目標磁碟。</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>目標磁碟上不存在適當的開機分割區。</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>啟動分割區必須與目標位於相同實體磁碟上。</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>UEFI 部署需要目標磁碟上有 EFI 系統分割區。</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>EFI 系統分割區必須已使用 FAT32。</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>舊版 BIOS 部署需要目標磁碟上有活動的 NTFS 開機分割區。</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>Windows 7 僅針對 x64 映像啟用 UEFI 部署。</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>Windows 11 需要支援的 x64 或 ARM64 映像。</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>Windows 11 需要 UEFI 韌體。</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>TPM 2.0 未偵測到存在且準備就緒。 Windows 11 安裝程式可能會拒絕這台電腦。</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>無法確認 Secure Boot 功能。</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>支援 Secure Boot，但目前已停用。</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>電腦的實體記憶體少於 4 GB。</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>計劃確定後，來源影像發生了變化。</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>選定的影像索引在驗證後發生變更。</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>目標磁碟不再存在。</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>該磁碟沒有穩定的序列或唯一 ID，無法安全使用。</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>目標磁碟識別碼已變更。安裝已停止。</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>目標分區識別或幾何結構已更改。</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>引導分區標識或幾何結構已變更。</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>韌體或目標分區方案不再與計劃相符。</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>已在輔助磁碟上驗證映像和啟動檔案。如果韌體沒有自動選擇該磁碟，請從 UEFI 啟動選單中選擇一次。</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>UEFI 後備啟動檔未通過驗證。</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>這是輔助 UEFI 磁碟。 ESD Installer 安裝標準後備啟動文件，無需更改韌體 NVRAM 變數；您可能需要在韌體啟動選單中選擇一次磁碟。</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>Windows 影像暫存工作資料夾無法初始化。</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>為此 Windows 11 安裝啟用進階不支援的硬體繞過。</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>在不支援的硬體上安裝？</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>接受並啟用旁路</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>Microsoft 在此硬體上不支援 Windows 11，且不保證更新。可能會出現相容性問題、安全性降低或啟動失敗。 ESD Installer將繞過CPU、TPM、Secure Boot、RAM和儲存檢查，但它無法使不相容的硬體運作。</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>Windows 11 無法設定不支援的硬體旁路。</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>啟用了不支援的硬體旁路</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>設定不支援的 Windows 11 硬體旁路...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>允許繞過不支援的硬體</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>設定不支援的 Windows 11 硬體旁路</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>Windows 11 要求失敗是警告。關鍵磁碟、分割區、啟動和架構保護仍然執行。</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>進階：繞過 Windows 11 CPU、TPM、Secure Boot、RAM 和儲存需求檢查。磁碟身分、分割區和架構安全性檢查保持活動狀態。</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>本計畫將不支援的硬體旁路值寫入離線 Windows 安裝中。不保證 Microsoft 支援和更新。</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>在不支援的硬體上安裝 Windows 11</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>在磁碟管理中建立一個真正的基本資料分割區或簡單卷，然後刷新磁碟。</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>所選目標不是可用的基本資料分割區。未分配的空間和MBR擴充容器無法直接格式化。</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>自動檢查更新</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>檢查更新</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>正在檢查更新...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>您正在使用最新版本。</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>無法檢查更新。</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>軟體更新</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>有新版本可用。</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>{0} 版本可用。</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>您目前使用的是{0}版本。</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>此更新包括改進和錯誤修復。</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>正在下載更新...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>正在驗證更新...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>下載的更新無法驗證且未啟動。</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>無法下載或啟動更新。</value>
+  </data>
+</root>

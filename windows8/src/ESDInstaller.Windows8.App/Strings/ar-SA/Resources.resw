@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>ESD Installer — مثبت قسم Windows</value>
+  </data>
+  <data name="ToolbarOpenImage.Text" xml:space="preserve">
+    <value>افتح الصورة</value>
+  </data>
+  <data name="ToolbarRefreshDisks.Text" xml:space="preserve">
+    <value>تحديث الأقراص</value>
+  </data>
+  <data name="ToolbarSettings.Text" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="ToolbarHelp.Text" xml:space="preserve">
+    <value>مساعدة</value>
+  </data>
+  <data name="StepsHeader.Text" xml:space="preserve">
+    <value>تثبيت ويندوز</value>
+  </data>
+  <data name="StepImage.Text" xml:space="preserve">
+    <value>1 صورة Windows</value>
+  </data>
+  <data name="StepEdition.Text" xml:space="preserve">
+    <value>الإصدار الثاني</value>
+  </data>
+  <data name="StepDestination.Text" xml:space="preserve">
+    <value>3 الوجهة</value>
+  </data>
+  <data name="StepBoot.Text" xml:space="preserve">
+    <value>4 تكوين التمهيد</value>
+  </data>
+  <data name="StepReview.Text" xml:space="preserve">
+    <value>5 مراجعة</value>
+  </data>
+  <data name="StepInstall.Text" xml:space="preserve">
+    <value>6 التثبيت</value>
+  </data>
+  <data name="SafetyFirst.Text" xml:space="preserve">
+    <value>السلامة أولاً</value>
+  </data>
+  <data name="SafetySidebarText.Text" xml:space="preserve">
+    <value>لم يتم تحديد أي قرص تلقائيًا. لا يمكن أن يكون النظام المحمي وEFI والاسترداد وOEM والأقسام المحجوزة أهدافًا.</value>
+  </data>
+  <data name="StatusReadyLabel.Text" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <data name="StatusReady" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <data name="ImagePageTitle.Text" xml:space="preserve">
+    <value>حدد صورة Windows</value>
+  </data>
+  <data name="ImagePageSubtitle.Text" xml:space="preserve">
+    <value>اختر ملف Windows ISO أو WIM أو ESD. يتم فحص الصورة قبل لمس أي قرص.</value>
+  </data>
+  <data name="SelectImageButton.Content" xml:space="preserve">
+    <value>حدد صورة Windows</value>
+  </data>
+  <data name="ImageDropHint.Text" xml:space="preserve">
+    <value>أو قم بسحب وإسقاط ملف .iso أو .wim أو .esd هنا</value>
+  </data>
+  <data name="ImageFilenameLabel.Text" xml:space="preserve">
+    <value>اسم الملف</value>
+  </data>
+  <data name="ImageWindowsVersionLabel.Text" xml:space="preserve">
+    <value>نسخة Windows</value>
+  </data>
+  <data name="ImageArchitectureLabel.Text" xml:space="preserve">
+    <value>الهندسة المعمارية</value>
+  </data>
+  <data name="ImageTypeLabel.Text" xml:space="preserve">
+    <value>نوع الصورة</value>
+  </data>
+  <data name="ImageFileSizeLabel.Text" xml:space="preserve">
+    <value>حجم الملف</value>
+  </data>
+  <data name="ImageEditionCountLabel.Text" xml:space="preserve">
+    <value>الإصدارات المتوفرة</value>
+  </data>
+  <data name="NextButton.Content" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="BackButton.Content" xml:space="preserve">
+    <value>العودة</value>
+  </data>
+  <data name="EditionPageTitle.Text" xml:space="preserve">
+    <value>اختر إصدار Windows</value>
+  </data>
+  <data name="EditionPageSubtitle.Text" xml:space="preserve">
+    <value>حدد فهرس الصورة الفعلي المقروء من وسائط التثبيت.</value>
+  </data>
+  <data name="DestinationPageTitle.Text" xml:space="preserve">
+    <value>حدد قسم الوجهة</value>
+  </data>
+  <data name="DestinationPageSubtitle.Text" xml:space="preserve">
+    <value>حدد قسمًا واحدًا مناسبًا موجودًا. يتم عرض الأقسام غير المخصصة والمحمية للسياق ولكن لا يمكن تحديدها.</value>
+  </data>
+  <data name="BootPageTitle.Text" xml:space="preserve">
+    <value>تكوين التمهيد</value>
+  </data>
+  <data name="BootPageSubtitle.Text" xml:space="preserve">
+    <value>تحقق من البرامج الثابتة المكتشفة ونظام القسم وقسم التمهيد. لا يتم تنسيق قسم EFI مطلقًا بواسطة سير العمل هذا.</value>
+  </data>
+  <data name="FirmwareModeLabel.Text" xml:space="preserve">
+    <value>وضع البرنامج الثابت</value>
+  </data>
+  <data name="PartitionSchemeLabel.Text" xml:space="preserve">
+    <value>مخطط التقسيم</value>
+  </data>
+  <data name="BootPartitionLabel.Text" xml:space="preserve">
+    <value>قسم التمهيد</value>
+  </data>
+  <data name="BootConfigurationLabel.Text" xml:space="preserve">
+    <value>تكوين التمهيد</value>
+  </data>
+  <data name="CompatibilityLabel.Text" xml:space="preserve">
+    <value>التوافق</value>
+  </data>
+  <data name="AdvancedDetailsTitle.Text" xml:space="preserve">
+    <value>تفاصيل متقدمة</value>
+  </data>
+  <data name="ReviewInstallationButton.Content" xml:space="preserve">
+    <value>مراجعة التثبيت</value>
+  </data>
+  <data name="ReviewPageTitle.Text" xml:space="preserve">
+    <value>مراجعة خطة التثبيت</value>
+  </data>
+  <data name="ReviewPageSubtitle.Text" xml:space="preserve">
+    <value>تحقق من كل معرف بعناية. يستخدم التنفيذ هوية القرص والقسم التي تم التحقق من صحتها، وليس حرف محرك الأقراص المعاد اكتشافه.</value>
+  </data>
+  <data name="ReviewWindowsImageLabel.Text" xml:space="preserve">
+    <value>صورة Windows</value>
+  </data>
+  <data name="ReviewSourceLabel.Text" xml:space="preserve">
+    <value>المصدر</value>
+  </data>
+  <data name="ReviewDestinationLabel.Text" xml:space="preserve">
+    <value>الوجهة</value>
+  </data>
+  <data name="DestinationFilesystemLabel.Text" xml:space="preserve">
+    <value>نظام الملفات الوجهة</value>
+  </data>
+  <data name="DestructiveWarning.Text" xml:space="preserve">
+    <value>تحذير: سيتم مسح جميع البيانات الموجودة على القسم المحدد نهائيًا.</value>
+  </data>
+  <data name="DestructiveConfirmation.Content" xml:space="preserve">
+    <value>أدرك أنه سيتم مسح كافة البيانات الموجودة على قسم الوجهة المحدد.</value>
+  </data>
+  <data name="InstallWindowsButton.Content" xml:space="preserve">
+    <value>قم بتثبيت Windows</value>
+  </data>
+  <data name="ProgressPageTitle.Text" xml:space="preserve">
+    <value>تثبيت Windows</value>
+  </data>
+  <data name="ProgressPageSubtitle.Text" xml:space="preserve">
+    <value>أبقِ الكمبيوتر متصلاً بالطاقة. يتم الإبلاغ عن النجاح فقط بعد التحقق من الصورة وملفات التمهيد والملفات المثبتة الهامة.</value>
+  </data>
+  <data name="ProgressWaiting.Text" xml:space="preserve">
+    <value>في انتظار إذن المسؤول...</value>
+  </data>
+  <data name="InstallationLogExpander.Header" xml:space="preserve">
+    <value>سجل التثبيت</value>
+  </data>
+  <data name="OpenLogButton.Content" xml:space="preserve">
+    <value>افتح السجل</value>
+  </data>
+  <data name="SaveLogAsButton.Content" xml:space="preserve">
+    <value>حفظ السجل باسم...</value>
+  </data>
+  <data name="InstallationSuccessTitleLabel.Text" xml:space="preserve">
+    <value>تم تثبيت Windows بنجاح.</value>
+  </data>
+  <data name="InstallationSuccessTextLabel.Text" xml:space="preserve">
+    <value>تم التحقق من الصورة وملفات التمهيد Windows. يمكنك الآن إعادة تشغيل الكمبيوتر.</value>
+  </data>
+  <data name="InstallationSuccessTitle" xml:space="preserve">
+    <value>تم تثبيت Windows بنجاح.</value>
+  </data>
+  <data name="InstallationSuccessText" xml:space="preserve">
+    <value>تم التحقق من الصورة وملفات التمهيد Windows. إدخال Windows الجديد هو الإدخال الافتراضي لإعادة التشغيل التالية.</value>
+  </data>
+  <data name="RestartNowButton.Content" xml:space="preserve">
+    <value>أعد التشغيل الآن</value>
+  </data>
+  <data name="RestartLaterButton.Content" xml:space="preserve">
+    <value>أعد التشغيل لاحقًا</value>
+  </data>
+  <data name="LanguageSystem" xml:space="preserve">
+    <value>لغة النظام</value>
+  </data>
+  <data name="AdvancedMode" xml:space="preserve">
+    <value>الوضع المتقدم</value>
+  </data>
+  <data name="AdvancedModeDescription" xml:space="preserve">
+    <value>يعرض معرفات القرص الثابتة والإزاحات وتفاصيل البرامج الثابتة. ويكشف أيضًا عن تجاوز واضح لأجهزة Windows 11 غير مدعوم؛ تظل وسائل حماية سلامة القرص نشطة.</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="EngineLegacy" xml:space="preserve">
+    <value>المحرك القديم</value>
+  </data>
+  <data name="AdvancedEngine" xml:space="preserve">
+    <value>المحرك: {0}</value>
+  </data>
+  <data name="AdvancedFirmware" xml:space="preserve">
+    <value>البرامج الثابتة: {0}</value>
+  </data>
+  <data name="AdvancedDiskStyle" xml:space="preserve">
+    <value>نمط القرص: {0}</value>
+  </data>
+  <data name="AdvancedDiskId" xml:space="preserve">
+    <value>المعرف الفريد للقرص: {0}</value>
+  </data>
+  <data name="AdvancedTargetOffset" xml:space="preserve">
+    <value>إزاحة الهدف: {0}</value>
+  </data>
+  <data name="AdvancedBootPartition" xml:space="preserve">
+    <value>EFI/قسم التمهيد: {0}</value>
+  </data>
+  <data name="AdvancedTpm" xml:space="preserve">
+    <value>TPM موجود/جاهز: {0}/{1}</value>
+  </data>
+  <data name="AdvancedSecureBoot" xml:space="preserve">
+    <value>إمكانية/تمكين Secure Boot: {0}/{1}</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>إغلاق</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>تعليمات ESD Installer</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>يطبق ESD Installer صورة WIM/ESD محددة على قسم واحد موجود ويقوم بتكوين ملفات التمهيد على قسم تمهيد تم التحقق منه على نفس القرص الفعلي. لا يقوم بإنشاء أقسام أو مسح الأقراص بأكملها. يمكن للوضع المتقدم تجاوز متطلبات الأجهزة Windows 11 بشكل صريح بعد تحذير منفصل. يظل Windows XP والوسائط القديمة غير المدعومة محظورة حتى يوجد محرك مخصص.</value>
+  </data>
+  <data name="AdvancedModeEnabled" xml:space="preserve">
+    <value>الوضع المتقدم</value>
+  </data>
+  <data name="StandardMode" xml:space="preserve">
+    <value>الوضع القياسي</value>
+  </data>
+  <data name="StatusInspectingImage" xml:space="preserve">
+    <value>جارٍ فحص صورة Windows...</value>
+  </data>
+  <data name="StatusImageReady" xml:space="preserve">
+    <value>صورة Windows جاهزة</value>
+  </data>
+  <data name="StatusError" xml:space="preserve">
+    <value>حدث خطأ</value>
+  </data>
+  <data name="StatusChooseEdition" xml:space="preserve">
+    <value>اختر إصدار Windows</value>
+  </data>
+  <data name="StatusSelectImageFirst" xml:space="preserve">
+    <value>حدد الصورة والإصدار أولاً</value>
+  </data>
+  <data name="StatusReadingDisks" xml:space="preserve">
+    <value>قراءة الأقراص والأقسام الفعلية...</value>
+  </data>
+  <data name="StatusSelectDestination" xml:space="preserve">
+    <value>حدد قسم الوجهة</value>
+  </data>
+  <data name="StatusBootConfigurationReady" xml:space="preserve">
+    <value>تكوين التمهيد صالح</value>
+  </data>
+  <data name="StatusCompatibilityProblem" xml:space="preserve">
+    <value>تم حظر التثبيت من خلال التحقق من التوافق</value>
+  </data>
+  <data name="StatusReviewPlan" xml:space="preserve">
+    <value>قم بمراجعة خطة التثبيت وتأكيدها</value>
+  </data>
+  <data name="StatusWaitingForAdministrator" xml:space="preserve">
+    <value>مطلوب إذن المسؤول لتعديل أقسام القرص وملفات التمهيد Windows.</value>
+  </data>
+  <data name="StatusInstallationComplete" xml:space="preserve">
+    <value>اكتمل تثبيت Windows بنجاح</value>
+  </data>
+  <data name="StatusInstallationFailed" xml:space="preserve">
+    <value>فشل تثبيت Windows - قم بمراجعة السجل</value>
+  </data>
+  <data name="ImageDropCaption" xml:space="preserve">
+    <value>افحص صورة Windows هذه</value>
+  </data>
+  <data name="EditionTechnicalDetails" xml:space="preserve">
+    <value>الفهرس {0} • بناء {1}</value>
+  </data>
+  <data name="LegacyEngineTitle" xml:space="preserve">
+    <value>تم اكتشاف وسائط Windows القديمة</value>
+  </data>
+  <data name="LegacyEngineUnavailable" xml:space="preserve">
+    <value>يتطلب هذا الإصدار محرك التثبيت Legacy Windows، وهو غير متوفر بعد.</value>
+  </data>
+  <data name="LegacyXpEngineUnavailable" xml:space="preserve">
+    <value>يتطلب هذا الإصدار محرك التثبيت Legacy Windows، وهو غير متوفر بعد.</value>
+  </data>
+  <data name="LegacyNt6EngineUnavailable" xml:space="preserve">
+    <value>يتطلب Windows Vista محرك تثبيت Legacy NT6، وهو غير متوفر بعد.</value>
+  </data>
+  <data name="FirmwareSummary" xml:space="preserve">
+    <value>البرامج الثابتة: {0}</value>
+  </data>
+  <data name="HostArchitectureSummary" xml:space="preserve">
+    <value>بنية الكمبيوتر: {0}</value>
+  </data>
+  <data name="DiskHeader" xml:space="preserve">
+    <value>القرص {0} — {1} — {2}</value>
+  </data>
+  <data name="DiskDetails" xml:space="preserve">
+    <value>{0} • {1} • المسلسل: {2}</value>
+  </data>
+  <data name="DiskOffline" xml:space="preserve">
+    <value>غير متصل</value>
+  </data>
+  <data name="DiskReadOnly" xml:space="preserve">
+    <value>للقراءة فقط</value>
+  </data>
+  <data name="DiskSerialUnavailable" xml:space="preserve">
+    <value>غير متاح</value>
+  </data>
+  <data name="PartitionUnallocated" xml:space="preserve">
+    <value>غير مخصصة</value>
+  </data>
+  <data name="PartitionCurrentWindows" xml:space="preserve">
+    <value>Windows الحالي - محمي</value>
+  </data>
+  <data name="PartitionProtected" xml:space="preserve">
+    <value>محمي</value>
+  </data>
+  <data name="PartitionRoleEfi" xml:space="preserve">
+    <value>نظام EFI</value>
+  </data>
+  <data name="PartitionRoleMsr" xml:space="preserve">
+    <value>Microsoft Reserved</value>
+  </data>
+  <data name="PartitionRoleRecovery" xml:space="preserve">
+    <value>الاسترداد</value>
+  </data>
+  <data name="PartitionRoleOem" xml:space="preserve">
+    <value>OEM</value>
+  </data>
+  <data name="PartitionRoleBasic" xml:space="preserve">
+    <value>البيانات الأساسية</value>
+  </data>
+  <data name="PartitionRoleUnknown" xml:space="preserve">
+    <value>قسم غير معروف</value>
+  </data>
+  <data name="PartitionTooltip" xml:space="preserve">
+    <value>قسم {0} | {1} {2} | {3} | {4}</value>
+  </data>
+  <data name="DestinationSelectionSummary" xml:space="preserve">
+    <value>القرص {0} — {1}؛ التقسيم {2} {3}؛ {4}</value>
+  </data>
+  <data name="BootPartitionSummary" xml:space="preserve">
+    <value>القرص {0}، القسم {1} {2} — {3} — {4}</value>
+  </data>
+  <data name="BootPartitionNotFound" xml:space="preserve">
+    <value>لم يتم العثور على قسم تمهيد مناسب على القرص الوجهة.</value>
+  </data>
+  <data name="WindowsBootManager" xml:space="preserve">
+    <value>Windows Boot Manager</value>
+  </data>
+  <data name="CompatibilityPassed" xml:space="preserve">
+    <value>نجح</value>
+  </data>
+  <data name="CompatibilityFailed" xml:space="preserve">
+    <value>محظور</value>
+  </data>
+  <data name="BootConfigurationReady" xml:space="preserve">
+    <value>تكوين التمهيد جاهز</value>
+  </data>
+  <data name="BootConfigurationReadyText" xml:space="preserve">
+    <value>الصورة المحددة والوجهة وقسم التمهيد للقرص نفسه متوافقة تقنيًا.</value>
+  </data>
+  <data name="BootConfigurationBlocked" xml:space="preserve">
+    <value>التثبيت محظور</value>
+  </data>
+  <data name="BootConfigurationBlockedText" xml:space="preserve">
+    <value>قم بحل أخطاء التوافق أدناه. لن يتجاوزها ESD Installer تلقائيًا.</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>غير معروف</value>
+  </data>
+  <data name="ReviewDestinationSummary" xml:space="preserve">
+    <value>القرص {0} — {1}؛ القسم {2} {3} — {4}</value>
+  </data>
+  <data name="WarningDiskModel" xml:space="preserve">
+    <value>طراز القرص: {0}</value>
+  </data>
+  <data name="WarningDiskNumber" xml:space="preserve">
+    <value>رقم القرص: {0}</value>
+  </data>
+  <data name="WarningPartitionNumber" xml:space="preserve">
+    <value>رقم القسم: {0}</value>
+  </data>
+  <data name="WarningDriveLetter" xml:space="preserve">
+    <value>حرف محرك الأقراص: {0}</value>
+  </data>
+  <data name="WarningVolumeName" xml:space="preserve">
+    <value>اسم المجلد: {0}</value>
+  </data>
+  <data name="WarningCapacity" xml:space="preserve">
+    <value>السعة: {0}</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="PlanFingerprint" xml:space="preserve">
+    <value>بصمة الخطة التي تم التحقق منها: {0}</value>
+  </data>
+  <data name="ElapsedTime" xml:space="preserve">
+    <value>المنقضي: {0}</value>
+  </data>
+  <data name="AdministratorCancelled" xml:space="preserve">
+    <value>تم إلغاء إذن المسؤول. لم يتم بدء التثبيت.</value>
+  </data>
+  <data name="WorkerExitFailure" xml:space="preserve">
+    <value>توقف عامل التثبيت برمز الخروج {0}.</value>
+  </data>
+  <data name="LogFileType" xml:space="preserve">
+    <value>سجل التثبيت</value>
+  </data>
+  <data name="RestartConfirmTitle" xml:space="preserve">
+    <value>هل تريد إعادة تشغيل الكمبيوتر؟</value>
+  </data>
+  <data name="RestartConfirmText" xml:space="preserve">
+    <value>احفظ عملك في تطبيقات أخرى. سيتم إعادة تشغيل الكمبيوتر على الفور.</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>أعد التشغيل الآن</value>
+  </data>
+  <data name="RestartLaterMessage" xml:space="preserve">
+    <value>يمكنك إعادة التشغيل لاحقًا من قائمة ابدأ. تم تكوين إدخال Windows الجديد في Windows Boot Manager.</value>
+  </data>
+  <data name="ProgressAdministratorGranted" xml:space="preserve">
+    <value>تم منح إذن المسؤول</value>
+  </data>
+  <data name="ProgressValidatingPlan" xml:space="preserve">
+    <value>جارٍ التحقق من صحة خطة التثبيت...</value>
+  </data>
+  <data name="ProgressPreparingDestination" xml:space="preserve">
+    <value>جارٍ إعداد الوجهة...</value>
+  </data>
+  <data name="ProgressDestinationFormatted" xml:space="preserve">
+    <value>تم تنسيق قسم الوجهة</value>
+  </data>
+  <data name="ProgressApplyingImage" xml:space="preserve">
+    <value>جارٍ تطبيق صورة Windows...</value>
+  </data>
+  <data name="ProgressInstallingBootFiles" xml:space="preserve">
+    <value>جارٍ تثبيت ملفات التمهيد...</value>
+  </data>
+  <data name="ProgressVerifyingInstallation" xml:space="preserve">
+    <value>جارٍ التحقق من التثبيت...</value>
+  </data>
+  <data name="ProgressInstallationCompleted" xml:space="preserve">
+    <value>اكتمل تثبيت Windows</value>
+  </data>
+  <data name="ProgressInstallationFailed" xml:space="preserve">
+    <value>فشل التثبيت</value>
+  </data>
+  <data name="OperationValidatePlan" xml:space="preserve">
+    <value>التحقق من صحة الخطة الكاملة</value>
+  </data>
+  <data name="OperationFormatDestination" xml:space="preserve">
+    <value>قم بتنسيق القسم المحدد فقط كـ NTFS</value>
+  </data>
+  <data name="OperationApplyImage" xml:space="preserve">
+    <value>قم بتطبيق فهرس الصور Windows المحدد</value>
+  </data>
+  <data name="OperationInstallBootFiles" xml:space="preserve">
+    <value>قم بتثبيت ملفات التمهيد Windows على قسم التمهيد على نفس القرص</value>
+  </data>
+  <data name="OperationVerifyInstallation" xml:space="preserve">
+    <value>التحقق من الملفات المثبتة والتمهيد</value>
+  </data>
+  <data name="AdministratorRequired" xml:space="preserve">
+    <value>مطلوب إذن المسؤول لتعديل أقسام القرص وملفات التمهيد Windows.</value>
+  </data>
+  <data name="ErrorUnexpected" xml:space="preserve">
+    <value>حدث خطأ غير متوقع.</value>
+  </data>
+  <data name="ErrorWorkerMissing" xml:space="preserve">
+    <value>عامل التثبيت المرتفع مفقود.</value>
+  </data>
+  <data name="ErrorWorkerStart" xml:space="preserve">
+    <value>تعذر بدء تشغيل عامل التثبيت المرتفع.</value>
+  </data>
+  <data name="ErrorImageNotFound" xml:space="preserve">
+    <value>تعذر العثور على ملف الصورة المحدد.</value>
+  </data>
+  <data name="ErrorUnsupportedImageType" xml:space="preserve">
+    <value>يتم دعم ملفات الصور ISO وWIM وESD فقط.</value>
+  </data>
+  <data name="ErrorIsoMount" xml:space="preserve">
+    <value>تعذر تركيب ISO أو فحصه.</value>
+  </data>
+  <data name="ErrorNoInstallImage" xml:space="preserve">
+    <value>لم يتم العثور على sources\install.wim أو sources\install.esd في ISO هذا.</value>
+  </data>
+  <data name="ErrorSplitWimUnsupported" xml:space="preserve">
+    <value>تستخدم هذه الصورة ملفات SWM المقسمة، وهي غير مدعومة في هذا الإصدار.</value>
+  </data>
+  <data name="ErrorImageOpen" xml:space="preserve">
+    <value>لا يمكن فتح صورة Windows.</value>
+  </data>
+  <data name="ErrorNoEditions" xml:space="preserve">
+    <value>لا تحتوي صورة Windows على فهارس قابلة للتثبيت.</value>
+  </data>
+  <data name="ErrorImageMetadata" xml:space="preserve">
+    <value>لا يمكن قراءة البيانات التعريفية للصورة Windows.</value>
+  </data>
+  <data name="ErrorDiskEnumeration" xml:space="preserve">
+    <value>لا يمكن قراءة الأقراص والأقسام الفعلية.</value>
+  </data>
+  <data name="ErrorNoDisks" xml:space="preserve">
+    <value>لم يتم العثور على أي أقراص فعلية.</value>
+  </data>
+  <data name="ErrorFormatDestination" xml:space="preserve">
+    <value>تعذرت تهيئة قسم الوجهة المحدد.</value>
+  </data>
+  <data name="ErrorDismApply" xml:space="preserve">
+    <value>تعذر على DISM تطبيق صورة Windows المحددة.</value>
+  </data>
+  <data name="ErrorBootPartitionAccess" xml:space="preserve">
+    <value>تعذر الوصول إلى قسم التمهيد الذي تم التحقق من صحته.</value>
+  </data>
+  <data name="ErrorBcdBoot" xml:space="preserve">
+    <value>تعذر على BCDBoot تثبيت ملفات التمهيد Windows.</value>
+  </data>
+  <data name="ErrorDeploymentVerification" xml:space="preserve">
+    <value>لم تنجح ملفات Windows المنشورة في التحقق.</value>
+  </data>
+  <data name="ErrorBootVerification" xml:space="preserve">
+    <value>لم تنجح ملفات التمهيد Windows في التحقق.</value>
+  </data>
+  <data name="ValidationPlanUnreadable" xml:space="preserve">
+    <value>تعذرت قراءة خطة التثبيت التي تم التحقق من صحتها.</value>
+  </data>
+  <data name="ValidationUnknownWindowsVersion" xml:space="preserve">
+    <value>لا يمكن التعرف على إصدار Windows بشكل موثوق.</value>
+  </data>
+  <data name="ValidationArchitectureMismatch" xml:space="preserve">
+    <value>بنية الصورة غير متوافقة مع وضع الكمبيوتر والبرامج الثابتة هذا.</value>
+  </data>
+  <data name="ValidationProtectedPartition" xml:space="preserve">
+    <value>القسم المحدد محمي ولا يمكن الكتابة فوقه.</value>
+  </data>
+  <data name="ValidationBitLockerTarget" xml:space="preserve">
+    <value>القسم المحدد محمي بواسطة BitLocker. قم بفتحه وفك تشفيره قبل النشر.</value>
+  </data>
+  <data name="ValidationInsufficientSpace" xml:space="preserve">
+    <value>القسم المحدد صغير جدًا بالنسبة لإصدار Windows هذا.</value>
+  </data>
+  <data name="ValidationDiskUnavailable" xml:space="preserve">
+    <value>القرص الوجهة غير متصل أو للقراءة فقط.</value>
+  </data>
+  <data name="ValidationUefiRequiresGpt" xml:space="preserve">
+    <value>يتطلب نشر UEFI قرص وجهة GPT.</value>
+  </data>
+  <data name="ValidationBiosRequiresMbr" xml:space="preserve">
+    <value>يتطلب نشر BIOS القديم وجود قرص وجهة MBR.</value>
+  </data>
+  <data name="ValidationBootPartitionMissing" xml:space="preserve">
+    <value>لا يوجد قسم تمهيد مناسب على القرص الوجهة.</value>
+  </data>
+  <data name="ValidationBootPartitionOtherDisk" xml:space="preserve">
+    <value>يجب أن يكون قسم التمهيد على نفس القرص الفعلي كالوجهة.</value>
+  </data>
+  <data name="ValidationEfiPartitionRequired" xml:space="preserve">
+    <value>يتطلب نشر UEFI وجود قسم نظام EFI على القرص الوجهة.</value>
+  </data>
+  <data name="ValidationEfiFat32Required" xml:space="preserve">
+    <value>يجب أن يستخدم قسم النظام EFI FAT32 بالفعل.</value>
+  </data>
+  <data name="ValidationActivePartitionRequired" xml:space="preserve">
+    <value>يتطلب نشر BIOS القديم وجود قسم تمهيد NTFS نشط على القرص الوجهة.</value>
+  </data>
+  <data name="ValidationWindows7UefiX64" xml:space="preserve">
+    <value>تم تمكين نشر Windows 7 UEFI فقط لصور x64.</value>
+  </data>
+  <data name="ValidationWindows11Architecture" xml:space="preserve">
+    <value>يتطلب Windows 11 صورة x64 أو ARM64 مدعومة.</value>
+  </data>
+  <data name="ValidationWindows11Uefi" xml:space="preserve">
+    <value>يتطلب Windows 11 البرنامج الثابت UEFI.</value>
+  </data>
+  <data name="ValidationWindows11Tpm" xml:space="preserve">
+    <value>لم يتم اكتشاف TPM 2.0 على أنه موجود وجاهز. قد يرفض إعداد Windows 11 هذا الكمبيوتر.</value>
+  </data>
+  <data name="ValidationWindows11SecureBoot" xml:space="preserve">
+    <value>لا يمكن تأكيد إمكانية Secure Boot.</value>
+  </data>
+  <data name="ValidationSecureBootDisabled" xml:space="preserve">
+    <value>Secure Boot مدعوم ولكنه معطل حاليًا.</value>
+  </data>
+  <data name="ValidationWindows11Memory" xml:space="preserve">
+    <value>يحتوي الكمبيوتر على أقل من 4 جيجابايت من الذاكرة الفعلية.</value>
+  </data>
+  <data name="ValidationSourceChanged" xml:space="preserve">
+    <value>تغيرت الصورة المصدر بعد تأكيد الخطة.</value>
+  </data>
+  <data name="ValidationEditionChanged" xml:space="preserve">
+    <value>تغير فهرس الصورة المحدد بعد التحقق من الصحة.</value>
+  </data>
+  <data name="ValidationDiskMissing" xml:space="preserve">
+    <value>القرص الوجهة لم يعد موجودًا.</value>
+  </data>
+  <data name="ValidationDiskIdentityUnavailable" xml:space="preserve">
+    <value>لا يحتوي هذا القرص على معرف تسلسلي أو فريد ولا يمكن استخدامه بأمان.</value>
+  </data>
+  <data name="ValidationDiskChanged" xml:space="preserve">
+    <value>تم تغيير هوية القرص الوجهة. تم إيقاف التثبيت.</value>
+  </data>
+  <data name="ValidationPartitionChanged" xml:space="preserve">
+    <value>تم تغيير هوية قسم الوجهة أو هندسته.</value>
+  </data>
+  <data name="ValidationBootPartitionChanged" xml:space="preserve">
+    <value>تم تغيير هوية قسم التمهيد أو هندسته.</value>
+  </data>
+  <data name="ValidationFirmwareSchemeChanged" xml:space="preserve">
+    <value>لم يعد نظام تقسيم البرنامج الثابت أو الوجهة مطابقًا للخطة.</value>
+  </data>
+  <data name="InstallationSuccessSecondaryText" xml:space="preserve">
+    <value>تم التحقق من ملفات الصورة والتمهيد على القرص الثانوي. إذا لم يقم البرنامج الثابت باختيار هذا القرص تلقائيًا، فحدده مرة واحدة من قائمة التمهيد UEFI.</value>
+  </data>
+  <data name="ErrorBootFallbackVerification" xml:space="preserve">
+    <value>لم ينجح ملف التمهيد الاحتياطي UEFI في التحقق.</value>
+  </data>
+  <data name="ValidationSecondaryDiskFirmwareBoot" xml:space="preserve">
+    <value>هذا قرص UEFI ثانوي. يقوم ESD Installer بتثبيت ملف التمهيد الاحتياطي القياسي دون تغيير متغيرات البرنامج الثابت NVRAM؛ قد تحتاج إلى تحديد القرص مرة واحدة في قائمة تمهيد البرنامج الثابت.</value>
+  </data>
+  <data name="ErrorImageScratch" xml:space="preserve">
+    <value>تعذر تهيئة مجلد العمل المؤقت للصورة Windows.</value>
+  </data>
+  <data name="ValidationWindows11BypassEnabled" xml:space="preserve">
+    <value>تم تمكين تجاوز الأجهزة المتقدمة غير المدعومة لتثبيت Windows 11 هذا.</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmTitle" xml:space="preserve">
+    <value>هل تريد التثبيت على أجهزة غير مدعومة؟</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmButton" xml:space="preserve">
+    <value>قبول وتمكين التجاوز</value>
+  </data>
+  <data name="UnsupportedWindows11ConfirmText" xml:space="preserve">
+    <value>لا تدعم Microsoft Windows 11 على هذا الجهاز ولا تضمن التحديثات. قد تحدث مشكلات في التوافق أو انخفاض الأمان أو فشل بدء التشغيل. سيتجاوز ESD Installer عمليات فحص وحدة المعالجة المركزية (CPU)، وTPM، وSecure Boot، وذاكرة الوصول العشوائي (RAM)، والتخزين، لكنه لا يمكنه تشغيل الأجهزة غير المتوافقة.</value>
+  </data>
+  <data name="ErrorWindows11Bypass" xml:space="preserve">
+    <value>تعذر تكوين تجاوز الأجهزة غير المدعومة Windows 11.</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveTitle" xml:space="preserve">
+    <value>تم تمكين تجاوز الأجهزة غير المدعومة</value>
+  </data>
+  <data name="ProgressConfiguringWindows11Bypass" xml:space="preserve">
+    <value>جارٍ تكوين تجاوز أجهزة Windows 11 غير المدعومة...</value>
+  </data>
+  <data name="CompatibilityBypassed" xml:space="preserve">
+    <value>مسموح به مع تجاوز الأجهزة غير المدعومة</value>
+  </data>
+  <data name="OperationConfigureWindows11Bypass" xml:space="preserve">
+    <value>قم بتكوين تجاوز الأجهزة Windows 11 غير المدعوم</value>
+  </data>
+  <data name="UnsupportedWindows11ActiveMessage" xml:space="preserve">
+    <value>يعد فشل متطلبات Windows 11 بمثابة تحذيرات. تظل عمليات حماية القرص والقسم والتمهيد والبنية الأساسية مفروضة.</value>
+  </data>
+  <data name="UnsupportedWindows11Description.Text" xml:space="preserve">
+    <value>متقدم: تجاوز Windows 11 CPU وTPM وSecure Boot وذاكرة الوصول العشوائي وفحوصات متطلبات التخزين. تظل فحوصات سلامة هوية القرص والتقسيم والهندسة المعمارية نشطة.</value>
+  </data>
+  <data name="UnsupportedWindows11ReviewMessage" xml:space="preserve">
+    <value>تكتب هذه الخطة قيم تجاوز الأجهزة غير المدعومة في تثبيت Windows دون اتصال. لا يتم ضمان دعم Microsoft وتحديثاتها.</value>
+  </data>
+  <data name="UnsupportedWindows11Toggle.Content" xml:space="preserve">
+    <value>قم بتثبيت Windows 11 على الأجهزة غير المدعومة</value>
+  </data>
+  <data name="PartitionCreateVolumeRequired" xml:space="preserve">
+    <value>قم بإنشاء قسم بيانات أساسي حقيقي أو وحدة تخزين بسيطة في إدارة الأقراص، ثم قم بتحديث الأقراص.</value>
+  </data>
+  <data name="ValidationDestinationMustBeBasicData" xml:space="preserve">
+    <value>الهدف المحدد ليس قسم بيانات أساسي قابل للاستخدام. لا يمكن تنسيق المساحة غير المخصصة والحاويات الموسعة MBR مباشرة.</value>
+  </data>
+  <data name="CheckForUpdatesAutomatically" xml:space="preserve">
+    <value>التحقق من وجود تحديثات تلقائيًا</value>
+  </data>
+  <data name="CheckForUpdates" xml:space="preserve">
+    <value>التحقق من وجود تحديثات</value>
+  </data>
+  <data name="CheckingForUpdates" xml:space="preserve">
+    <value>جارٍ التحقق من وجود تحديثات...</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>أنت تستخدم الإصدار الأحدث.</value>
+  </data>
+  <data name="UnableToCheckForUpdates" xml:space="preserve">
+    <value>غير قادر على التحقق من وجود تحديثات.</value>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>تحديث البرنامج</value>
+  </data>
+  <data name="UpdateAvailableHeading" xml:space="preserve">
+    <value>يتوفر إصدار جديد.</value>
+  </data>
+  <data name="UpdateVersionAvailable" xml:space="preserve">
+    <value>الإصدار {0} متاح.</value>
+  </data>
+  <data name="UpdateCurrentVersion" xml:space="preserve">
+    <value>أنت تستخدم حاليًا الإصدار {0}.</value>
+  </data>
+  <data name="UpdateDefaultNotes" xml:space="preserve">
+    <value>يتضمن هذا التحديث تحسينات وإصلاحات للأخطاء.</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="DownloadingUpdate" xml:space="preserve">
+    <value>جارٍ تنزيل التحديث...</value>
+  </data>
+  <data name="VerifyingUpdate" xml:space="preserve">
+    <value>جارٍ التحقق من التحديث...</value>
+  </data>
+  <data name="UpdateVerificationFailed" xml:space="preserve">
+    <value>تعذر التحقق من التحديث الذي تم تنزيله ولم يتم تشغيله.</value>
+  </data>
+  <data name="UpdateDownloadFailed" xml:space="preserve">
+    <value>غير قادر على تنزيل التحديث أو بدء تشغيله.</value>
+  </data>
+</root>
